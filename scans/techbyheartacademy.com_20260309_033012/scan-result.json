@@ -1,0 +1,1218 @@
+{
+  "domain": "techbyheartacademy.com",
+  "scan_id": "20260309_033012",
+  "started_at": "2026-03-09T03:30:12.202896",
+  "completed_at": "2026-03-09T03:31:55.805543",
+  "duration_seconds": 103.602647,
+  "nmap": {
+    "success": false,
+    "open_ports": [],
+    "reason": "Passive mode"
+  },
+  "dnstwist": {
+    "success": true,
+    "target": "techbyheartacademy.com",
+    "total_found": 5,
+    "registered_count": 4,
+    "typosquats": [
+      {
+        "fuzzer": "subdomain",
+        "domain": "techbyhea.rtacademy.com",
+        "dns_a": "13.223.25.84",
+        "registered": true
+      },
+      {
+        "fuzzer": "subdomain",
+        "domain": "techby.heartacademy.com",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "subdomain",
+        "domain": "techbyhear.tacademy.com",
+        "dns_a": "139.162.174.209",
+        "registered": true
+      },
+      {
+        "fuzzer": "subdomain",
+        "domain": "techbyheartac.ademy.com",
+        "dns_a": "208.91.196.152",
+        "registered": true
+      },
+      {
+        "fuzzer": "subdomain",
+        "domain": "techbyheartacade.my.com",
+        "dns_a": "",
+        "registered": false
+      }
+    ],
+    "error": ""
+  },
+  "harvester": {
+    "success": true,
+    "target": "techbyheartacademy.com",
+    "emails": [
+      "cmartorella@edge-security.com"
+    ],
+    "hosts": [
+      "join.techbyheartacademy.com",
+      "scholarships.techbyheartacademy.com",
+      "register.techbyheartacademy.com",
+      "webinar.techbyheartacademy.com",
+      "placements.techbyheartacademy.com"
+    ],
+    "ips": [],
+    "email_count": 1,
+    "host_count": 5,
+    "error": ""
+  },
+  "vt_domain": {
+    "available": true,
+    "domain": "techbyheartacademy.com",
+    "malicious": 0,
+    "suspicious": 0,
+    "harmless": 61,
+    "total_engines": 94,
+    "reputation_score": 0,
+    "categories": [],
+    "risk_level": "clean",
+    "last_analysis_date": 1769564010
+  },
+  "dns_health": {
+    "domain": "techbyheartacademy.com",
+    "resolves": true,
+    "ip_addresses": [
+      "167.235.51.117"
+    ],
+    "spf": {
+      "present": true,
+      "record": "v=spf1 include:mailgun.org ~all"
+    },
+    "dmarc": {
+      "present": true,
+      "record": "v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com"
+    },
+    "mx_records": [
+      "5 alt2.aspmx.l.google.com.",
+      "10 alt4.aspmx.l.google.com.",
+      "20 mxa.mailgun.org.",
+      "5 alt1.aspmx.l.google.com.",
+      "25 mxb.mailgun.org.",
+      "10 alt3.aspmx.l.google.com.",
+      "1 aspmx.l.google.com."
+    ],
+    "issues": []
+  },
+  "ssl_info": {
+    "domain": "techbyheartacademy.com",
+    "port": 443,
+    "has_ssl": true,
+    "valid": true,
+    "expires_in_days": 69,
+    "issuer": "Let's Encrypt",
+    "subject": "techbyheartacademy.com",
+    "protocol": null,
+    "issues": []
+  },
+  "risk": {
+    "score": 95,
+    "risk_level": "LOW",
+    "risk_color": "#22c55e",
+    "breakdown": {
+      "port_exposure": {
+        "deduction": 0,
+        "max": 25
+      },
+      "vt_reputation": {
+        "deduction": 0,
+        "max": 30
+      },
+      "typosquatting": {
+        "deduction": 5,
+        "max": 15
+      },
+      "dns_health": {
+        "deduction": 0,
+        "max": 20
+      },
+      "ssl_tls": {
+        "deduction": 0,
+        "max": 10
+      }
+    },
+    "key_findings": [
+      "Moderate typosquatting: 4 registered lookalike domains"
+    ]
+  },
+  "vuln_analysis": {
+    "total_findings": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "findings": [],
+    "overall_risk": "LOW"
+  },
+  "owasp": {
+    "triggered_count": 1,
+    "total_categories": 10,
+    "findings": [
+      {
+        "id": "A09:2021",
+        "name": "Security Logging & Monitoring Failures",
+        "evidence": [
+          "No logging/monitoring endpoints observable from external scan"
+        ],
+        "description": "Lack of observable security monitoring increases attacker dwell time.",
+        "remediation": "Implement SIEM. Alert on auth failures, port scans, anomalous traffic.",
+        "severity": "MEDIUM"
+      }
+    ]
+  },
+  "grc_report": {
+    "domain": "techbyheartacademy.com",
+    "generated_at": "2026-03-08T22:01:35.771486+00:00",
+    "overall_score": 95,
+    "risk_level": "LOW",
+    "appetite_status": "Within Tolerance",
+    "appetite_color": "green",
+    "executive_summary": "techbyheartacademy.com presents a LOW risk profile with an overall score of 95/100. The external attack surface includes 0 open port(s), 0 critical and 0 high-severity service vulnerabilities, and 4 registered typosquatting domains increasing brand/phishing risk. Targeted remediation of high-priority findings is recommended within the next sprint cycle.",
+    "key_risk_indicators": [],
+    "compliance_posture": {
+      "NIST_CSF": {
+        "Identify": "Met",
+        "Protect": "Partial",
+        "Detect": "Not Met",
+        "Respond": "Unknown",
+        "Recover": "Unknown"
+      },
+      "ISO_27001": {
+        "A.8.8 Vulnerability Mgmt": "Partial",
+        "A.8.20 Network Security": "Partial",
+        "A.8.24 Cryptography": "Met"
+      },
+      "SOC2": {
+        "CC6.1 Access Controls": "Met",
+        "CC6.6 External Threats": "Partial",
+        "CC7.1 Monitoring": "Not Met"
+      }
+    },
+    "priority_actions": [
+      {
+        "priority": "P2",
+        "action": "Monitor/take down 4 typosquatting domains \u2014 phishing risk",
+        "owner": "Legal/Security"
+      }
+    ],
+    "owasp_coverage": 1,
+    "total_vulnerabilities": 0,
+    "critical_vulns": 0
+  },
+  "attack_surface_change": {
+    "domain": "techbyheartacademy.com",
+    "scanned_at": "2026-03-08T22:01:35.771687+00:00",
+    "current_open_ports": [],
+    "total_open": 0,
+    "is_first_scan": false,
+    "new_ports": [],
+    "closed_ports": [],
+    "unchanged_ports": [],
+    "delta_risk": "NONE",
+    "baseline_file": "/home/j/voraguard/scans/techbyheartacademy.com_baseline.json",
+    "baseline_timestamp": "2026-03-08T21:50:55.141958+00:00",
+    "message": "No changes detected since baseline scan on 2026-03-08."
+  },
+  "business_impact": {
+    "domain": "techbyheartacademy.com",
+    "overall_confidentiality": "LOW",
+    "overall_integrity": "LOW",
+    "overall_availability": "LOW",
+    "financial_risk_estimate": {
+      "minimum": "$2,500",
+      "maximum": "$15,000",
+      "basis": "IBM Cost of a Data Breach Report 2024 \u2014 average breach cost $4.88M globally",
+      "factors": [
+        "Regulatory fines",
+        "Incident response costs",
+        "Reputational damage",
+        "Legal liability"
+      ]
+    },
+    "impact_findings": [],
+    "exposed_asset_count": 0
+  },
+  "regulatory_breach": {
+    "domain": "techbyheartacademy.com",
+    "frameworks_at_risk": 0,
+    "findings": [],
+    "overall_regulatory_risk": "LOW"
+  },
+  "supply_chain": {
+    "domain": "techbyheartacademy.com",
+    "components_detected": 0,
+    "critical_components": 0,
+    "components": [],
+    "supply_chain_risk": "LOW"
+  },
+  "honey_trap": {
+    "domain": "techbyheartacademy.com",
+    "verdict": "UNLIKELY HONEYPOT",
+    "confidence_pct": 5,
+    "honeypot_score": 0,
+    "indicators": [
+      "No honeypot indicators detected \u2014 appears to be a real target"
+    ],
+    "recommendation": "No significant honeypot indicators. Proceed with authorized testing."
+  },
+  "attacker_roi": {
+    "domain": "techbyheartacademy.com",
+    "total_roi_score": 15,
+    "max_score": 100,
+    "roi_label": "LOW \u2014 Limited attacker motivation, hardened target",
+    "ease_score": 0,
+    "value_score": 10,
+    "stealth_score": 5,
+    "ease_factors": [],
+    "value_factors": [
+      "+10 All internet-facing targets have baseline value"
+    ],
+    "stealth_factors": [
+      "+5 No observable WAF/firewall detected"
+    ],
+    "attacker_type": "Only highly motivated, targeted APT actors"
+  },
+  "threat_actors": {
+    "domain": "techbyheartacademy.com",
+    "matched_actor_count": 0,
+    "actors": [],
+    "note": "Correlation based on exposed attack surface overlap with publicly documented TTPs (MITRE ATT&CK). Does not imply active targeting.",
+    "overall_threat": "LOW"
+  },
+  "darkweb": {
+    "domain": "techbyheartacademy.com",
+    "overall_risk": "LOW",
+    "summary_findings": [],
+    "total_sources_checked": 6,
+    "total_findings": 0,
+    "sources_status": [
+      {
+        "name": "AlienVault OTX",
+        "status": "\u2713 Checked",
+        "key_required": true,
+        "findings": 0
+      },
+      {
+        "name": "HaveIBeenPwned",
+        "status": "\u2713 Checked",
+        "key_required": false,
+        "findings": 0
+      },
+      {
+        "name": "URLhaus / Abuse.ch",
+        "status": "\u2713 Checked",
+        "key_required": false,
+        "findings": 0
+      },
+      {
+        "name": "DeHashed",
+        "status": "\u26a0 None",
+        "key_required": true,
+        "findings": 0
+      },
+      {
+        "name": "LeakIX",
+        "status": "\u2713 Checked",
+        "key_required": true,
+        "findings": 0
+      },
+      {
+        "name": "AbuseIPDB",
+        "status": "\u26a0 No IPs to check",
+        "key_required": false,
+        "findings": 0
+      }
+    ],
+    "otx": {
+      "source": "AlienVault OTX",
+      "available": true,
+      "pulse_count": 0,
+      "malware_families": [],
+      "malicious_urls": [
+        {
+          "url": "http://techbyheartacademy.com/wp-content/plugins/premium-addons-for-elementor/unrefreshing",
+          "date": "2025-12-14",
+          "result": "",
+          "gsb": []
+        },
+        {
+          "url": "https://www.techbyheartacademy.com/wp-content/plugins/premium-addons-for-elementor/unrefreshing",
+          "date": "2025-12-14",
+          "result": "",
+          "gsb": []
+        },
+        {
+          "url": "https://www.techbyheartacademy.com/courses/certified-ethical-hacker-course-ceh-v13",
+          "date": "2025-09-23",
+          "result": "",
+          "gsb": []
+        },
+        {
+          "url": "https://www.techbyheartacademy.com/privacy-policy/",
+          "date": "2025-09-23",
+          "result": "",
+          "gsb": ""
+        },
+        {
+          "url": "https://www.techbyheartacademy.com/techbyheart-academy-cancellation-and-refund-policy/",
+          "date": "2025-09-23",
+          "result": "",
+          "gsb": ""
+        },
+        {
+          "url": "https://www.techbyheartacademy.com/courses/bca-in-cyber-security-program/",
+          "date": "2025-09-23",
+          "result": "",
+          "gsb": ""
+        },
+        {
+          "url": "https://www.techbyheartacademy.com/courses/advanced-diploma-in-cyber-security-ads/",
+          "date": "2025-09-23",
+          "result": "",
+          "gsb": []
+        },
+        {
+          "url": "https://www.techbyheartacademy.com/terms-and-conditions/",
+          "date": "2025-09-23",
+          "result": "",
+          "gsb": []
+        },
+        {
+          "url": "https://www.techbyheartacademy.com/careers/",
+          "date": "2025-09-23",
+          "result": "",
+          "gsb": ""
+        },
+        {
+          "url": "https://www.techbyheartacademy.com/gallery/",
+          "date": "2025-09-23",
+          "result": "",
+          "gsb": ""
+        }
+      ],
+      "passive_dns": [
+        {
+          "hostname": "join.techbyheartacademy.com",
+          "address": "78.47.44.213",
+          "record_type": "A",
+          "first": "2025-10-30",
+          "last": "2025-11-30"
+        },
+        {
+          "hostname": "www.techbyheartacademy.com",
+          "address": "167.235.51.117",
+          "record_type": "A",
+          "first": "2024-08-16",
+          "last": "2026-01-13"
+        },
+        {
+          "hostname": "techbyheartacademy.com",
+          "address": "167.235.51.117",
+          "record_type": "A",
+          "first": "2024-08-15",
+          "last": "2026-01-13"
+        },
+        {
+          "hostname": "www.techbyheartacademy.com",
+          "address": "techbyheartacademy.com",
+          "record_type": "CNAME",
+          "first": "2024-08-15",
+          "last": "2025-12-15"
+        },
+        {
+          "hostname": "www.techbyheartacademy.com",
+          "address": "chuck.ns.cloudflare.com",
+          "record_type": "NS",
+          "first": "2023-02-25",
+          "last": "2026-01-13"
+        },
+        {
+          "hostname": "www.techbyheartacademy.com",
+          "address": "elaine.ns.cloudflare.com",
+          "record_type": "NS",
+          "first": "2023-02-25",
+          "last": "2026-01-13"
+        },
+        {
+          "hostname": "www.techbyheartacademy.com",
+          "address": "76.76.21.21",
+          "record_type": "A",
+          "first": "2023-02-25",
+          "last": "2023-02-25"
+        },
+        {
+          "hostname": "techbyheartacademy.com",
+          "address": "76.76.21.21",
+          "record_type": "A",
+          "first": "2023-02-25",
+          "last": "2023-02-25"
+        },
+        {
+          "hostname": "info.techbyheartacademy.com",
+          "address": "195.201.149.96",
+          "record_type": "A",
+          "first": "2023-02-15",
+          "last": "2025-02-08"
+        },
+        {
+          "hostname": "techbyheartacademy.com",
+          "address": "chuck.ns.cloudflare.com",
+          "record_type": "SOA",
+          "first": "2022-09-22",
+          "last": "2026-01-13"
+        }
+      ],
+      "threat_actors": [],
+      "related_cves": [],
+      "domain_findings": [],
+      "ip_findings": [],
+      "total_hits": 0,
+      "highest_severity": "CLEAN",
+      "error": null
+    },
+    "hibp": {
+      "source": "HaveIBeenPwned",
+      "available": true,
+      "domain_breaches": [],
+      "email_results": [],
+      "paste_results": [],
+      "total_pwned_accounts": 0,
+      "most_recent_breach": null,
+      "data_classes_exposed": [],
+      "error": null
+    },
+    "urlhaus": {
+      "source": "URLhaus / Abuse.ch",
+      "available": true,
+      "domain_status": "not_listed",
+      "malicious_urls": [],
+      "active_urls": 0,
+      "malware_families": [],
+      "blacklists": {},
+      "ip_findings": [],
+      "overall_risk": "CLEAN",
+      "error": null
+    },
+    "dehashed": {
+      "source": "DeHashed",
+      "available": false,
+      "domain_breach_count": 0,
+      "email_breaches": [],
+      "credential_exposure": [],
+      "databases_found": [],
+      "total_records": 0,
+      "error": null
+    },
+    "leakix": {
+      "source": "LeakIX",
+      "available": true,
+      "leak_events": [],
+      "service_events": [
+        {
+          "plugin": "HttpPlugin",
+          "event_type": "service",
+          "ip": "167.235.51.117",
+          "host": "www.techbyheartacademy.com",
+          "port": "443",
+          "summary": "HTTP/1.1 200 OK\nServer: nginx/1.18.0 (Ubuntu)\r\nDate: Fri, 23 Jan 2026 14:50:38 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: close\r\nVary: Accept-Encoding\r\nCache-Control: no-cache\r\nX-Nitro-Cache: MISS\r\nLink: <https://www.techbyheartacademy.com/wp-json/>; rel=\"https://api.w.org/\"\r\nLink: <https://www.techbyheartacademy.com/wp-json/wp/v2/pages/7>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\r\nLink: <https://www.techbyheartacademy.com/>; rel=shortlink\r\n",
+          "severity": "",
+          "leak_type": "",
+          "leak_stage": "",
+          "size_bytes": 0,
+          "size_human": "unknown",
+          "rows": 0,
+          "collections": 0,
+          "is_infected": false,
+          "ransom_notes": null,
+          "date": "2026-01-23",
+          "country": "Germany",
+          "tags": [
+            "rescan"
+          ]
+        },
+        {
+          "plugin": "HttpPlugin",
+          "event_type": "service",
+          "ip": "78.47.44.213",
+          "host": "join.techbyheartacademy.com",
+          "port": "443",
+          "summary": "HTTP/1.1 200 OK\nServer: nginx\r\nDate: Fri, 23 Jan 2026 11:38:10 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: close\r\nVary: Accept-Encoding\r\nVary: Accept-Encoding\r\nSet-Cookie: PHPSESSID=htatgnchs8vi8rq8f5cbo8k9s9; path=/\r\nExpires: Thu, 19 Nov 1981 08:52:00 GMT\r\nCache-Control: no-store, no-cache, must-revalidate\r\nPragma: no-cache\r\nLink: <https://join.techbyheartacademy.com/wp-json/>; rel=\"https://api.w.org/\"\r\nLink: <https://join.techbyheartacademy.com/wp-json/wp/v2/pages/409>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\r\nLink: <https://join.techbyheartacademy.com/>; rel=shortlink\r\nX-Frame-Options: SAMEORIGIN\r\nX-Content-Type-Options: nosniff\r\nX-XSS-Protection: 1; mode=block\r\nX-Permitted-Cross-Domain-Policies: master-only\r\nReferrer-Policy: same-origin\r\nalt-svc: h3=\":443\"; ma=86400\r\n",
+          "severity": "",
+          "leak_type": "",
+          "leak_stage": "",
+          "size_bytes": 0,
+          "size_human": "unknown",
+          "rows": 0,
+          "collections": 0,
+          "is_infected": false,
+          "ransom_notes": null,
+          "date": "2026-01-23",
+          "country": "Germany",
+          "tags": [
+            "rescan"
+          ]
+        },
+        {
+          "plugin": "HttpPlugin",
+          "event_type": "service",
+          "ip": "78.47.44.213",
+          "host": "placements.techbyheartacademy.com",
+          "port": "443",
+          "summary": "HTTP/1.1 200 OK\nServer: nginx\r\nDate: Fri, 23 Jan 2026 11:32:56 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: close\r\nVary: Accept-Encoding\r\nVary: Accept-Encoding\r\nLink: <https://placements.techbyheartacademy.com/wp-json/>; rel=\"https://api.w.org/\"\r\nLink: <https://placements.techbyheartacademy.com/wp-json/wp/v2/pages/40>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\r\nLink: <https://placements.techbyheartacademy.com/>; rel=shortlink\r\nX-Frame-Options: SAMEORIGIN\r\nX-Content-Type-Options: nosniff\r\nX-XSS-Protection: 1; mode=block\r\nX-Permitted-Cross-Domain-Policies: master-only\r\nReferrer-Policy: same-origin\r\nalt-svc: h3=\":443\"; ma=86400\r\n",
+          "severity": "",
+          "leak_type": "",
+          "leak_stage": "",
+          "size_bytes": 0,
+          "size_human": "unknown",
+          "rows": 0,
+          "collections": 0,
+          "is_infected": false,
+          "ransom_notes": null,
+          "date": "2026-01-23",
+          "country": "Germany",
+          "tags": [
+            "rescan"
+          ]
+        },
+        {
+          "plugin": "HttpPlugin",
+          "event_type": "service",
+          "ip": "78.47.44.213",
+          "host": "register.techbyheartacademy.com",
+          "port": "443",
+          "summary": "HTTP/1.1 200 OK\nServer: nginx\r\nDate: Fri, 23 Jan 2026 07:08:51 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: close\r\nVary: Accept-Encoding\r\nVary: Accept-Encoding\r\nLink: <https://register.techbyheartacademy.com/wp-json/>; rel=\"https://api.w.org/\"\r\nLink: <https://register.techbyheartacademy.com/wp-json/wp/v2/pages/265>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\r\nLink: <https://register.techbyheartacademy.com/>; rel=shortlink\r\nX-Frame-Options: SAMEORIGIN\r\nX-Content-Type-Options: nosniff\r\nX-XSS-Protection: 1; mode=block\r\nX-Permitted-Cross-Domain-Policies: master-only\r\nReferrer-Policy: same-origin\r\nalt-svc: h3=\":443\"; ma=86400\r\n",
+          "severity": "",
+          "leak_type": "",
+          "leak_stage": "",
+          "size_bytes": 0,
+          "size_human": "unknown",
+          "rows": 0,
+          "collections": 0,
+          "is_infected": false,
+          "ransom_notes": null,
+          "date": "2026-01-23",
+          "country": "Germany",
+          "tags": [
+            "rescan"
+          ]
+        },
+        {
+          "plugin": "HttpPlugin",
+          "event_type": "service",
+          "ip": "78.47.44.213",
+          "host": "scholarships.techbyheartacademy.com",
+          "port": "443",
+          "summary": "HTTP/1.1 200 OK\nServer: nginx\r\nDate: Fri, 23 Jan 2026 03:49:48 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: close\r\nVary: Accept-Encoding\r\nVary: Accept-Encoding\r\nLink: <https://scholarships.techbyheartacademy.com/wp-json/>; rel=\"https://api.w.org/\"\r\nLink: <https://scholarships.techbyheartacademy.com/wp-json/wp/v2/pages/15>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\r\nLink: <https://scholarships.techbyheartacademy.com/>; rel=shortlink\r\nX-Frame-Options: SAMEORIGIN\r\nX-Content-Type-Options: nosniff\r\nX-XSS-Protection: 1; mode=block\r\nX-Permitted-Cross-Domain-Policies: master-only\r\nReferrer-Policy: same-origin\r\nalt-svc: h3=\":443\"; ma=86400\r\n",
+          "severity": "",
+          "leak_type": "",
+          "leak_stage": "",
+          "size_bytes": 0,
+          "size_human": "unknown",
+          "rows": 0,
+          "collections": 0,
+          "is_infected": false,
+          "ransom_notes": null,
+          "date": "2026-01-23",
+          "country": "Germany",
+          "tags": [
+            "rescan"
+          ]
+        }
+      ],
+      "total_leaks": 0,
+      "total_services": 5,
+      "critical_leaks": 0,
+      "data_exposed_bytes": 0,
+      "error": null
+    },
+    "abuseipdb": {
+      "source": "AbuseIPDB",
+      "available": false,
+      "ip_verdicts": [],
+      "malicious_ips": 0,
+      "suspicious_ips": 0,
+      "clean_ips": 0,
+      "tor_exits": 0,
+      "total_reports": 0,
+      "top_categories": [],
+      "highest_confidence": 0,
+      "overall_threat": "LOW",
+      "error": "No IPs to check"
+    },
+    "all_breached_emails": [],
+    "credential_exposure_count": 0,
+    "malware_families": [],
+    "threat_actors": [],
+    "related_cves": [],
+    "disclaimer": "Dark web monitoring covers: AlienVault OTX (threat pulses, malware families, threat actors), HaveIBeenPwned (breach database), URLhaus (malicious URL feeds), DeHashed (credential dumps), LeakIX (live data leaks), AbuseIPDB (IP reputation). Full Tor hidden service crawling requires commercial feeds (Recorded Future, DarkOwl, Flashpoint)."
+  },
+  "threat_sim": {
+    "domain": "techbyheartacademy.com",
+    "attack_chains": [
+      {
+        "chain_id": "AC-005",
+        "name": "Phishing / BEC via Domain Spoofing",
+        "likelihood": "HIGH",
+        "entry_point": "Missing SPF/DMARC records + typosquatting domains",
+        "steps": [
+          {
+            "phase": "Reconnaissance",
+            "tactic": "T1589 Gather Victim Identity Info",
+            "desc": "Email addresses harvested via theHarvester/OSINT"
+          },
+          {
+            "phase": "Resource Development",
+            "tactic": "T1583.001 Acquire Infrastructure",
+            "desc": "Typosquat domain registered \u2014 spoofed email sent from lookalike domain"
+          },
+          {
+            "phase": "Initial Access",
+            "tactic": "T1566.002 Spearphishing Link",
+            "desc": "Targeted phishing email to harvested addresses \u2014 credential harvesting page"
+          },
+          {
+            "phase": "Impact",
+            "tactic": "T1657 Financial Theft",
+            "desc": "BEC fraud \u2014 redirect payments, access SaaS accounts, credential resale"
+          }
+        ],
+        "estimated_time_to_exploit": "Minutes to set up, hours to execute",
+        "skill_required": "LOW",
+        "blast_radius": "CREDENTIAL THEFT, FINANCIAL FRAUD"
+      }
+    ],
+    "total_chains": 1,
+    "highest_likelihood": "HIGH",
+    "summary": "1 realistic attack chains modeled. 1 are HIGH or CRITICAL likelihood.",
+    "disclaimer": "This simulation is for authorized security assessment only. Models are based on MITRE ATT&CK framework and publicly documented techniques."
+  },
+  "closed_loop_response": {
+    "domain": "techbyheartacademy.com",
+    "generated_at": "2026-03-08T22:01:49.553851+00:00",
+    "total_actions": 0,
+    "p1_actions": 0,
+    "p2_actions": 0,
+    "p3_actions": 0,
+    "auto_executable_count": 0,
+    "total_commands": 0,
+    "actions": [],
+    "ir_phases": [
+      {
+        "phase": "CONTAIN",
+        "timeline": "0\u20131 hours",
+        "steps": [
+          "Block all P1 ports at perimeter firewall immediately",
+          "Isolate affected hosts from network if active compromise suspected",
+          "Preserve logs: /var/log/auth.log, /var/log/syslog, firewall logs",
+          "Take memory dump if live compromise suspected (avml/lime)"
+        ]
+      },
+      {
+        "phase": "ERADICATE",
+        "timeline": "1\u201324 hours",
+        "steps": [
+          "Execute all P1 remediation commands in this runbook",
+          "Rotate all credentials exposed via open services",
+          "Search for persistence: crontabs, authorized_keys, /etc/passwd new users",
+          "Scan for webshells: find /var/www -name '*.php' | xargs grep -l 'eval('"
+        ]
+      },
+      {
+        "phase": "RECOVER",
+        "timeline": "24\u201372 hours",
+        "steps": [
+          "Execute P2 and P3 actions",
+          "Re-run VoraGuard scan to verify all remediations effective",
+          "Restore services from clean backup if compromise confirmed",
+          "Enable centralized logging (ELK/Splunk/Wazuh)"
+        ]
+      },
+      {
+        "phase": "POST-INCIDENT",
+        "timeline": "72+ hours",
+        "steps": [
+          "Root cause analysis: how was the service left exposed?",
+          "Update asset inventory and patch management policy",
+          "Schedule VoraGuard weekly scans for continuous monitoring",
+          "File regulatory notification if PII breach confirmed (GDPR 72hr deadline)"
+        ]
+      }
+    ],
+    "runbook_summary": "0 remediation actions generated. 0 can be executed automatically. 0 P1 actions must be completed within SLA.",
+    "estimated_remediation_time_hours": 0
+  },
+  "financial_quantification": {
+    "domain": "techbyheartacademy.com",
+    "business_sector": "General/Unknown",
+    "methodology": "FAIR (Factor Analysis of Information Risk)",
+    "fair_components": {
+      "threat_event_frequency_per_year": 1.2,
+      "vulnerability_factor_pct": 28.4,
+      "loss_event_frequency_per_year": 0.34,
+      "single_loss_magnitude_usd": 2928000,
+      "secondary_loss_usd": 1317600,
+      "total_loss_magnitude_usd": 4245600
+    },
+    "tef_breakdown": [],
+    "annual_loss_expectancy": {
+      "minimum_usd": 149785,
+      "expected_usd": 1447919,
+      "maximum_usd": 5242467,
+      "label": "$0.1M \u2014 $1.4M \u2014 $5.2M"
+    },
+    "breach_probability_12_months_pct": 28.9,
+    "board_metrics": {
+      "risk_reduction_value_usd": 1158336,
+      "risk_reduction_value_5yr_usd": 5791678,
+      "recommended_security_budget_usd": "$0.14M \u2014 $0.22M",
+      "cost_per_record_breach_usd": 156,
+      "industry_avg_breach_cost_usd": 4880000,
+      "your_estimated_breach_cost_usd": 4245600,
+      "vs_industry_avg": "BELOW AVERAGE"
+    },
+    "peer_benchmark": {
+      "industry_sector": "General/Unknown",
+      "your_risk_score": 95,
+      "industry_avg_score": 62,
+      "status": "BETTER than industry average",
+      "percentile": 95
+    },
+    "insurance_guidance": {
+      "recommended_coverage_usd": 4193974,
+      "deductible_suggestion_usd": 72396,
+      "note": "Cyber insurance carrier will likely require remediation of P1 findings before binding coverage"
+    }
+  },
+  "ot_ics": {
+    "domain": "techbyheartacademy.com",
+    "ot_exposure_level": "NONE",
+    "verdict": "No OT/ICS protocols detected on internet-facing ports",
+    "ot_findings_count": 0,
+    "ot_findings": [],
+    "detected_protocols": [],
+    "sector_exposure": [],
+    "attack_scenarios": [],
+    "ot_threat_actors": [],
+    "purdue_model_note": "No Purdue Model violations detected on scanned ports.",
+    "immediate_actions": []
+  },
+  "nhi_shadow_ai": {
+    "domain": "techbyheartacademy.com",
+    "overall_nhi_risk": "NONE",
+    "total_findings": 0,
+    "shadow_ai_count": 0,
+    "nhi_exposure_count": 0,
+    "exposed_secrets_count": 0,
+    "shadow_ai_findings": [],
+    "nhi_findings": [],
+    "exposed_secrets": [],
+    "ai_related_subdomains": [],
+    "governance_gaps": [],
+    "categories_detected": [],
+    "nhi_summary": "No NHI or Shadow AI exposures detected on scanned ports.",
+    "compliance_note": "Shadow AI deployments may violate EU AI Act (2024) Article 9 risk management requirements and GDPR Article 22 automated decision-making provisions if models process personal data."
+  },
+  "unified_fabric": {
+    "domain": "techbyheartacademy.com",
+    "composite_threat_score": 6,
+    "composite_severity": "LOW",
+    "domain_scores": {
+      "network": {
+        "score": 0,
+        "severity": "NONE",
+        "weight_pct": 20,
+        "top_findings": []
+      },
+      "application": {
+        "score": 20,
+        "severity": "LOW",
+        "weight_pct": 18,
+        "top_findings": [
+          "Security Logging & Monitoring Failures"
+        ]
+      },
+      "identity": {
+        "score": 5,
+        "severity": "LOW",
+        "weight_pct": 17,
+        "top_findings": [
+          "1 email addresses exposed via OSINT"
+        ]
+      },
+      "data": {
+        "score": 0,
+        "severity": "NONE",
+        "weight_pct": 16,
+        "top_findings": []
+      },
+      "cloud_api": {
+        "score": 0,
+        "severity": "NONE",
+        "weight_pct": 12,
+        "top_findings": []
+      },
+      "supply_chain": {
+        "score": 15,
+        "severity": "LOW",
+        "weight_pct": 10,
+        "top_findings": []
+      },
+      "ot_ics": {
+        "score": 0,
+        "severity": "NONE",
+        "weight_pct": 7,
+        "top_findings": []
+      }
+    },
+    "top_exposed_domains": [
+      {
+        "domain": "application",
+        "score": 20,
+        "severity": "LOW"
+      },
+      {
+        "domain": "supply_chain",
+        "score": 15,
+        "severity": "LOW"
+      },
+      {
+        "domain": "identity",
+        "score": 5,
+        "severity": "LOW"
+      }
+    ],
+    "cross_domain_attack_paths": [],
+    "total_cross_domain_paths": 0,
+    "kill_chain_coverage": [],
+    "threat_actors_active": 0,
+    "fabric_summary": "Unified threat fabric score: 6/100 across 7 domains. 0 cross-domain attack paths identified. Top exposed domains: application, supply_chain, identity."
+  },
+  "threat_prediction": {
+    "domain": "techbyheartacademy.com",
+    "model": "Bayesian inference + FAIR + CISA KEV + DBIR 2024 historical data",
+    "generated_at": "2026-03-08T22:01:49.554987+00:00",
+    "combined_attack_probability_30_days_pct": 38.0,
+    "combined_attack_probability_60_days_pct": 53.2,
+    "combined_attack_probability_90_days_pct": 64.6,
+    "overall_probability_label": "HIGH",
+    "port_threat_predictions": [],
+    "total_ports_at_risk": 0,
+    "predicted_attack_types": [],
+    "weekly_risk_forecast": [
+      {
+        "week": 1,
+        "cumulative_probability": 0.0,
+        "label": "Week 1 (7 days)"
+      },
+      {
+        "week": 2,
+        "cumulative_probability": 0.0,
+        "label": "Week 2 (14 days)"
+      },
+      {
+        "week": 3,
+        "cumulative_probability": 0.0,
+        "label": "Week 3 (21 days)"
+      },
+      {
+        "week": 4,
+        "cumulative_probability": 0.0,
+        "label": "Week 4 (28 days)"
+      },
+      {
+        "week": 5,
+        "cumulative_probability": 0.0,
+        "label": "Week 5 (35 days)"
+      },
+      {
+        "week": 6,
+        "cumulative_probability": 0.0,
+        "label": "Week 6 (42 days)"
+      },
+      {
+        "week": 7,
+        "cumulative_probability": 0.0,
+        "label": "Week 7 (49 days)"
+      },
+      {
+        "week": 8,
+        "cumulative_probability": 0.0,
+        "label": "Week 8 (56 days)"
+      },
+      {
+        "week": 9,
+        "cumulative_probability": 0.0,
+        "label": "Week 9 (63 days)"
+      },
+      {
+        "week": 10,
+        "cumulative_probability": 0.0,
+        "label": "Week 10 (70 days)"
+      },
+      {
+        "week": 11,
+        "cumulative_probability": 0.0,
+        "label": "Week 11 (77 days)"
+      },
+      {
+        "week": 12,
+        "cumulative_probability": 0.0,
+        "label": "Week 12 (84 days)"
+      }
+    ],
+    "global_threat_trends": [
+      {
+        "trend": "Ransomware-as-a-Service targeting SMB",
+        "probability_uplift": 0.08,
+        "active": true
+      },
+      {
+        "trend": "AI-assisted phishing campaigns surge",
+        "probability_uplift": 0.06,
+        "active": true
+      },
+      {
+        "trend": "Supply chain attacks increasing (3CX, XZ)",
+        "probability_uplift": 0.05,
+        "active": true
+      },
+      {
+        "trend": "Initial access broker market growth",
+        "probability_uplift": 0.07,
+        "active": true
+      },
+      {
+        "trend": "State-sponsored OT/ICS targeting",
+        "probability_uplift": 0.04,
+        "active": true
+      },
+      {
+        "trend": "Cloud credential theft via SSRF",
+        "probability_uplift": 0.05,
+        "active": true
+      },
+      {
+        "trend": "Zero-day exploit broker market active",
+        "probability_uplift": 0.03,
+        "active": true
+      }
+    ],
+    "global_trend_uplift_pct": 38.0,
+    "historical_trend": {
+      "available": false
+    },
+    "top_predicted_threats": [],
+    "prediction_disclaimer": "Probabilities are statistical estimates based on historical attack data from CISA KEV, Verizon DBIR 2024, and observed campaign frequency. Not a guarantee of attack occurrence. Remediate identified vulnerabilities to significantly reduce these probabilities."
+  },
+  "ip_scan": {
+    "target": "techbyheartacademy.com",
+    "is_direct_ip": false,
+    "resolved_ips": [
+      "167.235.51.117"
+    ],
+    "scan_duration": 6.249592,
+    "scanned_at": "2026-03-09T03:31:55",
+    "success": true,
+    "overall_score": 39,
+    "overall_threat": "HIGH",
+    "total_cves": 2,
+    "total_reports": 0,
+    "key_findings": [
+      "Shodan/CriminalIP: 2 CVEs found \u2014 highest CVSS 0 (CVE-2023-44487)",
+      "IPQualityScore: Fraud score 75% \u2014 SUSPICIOUS",
+      "VPN/anonymizer service detected",
+      "Open proxy detected"
+    ],
+    "ip_results": [
+      {
+        "ip": "167.235.51.117",
+        "unified_score": 39,
+        "threat_level": "HIGH",
+        "source_scores": {
+          "abuseipdb": 0,
+          "shodan": 0,
+          "ipqualityscore": 75,
+          "criminalip": 3
+        },
+        "country": "DE",
+        "city": "Nuremberg",
+        "org": "Hetzner Online",
+        "isp": "Hetzner Online",
+        "is_tor": false,
+        "is_vpn": true,
+        "is_proxy": true,
+        "is_bot": false,
+        "is_scanner": false,
+        "open_ports": [],
+        "cves": [
+          {
+            "cve": "CVE-2023-44487",
+            "cvss": 0,
+            "summary": "The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancell",
+            "port": [
+              {
+                "port": 80,
+                "socket": "tcp"
+              }
+            ]
+          },
+          {
+            "cve": "CVE-2022-3638",
+            "cvss": 0,
+            "summary": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was with",
+            "port": [
+              {
+                "port": 80,
+                "socket": "tcp"
+              }
+            ]
+          }
+        ],
+        "key_findings": [
+          "Shodan/CriminalIP: 2 CVEs found \u2014 highest CVSS 0 (CVE-2023-44487)",
+          "IPQualityScore: Fraud score 75% \u2014 SUSPICIOUS",
+          "VPN/anonymizer service detected",
+          "Open proxy detected"
+        ],
+        "abuseipdb": {
+          "source": "AbuseIPDB",
+          "available": true,
+          "ip": "167.235.51.117",
+          "confidence_score": 0,
+          "confidence_label": "CLEAN",
+          "total_reports": 0,
+          "last_reported": "Never",
+          "country": "DE",
+          "isp": "Hetzner Online GmbH",
+          "usage_type": "Data Center/Web Hosting/Transit",
+          "is_tor": false,
+          "is_public": true,
+          "attack_categories": [],
+          "recent_reports": [],
+          "threat_level": "CLEAN",
+          "link": "https://www.abuseipdb.com/check/167.235.51.117",
+          "error": null
+        },
+        "shodan": {
+          "source": "Shodan",
+          "available": false,
+          "ip": "167.235.51.117",
+          "open_ports": [],
+          "services": [],
+          "cves": [],
+          "os": "",
+          "country": "",
+          "city": "",
+          "org": "",
+          "isp": "",
+          "hostnames": [],
+          "domains": [],
+          "tags": [],
+          "last_update": "",
+          "vulns": [],
+          "threat_level": "UNKNOWN",
+          "link": "https://www.shodan.io/host/167.235.51.117",
+          "error": "HTTP 403"
+        },
+        "ipqualityscore": {
+          "source": "IPQualityScore",
+          "available": true,
+          "ip": "167.235.51.117",
+          "fraud_score": 75,
+          "fraud_label": "SUSPICIOUS",
+          "is_proxy": true,
+          "is_vpn": true,
+          "is_tor": false,
+          "is_bot": false,
+          "is_crawler": false,
+          "recent_abuse": false,
+          "abuse_velocity": "Premium required.",
+          "country": "DE",
+          "city": "Nuremberg",
+          "region": "Bavaria",
+          "isp": "Hetzner Online",
+          "org": "Hetzner Online",
+          "timezone": "Europe/Berlin",
+          "mobile": false,
+          "connection_type": "Premium required.",
+          "threat_level": "HIGH",
+          "link": "https://www.ipqualityscore.com/free-ip-lookup-proxy-vpn-test/lookup/167.235.51.117",
+          "error": null
+        },
+        "criminalip": {
+          "source": "CriminalIP",
+          "available": true,
+          "ip": "167.235.51.117",
+          "attack_score": 3,
+          "score_label": "LOW",
+          "inbound_score": 3,
+          "outbound_score": 3,
+          "is_scanner": false,
+          "is_vpn": false,
+          "is_tor": false,
+          "is_cloud": false,
+          "is_datacenter": false,
+          "country": "",
+          "city": "",
+          "org": "",
+          "isp": "",
+          "open_ports": [],
+          "cves": [
+            {
+              "cve": "CVE-2023-44487",
+              "cvss": 0,
+              "summary": "The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancell",
+              "port": [
+                {
+                  "port": 80,
+                  "socket": "tcp"
+                }
+              ]
+            },
+            {
+              "cve": "CVE-2022-3638",
+              "cvss": 0,
+              "summary": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was with",
+              "port": [
+                {
+                  "port": 80,
+                  "socket": "tcp"
+                }
+              ]
+            }
+          ],
+          "tags": [],
+          "current_opened_count": 0,
+          "threat_level": "HIGH",
+          "link": "https://www.criminalip.io/ip/167.235.51.117",
+          "error": null
+        }
+      }
+    ],
+    "sources_used": [
+      "AbuseIPDB",
+      "Shodan",
+      "IPQualityScore",
+      "CriminalIP"
+    ],
+    "sources_active": [
+      "AbuseIPDB",
+      "Shodan",
+      "IPQualityScore",
+      "CriminalIP"
+    ]
+  },
+  "scan_mode": "domain",
+  "output_dir": "/home/j/voraguard/scans/techbyheartacademy.com_20260309_033012",
+  "success": true,
+  "error": ""
+}

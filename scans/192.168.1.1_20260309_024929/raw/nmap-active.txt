@@ -1,0 +1,1 @@
+# Nmap 7.98 scan initiated Mon Mar  9 02:49:30 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC --open -T4 --max-retries 2 -oN /home/j/voraguard/scans/192.168.1.1_20260309_024929/raw/nmap-active.txt 192.168.1.1

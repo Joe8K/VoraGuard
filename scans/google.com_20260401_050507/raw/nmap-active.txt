@@ -1,0 +1,4 @@
+# Nmap 7.98 scan initiated Wed Apr  1 05:05:07 2026 as: /usr/lib/nmap/nmap -sV -sC --open -T4 --max-retries 2 -oN /home/j/voraguard/scans/google.com_20260401_050507/raw/nmap-active.txt google.com
+Failed to resolve "google.com".
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Wed Apr  1 05:05:12 2026 -- 0 IP addresses (0 hosts up) scanned in 5.78 seconds

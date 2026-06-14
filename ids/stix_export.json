@@ -1,0 +1,1980 @@
+{
+  "type": "bundle",
+  "id": "bundle--693cac7fe5c03a2006074a2b29950150",
+  "spec_version": "2.1",
+  "created": "2026-03-28T23:39:32.781184Z",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d30cdf236a35eb870593440666a7471b",
+      "created": "2026-03-29T05:08:06.312238",
+      "modified": "2026-03-29T05:08:06.312238",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 142.251.221.170",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '142.251.221.170']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:08:06.312238",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--e8087bb5dc610b2a52c195f1f450b8a1",
+      "value": "142.251.221.170"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--779653c405f013fd5446c94f0fef434f",
+      "created": "2026-03-29T05:08:03.313266",
+      "modified": "2026-03-29T05:08:03.313266",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 172.217.24.99",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '172.217.24.99']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:08:03.313266",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--73124685f5ea4906e1ddfc4161bd26cf",
+      "value": "172.217.24.99"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5b7cd7283a5b5ebe5afd7692d0c33cc2",
+      "created": "2026-03-29T05:08:03.169482",
+      "modified": "2026-03-29T05:08:03.169482",
+      "name": "Udp Scan",
+      "description": "UDP scan: 459 ports from 192.168.32.128",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.128']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:08:03.169482",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--338c89b5f3460fda1e51a90af710c29a",
+      "value": "192.168.32.128"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--f79435f289beba6ac2cedfbda4be7ea7",
+      "created": "2026-03-29T05:07:48.481970",
+      "modified": "2026-03-29T05:07:48.481970",
+      "name": "Udp Scan",
+      "description": "UDP scan: 215 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:07:48.481970",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b540e5adb574b7a2ebf6161e4afc9195",
+      "created": "2026-03-29T05:07:07.167903",
+      "modified": "2026-03-29T05:07:07.167903",
+      "name": "Udp Scan",
+      "description": "UDP scan: 195 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:07:07.167903",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3ad865ae5947fcc85a04a539b6797dd9",
+      "created": "2026-03-29T05:06:29.583529",
+      "modified": "2026-03-29T05:06:29.583529",
+      "name": "Udp Scan",
+      "description": "UDP scan: 188 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:06:29.583529",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e2af0918f58969e92cbc3d16f575f039",
+      "created": "2026-03-29T05:05:45.874758",
+      "modified": "2026-03-29T05:05:45.874758",
+      "name": "Udp Scan",
+      "description": "UDP scan: 448 ports from 192.168.32.128",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.128']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:05:45.874758",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--338c89b5f3460fda1e51a90af710c29a",
+      "value": "192.168.32.128"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b827d003e6474149cb973a08701e6b61",
+      "created": "2026-03-29T05:05:41.413821",
+      "modified": "2026-03-29T05:05:41.413821",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 142.250.66.3",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '142.250.66.3']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:05:41.413821",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--430b07eda0259cbe3f8d39c176366966",
+      "value": "142.250.66.3"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3b5b009e79c59250bfde0f32b3e6c8d8",
+      "created": "2026-03-29T05:05:41.314176",
+      "modified": "2026-03-29T05:05:41.314176",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 57.144.208.1",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '57.144.208.1']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:05:41.314176",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--cb29c668b08734456272c518cd7e981d",
+      "value": "57.144.208.1"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--053c7258b81a36fbb9c0c4dbd1bea4ae",
+      "created": "2026-03-29T05:05:40.745681",
+      "modified": "2026-03-29T05:05:40.745681",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 142.251.153.119",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '142.251.153.119']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:05:40.745681",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--482b8c318c23100933d7b34f3a22fb7d",
+      "value": "142.251.153.119"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2c6fbc0e6389dc1b405f2010f1207571",
+      "created": "2026-03-29T05:05:40.489864",
+      "modified": "2026-03-29T05:05:40.489864",
+      "name": "Udp Scan",
+      "description": "UDP scan: 179 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:05:40.489864",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--34d7c97de217369894fbe7d7f8e6c798",
+      "created": "2026-03-29T05:05:36.436292",
+      "modified": "2026-03-29T05:05:36.436292",
+      "name": "Udp Scan",
+      "description": "UDP scan: 79 ports from 104.19.148.8",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '104.19.148.8']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:05:36.436292",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--f18aabc64ea0e2610a1d9075006d62c9",
+      "value": "104.19.148.8"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3cea8ff62e316fd4699112826e27a6c9",
+      "created": "2026-03-29T05:05:13.395039",
+      "modified": "2026-03-29T05:05:13.395039",
+      "name": "Udp Scan",
+      "description": "UDP scan: 318 ports from 192.168.32.128",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.128']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:05:13.395039",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--338c89b5f3460fda1e51a90af710c29a",
+      "value": "192.168.32.128"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--07e31ef79a8ffade235868e91fceab25",
+      "created": "2026-03-29T05:05:07.224770",
+      "modified": "2026-03-29T05:05:07.224770",
+      "name": "Http Brute",
+      "description": "Http Brute: 62 attempts in 60s",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.128']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:05:07.224770",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "credential-access"
+        }
+      ],
+      "labels": [
+        "high",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1110"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--338c89b5f3460fda1e51a90af710c29a",
+      "value": "192.168.32.128"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b8a00a66e2758d0347b53a858faa88b4",
+      "created": "2026-03-29T05:05:00.954040",
+      "modified": "2026-03-29T05:05:00.954040",
+      "name": "Dns Exfil",
+      "description": "High DNS query rate: 101/min from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:05:00.954040",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "exfiltration"
+        }
+      ],
+      "labels": [
+        "high",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1048.003"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--bc81aef4bf483827d4695515e1c21a29",
+      "created": "2026-03-29T05:04:54.519685",
+      "modified": "2026-03-29T05:04:54.519685",
+      "name": "Dns Exfil",
+      "description": "High DNS query rate: 101/min from 192.168.32.128",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.128']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:04:54.519685",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "exfiltration"
+        }
+      ],
+      "labels": [
+        "high",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1048.003"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--338c89b5f3460fda1e51a90af710c29a",
+      "value": "192.168.32.128"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b347d336c4128e34abf52b97a0a1ec49",
+      "created": "2026-03-29T05:04:53.805602",
+      "modified": "2026-03-29T05:04:53.805602",
+      "name": "Udp Scan",
+      "description": "UDP scan: 99 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:04:53.805602",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4a8235c2f1902e268c3f937435b3955d",
+      "created": "2026-03-29T05:04:50.884109",
+      "modified": "2026-03-29T05:04:50.884109",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 104.19.148.8",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '104.19.148.8']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:04:50.884109",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--f18aabc64ea0e2610a1d9075006d62c9",
+      "value": "104.19.148.8"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2c8e9b44b50bdec678c3f678f732d7f1",
+      "created": "2026-03-29T05:04:46.098218",
+      "modified": "2026-03-29T05:04:46.098218",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 142.250.205.72",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '142.250.205.72']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:04:46.098218",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--bfc4f49c1b133fab4aa27a702e191e37",
+      "value": "142.250.205.72"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b314167e9ee9d0551b315cf342388082",
+      "created": "2026-03-29T05:04:42.774770",
+      "modified": "2026-03-29T05:04:42.774770",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 57.144.208.128",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '57.144.208.128']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:04:42.774770",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--ce8bd30753a5093b365b02159f9f228b",
+      "value": "57.144.208.128"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--7d8be3dd0abc195da50aefe8eac3329b",
+      "created": "2026-03-29T05:04:41.413965",
+      "modified": "2026-03-29T05:04:41.413965",
+      "name": "Udp Scan",
+      "description": "UDP scan: 189 ports from 192.168.32.128",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.128']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:04:41.413965",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--338c89b5f3460fda1e51a90af710c29a",
+      "value": "192.168.32.128"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--147436072f63b11e4008eb0f9f3bc5fe",
+      "created": "2026-03-29T05:04:23.026863",
+      "modified": "2026-03-29T05:04:23.026863",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:04:23.026863",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--b2f40cbeb78cf7b5ab6284786d94301b",
+      "created": "2026-03-29T05:04:19.464339",
+      "modified": "2026-03-29T05:04:19.464339",
+      "name": "Dga Domain",
+      "description": "DGA-like domain: encrypted-tbn0.gstatic.com",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:04:19.464339",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "command-and-control"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1568.002"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--25001e75c1a373471e0af500a4dde278",
+      "created": "2026-03-29T05:04:19.395577",
+      "modified": "2026-03-29T05:04:19.395577",
+      "name": "Dga Domain",
+      "description": "DGA-like domain: encrypted-tbn0.gstatic.com",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.128']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:04:19.395577",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "command-and-control"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1568.002"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--338c89b5f3460fda1e51a90af710c29a",
+      "value": "192.168.32.128"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--62177984263c086e31a2e262b59a3977",
+      "created": "2026-03-29T05:04:01.873207",
+      "modified": "2026-03-29T05:04:01.873207",
+      "name": "Http Brute",
+      "description": "Http Brute: 11 attempts in 60s",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.128']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:04:01.873207",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "credential-access"
+        }
+      ],
+      "labels": [
+        "high",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1110"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--338c89b5f3460fda1e51a90af710c29a",
+      "value": "192.168.32.128"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--9b64b0bf85e16cb2d2fadab3b90d9695",
+      "created": "2026-03-29T05:04:01.613645",
+      "modified": "2026-03-29T05:04:01.613645",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 192.168.32.128",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.128']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:04:01.613645",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--338c89b5f3460fda1e51a90af710c29a",
+      "value": "192.168.32.128"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--dd71d756ff828e47282d77f22a15f719",
+      "created": "2026-03-29T05:04:00.412301",
+      "modified": "2026-03-29T05:04:00.412301",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 142.251.154.119",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '142.251.154.119']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-29T05:04:00.412301",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--b0da1bfc28d2a9267eab45d6fa1dd24a",
+      "value": "142.251.154.119"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ba836895062ab13b93b3670e530b00d0",
+      "created": "2026-03-27T01:12:52.926965",
+      "modified": "2026-03-27T01:12:52.926965",
+      "name": "Udp Scan",
+      "description": "UDP scan: 122 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-27T01:12:52.926965",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--12d4a3a67df6fb9828807924432db88a",
+      "created": "2026-03-27T01:07:48.423870",
+      "modified": "2026-03-27T01:07:48.423870",
+      "name": "Udp Scan",
+      "description": "UDP scan: 120 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-27T01:07:48.423870",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--147f547b33e19a35e0908ba76a0f9be9",
+      "created": "2026-03-27T01:02:48.424768",
+      "modified": "2026-03-27T01:02:48.424768",
+      "name": "Udp Scan",
+      "description": "UDP scan: 118 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-27T01:02:48.424768",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--02d264b11bbf83f09dcbedd3953306f5",
+      "created": "2026-03-27T00:52:29.603022",
+      "modified": "2026-03-27T00:52:29.603022",
+      "name": "Dga Domain",
+      "description": "DGA-like domain: sync-1-us-west1-g.sync.services.mozilla.com",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-27T00:52:29.603022",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "command-and-control"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1568.002"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c1a5934e2724904779e86f5e3c628bf7",
+      "created": "2026-03-27T00:52:29.583017",
+      "modified": "2026-03-27T00:52:29.583017",
+      "name": "Dga Domain",
+      "description": "DGA-like domain: sync-1-us-west1-g.sync.services.mozilla.com",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.128']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-27T00:52:29.583017",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "command-and-control"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1568.002"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--338c89b5f3460fda1e51a90af710c29a",
+      "value": "192.168.32.128"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d94fb065f467a9e2cc13199464b3939a",
+      "created": "2026-03-27T00:52:29.177131",
+      "modified": "2026-03-27T00:52:29.177131",
+      "name": "Udp Scan",
+      "description": "UDP scan: 107 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-27T00:52:29.177131",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--3c432ae131626c1ebf2811e8b0ba1414",
+      "created": "2026-03-27T00:42:42.539938",
+      "modified": "2026-03-27T00:42:42.539938",
+      "name": "Udp Scan",
+      "description": "UDP scan: 105 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-27T00:42:42.539938",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--98ba6a809d596d21d0fd1de32148ccd9",
+      "created": "2026-03-27T00:37:42.550273",
+      "modified": "2026-03-27T00:37:42.550273",
+      "name": "Udp Scan",
+      "description": "UDP scan: 103 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-27T00:37:42.550273",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--e945c97a8f37c9d72907cb346094f9bb",
+      "created": "2026-03-27T00:32:41.610241",
+      "modified": "2026-03-27T00:32:41.610241",
+      "name": "Udp Scan",
+      "description": "UDP scan: 99 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-27T00:32:41.610241",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ea702df4e0b19144809aeb08aade06ad",
+      "created": "2026-03-27T00:22:36.877164",
+      "modified": "2026-03-27T00:22:36.877164",
+      "name": "Udp Scan",
+      "description": "UDP scan: 97 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-27T00:22:36.877164",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--caf0a990c7baf3f0a0018c205e0b7ca7",
+      "created": "2026-03-27T00:17:36.869484",
+      "modified": "2026-03-27T00:17:36.869484",
+      "name": "Udp Scan",
+      "description": "UDP scan: 94 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-27T00:17:36.869484",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6b68b394fdec8d51dc4c59199ff79dc6",
+      "created": "2026-03-27T00:13:47.507522",
+      "modified": "2026-03-27T00:13:47.507522",
+      "name": "Udp Scan",
+      "description": "UDP scan: 92 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-27T00:13:47.507522",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a8b3c0ded7f01ea37c6851de37081002",
+      "created": "2026-03-27T00:12:35.735517",
+      "modified": "2026-03-27T00:12:35.735517",
+      "name": "Udp Scan",
+      "description": "UDP scan: 89 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-27T00:12:35.735517",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--aa75e678a78745d7e021b56df371f99f",
+      "created": "2026-03-27T00:07:31.528196",
+      "modified": "2026-03-27T00:07:31.528196",
+      "name": "Udp Scan",
+      "description": "UDP scan: 86 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-27T00:07:31.528196",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a34dc6515dbd2af4cc79aaabe5f14272",
+      "created": "2026-03-26T23:52:26.641840",
+      "modified": "2026-03-26T23:52:26.641840",
+      "name": "Http Brute",
+      "description": "Http Brute: 11 attempts in 60s",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.128']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-26T23:52:26.641840",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "credential-access"
+        }
+      ],
+      "labels": [
+        "high",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1110"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--338c89b5f3460fda1e51a90af710c29a",
+      "value": "192.168.32.128"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--a1e9b6e6b170db37f65a1441d901ec8d",
+      "created": "2026-03-26T23:52:13.797253",
+      "modified": "2026-03-26T23:52:13.797253",
+      "name": "Dga Domain",
+      "description": "DGA-like domain: sync-1-us-west1-g.sync.services.mozilla.com",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-26T23:52:13.797253",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "command-and-control"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1568.002"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--2bf37ccf87180bcc5fe8f0484a0cdaac",
+      "created": "2026-03-26T23:52:13.538257",
+      "modified": "2026-03-26T23:52:13.538257",
+      "name": "Dga Domain",
+      "description": "DGA-like domain: sync-1-us-west1-g.sync.services.mozilla.com",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.128']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-26T23:52:13.538257",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "command-and-control"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1568.002"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--338c89b5f3460fda1e51a90af710c29a",
+      "value": "192.168.32.128"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ee682ebd8a6a38731936116edb23ed6f",
+      "created": "2026-03-26T23:52:06.848827",
+      "modified": "2026-03-26T23:52:06.848827",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-26T23:52:06.848827",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d22330bb2a578a5ee40fcc39ac3a48af",
+      "created": "2026-03-26T20:31:08.344729",
+      "modified": "2026-03-26T20:31:08.344729",
+      "name": "Http Brute",
+      "description": "Http Brute: 11 attempts in 60s",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.128']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-26T20:31:08.344729",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "credential-access"
+        }
+      ],
+      "labels": [
+        "high",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1110"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--338c89b5f3460fda1e51a90af710c29a",
+      "value": "192.168.32.128"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5592f9594a908a599a86c867f29761d8",
+      "created": "2026-03-15T00:54:16.962711",
+      "modified": "2026-03-15T00:54:16.962711",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 192.168.32.2",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.2']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-15T00:54:16.962711",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--0b8a4cdeac6b163a84720c879379b20b",
+      "value": "192.168.32.2"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0615136d07e4295cd9cab7327c56c18b",
+      "created": "2026-03-15T00:54:14.046307",
+      "modified": "2026-03-15T00:54:14.046307",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 142.251.222.131",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '142.251.222.131']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-15T00:54:14.046307",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--7db7da965c1a5b67c3904ef58c0947fc",
+      "value": "142.251.222.131"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5f06cf14d2e8fd2b77831949b2a2d030",
+      "created": "2026-03-15T00:54:12.613395",
+      "modified": "2026-03-15T00:54:12.613395",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 192.168.32.128",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.128']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-15T00:54:12.613395",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--338c89b5f3460fda1e51a90af710c29a",
+      "value": "192.168.32.128"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--00aaffa5427105567e0224b02796159c",
+      "created": "2026-03-15T00:54:12.398587",
+      "modified": "2026-03-15T00:54:12.398587",
+      "name": "Http Brute",
+      "description": "Http Brute: 11 attempts in 60s",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.128']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-15T00:54:12.398587",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "credential-access"
+        }
+      ],
+      "labels": [
+        "high",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1110"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--338c89b5f3460fda1e51a90af710c29a",
+      "value": "192.168.32.128"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c347673ad5adbfed499da7d08741867b",
+      "created": "2026-03-15T00:54:12.180501",
+      "modified": "2026-03-15T00:54:12.180501",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 192.124.249.13",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.124.249.13']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-15T00:54:12.180501",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--ac7f3451ea546f3d5d3ffe202d26db86",
+      "value": "192.124.249.13"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6604348bb438b2dfe23660a98a071410",
+      "created": "2026-03-14T04:06:54.758157",
+      "modified": "2026-03-14T04:06:54.758157",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 142.251.222.163",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '142.251.222.163']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-14T04:06:54.758157",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--e7774a11dcb4d213b74b238fc77da26f",
+      "value": "142.251.222.163"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--6f4410dfd1674a3d605f1e2ea1250538",
+      "created": "2026-03-14T04:06:53.997942",
+      "modified": "2026-03-14T04:06:53.997942",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 142.251.222.131",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '142.251.222.131']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-14T04:06:53.997942",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--7db7da965c1a5b67c3904ef58c0947fc",
+      "value": "142.251.222.131"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--c701480f775940ca36ce656202bd7717",
+      "created": "2026-03-14T04:06:50.361522",
+      "modified": "2026-03-14T04:06:50.361522",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 172.217.24.131",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '172.217.24.131']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-14T04:06:50.361522",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--b59c0753fe9a7b9773c8e11518ffdb45",
+      "value": "172.217.24.131"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ed0b0ef3557b6edf15bb81ea76c2cb63",
+      "created": "2026-03-14T04:06:47.890171",
+      "modified": "2026-03-14T04:06:47.890171",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 192.168.32.128",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.128']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-14T04:06:47.890171",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--338c89b5f3460fda1e51a90af710c29a",
+      "value": "192.168.32.128"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8066a5a1dd32cec4b8e7b1e6b6acb98c",
+      "created": "2026-03-14T04:06:47.740717",
+      "modified": "2026-03-14T04:06:47.740717",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 172.217.24.136",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '172.217.24.136']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-14T04:06:47.740717",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--45ae5c09f6622a9af8215f2c486d5d79",
+      "value": "172.217.24.136"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5071f3ef00454ff7ff3d1afdbc9eaaab",
+      "created": "2026-03-14T04:06:46.741835",
+      "modified": "2026-03-14T04:06:46.741835",
+      "name": "Udp Scan",
+      "description": "UDP scan: 31 ports from 34.54.88.138",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '34.54.88.138']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-14T04:06:46.741835",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "reconnaissance"
+        }
+      ],
+      "labels": [
+        "medium",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1046"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--16c9e3aa5d8ebe96619d00951a83439f",
+      "value": "34.54.88.138"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--926c9ef31193a7ff8162619978a8f884",
+      "created": "2026-03-14T04:06:45.928408",
+      "modified": "2026-03-14T04:06:45.928408",
+      "name": "Http Brute",
+      "description": "Http Brute: 11 attempts in 60s",
+      "pattern": "[network-traffic:src_ref.type = 'ipv4-addr' AND network-traffic:src_ref.value = '192.168.32.128']",
+      "pattern_type": "stix",
+      "valid_from": "2026-03-14T04:06:45.928408",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "credential-access"
+        }
+      ],
+      "labels": [
+        "high",
+        "malicious-activity"
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1110"
+        }
+      ]
+    },
+    {
+      "type": "ipv4-addr",
+      "spec_version": "2.1",
+      "id": "ipv4-addr--338c89b5f3460fda1e51a90af710c29a",
+      "value": "192.168.32.128"
+    }
+  ]
+}

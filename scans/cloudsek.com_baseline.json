@@ -1,0 +1,32 @@
+{
+  "domain": "cloudsek.com",
+  "timestamp": "2026-03-08T22:39:26.828797+00:00",
+  "open_ports": [
+    "443/tcp",
+    "8080/tcp",
+    "80/tcp"
+  ],
+  "port_details": [
+    {
+      "port": 80,
+      "protocol": "tcp",
+      "state": "open",
+      "service": "http",
+      "version": "cloudflare"
+    },
+    {
+      "port": 443,
+      "protocol": "tcp",
+      "state": "open",
+      "service": "tcpwrapped",
+      "version": "| ssl-cert: Subject: commonName=cloudsek.com"
+    },
+    {
+      "port": 8080,
+      "protocol": "tcp",
+      "state": "open",
+      "service": "tcpwrapped",
+      "version": "|_http-server-header: cloudflare"
+    }
+  ]
+}

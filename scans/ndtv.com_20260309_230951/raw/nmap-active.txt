@@ -1,0 +1,3 @@
+# Nmap 7.98 scan initiated Mon Mar  9 23:09:52 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC --open -T4 --max-retries 2 -oN /home/j/voraguard/scans/ndtv.com_20260309_230951/raw/nmap-active.txt ndtv.com
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Mar  9 23:10:56 2026 -- 1 IP address (1 host up) scanned in 65.23 seconds

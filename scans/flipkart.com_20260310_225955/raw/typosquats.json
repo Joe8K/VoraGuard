@@ -1,0 +1,982 @@
+[
+    {
+        "dns_a": [
+            "163.53.76.86"
+        ],
+        "dns_mx": [
+            "eu-smtp-inbound-1.mimecast.com"
+        ],
+        "dns_ns": [
+            "sdns14.ultradns.biz"
+        ],
+        "domain": "flipkart.com",
+        "fuzzer": "*original"
+    },
+    {
+        "dns_a": [
+            "!ServFail"
+        ],
+        "dns_aaaa": [
+            "!ServFail"
+        ],
+        "dns_ns": [
+            "!ServFail"
+        ],
+        "domain": "flipkart0.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "!ServFail"
+        ],
+        "dns_aaaa": [
+            "!ServFail"
+        ],
+        "dns_ns": [
+            "!ServFail"
+        ],
+        "domain": "flipkartr.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "103.224.212.108"
+        ],
+        "dns_mx": [
+            "park-mx.above.com"
+        ],
+        "dns_ns": [
+            "ns1.abovedomains.com"
+        ],
+        "domain": "flipkartt.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "104.21.8.191"
+        ],
+        "dns_aaaa": [
+            "2606:4700:3032::6815:8bf"
+        ],
+        "dns_ns": [
+            "dell.ns.cloudflare.com"
+        ],
+        "domain": "flipkart2.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "104.21.96.53"
+        ],
+        "dns_aaaa": [
+            "2606:4700:3032::6815:6035"
+        ],
+        "dns_ns": [
+            "arushi.ns.cloudflare.com"
+        ],
+        "domain": "flipkartl.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "104.247.81.99"
+        ],
+        "dns_ns": [
+            "ns1.parkingcrew.net"
+        ],
+        "domain": "flipkarte.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "nsg1.namebrightdns.com"
+        ],
+        "domain": "flipkartz.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "13.248.243.5"
+        ],
+        "dns_ns": [
+            "ns05.domaincontrol.com"
+        ],
+        "domain": "flipkartn.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "139.162.174.209"
+        ],
+        "dns_aaaa": [
+            "2a01:7e01::2000:dff:fec1:5cdb"
+        ],
+        "dns_mx": [
+            "mail.mailerhost.net"
+        ],
+        "dns_ns": [
+            "anan.ns.giantpanda.com"
+        ],
+        "domain": "flipkarti.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "147.79.69.45"
+        ],
+        "dns_aaaa": [
+            "2a02:4780:1f:5e69:6046:cee0:1c28:a636"
+        ],
+        "dns_mx": [
+            "mx1.hostinger.com"
+        ],
+        "dns_ns": [
+            "ns1.dns-parking.com"
+        ],
+        "domain": "flipkarto.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "172.233.219.123"
+        ],
+        "dns_mx": [
+            "mx156.hostedmxserver.com"
+        ],
+        "dns_ns": [
+            "ns1.parklogic.com"
+        ],
+        "domain": "flipkarty.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "64.190.63.222"
+        ],
+        "dns_mx": [
+            "localhost"
+        ],
+        "dns_ns": [
+            "ns1.sedoparking.com"
+        ],
+        "domain": "flipkarts.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_ns": [
+            "danica.ns.cloudflare.com"
+        ],
+        "domain": "flipkart8.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_ns": [
+            "curitiba.ns.porkbun.com"
+        ],
+        "domain": "flipkarth.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_ns": [
+            "ingrid.ns.cloudflare.com"
+        ],
+        "domain": "flipkartx.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "!ServFail"
+        ],
+        "dns_aaaa": [
+            "!ServFail"
+        ],
+        "dns_ns": [
+            "!ServFail"
+        ],
+        "domain": "flipcart.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "nsg1.namebrightdns.com"
+        ],
+        "domain": "flipkast.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "nsg1.namebrightdns.com"
+        ],
+        "domain": "flitkart.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns3.afternic.com"
+        ],
+        "domain": "blipkart.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns5.afternic.com"
+        ],
+        "domain": "flapkart.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "15.197.225.128"
+        ],
+        "dns_mx": [
+            "mailstore1.secureserver.net"
+        ],
+        "dns_ns": [
+            "pdns13.domaincontrol.com"
+        ],
+        "domain": "flypkart.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "185.53.179.128"
+        ],
+        "dns_ns": [
+            "ns1.dyna-ns.net"
+        ],
+        "domain": "flipjart.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "198.143.145.61"
+        ],
+        "dns_mx": [
+            "flipkert.com"
+        ],
+        "dns_ns": [
+            "curitiba.ns.porkbun.com"
+        ],
+        "domain": "flipkert.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "34.117.176.22"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.gofruits.co"
+        ],
+        "domain": "flipkard.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "64.190.63.222"
+        ],
+        "dns_mx": [
+            "localhost"
+        ],
+        "dns_ns": [
+            "ns1.sedoparking.com"
+        ],
+        "domain": "fliqkart.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "91.195.241.232"
+        ],
+        "dns_mx": [
+            "localhost"
+        ],
+        "dns_ns": [
+            "sl1.sedo.com"
+        ],
+        "domain": "flixkart.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_ns": [
+            "curitiba.ns.porkbun.com"
+        ],
+        "domain": "dlipkart.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_ns": [
+            "ns1.dyna-ns.net"
+        ],
+        "domain": "glipkart.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "!ServFail"
+        ],
+        "dns_aaaa": [
+            "!ServFail"
+        ],
+        "domain": "xn--flipkrt-en4c.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "103.224.212.126"
+        ],
+        "dns_mx": [
+            "park-mx.above.com"
+        ],
+        "dns_ns": [
+            "ns1.abovedomains.com"
+        ],
+        "domain": "filpkart.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "nsg1.namebrightdns.com"
+        ],
+        "domain": "fllpkart.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.afternic.com"
+        ],
+        "domain": "fiipkart.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "23.227.38.32"
+        ],
+        "dns_ns": [
+            "ns51.domaincontrol.com"
+        ],
+        "domain": "flipicart.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "nsg1.namebrightdns.com"
+        ],
+        "domain": "flip-kart.com",
+        "fuzzer": "hyphenation"
+    },
+    {
+        "dns_a": [
+            "!ServFail"
+        ],
+        "dns_aaaa": [
+            "!ServFail"
+        ],
+        "dns_ns": [
+            "!ServFail"
+        ],
+        "domain": "flipikart.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_a": [
+            "!ServFail"
+        ],
+        "dns_aaaa": [
+            "!ServFail"
+        ],
+        "dns_ns": [
+            "!ServFail"
+        ],
+        "domain": "flipkaret.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_a": [
+            "104.21.54.207"
+        ],
+        "dns_aaaa": [
+            "2606:4700:3032::ac43:8e14"
+        ],
+        "dns_ns": [
+            "frida.ns.cloudflare.com"
+        ],
+        "domain": "flipksart.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_a": [
+            "104.247.81.99"
+        ],
+        "dns_ns": [
+            "ns1.parkingcrew.net"
+        ],
+        "domain": "flikpkart.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_a": [
+            "172.233.219.123"
+        ],
+        "dns_mx": [
+            "mx156.hostedmxserver.com"
+        ],
+        "dns_ns": [
+            "ns1.parklogic.com"
+        ],
+        "domain": "flipokart.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_a": [
+            "44.230.85.241"
+        ],
+        "dns_ns": [
+            "curitiba.ns.porkbun.com"
+        ],
+        "domain": "flipkaert.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_a": [
+            "!ServFail"
+        ],
+        "dns_aaaa": [
+            "!ServFail"
+        ],
+        "dns_ns": [
+            "!ServFail"
+        ],
+        "domain": "fipkart.com",
+        "fuzzer": "omission"
+    },
+    {
+        "dns_a": [
+            "!ServFail"
+        ],
+        "dns_aaaa": [
+            "!ServFail"
+        ],
+        "dns_ns": [
+            "!ServFail"
+        ],
+        "domain": "flipkar.com",
+        "fuzzer": "omission"
+    },
+    {
+        "dns_a": [
+            "!ServFail"
+        ],
+        "dns_aaaa": [
+            "!ServFail"
+        ],
+        "dns_ns": [
+            "!ServFail"
+        ],
+        "domain": "flipkrt.com",
+        "fuzzer": "omission"
+    },
+    {
+        "dns_a": [
+            "!ServFail"
+        ],
+        "dns_aaaa": [
+            "!ServFail"
+        ],
+        "dns_ns": [
+            "!ServFail"
+        ],
+        "domain": "flpkart.com",
+        "fuzzer": "omission"
+    },
+    {
+        "dns_a": [
+            "103.224.182.246"
+        ],
+        "dns_mx": [
+            "park-mx.above.com"
+        ],
+        "dns_ns": [
+            "ns1.abovedomains.com"
+        ],
+        "domain": "flipkat.com",
+        "fuzzer": "omission"
+    },
+    {
+        "dns_a": [
+            "103.224.212.200"
+        ],
+        "dns_mx": [
+            "park-mx.above.com"
+        ],
+        "dns_ns": [
+            "ns1.abovedomains.com"
+        ],
+        "domain": "flikart.com",
+        "fuzzer": "omission"
+    },
+    {
+        "dns_a": [
+            "64.190.63.222"
+        ],
+        "dns_mx": [
+            "localhost"
+        ],
+        "dns_ns": [
+            "ns1.sedoparking.com"
+        ],
+        "domain": "lipkart.com",
+        "fuzzer": "omission"
+    },
+    {
+        "dns_a": [
+            "82.98.139.169"
+        ],
+        "dns_mx": [
+            "mail.flipart.com"
+        ],
+        "dns_ns": [
+            "ns.gestiondecuenta.com"
+        ],
+        "domain": "flipart.com",
+        "fuzzer": "omission"
+    },
+    {
+        "dns_a": [
+            "52.172.39.101"
+        ],
+        "dns_mx": [
+            "mailstore1.secureserver.net"
+        ],
+        "dns_ns": [
+            "ns31.domaincontrol.com"
+        ],
+        "domain": "flipskart.com",
+        "fuzzer": "plural"
+    },
+    {
+        "dns_a": [
+            "103.224.182.238"
+        ],
+        "dns_mx": [
+            "park-mx.above.com"
+        ],
+        "dns_ns": [
+            "ns1.abovedomains.com"
+        ],
+        "domain": "fllipkart.com",
+        "fuzzer": "repetition"
+    },
+    {
+        "dns_a": [
+            "103.224.182.244"
+        ],
+        "dns_mx": [
+            "park-mx.above.com"
+        ],
+        "dns_ns": [
+            "ns1.abovedomains.com"
+        ],
+        "domain": "flipkarrt.com",
+        "fuzzer": "repetition"
+    },
+    {
+        "dns_a": [
+            "103.224.212.101"
+        ],
+        "dns_mx": [
+            "park-mx.above.com"
+        ],
+        "dns_ns": [
+            "ns1.abovedomains.com"
+        ],
+        "domain": "flipkaart.com",
+        "fuzzer": "repetition"
+    },
+    {
+        "dns_a": [
+            "103.224.212.111"
+        ],
+        "dns_mx": [
+            "park-mx.above.com"
+        ],
+        "dns_ns": [
+            "ns1.abovedomains.com"
+        ],
+        "domain": "fliipkart.com",
+        "fuzzer": "repetition"
+    },
+    {
+        "dns_a": [
+            "103.224.212.127"
+        ],
+        "dns_ns": [
+            "ns1.abovedomains.com"
+        ],
+        "domain": "flipkkart.com",
+        "fuzzer": "repetition"
+    },
+    {
+        "dns_a": [
+            "64.190.63.222"
+        ],
+        "dns_mx": [
+            "localhost"
+        ],
+        "dns_ns": [
+            "ns1.sedoparking.com"
+        ],
+        "domain": "flippkart.com",
+        "fuzzer": "repetition"
+    },
+    {
+        "dns_a": [
+            "96.47.161.165"
+        ],
+        "dns_mx": [
+            "fflipkart.com"
+        ],
+        "dns_ns": [
+            "ns1.dyna-ns.net"
+        ],
+        "domain": "fflipkart.com",
+        "fuzzer": "repetition"
+    },
+    {
+        "dns_a": [
+            "103.224.182.238"
+        ],
+        "dns_mx": [
+            "park-mx.above.com"
+        ],
+        "dns_ns": [
+            "ns1.abovedomains.com"
+        ],
+        "domain": "flipksrt.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "104.18.236.230"
+        ],
+        "dns_ns": [
+            "ns1.dyna-ns.net"
+        ],
+        "domain": "flipkarf.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "139.162.174.209"
+        ],
+        "dns_aaaa": [
+            "2a01:7e01::2000:dff:fec1:5cdb"
+        ],
+        "dns_ns": [
+            "hehua.ns.giantpanda.com"
+        ],
+        "domain": "flipkatt.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "139.162.174.209"
+        ],
+        "dns_aaaa": [
+            "2a01:7e01::2000:dff:fec1:5cdb"
+        ],
+        "dns_mx": [
+            "mail.mailerhost.net"
+        ],
+        "dns_ns": [
+            "anan.ns.giantpanda.com"
+        ],
+        "domain": "rlipkart.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "15.197.225.128"
+        ],
+        "dns_mx": [
+            "mailstore1.secureserver.net"
+        ],
+        "dns_ns": [
+            "ns73.domaincontrol.com"
+        ],
+        "domain": "clipkart.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "15.197.225.128"
+        ],
+        "dns_mx": [
+            "mailstore1.secureserver.net"
+        ],
+        "dns_ns": [
+            "pdns03.domaincontrol.com"
+        ],
+        "domain": "flopkart.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "185.53.179.128"
+        ],
+        "dns_ns": [
+            "ns1.dyna-ns.net"
+        ],
+        "domain": "fkipkart.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "23.227.38.65"
+        ],
+        "dns_ns": [
+            "dns1.registrar-servers.com"
+        ],
+        "domain": "flipmart.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "64.190.63.222"
+        ],
+        "dns_mx": [
+            "localhost"
+        ],
+        "dns_ns": [
+            "ns1.sedoparking.com"
+        ],
+        "domain": "fliokart.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "64.190.63.222"
+        ],
+        "dns_mx": [
+            "localhost"
+        ],
+        "dns_ns": [
+            "ns1.sedoparking.com"
+        ],
+        "domain": "flipkaet.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "64.190.63.222"
+        ],
+        "dns_mx": [
+            "localhost"
+        ],
+        "dns_ns": [
+            "ns1.sedoparking.com"
+        ],
+        "domain": "flipkary.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "64.190.63.222"
+        ],
+        "dns_mx": [
+            "localhost"
+        ],
+        "dns_ns": [
+            "ns1.sedoparking.com"
+        ],
+        "domain": "fliplart.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "64.190.63.222"
+        ],
+        "dns_mx": [
+            "localhost"
+        ],
+        "dns_ns": [
+            "ns1.sedoparking.com"
+        ],
+        "domain": "flupkart.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "nsg1.namebrightdns.com"
+        ],
+        "domain": "fl.ipkart.com",
+        "fuzzer": "subdomain"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.afternic.com"
+        ],
+        "domain": "fli.pkart.com",
+        "fuzzer": "subdomain"
+    },
+    {
+        "dns_a": [
+            "64.190.63.222"
+        ],
+        "dns_mx": [
+            "localhost"
+        ],
+        "dns_ns": [
+            "ns1.sedoparking.com"
+        ],
+        "domain": "f.lipkart.com",
+        "fuzzer": "subdomain"
+    },
+    {
+        "dns_a": [
+            "104.21.71.64"
+        ],
+        "dns_aaaa": [
+            "2606:4700:3035::ac43:aa02"
+        ],
+        "dns_mx": [
+            "_dc-mx.c694e81a2a6a.flipkrat.com"
+        ],
+        "dns_ns": [
+            "amos.ns.cloudflare.com"
+        ],
+        "domain": "flipkrat.com",
+        "fuzzer": "transposition"
+    },
+    {
+        "dns_a": [
+            "104.247.81.99"
+        ],
+        "dns_ns": [
+            "ns1.parkingcrew.net"
+        ],
+        "domain": "lfipkart.com",
+        "fuzzer": "transposition"
+    },
+    {
+        "dns_a": [
+            "15.197.225.128"
+        ],
+        "dns_mx": [
+            "mailstore1.secureserver.net"
+        ],
+        "dns_ns": [
+            "pdns07.domaincontrol.com"
+        ],
+        "domain": "flipakrt.com",
+        "fuzzer": "transposition"
+    },
+    {
+        "dns_a": [
+            "154.95.153.236"
+        ],
+        "dns_ns": [
+            "a.share-dns.com"
+        ],
+        "domain": "flipkatr.com",
+        "fuzzer": "transposition"
+    },
+    {
+        "dns_a": [
+            "44.232.173.249"
+        ],
+        "dns_ns": [
+            "launch1.spaceship.net"
+        ],
+        "domain": "flikpart.com",
+        "fuzzer": "transposition"
+    },
+    {
+        "dns_a": [
+            "172.234.24.211"
+        ],
+        "dns_mx": [
+            "mx.plingest.com"
+        ],
+        "dns_ns": [
+            "dns101.registrar-servers.com"
+        ],
+        "domain": "flipkort.com",
+        "fuzzer": "vowel-swap"
+    },
+    {
+        "dns_a": [
+            "80.88.88.140"
+        ],
+        "dns_mx": [
+            "flepkart.com"
+        ],
+        "dns_ns": [
+            "ns1.flepkart.com"
+        ],
+        "domain": "flepkart.com",
+        "fuzzer": "vowel-swap"
+    }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "HP-001",
+    "type": "SSH",
+    "port": 2222,
+    "description": "Honeypot decoy service",
+    "deployed_at": "2026-04-23T07:35:42.719117+00:00",
+    "status": "SIMULATED",
+    "triggered_count": 0,
+    "last_triggered": null,
+    "attacker_ips": []
+  }
+]

@@ -1,0 +1,2911 @@
+{
+  "date": "2026-03-13",
+  "language": "English",
+  "language_iso": "en",
+  "total_items": 135,
+  "total_critical": 18,
+  "total_high": 64,
+  "sources_count": 16,
+  "sources_used": [
+    "BleepingComputer",
+    "CISA Advisory",
+    "Check Point Research",
+    "Dark Reading",
+    "GBHackers",
+    "Indian Express Tech",
+    "Krebs on Security",
+    "Malwarebytes",
+    "NVD",
+    "Recorded Future Blog",
+    "SANS ISC",
+    "SecurityAffairs",
+    "SecurityWeek",
+    "Shodan",
+    "The Hacker News",
+    "The Record"
+  ],
+  "executive_summary": "Cyber threat intelligence digest for 2026-03-13. 135 live items from 16 sources. 18 CRITICAL and 64 HIGH severity events in the last 36 hours. Top threats: Veeam warns of critical flaws exposing backup servers to RCE attacks; US charges another ransomware negotiator linked to BlackCat attacks; CISA orders feds to patch n8n RCE flaw exploited in attacks. All items are from today only \u2014 no recycled or old news.",
+  "executive_summary_en": "Cyber threat intelligence digest for 2026-03-13. 135 live items from 16 sources. 18 CRITICAL and 64 HIGH severity events in the last 36 hours. Top threats: Veeam warns of critical flaws exposing backup servers to RCE attacks; US charges another ransomware negotiator linked to BlackCat attacks; CISA orders feds to patch n8n RCE flaw exploited in attacks. All items are from today only \u2014 no recycled or old news.",
+  "sections": [
+    {
+      "title": "\ud83d\udd34 BREAKING \u2014 Active Threats Today",
+      "title_en": "\ud83d\udd34 BREAKING \u2014 Active Threats Today",
+      "items": [
+        {
+          "source": "BleepingComputer",
+          "category": "global_news",
+          "type": "news",
+          "title": "Veeam warns of critical flaws exposing backup servers to RCE attacks",
+          "summary": "Data protection company Veeam Software has patched multiple flaws in its Backup & Replication solution, including four critical remote code execution (RCE) vulnerabilities. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/",
+          "date": "Thu, 12 Mar 2026 12:59:20",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "BleepingComputer",
+          "category": "global_news",
+          "type": "news",
+          "title": "CISA orders feds to patch n8n RCE flaw exploited in attacks",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies on Wednesday to patch their systems against an actively exploited n8n vulnerability. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/",
+          "date": "Wed, 11 Mar 2026 14:21:15",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "CISA Flags Actively Exploited n8n RCE Bug as 24,700 Instances Remain Exposed",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical security flaw impacting n8n to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.\nThe vulnerability, tracked as CVE-2025-68613 (CVSS score: 9.9), concerns a case of expression injection that leads to remote code execution. The security shortcoming was patched",
+          "url": "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-n8n-rce.html",
+          "date": "Thu, 12 Mar 2026 10:48:00",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials",
+          "summary": "Cybersecurity researchers have disclosed details of two now-patched security flaws in the n8n workflow automation platform, including two critical bugs that could result in arbitrary command execution.\nThe vulnerabilities are listed below -\n\nCVE-2026-27577 (CVSS score: 9.4) - Expression sandbox escape leading to remote code execution (RCE)\nCVE-2026-27493 (CVSS score: 9.5) - Unauthenticated",
+          "url": "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
+          "date": "Wed, 11 Mar 2026 20:21:00",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ],
+            [
+              "T1078",
+              "Valid Accounts"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices",
+          "summary": "SAP has released security updates to address two critical security flaws that could be exploited to achieve arbitrary code execution on affected systems.\nThe vulnerabilities in question listed below -\n\nCVE-2019-17571 (CVSS score: 9.8) - A code injection vulnerability in SAP Quotation Management Insurance application (FS-QUO)\nCVE-2026-27685 (CVSS score: 9.1) - An insecure deserialization",
+          "url": "https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html",
+          "date": "Wed, 11 Mar 2026 17:56:00",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "Microsoft Patches 84 Flaws in March Patch Tuesday, Including Two Public Zero-Days",
+          "summary": "Microsoft on Tuesday released patches for a set of 84 new security vulnerabilities affecting various software components, including two that have been listed as publicly known.\nOf these, eight are rated Critical, and 76 are rated Important in severity. Forty-six of the patched vulnerabilities relate to privilege escalation, followed by 18 remote code execution, 10 information disclosure, four",
+          "url": "https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html",
+          "date": "Wed, 11 Mar 2026 14:45:00",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        }
+      ],
+      "count": 12
+    },
+    {
+      "title": "\ud83e\udda0 Ransomware & Extortion Campaigns",
+      "title_en": "\ud83e\udda0 Ransomware & Extortion Campaigns",
+      "items": [
+        {
+          "source": "BleepingComputer",
+          "category": "global_news",
+          "type": "news",
+          "title": "US charges another ransomware negotiator linked to BlackCat attacks",
+          "summary": "The U.S. Department of Justice charged another former DigitalMint employee for his involvement in an insider scheme in which ransomware negotiators secretly partnered with the BlackCat (ALPHV) ransomware operation. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/us-charges-another-ransomware-negotiator-linked-to-blackcat-attacks/",
+          "date": "Thu, 12 Mar 2026 07:31:57",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1486",
+              "Ransomware"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "Hive0163 Uses AI-Assisted Slopoly Malware for Persistent Access in Ransomware Attacks",
+          "summary": "Cybersecurity researchers have disclosed details of a suspected artificial intelligence (AI)-generated malware codenamed Slopoly put to use by a financially motivated threat actor named Hive0163.\n\"Although still relatively unspectacular, AI-generated malware such as Slopoly shows how easily threat actors can weaponize AI to develop new malware frameworks in a fraction of the time it used to take",
+          "url": "https://thehackernews.com/2026/03/hive0163-uses-ai-assisted-slopoly.html",
+          "date": "Thu, 12 Mar 2026 22:32:00",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1486",
+              "Ransomware"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "Dark Reading",
+          "category": "global_news",
+          "type": "news",
+          "title": "INC Ransomware Group Holds Healthcare Hostage in Oceania",
+          "summary": "Government agencies, emergency clinics, and others in Australia, New Zealand, and Tonga have had serious run-ins with the prolific ransomware outfit.",
+          "url": "https://www.darkreading.com/threat-intelligence/inc-ransomware-healthcare-oceania",
+          "date": "Wed, 11 Mar 2026 22:00:00",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1486",
+              "Ransomware"
+            ]
+          ],
+          "today": true
+        }
+      ],
+      "count": 3
+    },
+    {
+      "title": "\ud83c\uddee\ud83c\uddf3 India Cyber Threat Landscape",
+      "title_en": "\ud83c\uddee\ud83c\uddf3 India Cyber Threat Landscape",
+      "items": [
+        {
+          "source": "Indian Express Tech",
+          "category": "india",
+          "type": "news",
+          "title": "First RAM and storage, now CPUs: Why AI is making laptops 40% more expensive in 2026",
+          "summary": "",
+          "url": "https://indianexpress.com/article/technology/tech-news-technology/ai-cpu-price-increase-laptop-40-per-cent-expensive-2026-10576264/",
+          "date": "Wed, 11 Mar 2026 11:07:00",
+          "severity": "CRITICAL",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "Indian Express Tech",
+          "category": "india",
+          "type": "news",
+          "title": "Meta rolls out new AI tools, warnings and partnerships to tackle online scams",
+          "summary": "",
+          "url": "https://indianexpress.com/article/technology/tech-news-technology/meta-ai-scam-protection-facebook-whatsapp-messenger-new-features-10576832/",
+          "date": "Wed, 11 Mar 2026 14:18:24",
+          "severity": "MEDIUM",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "Indian Express Tech",
+          "category": "india",
+          "type": "news",
+          "title": "AI incites a new wave of grieving parents fighting for online safety",
+          "summary": "",
+          "url": "https://indianexpress.com/article/technology/tech-news-technology/ai-new-wave-grieving-parents-fighting-online-safety-10578728/",
+          "date": "Thu, 12 Mar 2026 14:35:26",
+          "severity": "LOW",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "Indian Express Tech",
+          "category": "india",
+          "type": "news",
+          "title": "Google Maps introduces \u2018Ask Maps\u2019, a Gemini-powered feature that answers questions about places",
+          "summary": "",
+          "url": "https://indianexpress.com/article/technology/artificial-intelligence/google-maps-adds-ask-maps-10578687/",
+          "date": "Thu, 12 Mar 2026 14:07:50",
+          "severity": "LOW",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "Indian Express Tech",
+          "category": "india",
+          "type": "news",
+          "title": "Microsoft announces Xbox Mode for Windows 11 PCs, teases next-gen console",
+          "summary": "",
+          "url": "https://indianexpress.com/article/technology/tech-news-technology/microsoft-xbox-mode-windows-11-pc-project-helix-features-10578450/",
+          "date": "Thu, 12 Mar 2026 13:49:09",
+          "severity": "LOW",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "Indian Express Tech",
+          "category": "india",
+          "type": "news",
+          "title": "YouTube Premium Lite Rs 89 plan gets 2 new features for free",
+          "summary": "",
+          "url": "https://indianexpress.com/article/technology/tech-news-technology/youtube-premium-lite-rs-89-plan-gets-2-new-features-for-free-10578349/",
+          "date": "Thu, 12 Mar 2026 11:31:39",
+          "severity": "LOW",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "Indian Express Tech",
+          "category": "india",
+          "type": "news",
+          "title": "Perplexity unveils \u2018Personal Computer\u2019, an AI agent that manages your tasks and files",
+          "summary": "",
+          "url": "https://indianexpress.com/article/technology/artificial-intelligence/perplexity-personal-computer-ai-agent-10578145/",
+          "date": "Thu, 12 Mar 2026 09:38:48",
+          "severity": "LOW",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "Indian Express Tech",
+          "category": "india",
+          "type": "news",
+          "title": "Nvidia launches Nemotron 3 Super, an open model to build cheaper and accurate AI agents",
+          "summary": "",
+          "url": "https://indianexpress.com/article/technology/artificial-intelligence/nvidia-launches-nemotron-3-super-open-weight-ai-model-10578239/",
+          "date": "Thu, 12 Mar 2026 09:37:11",
+          "severity": "LOW",
+          "mitre": [],
+          "today": true
+        }
+      ],
+      "count": 23
+    },
+    {
+      "title": "\ud83d\udd13 New CVEs Today (NVD \u2014 Last 36h)",
+      "title_en": "\ud83d\udd13 New CVEs Today (NVD \u2014 Last 36h)",
+      "items": [
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-1708 [CVSS 7.5] \u2014 The Appointment Booking Calendar \u2014 Simply Schedule Appointments Booking Plugin p",
+          "summary": "The Appointment Booking Calendar \u2014 Simply Schedule Appointments Booking Plugin plugin for WordPress is vulnerable to blind SQL Injection in all versions up to, and including, 1.6.9.27. This is due to the `db_where_conditions` method in the `TD_DB_Model` class failing to prevent the `append_where_sql` parameter from being passed through JSON request bodies, while only checking for its presence in t",
+          "severity": "HIGH",
+          "cvss_score": 7.5,
+          "cve": "CVE-2026-1708",
+          "date": "2026-03-11",
+          "url": "https://plugins.trac.wordpress.org/browser/simply-schedule-appointments/tags/1.6.9.21/includes/class-appointment-model.php#L1340",
+          "mitre": [
+            [
+              "T1505",
+              "Web Shell"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-1454 [CVSS 7.2] \u2014 The Responsive Contact Form Builder & Lead Generation Plugin plugin for WordPres",
+          "summary": "The Responsive Contact Form Builder & Lead Generation Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to, and including, 2.0.1 via form field submissions. This is due to insufficient input sanitization in the lfb_lead_sanitize() function which omits certain field types from its sanitization whitelist, combined with an overly permissive wp_kses() filter a",
+          "severity": "HIGH",
+          "cvss_score": 7.2,
+          "cve": "CVE-2026-1454",
+          "date": "2026-03-11",
+          "url": "https://plugins.trac.wordpress.org/browser/lead-form-builder/tags/2.0.1/inc/ajax-functions.php#L587",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-1992 [CVSS 8.8] \u2014 The ExactMetrics \u2013 Google Analytics Dashboard for WordPress plugin is vulnerable",
+          "summary": "The ExactMetrics \u2013 Google Analytics Dashboard for WordPress plugin is vulnerable to Insecure Direct Object Reference in versions 8.6.0 through 9.0.2. This is due to the `store_settings()` method in the `ExactMetrics_Onboarding` class accepting a user-supplied `triggered_by` parameter that is used instead of the current user's ID to check permissions. This makes it possible for authenticated attack",
+          "severity": "HIGH",
+          "cvss_score": 8.8,
+          "cve": "CVE-2026-1992",
+          "date": "2026-03-11",
+          "url": "https://plugins.trac.wordpress.org/browser/google-analytics-dashboard-for-wp/trunk/includes/admin/class-exactmetrics-onboarding.php#L273",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-1993 [CVSS 8.8] \u2014 The ExactMetrics \u2013 Google Analytics Dashboard for WordPress plugin is vulnerable",
+          "summary": "The ExactMetrics \u2013 Google Analytics Dashboard for WordPress plugin is vulnerable to Improper Privilege Management in versions 7.1.0 through 9.0.2. This is due to the `update_settings()` function accepting arbitrary plugin setting names without a whitelist of allowed settings. This makes it possible for authenticated attackers with the `exactmetrics_save_settings` capability to modify any plugin se",
+          "severity": "HIGH",
+          "cvss_score": 8.8,
+          "cve": "CVE-2026-1993",
+          "date": "2026-03-11",
+          "url": "https://plugins.trac.wordpress.org/browser/google-analytics-dashboard-for-wp/tags/7.15.3/includes/admin/routes.php#L201",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-3231 [CVSS 7.2] \u2014 The Checkout Field Editor (Checkout Manager) for WooCommerce plugin for WordPres",
+          "summary": "The Checkout Field Editor (Checkout Manager) for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via custom radio and checkboxgroup field values submitted through the WooCommerce Block Checkout Store API in all versions up to, and including, 2.1.7. This is due to the `prepare_single_field_data()` method in `class-thwcfd-block-order-data.php` first escaping values with",
+          "severity": "HIGH",
+          "cvss_score": 7.2,
+          "cve": "CVE-2026-3231",
+          "date": "2026-03-11",
+          "url": "https://plugins.trac.wordpress.org/browser/woo-checkout-field-editor-pro/tags/2.1.7/block/class-thwcfd-block-order-data.php#L437",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-3805 [CVSS 7.5] \u2014 When doing a second SMB request to the same host again, curl would wrongly use\na",
+          "summary": "When doing a second SMB request to the same host again, curl would wrongly use\na data pointer pointing into already freed memory.",
+          "severity": "HIGH",
+          "cvss_score": 7.5,
+          "cve": "CVE-2026-3805",
+          "date": "2026-03-11",
+          "url": "https://curl.se/docs/CVE-2026-3805.html",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-3178 [CVSS 7.2] \u2014 The Name Directory plugin for WordPress is vulnerable to Stored Cross-Site Scrip",
+          "summary": "The Name Directory plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'name_directory_name' parameter in all versions up to, and including, 1.32.1 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. The vulnerabili",
+          "severity": "HIGH",
+          "cvss_score": 7.2,
+          "cve": "CVE-2026-3178",
+          "date": "2026-03-11",
+          "url": "https://plugins.trac.wordpress.org/browser/name-directory/trunk/admin.php#L930",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-3943 [CVSS 7.3] \u2014 A vulnerability was found in H3C ACG1000-AK230 up to 20260227. This affects an u",
+          "summary": "A vulnerability was found in H3C ACG1000-AK230 up to 20260227. This affects an unknown part of the file /webui/?aaa_portal_auth_local_submit. The manipulation of the argument suffix results in command injection. The attack can be launched remotely. The exploit has been made public and could be used. The vendor is investigating and remediating this issue.",
+          "severity": "HIGH",
+          "cvss_score": 7.3,
+          "cve": "CVE-2026-3943",
+          "date": "2026-03-11",
+          "url": "https://github.com/leeyper/CVE/issues/1",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        }
+      ],
+      "count": 20
+    },
+    {
+      "title": "\ud83c\udfdb\ufe0f  Government Advisories",
+      "title_en": "\ud83c\udfdb\ufe0f  Government Advisories",
+      "items": [
+        {
+          "source": "CISA Advisory",
+          "category": "gov_advisory",
+          "type": "government_advisory",
+          "title": "Siemens SIDIS Prime",
+          "summary": "View CSAF\nSummary\nSIDIS Prime before V4.0.800 is affected by multiple vulnerabilities in the components OpenSSL, SQLite, and several Node.js packages as described below. Siemens has released a new version of SIDIS Prime and recommends to update to the latest version.\nThe following versions of Siemens SIDIS Prime are affected:\n\nSIDIS Prime vers:intdot/&lt;4.0.800 (CVE-2024-29857, CVE-2024-30171, CV",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-03",
+          "date": "Thu, 12 Mar 26 12:00:00 +",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ],
+            [
+              "T1505",
+              "Web Shell"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "CISA Advisory",
+          "category": "gov_advisory",
+          "type": "government_advisory",
+          "title": "Siemens RUGGEDCOM APE1808 Devices",
+          "summary": "View CSAF\nSummary\nFortinet has published information on vulnerabilities in FORTIOS. This advisory lists the related Siemens Industrial products. Siemens has released a new version for RUGGEDCOM APE1808 and recommends to update to the latest version.\nThe following versions of Siemens RUGGEDCOM APE1808 Devices are affected:\n\nRUGGEDCOM APE1808 vers:all/*, vers:all/* (CVE-2026-24858, CVE-2025-55018, C",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-02",
+          "date": "Thu, 12 Mar 26 12:00:00 +",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "CISA Advisory",
+          "category": "gov_advisory",
+          "type": "government_advisory",
+          "title": "Siemens SIMATIC",
+          "summary": "View CSAF\nSummary\nSIMATIC S7-1500 devices contain a vulnerability that could allow an attacker to inject code by tricking a legitimate user into importing a specially crafted trace file in the web interface. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasur",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-04",
+          "date": "Thu, 12 Mar 26 12:00:00 +",
+          "severity": "HIGH",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "CISA Advisory",
+          "category": "gov_advisory",
+          "type": "government_advisory",
+          "title": "Trane Tracer SC, Tracer SC+, and Tracer Concierge",
+          "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information, execute arbitrary commands, or perform a denial-of-service on the product.\nThe following versions of Trane Tracer SC, Tracer SC+, and Tracer Concierge are affected:\n\nTracer SC\nTracer SC+\nTracer Concierge\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 8.1\nTrane\nTrane Trac",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-01",
+          "date": "Thu, 12 Mar 26 12:00:00 +",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "CISA Advisory",
+          "category": "gov_advisory",
+          "type": "government_advisory",
+          "title": "Siemens Heliox EV Chargers",
+          "summary": "View CSAF\nSummary\nHeliox EV Chargers listed below contain improper access control vulnerability that could allow an attacker to reach unauthorized services via the charging cable. Siemens has released new versions for the affected products and recommends to update to the latest versions.\nThe following versions of Siemens Heliox EV Chargers are affected:\n\nHeliox Flex 180 kW EV Charging Station\nHeli",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-05",
+          "date": "Thu, 12 Mar 26 12:00:00 +",
+          "severity": "HIGH",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "CISA Advisory",
+          "category": "gov_advisory",
+          "type": "government_advisory",
+          "title": "Inductive Automation Ignition Software",
+          "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to execute malicious code with OS application service account permissions that the authenticated, privileged application user did not intend on running.\nThe following versions of Inductive Automation Ignition Software are affected:\n\nIgnition Software &lt;8.3.0 (CVE-2025-13913)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnera",
+          "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-06",
+          "date": "Thu, 12 Mar 26 12:00:00 +",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        }
+      ],
+      "count": 7
+    },
+    {
+      "title": "\ud83c\udf10 Internet Exposure (Shodan)",
+      "title_en": "\ud83c\udf10 Internet Exposure (Shodan)",
+      "items": [
+        {
+          "source": "Shodan",
+          "category": "internet_exposure",
+          "type": "exposure",
+          "title": "856,963 hosts: All vulnerable hosts India",
+          "summary": "Query: has_vuln:true country:IN",
+          "severity": "HIGH",
+          "date": "2026-03-13",
+          "count": 856963,
+          "url": "https://www.shodan.io/search?query=has_vuln%3Atrue%20country%3AIN",
+          "mitre": [
+            [
+              "T1046",
+              "Network Service Scanning"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "Shodan",
+          "category": "internet_exposure",
+          "type": "exposure",
+          "title": "2,428,924 hosts: RDP exposed globally",
+          "summary": "Query: port:3389",
+          "severity": "HIGH",
+          "date": "2026-03-13",
+          "count": 2428924,
+          "url": "https://www.shodan.io/search?query=port%3A3389",
+          "mitre": [
+            [
+              "T1046",
+              "Network Service Scanning"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "Shodan",
+          "category": "internet_exposure",
+          "type": "exposure",
+          "title": "0 hosts: Vulnerable Indian hosts (2024 CVEs)",
+          "summary": "Query: vuln:CVE-2024 country:IN",
+          "severity": "MEDIUM",
+          "date": "2026-03-13",
+          "count": 0,
+          "url": "https://www.shodan.io/search?query=vuln%3ACVE-2024%20country%3AIN",
+          "mitre": [
+            [
+              "T1046",
+              "Network Service Scanning"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "Shodan",
+          "category": "internet_exposure",
+          "type": "exposure",
+          "title": "38,221 hosts: RDP exposed India",
+          "summary": "Query: port:3389 country:IN",
+          "severity": "MEDIUM",
+          "date": "2026-03-13",
+          "count": 38221,
+          "url": "https://www.shodan.io/search?query=port%3A3389%20country%3AIN",
+          "mitre": [
+            [
+              "T1046",
+              "Network Service Scanning"
+            ]
+          ],
+          "today": true
+        }
+      ],
+      "count": 4
+    },
+    {
+      "title": "\ud83d\udd2c Vendor Threat Intel (Talos/Unit42/Mandiant/etc)",
+      "title_en": "\ud83d\udd2c Vendor Threat Intel (Talos/Unit42/Mandiant/etc)",
+      "items": [
+        {
+          "source": "Malwarebytes",
+          "category": "threat_intel",
+          "type": "news",
+          "title": "March 2026 Patch Tuesday fixes two zero-day vulnerabilities",
+          "summary": "Microsoft patched 79 security vulnerabilities this month, including bugs that could let attackers escalate privileges or crash critical services.",
+          "url": "https://www.malwarebytes.com/blog/news/2026/03/march-2026-patch-tuesday-fixes-two-zero-day-vulnerabilities",
+          "date": "Wed, 11 Mar 2026 10:47:32",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "Recorded Future Blog",
+          "category": "threat_intel",
+          "type": "news",
+          "title": "February 2026 CVE Landscape: 13 Critical Vulnerabilities Mark 43% Drop from January",
+          "summary": "February 2026 saw a 43% decrease in high-impact vulnerabilities, with Recorded Future's Insikt Group\u00ae identifying 13 vulnerabilities requiring immediate remediation, down from 23 in January 2026.",
+          "url": "https://www.recordedfuture.com/blog/february-2026-cve-landscape",
+          "date": "Thu, 12 Mar 2026 00:00:00",
+          "severity": "CRITICAL",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "SANS ISC",
+          "category": "threat_intel",
+          "type": "news",
+          "title": "Analyzing \"Zombie Zip\" Files (CVE-2026-0866), (Wed, Mar 11th)",
+          "summary": "A new vulnerability (CVE-2026-0866) has been published: Zombie Zip.&#xd;",
+          "url": "https://isc.sans.edu/diary/rss/32786",
+          "date": "Wed, 11 Mar 2026 09:57:26",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "Check Point Research",
+          "category": "threat_intel",
+          "type": "news",
+          "title": "\u201cHandala Hack\u201d \u2013 Unveiling Group\u2019s Modus Operandi",
+          "summary": "Key Findings Introduction Handala Hack, also tracked by Check Point Research as Void Manticore, is an Iranian threat actor that is known for multiple destructive wiping attacks combined with \u201chack and leak\u201d operations. The threat actor operates several online personas, with the most prominent among them being&#160;Homeland Justice, maintained from mid-2022 specifically for multiple attacks [&#8230",
+          "url": "https://research.checkpoint.com/2026/handala-hack-unveiling-groups-modus-operandi/",
+          "date": "Thu, 12 Mar 2026 17:21:23",
+          "severity": "HIGH",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "Malwarebytes",
+          "category": "threat_intel",
+          "type": "news",
+          "title": "Apple patches Coruna exploit kit flaws for older iOS versions",
+          "summary": "Apple issued security updates for older iOS and iPadOS versions to close vulnerabilities exploited by the Coruna exploit kit.",
+          "url": "https://www.malwarebytes.com/blog/news/2026/03/apple-patches-coruna-exploit-kit-flaws-for-older-ios-versions",
+          "date": "Thu, 12 Mar 2026 17:49:44",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "Malwarebytes",
+          "category": "threat_intel",
+          "type": "news",
+          "title": "This Android vulnerability can break your lock screen in under 60 seconds",
+          "summary": "Researchers showed how attackers could pull encryption keys, recover the PIN, and access sensitive data from affected devices.",
+          "url": "https://www.malwarebytes.com/blog/news/2026/03/this-android-vulnerability-can-break-your-lock-screen-in-under-60-seconds",
+          "date": "Thu, 12 Mar 2026 13:13:59",
+          "severity": "HIGH",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "Malwarebytes",
+          "category": "threat_intel",
+          "type": "news",
+          "title": "Microsoft Authenticator could leak login codes\u2014update your app now",
+          "summary": "A bug in Microsoft Authenticator on Android and iOS could allow malicious apps on the same device to intercept authentication codes or sign-in links.",
+          "url": "https://www.malwarebytes.com/blog/news/2026/03/microsoft-authenticator-could-leak-login-codes-update-your-app-now",
+          "date": "Thu, 12 Mar 2026 10:24:19",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "Malwarebytes",
+          "category": "threat_intel",
+          "type": "news",
+          "title": "Phishers hide scam links with IPv6 trick in \u201cfree toothbrush\u201d emails",
+          "summary": "United Healthcare impersonators are using an IPv6 trick to hide the real destination of phishing links in emails promising free Oral-B toothbrushes.",
+          "url": "https://www.malwarebytes.com/blog/scams/2026/03/phishers-hide-scam-links-with-ipv6-trick-in-free-toothbrush-emails",
+          "date": "Wed, 11 Mar 2026 18:17:56",
+          "severity": "MEDIUM",
+          "mitre": [
+            [
+              "T1566",
+              "Phishing"
+            ]
+          ],
+          "today": true
+        }
+      ],
+      "count": 13
+    },
+    {
+      "title": "\ud83d\udcf0 Cyber Security Headlines",
+      "title_en": "\ud83d\udcf0 Cyber Security Headlines",
+      "items": [
+        {
+          "source": "BleepingComputer",
+          "category": "global_news",
+          "type": "news",
+          "title": "US disrupts SocksEscort proxy network powered by Linux malware",
+          "summary": "Law enforcement agencies in the U.S. and Europe along with private partners have disrupted the SocksEscort cybercrime proxy network that used only edge devices compromised via the AVRecon malware for Linux. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/",
+          "date": "Thu, 12 Mar 2026 12:19:56",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "BleepingComputer",
+          "category": "global_news",
+          "type": "news",
+          "title": "Google paid $17.1 million for vulnerability reports in 2025",
+          "summary": "Google paid over $17 million to 747 security researchers who reported security bugs through its Vulnerability Reward Program (VRP) in 2025. [...]",
+          "url": "https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/",
+          "date": "Thu, 12 Mar 2026 11:22:35",
+          "severity": "HIGH",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "BleepingComputer",
+          "category": "global_news",
+          "type": "news",
+          "title": "Telus Digital confirms breach after hacker claims 1 petabyte data theft",
+          "summary": "Canadian business process outsourcing\u00a0giant Telus Digital has confirmed it suffered a security incident after threat actors claimed to have stolen nearly 1 petabyte of data from the company in a multi-month breach. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/telus-digital-confirms-breach-after-hacker-claims-1-petabyte-data-theft/",
+          "date": "Thu, 12 Mar 2026 10:40:14",
+          "severity": "HIGH",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "BleepingComputer",
+          "category": "global_news",
+          "type": "news",
+          "title": "Apple patches older iPhones and iPads against Coruna exploits",
+          "summary": "\u200bApple has released security updates to patch older iPhones and iPads against a set of vulnerabilities targeted in cyberespionage and crypto-theft attacks using the Coruna exploit kit. [...]",
+          "url": "https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/",
+          "date": "Thu, 12 Mar 2026 09:43:46",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "BleepingComputer",
+          "category": "global_news",
+          "type": "news",
+          "title": "SQLi flaw in Elementor Ally plugin impacts 250k+ WordPress sites",
+          "summary": "An SQL injection vulnerability in Ally, a WordPress plugin from Elementor for web accessibility and usability with more than 400,000 installations, could be exploited to steal sensitive data without authentication. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/",
+          "date": "Wed, 11 Mar 2026 15:38:14",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ],
+            [
+              "T1505",
+              "Web Shell"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "BleepingComputer",
+          "category": "global_news",
+          "type": "news",
+          "title": "Medtech giant Stryker offline after Iran-linked wiper malware attack",
+          "summary": "Leading medical technology company Stryker has been hit by a wiper malware attack claimed by Handala, an Iranian-linked and pro-Palestinian hacktivist group. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-after-iran-linked-wiper-malware-attack/",
+          "date": "Wed, 11 Mar 2026 13:21:22",
+          "severity": "HIGH",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "BleepingComputer",
+          "category": "global_news",
+          "type": "news",
+          "title": "New PhantomRaven NPM attack wave steals dev data via 88 packages",
+          "summary": "New attack waves from the 'PhantomRaven' supply-chain campaign are hitting the npm registry, with dozens of malicious packages that exfiltrate sensitive data from JavaScript developers. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/new-phantomraven-npm-attack-wave-steals-dev-data-via-88-packages/",
+          "date": "Wed, 11 Mar 2026 13:09:42",
+          "severity": "HIGH",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "Rust-Based VENON Malware Targets 33 Brazilian Banks with Credential-Stealing Overlays",
+          "summary": "Cybersecurity researchers have disclosed details of a new banking malware targeting Brazilian users that's written in Rust, marking a significant departure from other known Delphi-based malware families associated with the Latin American cybercrime ecosystem.\nThe malware, which is designed to infect Windows systems and was first discovered last month, has been codenamed VENON by Brazilian",
+          "url": "https://thehackernews.com/2026/03/rust-based-venon-malware-targets-33.html",
+          "date": "Thu, 12 Mar 2026 23:01:00",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1078",
+              "Valid Accounts"
+            ]
+          ],
+          "today": true
+        }
+      ],
+      "count": 53
+    }
+  ],
+  "raw_items": [
+    {
+      "source": "BleepingComputer",
+      "category": "global_news",
+      "type": "news",
+      "title": "Veeam warns of critical flaws exposing backup servers to RCE attacks",
+      "summary": "Data protection company Veeam Software has patched multiple flaws in its Backup & Replication solution, including four critical remote code execution (RCE) vulnerabilities. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/",
+      "date": "Thu, 12 Mar 2026 12:59:20",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "BleepingComputer",
+      "category": "global_news",
+      "type": "news",
+      "title": "US disrupts SocksEscort proxy network powered by Linux malware",
+      "summary": "Law enforcement agencies in the U.S. and Europe along with private partners have disrupted the SocksEscort cybercrime proxy network that used only edge devices compromised via the AVRecon malware for Linux. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/",
+      "date": "Thu, 12 Mar 2026 12:19:56",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "BleepingComputer",
+      "category": "global_news",
+      "type": "news",
+      "title": "Google paid $17.1 million for vulnerability reports in 2025",
+      "summary": "Google paid over $17 million to 747 security researchers who reported security bugs through its Vulnerability Reward Program (VRP) in 2025. [...]",
+      "url": "https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/",
+      "date": "Thu, 12 Mar 2026 11:22:35",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "BleepingComputer",
+      "category": "global_news",
+      "type": "news",
+      "title": "Telus Digital confirms breach after hacker claims 1 petabyte data theft",
+      "summary": "Canadian business process outsourcing\u00a0giant Telus Digital has confirmed it suffered a security incident after threat actors claimed to have stolen nearly 1 petabyte of data from the company in a multi-month breach. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/telus-digital-confirms-breach-after-hacker-claims-1-petabyte-data-theft/",
+      "date": "Thu, 12 Mar 2026 10:40:14",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "BleepingComputer",
+      "category": "global_news",
+      "type": "news",
+      "title": "Going the Extra Mile: Travel Rewards Turn into Underground Currency.",
+      "summary": "Stolen airline miles are converted into flights and hotel stays, then resold as discounted travel. Flare shows how cybercriminals and underground markets treat loyalty accounts like tradable currency. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/going-the-extra-mile-travel-rewards-turn-into-underground-currency/",
+      "date": "Thu, 12 Mar 2026 10:05:15",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "BleepingComputer",
+      "category": "global_news",
+      "type": "news",
+      "title": "Apple patches older iPhones and iPads against Coruna exploits",
+      "summary": "\u200bApple has released security updates to patch older iPhones and iPads against a set of vulnerabilities targeted in cyberespionage and crypto-theft attacks using the Coruna exploit kit. [...]",
+      "url": "https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/",
+      "date": "Thu, 12 Mar 2026 09:43:46",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "BleepingComputer",
+      "category": "global_news",
+      "type": "news",
+      "title": "US charges another ransomware negotiator linked to BlackCat attacks",
+      "summary": "The U.S. Department of Justice charged another former DigitalMint employee for his involvement in an insider scheme in which ransomware negotiators secretly partnered with the BlackCat (ALPHV) ransomware operation. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/us-charges-another-ransomware-negotiator-linked-to-blackcat-attacks/",
+      "date": "Thu, 12 Mar 2026 07:31:57",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1486",
+          "Ransomware"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "BleepingComputer",
+      "category": "global_news",
+      "type": "news",
+      "title": "WhatsApp introduces parent-managed accounts for pre-teens",
+      "summary": "WhatsApp has begun rolling out parent-managed accounts for pre-teens, allowing parents and guardians to decide who can contact them and which groups they can join. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-introduces-parent-managed-accounts-for-pre-teens/",
+      "date": "Wed, 11 Mar 2026 16:06:39",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "BleepingComputer",
+      "category": "global_news",
+      "type": "news",
+      "title": "SQLi flaw in Elementor Ally plugin impacts 250k+ WordPress sites",
+      "summary": "An SQL injection vulnerability in Ally, a WordPress plugin from Elementor for web accessibility and usability with more than 400,000 installations, could be exploited to steal sensitive data without authentication. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/",
+      "date": "Wed, 11 Mar 2026 15:38:14",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ],
+        [
+          "T1505",
+          "Web Shell"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "BleepingComputer",
+      "category": "global_news",
+      "type": "news",
+      "title": "CISA orders feds to patch n8n RCE flaw exploited in attacks",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies on Wednesday to patch their systems against an actively exploited n8n vulnerability. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/",
+      "date": "Wed, 11 Mar 2026 14:21:15",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "BleepingComputer",
+      "category": "global_news",
+      "type": "news",
+      "title": "Medtech giant Stryker offline after Iran-linked wiper malware attack",
+      "summary": "Leading medical technology company Stryker has been hit by a wiper malware attack claimed by Handala, an Iranian-linked and pro-Palestinian hacktivist group. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-after-iran-linked-wiper-malware-attack/",
+      "date": "Wed, 11 Mar 2026 13:21:22",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "BleepingComputer",
+      "category": "global_news",
+      "type": "news",
+      "title": "New PhantomRaven NPM attack wave steals dev data via 88 packages",
+      "summary": "New attack waves from the 'PhantomRaven' supply-chain campaign are hitting the npm registry, with dozens of malicious packages that exfiltrate sensitive data from JavaScript developers. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/new-phantomraven-npm-attack-wave-steals-dev-data-via-88-packages/",
+      "date": "Wed, 11 Mar 2026 13:09:42",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "BleepingComputer",
+      "category": "global_news",
+      "type": "news",
+      "title": "Meta adds new WhatsApp, Facebook, and Messenger anti-scam tools",
+      "summary": "Meta is introducing new anti-scam protections across its platforms, deploying systems and user-facing warnings to protect users against scammers. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/meta-adds-new-whatsapp-facebook-and-messenger-anti-scam-tools/",
+      "date": "Wed, 11 Mar 2026 09:29:29",
+      "severity": "MEDIUM",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "Rust-Based VENON Malware Targets 33 Brazilian Banks with Credential-Stealing Overlays",
+      "summary": "Cybersecurity researchers have disclosed details of a new banking malware targeting Brazilian users that's written in Rust, marking a significant departure from other known Delphi-based malware families associated with the Latin American cybercrime ecosystem.\nThe malware, which is designed to infect Windows systems and was first discovered last month, has been codenamed VENON by Brazilian",
+      "url": "https://thehackernews.com/2026/03/rust-based-venon-malware-targets-33.html",
+      "date": "Thu, 12 Mar 2026 23:01:00",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1078",
+          "Valid Accounts"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "Hive0163 Uses AI-Assisted Slopoly Malware for Persistent Access in Ransomware Attacks",
+      "summary": "Cybersecurity researchers have disclosed details of a suspected artificial intelligence (AI)-generated malware codenamed Slopoly put to use by a financially motivated threat actor named Hive0163.\n\"Although still relatively unspectacular, AI-generated malware such as Slopoly shows how easily threat actors can weaponize AI to develop new malware frameworks in a fraction of the time it used to take",
+      "url": "https://thehackernews.com/2026/03/hive0163-uses-ai-assisted-slopoly.html",
+      "date": "Thu, 12 Mar 2026 22:32:00",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1486",
+          "Ransomware"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "How to Scale Phishing Detection in Your SOC: 3 Steps for CISOs",
+      "summary": "Phishing has quietly turned into one of the hardest enterprise threats to expose early. Instead of crude lures and obvious payloads, modern campaigns rely on trusted infrastructure, legitimate-looking authentication flows, and encrypted traffic that conceals malicious behavior from traditional detection layers. For CISOs, the priority is now clear: scale phishing detection in a way that helps",
+      "url": "https://thehackernews.com/2026/03/how-to-scale-phishing-detection-in-your.html",
+      "date": "Thu, 12 Mar 2026 19:00:00",
+      "severity": "MEDIUM",
+      "mitre": [
+        [
+          "T1566",
+          "Phishing"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "ThreatsDay Bulletin: OAuth Trap, EDR Killer, Signal Phishing, Zombie ZIP, AI Platform Hack & More",
+      "summary": "Another Thursday, another pile of weird security stuff that somehow happened in just seven days. Some of it is clever. Some of it is lazy. A few bits fall into that uncomfortable category of \u201cyeah\u2026 this is probably going to show up in real incidents sooner than we\u2019d like.\u201d\nThe pattern this week feels familiar in a slightly annoying way. Old tricks are getting polished. New research shows how",
+      "url": "https://thehackernews.com/2026/03/threatsday-bulletin-oauth-trap-edr.html",
+      "date": "Thu, 12 Mar 2026 18:44:00",
+      "severity": "MEDIUM",
+      "mitre": [
+        [
+          "T1566",
+          "Phishing"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "Attackers Don't Just Send Phishing Emails. They Weaponize Your SOC's Workload",
+      "summary": "The most dangerous phishing campaigns aren\u2019t just designed to fool employees. Many are designed to exhaust the analysts investigating them. When a phishing investigation takes 12 hours instead of five minutes, the outcome can shift from a contained incident to a breach.\nFor years, the cybersecurity industry has focused on the front door of phishing defense: employee training, email gateways that",
+      "url": "https://thehackernews.com/2026/03/attackers-dont-just-send-phishing.html",
+      "date": "Thu, 12 Mar 2026 17:00:00",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1566",
+          "Phishing"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "Apple Issues Security Updates for Older iOS Devices Targeted by Coruna WebKit Exploit",
+      "summary": "Apple on Wednesday backported fixes for a security flaw in iOS, iPadOS, and macOS Sonoma to older versions after it was found to be used as part of the Coruna exploit kit.\nThe vulnerability, tracked as CVE-2023-43010, relates to an unspecified vulnerability in WebKit that could result in memory corruption when processing maliciously crafted web content. The iPhone maker said the issue was",
+      "url": "https://thehackernews.com/2026/03/apple-issues-security-updates-for-older.html",
+      "date": "Thu, 12 Mar 2026 15:28:00",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "Six Android Malware Families Target Pix Payments, Banking Apps, and Crypto Wallets",
+      "summary": "Cybersecurity researchers have discovered half-a-dozen new Android malware families that come with capabilities to steal data from compromised devices and conduct financial fraud.\nThe Android malware range from traditional banking trojans like PixRevolution, TaxiSpy RAT, BeatBanker, Mirax, and Oblivion RAT to full-fledged remote administration tools such as SURXRAT.\nPixRevolution, according to",
+      "url": "https://thehackernews.com/2026/03/six-android-malware-families-target-pix.html",
+      "date": "Thu, 12 Mar 2026 13:26:00",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "CISA Flags Actively Exploited n8n RCE Bug as 24,700 Instances Remain Exposed",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical security flaw impacting n8n to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.\nThe vulnerability, tracked as CVE-2025-68613 (CVSS score: 9.9), concerns a case of expression injection that leads to remote code execution. The security shortcoming was patched",
+      "url": "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-n8n-rce.html",
+      "date": "Thu, 12 Mar 2026 10:48:00",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "Researchers Trick Perplexity's Comet AI Browser Into Phishing Scam in Under Four Minutes",
+      "summary": "Agentic web browsers that leverage artificial intelligence (AI) capabilities to autonomously execute actions across multiple websites on behalf of a user could be trained and tricked into falling prey to phishing and scam traps.\nThe attack, at its core, takes advantage of AI browsers' tendency to reason their actions and use it against the model itself to lower their security guardrails, Guardio",
+      "url": "https://thehackernews.com/2026/03/researchers-trick-perplexitys-comet-ai.html",
+      "date": "Wed, 11 Mar 2026 22:08:00",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1566",
+          "Phishing"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials",
+      "summary": "Cybersecurity researchers have disclosed details of two now-patched security flaws in the n8n workflow automation platform, including two critical bugs that could result in arbitrary command execution.\nThe vulnerabilities are listed below -\n\nCVE-2026-27577 (CVSS score: 9.4) - Expression sandbox escape leading to remote code execution (RCE)\nCVE-2026-27493 (CVSS score: 9.5) - Unauthenticated",
+      "url": "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
+      "date": "Wed, 11 Mar 2026 20:21:00",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ],
+        [
+          "T1078",
+          "Valid Accounts"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "Meta Disables 150K Accounts Linked to Southeast Asia Scam Centers in Global Crackdown",
+      "summary": "Meta on Wednesday said it disabled over 150,000 accounts associated with scam centers in Southeast Asia as part of a coordinated effort in partnership with authorities from Thailand, the U.S., the U.K., Canada, Korea, Japan, Singapore, the Philippines, Australia, New Zealand, and Indonesia.\nThe effort also led to 21 arrests made by the Royal Thai Police, the company said. The action builds upon",
+      "url": "https://thehackernews.com/2026/03/meta-disables-150k-accounts-linked-to.html",
+      "date": "Wed, 11 Mar 2026 18:45:00",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices",
+      "summary": "SAP has released security updates to address two critical security flaws that could be exploited to achieve arbitrary code execution on affected systems.\nThe vulnerabilities in question listed below -\n\nCVE-2019-17571 (CVSS score: 9.8) - A code injection vulnerability in SAP Quotation Management Insurance application (FS-QUO)\nCVE-2026-27685 (CVSS score: 9.1) - An insecure deserialization",
+      "url": "https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html",
+      "date": "Wed, 11 Mar 2026 17:56:00",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "What Boards Must Demand in the Age of AI-Automated Exploitation",
+      "summary": "\u201cYou knew, and you could have acted. Why didn\u2019t you?\u201d&nbsp;\nThis is the question you do not want to be asked. And increasingly, it\u2019s the question leaders are forced to answer after an incident.\nFor years, many executive teams and boards have treated a large vulnerability backlog as an uncomfortable but tolerable fact of life: \u201cwe\u2019ve accepted the risk.\u201d If you\u2019ve ever seen a report showing",
+      "url": "https://thehackernews.com/2026/03/what-boards-must-demand-in-age-of-ai.html",
+      "date": "Wed, 11 Mar 2026 17:00:00",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "Microsoft Patches 84 Flaws in March Patch Tuesday, Including Two Public Zero-Days",
+      "summary": "Microsoft on Tuesday released patches for a set of 84 new security vulnerabilities affecting various software components, including two that have been listed as publicly known.\nOf these, eight are rated Critical, and 76 are rated Important in severity. Forty-six of the patched vulnerabilities relate to privilege escalation, followed by 18 remote code execution, 10 information disclosure, four",
+      "url": "https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html",
+      "date": "Wed, 11 Mar 2026 14:45:00",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "UNC6426 Exploits nx npm Supply-Chain Attack to Gain AWS Admin Access in 72 Hours",
+      "summary": "A threat actor known as UNC6426 leveraged keys stolen following the supply chain compromise of the nx npm package last year to completely breach a victim's cloud environment within a span of 72 hours.\nThe attack started with the theft of a developer's GitHub token, which the threat actor then used to gain unauthorized access to the cloud and steal data.\n\"The threat actor, UNC6426, then used this",
+      "url": "https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html",
+      "date": "Wed, 11 Mar 2026 13:01:00",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ],
+        [
+          "T1195",
+          "Supply Chain"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "Five Malicious Rust Crates and AI Bot Exploit CI/CD Pipelines to Steal Developer Secrets",
+      "summary": "Cybersecurity researchers have discovered five malicious Rust crates that masquerade as time-related utilities to transmit .env file data to the threat actors.\nThe Rust packages, published to crates.io, are listed below -\n\nchrono_anchor\ndnp3times\ntime_calibrator\ntime_calibrators\ntime-sync\n\nThe crates, per Socket, impersonate timeapi.io and were published between late February and early March",
+      "url": "https://thehackernews.com/2026/03/five-malicious-rust-crates-and-ai-bot.html",
+      "date": "Wed, 11 Mar 2026 10:42:00",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Krebs on Security",
+      "category": "global_news",
+      "type": "news",
+      "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
+      "summary": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports out of Ireland, Stryker's largest hub outside of the United States, said the company sent home more than 5,000 workers there today. Meanwhile, a voicemail message at Stryker's main U.S. headquarters sa",
+      "url": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
+      "date": "Wed, 11 Mar 2026 16:20:13",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Dark Reading",
+      "category": "global_news",
+      "type": "news",
+      "title": "Why Stryker's Outage Is a Disaster Recovery Wake-Up Call",
+      "summary": "The Iranian cyberattack on Stryker is the kind of stress test that business continuity and disaster recovery programs often do not plan for.",
+      "url": "https://www.darkreading.com/cybersecurity-operations/stryker-outage-disaster-recovery-wake-up-call",
+      "date": "Thu, 12 Mar 2026 16:30:14",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Dark Reading",
+      "category": "global_news",
+      "type": "news",
+      "title": "INC Ransomware Group Holds Healthcare Hostage in Oceania",
+      "summary": "Government agencies, emergency clinics, and others in Australia, New Zealand, and Tonga have had serious run-ins with the prolific ransomware outfit.",
+      "url": "https://www.darkreading.com/threat-intelligence/inc-ransomware-healthcare-oceania",
+      "date": "Wed, 11 Mar 2026 22:00:00",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1486",
+          "Ransomware"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Dark Reading",
+      "category": "global_news",
+      "type": "news",
+      "title": "Xygeni GitHub Action Compromised Via Tag Poison",
+      "summary": "Attackers operated an active C2 implant for up to a week and compromised AppSec vendor Xygeni's xygeni/xygeni-action in that time.",
+      "url": "https://www.darkreading.com/application-security/xygeni-github-action-compromised-via-tag-poison",
+      "date": "Wed, 11 Mar 2026 20:22:39",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1071",
+          "C2 Communication"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Dark Reading",
+      "category": "global_news",
+      "type": "news",
+      "title": "Chinese Nexus Actors Shift Focus to Qatar Amid Iranian Conflict",
+      "summary": "Two attacks on Qatari entities signal a shift in focus for China-backed actors and demonstrate how quickly they can pivot in response to geopolitical events.",
+      "url": "https://www.darkreading.com/threat-intelligence/chinese-nexus-actors-shift-focus-qatar-iranian-conflict",
+      "date": "Wed, 11 Mar 2026 14:46:51",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "The Record",
+      "category": "global_news",
+      "type": "news",
+      "title": "UK regulators demand social media platforms make it harder for kids under 13 to access sites",
+      "summary": "The Information Commissioner\u2019s Office (ICO) and Ofcom stressed that they expect immediate action, with Ofcom saying that firms have until the end of April to report back on their plans.",
+      "url": "https://therecord.media/uk-regulators-demand-social-media-platforms-restrict-kids-access",
+      "date": "Thu, 12 Mar 2026 16:40:00",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "The Record",
+      "category": "global_news",
+      "type": "news",
+      "title": "Cyber National Mission Force to get new commander amid broader leadership turnover",
+      "summary": "Brig. Gen. Matthew Lennox, a senior leader at Army Cyber Command, will take over for Marine Corps Maj. Gen. Lorna Mahlock, who had led the force since 2024.",
+      "url": "https://therecord.media/cyber-national-mission-force-new-commander",
+      "date": "Thu, 12 Mar 2026 15:57:00",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Record",
+      "category": "global_news",
+      "type": "news",
+      "title": "Stryker tells SEC that timeline for recovery from cyberattack unknown",
+      "summary": "In an 8-K filing with the SEC, Stryker confirmed that the cyberattack caused a global disruption to the company\u2019s Microsoft environment and said external cybersecurity experts were brought in to \u201cassess and to contain the threat.\u201d",
+      "url": "https://therecord.media/stryker-tells-sec-unknown-timeline-recovery",
+      "date": "Thu, 12 Mar 2026 14:34:00",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "The Record",
+      "category": "global_news",
+      "type": "news",
+      "title": "Fake government and Starlink apps used in malware campaign targeting Brazil",
+      "summary": "The malware, dubbed BeatBanker by Russian cybersecurity firm Kaspersky, infects smartphones through fake applications that mimic legitimate services, including the Starlink satellite internet app and the Brazilian government portal INSS Reembolso.",
+      "url": "https://therecord.media/fake-gov-apps-malware-android-brazil",
+      "date": "Thu, 12 Mar 2026 13:02:00",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "The Record",
+      "category": "global_news",
+      "type": "news",
+      "title": "US sanctions North Korea IT worker networks in Laos, Vietnam",
+      "summary": "The latest round of sanctions targeted Amnokgang Technology Development Company \u2014 a North Korean company that manages delegations of IT workers \u2014 and Quangvietdnbg International Services Company \u2014 a Vietnamese firm used by North Korean actors for currency conversion services.",
+      "url": "https://therecord.media/us-sanctions-north-korea-it-worker-networks-laos-vietnam",
+      "date": "Thu, 12 Mar 2026 06:10:00",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityWeek",
+      "category": "global_news",
+      "type": "news",
+      "title": "Apple Updates Legacy iOS Versions to Patch Coruna Exploits",
+      "summary": "The company has released iOS and iPadOS versions 16.7.15 and 15.8.7 to patch the vulnerabilities.\nThe post Apple Updates Legacy iOS Versions to Patch Coruna Exploits appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/apple-updates-older-ios-versions-to-patch-coruna-exploits/",
+      "date": "Thu, 12 Mar 2026 14:40:34",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "SecurityWeek",
+      "category": "global_news",
+      "type": "news",
+      "title": "Meta Launches New Protection Tools as It Helps Disrupt Scam Centers",
+      "summary": "The social media giant has disabled more than 150,000 accounts powering scam centers in Asia.\nThe post Meta Launches New Protection Tools as It Helps Disrupt Scam Centers appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/meta-launches-new-protection-tools-as-it-helps-disrupt-scam-centers/",
+      "date": "Thu, 12 Mar 2026 13:17:26",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityWeek",
+      "category": "global_news",
+      "type": "news",
+      "title": "Ally WordPress Plugin Flaw Exposes Over 200,000 Websites to Attacks",
+      "summary": "The issue allows attackers to inject SQL queries and extract sensitive information from the database.\nThe post Ally WordPress Plugin Flaw Exposes Over 200,000 Websites to Attacks appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/ally-wordpress-plugin-flaw-exposes-over-200000-websites-to-attacks/",
+      "date": "Thu, 12 Mar 2026 12:43:10",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityWeek",
+      "category": "global_news",
+      "type": "news",
+      "title": "The Human IOC: Why Security Professionals Struggle with Social Vetting",
+      "summary": "Applying SOC-level rigor to the rumors, politics, and 'human intel' can make or break a security team.\nThe post The Human IOC: Why Security Professionals Struggle with Social Vetting appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/the-human-ioc-why-security-professionals-struggle-with-social-vetting/",
+      "date": "Thu, 12 Mar 2026 12:30:00",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityWeek",
+      "category": "global_news",
+      "type": "news",
+      "title": "Splunk, Zoom Patch Severe Vulnerabilities",
+      "summary": "Critical- and high-severity flaws could be exploited to execute arbitrary shell commands or elevate privileges.\nThe post Splunk, Zoom Patch Severe Vulnerabilities appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/splunk-zoom-patch-severe-vulnerabilities/",
+      "date": "Thu, 12 Mar 2026 12:06:15",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "SecurityWeek",
+      "category": "global_news",
+      "type": "news",
+      "title": "Cisco Patches High-Severity IOS XR Vulnerabilities",
+      "summary": "The security defects could lead to denial-of-service (DoS) conditions, command execution, or device takeover.\nThe post Cisco Patches High-Severity IOS XR Vulnerabilities appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/cisco-patches-high-severity-ios-xr-vulnerabilities-2/",
+      "date": "Thu, 12 Mar 2026 10:25:26",
+      "severity": "MEDIUM",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityWeek",
+      "category": "global_news",
+      "type": "news",
+      "title": "Critical N8n Vulnerabilities Allowed Server Takeover",
+      "summary": "The bugs allowed unauthenticated attackers to execute arbitrary code, steal credentials, and take over servers.\nThe post Critical N8n Vulnerabilities Allowed Server Takeover appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/critical-n8n-vulnerabilities-allowed-server-takeover/",
+      "date": "Thu, 12 Mar 2026 09:54:40",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1078",
+          "Valid Accounts"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "SecurityWeek",
+      "category": "global_news",
+      "type": "news",
+      "title": "Polyfill Supply Chain Attack Impacting 100k Sites Linked to North Korea",
+      "summary": "The 2024 incident was initially linked to China, but an infostealer infection has now revealed North Korean involvement.\nThe post Polyfill Supply Chain Attack Impacting 100k Sites Linked to North Korea appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/polyfill-supply-chain-attack-impacting-100k-sites-linked-to-north-korea/",
+      "date": "Thu, 12 Mar 2026 09:40:59",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1195",
+          "Supply Chain"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "SecurityWeek",
+      "category": "global_news",
+      "type": "news",
+      "title": "Senate Confirms Joshua Rudd to Lead NSA and US Cyber Command",
+      "summary": "The leadership structure, commonly referred to as the \u201cdual-hat\u201d arrangement, assigns a single individual to oversee both organizations.\nThe post Senate Confirms Joshua Rudd to Lead NSA and US Cyber Command appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/senate-confirms-joshua-rudd-to-lead-nsa-and-us-cyber-command/",
+      "date": "Wed, 11 Mar 2026 19:08:03",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityWeek",
+      "category": "global_news",
+      "type": "news",
+      "title": "MedTech Giant Stryker Crippled by Iran-Linked Hacker Attack",
+      "summary": "Stryker was targeted by the Handala group, which claims to have wiped more than 200,000 of the company\u2019s devices.\nThe post MedTech Giant Stryker Crippled by Iran-Linked Hacker Attack appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/medtech-giant-stryker-crippled-by-iran-linked-hacker-attack/",
+      "date": "Wed, 11 Mar 2026 16:18:39",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SANS ISC",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "ISC Stormcast For Thursday, March 12th, 2026 https://isc.sans.edu/podcastdetail/9846, (Thu, Mar 12th)",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "url": "https://isc.sans.edu/diary/rss/32790",
+      "date": "Thu, 12 Mar 2026 02:00:02",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SANS ISC",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "When your IoT Device Logs in as Admin, It&#x3f;s too Late&#x21; &#x5b;Guest Diary&#x5d;, (Wed, Mar 11th)",
+      "summary": "&#x5b;This is a Guest Diary by Adam Thorman, an ISC intern as part of the SANS.edu BACS program&#x5d;&#xd;",
+      "url": "https://isc.sans.edu/diary/rss/32788",
+      "date": "Thu, 12 Mar 2026 01:19:35",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SANS ISC",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "Analyzing \"Zombie Zip\" Files (CVE-2026-0866), (Wed, Mar 11th)",
+      "summary": "A new vulnerability (CVE-2026-0866) has been published: Zombie Zip.&#xd;",
+      "url": "https://isc.sans.edu/diary/rss/32786",
+      "date": "Wed, 11 Mar 2026 09:57:26",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Check Point Research",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "\u201cHandala Hack\u201d \u2013 Unveiling Group\u2019s Modus Operandi",
+      "summary": "Key Findings Introduction Handala Hack, also tracked by Check Point Research as Void Manticore, is an Iranian threat actor that is known for multiple destructive wiping attacks combined with \u201chack and leak\u201d operations. The threat actor operates several online personas, with the most prominent among them being&#160;Homeland Justice, maintained from mid-2022 specifically for multiple attacks [&#8230",
+      "url": "https://research.checkpoint.com/2026/handala-hack-unveiling-groups-modus-operandi/",
+      "date": "Thu, 12 Mar 2026 17:21:23",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Malwarebytes",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "Apple patches Coruna exploit kit flaws for older iOS versions",
+      "summary": "Apple issued security updates for older iOS and iPadOS versions to close vulnerabilities exploited by the Coruna exploit kit.",
+      "url": "https://www.malwarebytes.com/blog/news/2026/03/apple-patches-coruna-exploit-kit-flaws-for-older-ios-versions",
+      "date": "Thu, 12 Mar 2026 17:49:44",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Malwarebytes",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "This Android vulnerability can break your lock screen in under 60 seconds",
+      "summary": "Researchers showed how attackers could pull encryption keys, recover the PIN, and access sensitive data from affected devices.",
+      "url": "https://www.malwarebytes.com/blog/news/2026/03/this-android-vulnerability-can-break-your-lock-screen-in-under-60-seconds",
+      "date": "Thu, 12 Mar 2026 13:13:59",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Malwarebytes",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "Microsoft Authenticator could leak login codes\u2014update your app now",
+      "summary": "A bug in Microsoft Authenticator on Android and iOS could allow malicious apps on the same device to intercept authentication codes or sign-in links.",
+      "url": "https://www.malwarebytes.com/blog/news/2026/03/microsoft-authenticator-could-leak-login-codes-update-your-app-now",
+      "date": "Thu, 12 Mar 2026 10:24:19",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Malwarebytes",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "Meta rolls out anti-scam tools across WhatsApp, Facebook, and Messenger",
+      "summary": "New AI-powered protections aim to detect impersonation attempts, suspicious friend requests, and scam messages.",
+      "url": "https://www.malwarebytes.com/blog/news/2026/03/meta-rolls-out-anti-scam-tools-across-whatsapp-facebook-and-messenger",
+      "date": "Thu, 12 Mar 2026 09:56:10",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Malwarebytes",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "Phishers hide scam links with IPv6 trick in \u201cfree toothbrush\u201d emails",
+      "summary": "United Healthcare impersonators are using an IPv6 trick to hide the real destination of phishing links in emails promising free Oral-B toothbrushes.",
+      "url": "https://www.malwarebytes.com/blog/scams/2026/03/phishers-hide-scam-links-with-ipv6-trick-in-free-toothbrush-emails",
+      "date": "Wed, 11 Mar 2026 18:17:56",
+      "severity": "MEDIUM",
+      "mitre": [
+        [
+          "T1566",
+          "Phishing"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Malwarebytes",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "Sextortion &#8220;I recorded you&#8221; emails reuse passwords found in disposable inboxes",
+      "summary": "\u201cYou pervert, I recorded you!\u201d sextortion emails include real passwords harvested from public temporary email inboxes.",
+      "url": "https://www.malwarebytes.com/blog/news/2026/03/sextortion-i-recorded-you-emails-reuse-passwords-found-in-disposable-inboxes",
+      "date": "Wed, 11 Mar 2026 14:56:45",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Malwarebytes",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "Watch out for tax-season robocalls pushing fake \u201crelief programs\u201d",
+      "summary": "Scammers are targeting Americans with robocalls during tax season. Here\u2019s how to spot the scam.",
+      "url": "https://www.malwarebytes.com/blog/threat-intel/2026/03/watch-out-for-tax-season-robocalls-pushing-fake-relief-programs",
+      "date": "Wed, 11 Mar 2026 13:30:00",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Malwarebytes",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "March 2026 Patch Tuesday fixes two zero-day vulnerabilities",
+      "summary": "Microsoft patched 79 security vulnerabilities this month, including bugs that could let attackers escalate privileges or crash critical services.",
+      "url": "https://www.malwarebytes.com/blog/news/2026/03/march-2026-patch-tuesday-fixes-two-zero-day-vulnerabilities",
+      "date": "Wed, 11 Mar 2026 10:47:32",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "AI incites a new wave of grieving parents fighting for online safety",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/ai-new-wave-grieving-parents-fighting-online-safety-10578728/",
+      "date": "Thu, 12 Mar 2026 14:35:26",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Google Maps introduces \u2018Ask Maps\u2019, a Gemini-powered feature that answers questions about places",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/google-maps-adds-ask-maps-10578687/",
+      "date": "Thu, 12 Mar 2026 14:07:50",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Microsoft announces Xbox Mode for Windows 11 PCs, teases next-gen console",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/microsoft-xbox-mode-windows-11-pc-project-helix-features-10578450/",
+      "date": "Thu, 12 Mar 2026 13:49:09",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "YouTube Premium Lite Rs 89 plan gets 2 new features for free",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/youtube-premium-lite-rs-89-plan-gets-2-new-features-for-free-10578349/",
+      "date": "Thu, 12 Mar 2026 11:31:39",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Perplexity unveils \u2018Personal Computer\u2019, an AI agent that manages your tasks and files",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/perplexity-personal-computer-ai-agent-10578145/",
+      "date": "Thu, 12 Mar 2026 09:38:48",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Nvidia launches Nemotron 3 Super, an open model to build cheaper and accurate AI agents",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/nvidia-launches-nemotron-3-super-open-weight-ai-model-10578239/",
+      "date": "Thu, 12 Mar 2026 09:37:11",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "I went to an Apple Store in Los Angeles, and tried the MacBook Neo: Here\u2019s my experience",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/apple-macbook-neo-2026-budget-notebook-10578018/",
+      "date": "Thu, 12 Mar 2026 07:50:30",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Samsung Galaxy S26 Ultra Review: A step toward \u2018intelligent\u2019 smartphones",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/tech-reviews/samsung-galaxy-s26-ultra-review-10577842/",
+      "date": "Thu, 12 Mar 2026 06:32:06",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "WhatsApp rolls out new parent-managed accounts for under-13 users: How parents can set it up",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/whatsapp-new-parent-managed-accounts-how-to-setup-10577808/",
+      "date": "Thu, 12 Mar 2026 05:33:43",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "\u2018Stealth\u2019 Pokemon hit boosts Nintendo Switch 2 momentum sentiment",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/gaming/stealth-pokemon-hit-boosts-nintendo-switch-2-momentum-sentiment-10577697/",
+      "date": "Thu, 12 Mar 2026 04:31:49",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Atlassian to cut roughly 10% jobs in pivot to AI, Rajeev Rajan will step down as CTO",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/atlassian-to-cut-roughly-10-jobs-in-pivot-to-ai-rajeev-rajan-will-step-down-as-cto-10577684/",
+      "date": "Thu, 12 Mar 2026 04:27:45",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Pentagon opens door to exempt Anthropic use beyond 6-month ramp-down, memo says",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/pentagon-opens-door-to-exempt-anthropic-use-beyond-6-month-ramp-down-memo-says-10577674/",
+      "date": "Thu, 12 Mar 2026 04:21:29",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Meta rolls out new AI tools, warnings and partnerships to tackle online scams",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/meta-ai-scam-protection-facebook-whatsapp-messenger-new-features-10576832/",
+      "date": "Wed, 11 Mar 2026 14:18:24",
+      "severity": "MEDIUM",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "The smart home never quite worked. Now it\u2019s getting an AI reboot.",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/the-smart-home-never-quite-worked-now-its-getting-an-ai-reboot-10576934/",
+      "date": "Wed, 11 Mar 2026 14:14:30",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Google\u2019s NotebookLM can now turn your favorite novels into AI-hosted podcasts and custom infographics",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/google-notebooklm-update-epub-support-custom-infographics-features-10576614/",
+      "date": "Wed, 11 Mar 2026 12:29:19",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Amazon looks to add stricter checks after outages linked to AI coding tools: Report",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/amazon-stricter-code-checks-outages-ai-tools-report-10576612/",
+      "date": "Wed, 11 Mar 2026 11:27:31",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "First RAM and storage, now CPUs: Why AI is making laptops 40% more expensive in 2026",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/ai-cpu-price-increase-laptop-40-per-cent-expensive-2026-10576264/",
+      "date": "Wed, 11 Mar 2026 11:07:00",
+      "severity": "CRITICAL",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "China warns state agencies, banks against installing apps running OpenClaw",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/china-warns-state-agencies-banks-against-installing-openclaw-ai-apps-10576403/",
+      "date": "Wed, 11 Mar 2026 09:56:18",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Microsoft backs Anthropic in amicus brief to halt US DOD\u2019s \u2018supply-chain risk\u2019 designation",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/microsoft-backs-anthropic-in-amicus-brief-to-halt-us-dods-supply-chain-risk-designation-10576373/",
+      "date": "Wed, 11 Mar 2026 09:32:14",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "OpenAI launches interactive visual explanations in ChatGPT to simplify core math, science concepts",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/openai-interactive-visuals-chatgpt-math-science-10576311/",
+      "date": "Wed, 11 Mar 2026 09:07:07",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "After 14 Years, NASA says a 600 kg satellite will crash back into Earth",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/science/after-14-years-nasa-says-a-600-kg-satellite-will-crash-back-into-earth-10575211/",
+      "date": "Wed, 11 Mar 2026 08:23:19",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Xiaomi launches Xiaomi 17 series in India with Leica cameras, LOFIC sensor tech",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/mobile-tabs/xiaomi-launches-xiaomi-17-series-in-india-with-leica-cameras-lofic-sensor-tech-10576205/",
+      "date": "Wed, 11 Mar 2026 08:11:36",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Google brings Gemini AI assistant in Chrome to India with support for Indian languages",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/google-gemini-ai-in-chrome-india-languages-10576167/",
+      "date": "Wed, 11 Mar 2026 07:46:20",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Recorded Future Blog",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "February 2026 CVE Landscape: 13 Critical Vulnerabilities Mark 43% Drop from January",
+      "summary": "February 2026 saw a 43% decrease in high-impact vulnerabilities, with Recorded Future's Insikt Group\u00ae identifying 13 vulnerabilities requiring immediate remediation, down from 23 in January 2026.",
+      "url": "https://www.recordedfuture.com/blog/february-2026-cve-landscape",
+      "date": "Thu, 12 Mar 2026 00:00:00",
+      "severity": "CRITICAL",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityAffairs",
+      "category": "global_news",
+      "type": "news",
+      "title": "Apple issues emergency fixes for Coruna flaws in older iOS versions",
+      "summary": "Apple released iOS 16.7.15 and 15.8.7 updates for older iPhones and iPads to patch vulnerabilities linked to the Coruna exploits. Apple has released security updates for legacy devices, rolling out iOS and iPadOS 16.7.15 and 15.8.7 to address vulnerabilities tied to the recently disclosed Coruna exploits. The patches aim to protect older iPhone and iPad [&#8230;]",
+      "url": "https://securityaffairs.com/189362/security/apple-issues-emergency-fixes-for-coruna-flaws-in-older-ios-versions.html",
+      "date": "Thu, 12 Mar 2026 15:28:41",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "SecurityAffairs",
+      "category": "global_news",
+      "type": "news",
+      "title": "Critical SQL Injection bug in Ally plugin threatens 400,000+ WordPress sites",
+      "summary": "An unauthenticated SQL injection flaw (CVE-2026-2413) in the Ally WordPress plugin, used on 400K+ sites, could allow attackers to steal sensitive data. An unauthenticated SQL injection flaw, tracked as CVE-2026-2413 (CVSS score 7.5), in Ally plugin could allow attackers to steal sensitive data. The offensive security engineer Drew Webber at Acquia discovered the vulnerability on [&#8230;]",
+      "url": "https://securityaffairs.com/189354/security/critical-sql-injection-bug-in-ally-plugin-threatens-400000-wordpress-sites.html",
+      "date": "Thu, 12 Mar 2026 13:25:35",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ],
+        [
+          "T1505",
+          "Web Shell"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "SecurityAffairs",
+      "category": "global_news",
+      "type": "news",
+      "title": "ENISA Technical Advisory on Secure Package Managers: Essential DevSecOps Guidance",
+      "summary": "ENISA\u2019s first Technical Advisory on Secure Package Managers helps developers safely use third-party packages. ENISA has released its first Technical Advisory on Package Managers, focusing on how developers can safely consume third-party packages. The document (March 2026, v1.1) follows public feedback incorporating 15 contributions from stakeholders, experts, and the open-source community. &#8220;",
+      "url": "https://securityaffairs.com/189333/security/enisa-technical-advisory-on-secure-package-managers-essential-devsecops-guidance.html",
+      "date": "Thu, 12 Mar 2026 08:49:00",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "SecurityAffairs",
+      "category": "global_news",
+      "type": "news",
+      "title": "U.S. CISA adds a flaw in n8n to its Known Exploited Vulnerabilities catalog",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a flaw in n8n to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA)\u00a0added\u00a0an n8n flaw, tracked as CVE-2025-68613 (CVSS score of 10.0), to its\u00a0Known Exploited Vulnerabilities (KEV) catalog. n8n is a workflow automation platform designed for technical teams that combines t",
+      "url": "https://securityaffairs.com/189326/security/u-s-cisa-adds-a-flaw-in-n8n-to-its-known-exploited-vulnerabilities-catalog.html",
+      "date": "Thu, 12 Mar 2026 08:46:25",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "SecurityAffairs",
+      "category": "global_news",
+      "type": "news",
+      "title": "Bell Ambulance data breach impacted over 238,000 people",
+      "summary": "Bell Ambulance confirms a February 2025 breach affecting 238,000 people, exposing personal, financial, and health information. Nearly 238,000 individuals are impacted by a February 2025 Bell Ambulance data breach. Bell Ambulance is a U.S.-based emergency medical services provider offering ambulance transport, paramedic care, and patient support. It serves communities with urgent medical response, ",
+      "url": "https://securityaffairs.com/189343/data-breach/bell-ambulance-data-breach-impacted-over-238000-people.html",
+      "date": "Thu, 12 Mar 2026 04:12:58",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityAffairs",
+      "category": "global_news",
+      "type": "news",
+      "title": "Pro-Palestinian hacktivist group Handala targets Stryker in global disruption",
+      "summary": "Pro-Palestinian hacktivist group Handala claims a cyberattack on Stryker, alleging it wiped 200,000 systems and disrupted global operations. Pro-Palestinian hacktivist group Handala claims responsibility for a disruptive cyberattack against medical technology firm Stryker. &#8220;Medical technology giant Stryker is experiencing a global outage across its systems after a cyberattack early Wednesday",
+      "url": "https://securityaffairs.com/189304/hacktivism/pro-palestinian-hacktivist-group-handala-targets-stryker-in-global-disruption.html",
+      "date": "Wed, 11 Mar 2026 19:51:23",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityAffairs",
+      "category": "global_news",
+      "type": "news",
+      "title": "BeatBanker malware targets Android users with banking Trojan and crypto miner",
+      "summary": "BeatBanker Android malware spreads through fake Starlink apps on websites imitating Google Play Store, hijacking devices, stealing credentials, and mining crypto. A new Android malware called BeatBanker spreads through fake Starlink apps distributed on websites posing as the Google Play Store. Once installed, it hijacks devices, steals login credentials, tampers with cryptocurrency transactions, a",
+      "url": "https://securityaffairs.com/189288/malware/beatbanker-malware-targets-android-users-with-banking-trojan-and-crypto-miner.html",
+      "date": "Wed, 11 Mar 2026 19:00:23",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1078",
+          "Valid Accounts"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "SecurityAffairs",
+      "category": "global_news",
+      "type": "news",
+      "title": "Hewlett Packard Enterprise fixes critical authentication bypass in Aruba AOS-CX",
+      "summary": "Hewlett Packard Enterprise (HPE) fixed several flaws in Aruba AOS-CX, including a critical bug that lets attackers reset admin passwords. Hewlett Packard Enterprise (HPE) patched multiple vulnerabilities in Aruba AOS-CX, the operating system used in Aruba CX switches. The most severe issue, tracked as CVE-2026-23813 (CVSS score of 9.8), allows unprivileged attackers to bypass authentication [&#823",
+      "url": "https://securityaffairs.com/189278/security/hewlett-packard-enterprise-fixes-critical-authentication-bypass-in-aruba-aos-cx.html",
+      "date": "Wed, 11 Mar 2026 11:28:36",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "SecurityAffairs",
+      "category": "global_news",
+      "type": "news",
+      "title": "KadNap bot compromises 14,000+ devices to route malicious traffic",
+      "summary": "KadNap malware infects 14,000+ edge devices, mainly Asus routers, turning them into a stealth proxy botnet used to route malicious internet traffic. KadNap malware infects more than 14,000 edge devices, mainly ASUS routers, and turns them into a proxy botnet used to route malicious traffic. First detected in August 2025, the campaign heavily targets the [&#8230;]",
+      "url": "https://securityaffairs.com/189251/malware/kadnap-bot-compromises-14000-devices-to-route-malicious-traffic.html",
+      "date": "Wed, 11 Mar 2026 09:03:38",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "GBHackers",
+      "category": "global_news",
+      "type": "news",
+      "title": "AI-Driven Phishing Attacks Bypass Email Filters, Land in Inboxes",
+      "summary": "AI-generated phishing is rapidly reshaping email risk, with more attacks slipping past filters and landing directly in users&#8217; inboxes, even though AI-generated emails remain a minority of total phishing. The human element remains central: 68% of breaches involve people, and 80\u201395% of those begin with phishing, making social engineering the dominant breach vector. Phishing volume [&#8230;]\nTh",
+      "url": "https://gbhackers.com/ai-driven-phishing-attacks-2/",
+      "date": "Thu, 12 Mar 2026 13:09:18",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1566",
+          "Phishing"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "GBHackers",
+      "category": "global_news",
+      "type": "news",
+      "title": "4,000+ Routers Compromised by KadNap Malware Exploiting Vulnerabilities",
+      "summary": "A newly uncovered malware campaign dubbed\u00a0KadNap\u00a0has silently conscripted more than 14,000 internet\u2011exposed routers and edge devices into a stealth proxy botnet, with Asus routers the primary victims. More than 60% of known victims are located in the United States, with additional infections observed in Taiwan, Hong Kong, Russia, and other countriesHow KadNap Infects Routers The [&#8230;]\nThe post",
+      "url": "https://gbhackers.com/kadnap-malware/",
+      "date": "Thu, 12 Mar 2026 12:29:37",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "GBHackers",
+      "category": "global_news",
+      "type": "news",
+      "title": "New ClickFix Attacks Target macOS Users with MacSync Infostealer",
+      "summary": "A new wave of ClickFix campaigns targeting macOS users and delivering the MacSync infostealer, signaling a growing shift in threat actor tactics against Apple devices. The attacks rely heavily on social engineering rather than software exploits, tricking users into manually executing malicious commands in macOS Terminal. ClickFix is a deceptive technique where attackers present step\u2011by\u2011step [&#823",
+      "url": "https://gbhackers.com/clickfix-attacks-target-macos/",
+      "date": "Thu, 12 Mar 2026 11:25:42",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "GBHackers",
+      "category": "global_news",
+      "type": "news",
+      "title": "Hackers Exploit Remote Management Tools to Gain Initial Access to Corporate Networks",
+      "summary": "Threat actors are increasingly exploiting legitimate Remote Monitoring and Management (RMM) tools to breach corporate networks and establish persistent access. This tactic allows attackers to bypass traditional security defenses by blending malicious activities with routine administrative tasks. The Surge of RMM Abuse The exploitation of remote management software has become a primary initial acce",
+      "url": "https://gbhackers.com/hackers-exploit-remote-management-tools/",
+      "date": "Thu, 12 Mar 2026 11:25:06",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "GBHackers",
+      "category": "global_news",
+      "type": "news",
+      "title": "Hackers Exploit CloudFlare Anti-Security to Steal Microsoft 365 Login Credentials",
+      "summary": "A recent Microsoft 365 credential harvesting campaign shows how attackers are exploiting CloudFlare\u2019s protective features to shield malicious phishing sites from security scanners and threat researchers. CloudFlare is widely used by organizations to improve website performance and protect against attacks such as bots, DDoS, and automated scanning. However, these same protections can also unintenti",
+      "url": "https://gbhackers.com/hackers-exploit-cloudflare-2/",
+      "date": "Thu, 12 Mar 2026 10:24:59",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1566",
+          "Phishing"
+        ],
+        [
+          "T1190",
+          "Exploit Public App"
+        ],
+        [
+          "T1078",
+          "Valid Accounts"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "GBHackers",
+      "category": "global_news",
+      "type": "news",
+      "title": "Palo Alto Cortex XDR Broker Vulnerability Exposes Systems to Sensitive Information Theft and Modification",
+      "summary": "Palo Alto Networks has issued a security advisory regarding a newly discovered vulnerability in its Cortex XDR Broker Virtual Machine (VM). Tracked as CVE-2026-0231, this medium-severity flaw could allow a threat actor to access and modify sensitive system information. Because the Broker VM acts as a critical bridge between on-premises network assets and the cloud-based [&#8230;]\nThe post Palo Alt",
+      "url": "https://gbhackers.com/palo-alto-cortex-xdr-broker-vulnerability/",
+      "date": "Thu, 12 Mar 2026 08:58:11",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "GBHackers",
+      "category": "global_news",
+      "type": "news",
+      "title": "Ericsson US Hit by Cyber Attack, Hackers Steal Personal Data of Employees and Customers",
+      "summary": "Ericsson Inc., the United States subsidiary of the Swedish telecommunications giant, has confirmed a data breach affecting 15,661 of its employees and customers. The security incident did not breach Ericsson&#8217;s own networks but instead compromised a third-party service provider responsible for handling the company&#8217;s sensitive personal data.\u200b\u200b Incident Details and Attack Vector The breac",
+      "url": "https://gbhackers.com/ericsson-us-hit-by-cyber-attack/",
+      "date": "Thu, 12 Mar 2026 07:58:53",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "GBHackers",
+      "category": "global_news",
+      "type": "news",
+      "title": "CastleRAT Attack Leverages Deno JavaScript Runtime to Bypass Enterprise Defenses",
+      "summary": "A sophisticated malware campaign that abuses the Deno JavaScript runtime to deliver CastleRAT, a powerful remote access trojan designed for espionage and data theft. The campaign demonstrates how attackers are increasingly combining social engineering, trusted development tools, and stealth techniques to bypass traditional enterprise defenses. Instead of relying on conventional malware loaders, th",
+      "url": "https://gbhackers.com/castlerat-attack/",
+      "date": "Thu, 12 Mar 2026 07:47:01",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "GBHackers",
+      "category": "global_news",
+      "type": "news",
+      "title": "Splunk RCE Vulnerability Exposes Systems to Arbitrary Shell Command Execution by Attackers",
+      "summary": "A high-severity Remote Command Execution (RCE) vulnerability has been discovered in Splunk Enterprise and Splunk Cloud Platform, exposing systems to severe security risks. Tracked officially as CVE-2026-20163 with a CVSS score of 8.0, this critical flaw allows malicious actors to execute arbitrary shell commands directly on the host operating system. Classified under CWE-77, this bug [&#8230;]\nThe",
+      "url": "https://gbhackers.com/splunk-rce-vulnerability-arbitrary-shell-commands/",
+      "date": "Thu, 12 Mar 2026 07:07:46",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "GBHackers",
+      "category": "global_news",
+      "type": "news",
+      "title": "Cisco IOS XR Vulnerability Exposes Systems to Root Command Execution by Attackers",
+      "summary": "Cisco has issued high-severity software updates to address two high-severity privilege escalation vulnerabilities in its IOS XR Software. Network administrators must take immediate action, as these security flaws could allow an authenticated, local attacker to execute arbitrary commands as the root user or gain complete administrative control over affected devices. Because these routers often serv",
+      "url": "https://gbhackers.com/cisco-ios-xr-vulnerability/",
+      "date": "Thu, 12 Mar 2026 06:31:20",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2024-14024 [CVSS 0] \u2014 An improper certificate validation vulnerability has been reported to affect Vid",
+      "summary": "An improper certificate validation vulnerability has been reported to affect Video Station. If an attacker gains local network access who have also gained an administrator account, they can then exploit the vulnerability to compromise the security of the system.\n\nWe have already fixed the vulnerability in the following version:\nVideo Station 5.8.2 and later",
+      "severity": "MEDIUM",
+      "cvss_score": 0,
+      "cve": "CVE-2024-14024",
+      "date": "2026-03-11",
+      "url": "https://www.qnap.com/en/security-advisory/qsa-24-24",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2024-14025 [CVSS 0] \u2014 An SQL injection vulnerability has been reported to affect Video Station. If an ",
+      "summary": "An SQL injection vulnerability has been reported to affect Video Station. If an attacker gains local network access who have also gained an administrator account, they can then exploit the vulnerability to execute unauthorized code or commands.\n\nWe have already fixed the vulnerability in the following version:\nVideo Station 5.8.2 and later",
+      "severity": "MEDIUM",
+      "cvss_score": 0,
+      "cve": "CVE-2024-14025",
+      "date": "2026-03-11",
+      "url": "https://www.qnap.com/en/security-advisory/qsa-24-24",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ],
+        [
+          "T1505",
+          "Web Shell"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2024-14026 [CVSS 0] \u2014 A command injection vulnerability has been reported to affect several QNAP opera",
+      "summary": "A command injection vulnerability has been reported to affect several QNAP operating system versions. If an attacker gains local network access who have also gained a user account, they can then exploit the vulnerability to execute arbitrary commands.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.1.9.2954 build 20241120 and later\nQTS 5.2.3.3006 build 20250108 and later\n",
+      "severity": "MEDIUM",
+      "cvss_score": 0,
+      "cve": "CVE-2024-14026",
+      "date": "2026-03-11",
+      "url": "https://www.qnap.com/en/security-advisory/qsa-24-54",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-1708 [CVSS 7.5] \u2014 The Appointment Booking Calendar \u2014 Simply Schedule Appointments Booking Plugin p",
+      "summary": "The Appointment Booking Calendar \u2014 Simply Schedule Appointments Booking Plugin plugin for WordPress is vulnerable to blind SQL Injection in all versions up to, and including, 1.6.9.27. This is due to the `db_where_conditions` method in the `TD_DB_Model` class failing to prevent the `append_where_sql` parameter from being passed through JSON request bodies, while only checking for its presence in t",
+      "severity": "HIGH",
+      "cvss_score": 7.5,
+      "cve": "CVE-2026-1708",
+      "date": "2026-03-11",
+      "url": "https://plugins.trac.wordpress.org/browser/simply-schedule-appointments/tags/1.6.9.21/includes/class-appointment-model.php#L1340",
+      "mitre": [
+        [
+          "T1505",
+          "Web Shell"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-2917 [CVSS 5.4] \u2014 The Happy Addons for Elementor plugin for WordPress is vulnerable to Insecure Di",
+      "summary": "The Happy Addons for Elementor plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 3.21.0 via the `ha_duplicate_thing` admin action handler. This is due to the `can_clone()` method only checking `current_user_can('edit_posts')` (a general capability) without performing object-level authorization such as `current_user_can('edit_post', $post_i",
+      "severity": "MEDIUM",
+      "cvss_score": 5.4,
+      "cve": "CVE-2026-2917",
+      "date": "2026-03-11",
+      "url": "https://plugins.trac.wordpress.org/browser/happy-elementor-addons/tags/3.20.7/classes/clone-handler.php#L21",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-2918 [CVSS 6.4] \u2014 The Happy Addons for Elementor plugin for WordPress is vulnerable to Insecure Di",
+      "summary": "The Happy Addons for Elementor plugin for WordPress is vulnerable to Insecure Direct Object Reference in all versions up to, and including, 3.21.0 via the `ha_condition_update` AJAX action. This is due to the `validate_reqeust()` method using `current_user_can('edit_posts', $template_id)` instead of `current_user_can('edit_post', $template_id)` \u2014 failing to perform object-level authorization. Addi",
+      "severity": "MEDIUM",
+      "cvss_score": 6.4,
+      "cve": "CVE-2026-2918",
+      "date": "2026-03-11",
+      "url": "https://plugins.trac.wordpress.org/browser/happy-elementor-addons/tags/3.20.7/classes/condition-manager.php#L237",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-3903 [CVSS 4.3] \u2014 The Modular DS: Monitor, update, and backup multiple websites plugin for WordPre",
+      "summary": "The Modular DS: Monitor, update, and backup multiple websites plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.5.1. This is due to missing nonce validation on the postConfirmOauth() function. This makes it possible for unauthenticated attackers to disconnect the plugin's OAuth/SSO connection via a forged request granted they can trick a site ",
+      "severity": "MEDIUM",
+      "cvss_score": 4.3,
+      "cve": "CVE-2026-3903",
+      "date": "2026-03-11",
+      "url": "https://plugins.trac.wordpress.org/changeset/3441222/",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-1454 [CVSS 7.2] \u2014 The Responsive Contact Form Builder & Lead Generation Plugin plugin for WordPres",
+      "summary": "The Responsive Contact Form Builder & Lead Generation Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to, and including, 2.0.1 via form field submissions. This is due to insufficient input sanitization in the lfb_lead_sanitize() function which omits certain field types from its sanitization whitelist, combined with an overly permissive wp_kses() filter a",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "cve": "CVE-2026-1454",
+      "date": "2026-03-11",
+      "url": "https://plugins.trac.wordpress.org/browser/lead-form-builder/tags/2.0.1/inc/ajax-functions.php#L587",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-1992 [CVSS 8.8] \u2014 The ExactMetrics \u2013 Google Analytics Dashboard for WordPress plugin is vulnerable",
+      "summary": "The ExactMetrics \u2013 Google Analytics Dashboard for WordPress plugin is vulnerable to Insecure Direct Object Reference in versions 8.6.0 through 9.0.2. This is due to the `store_settings()` method in the `ExactMetrics_Onboarding` class accepting a user-supplied `triggered_by` parameter that is used instead of the current user's ID to check permissions. This makes it possible for authenticated attack",
+      "severity": "HIGH",
+      "cvss_score": 8.8,
+      "cve": "CVE-2026-1992",
+      "date": "2026-03-11",
+      "url": "https://plugins.trac.wordpress.org/browser/google-analytics-dashboard-for-wp/trunk/includes/admin/class-exactmetrics-onboarding.php#L273",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-1993 [CVSS 8.8] \u2014 The ExactMetrics \u2013 Google Analytics Dashboard for WordPress plugin is vulnerable",
+      "summary": "The ExactMetrics \u2013 Google Analytics Dashboard for WordPress plugin is vulnerable to Improper Privilege Management in versions 7.1.0 through 9.0.2. This is due to the `update_settings()` function accepting arbitrary plugin setting names without a whitelist of allowed settings. This makes it possible for authenticated attackers with the `exactmetrics_save_settings` capability to modify any plugin se",
+      "severity": "HIGH",
+      "cvss_score": 8.8,
+      "cve": "CVE-2026-1993",
+      "date": "2026-03-11",
+      "url": "https://plugins.trac.wordpress.org/browser/google-analytics-dashboard-for-wp/tags/7.15.3/includes/admin/routes.php#L201",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-3231 [CVSS 7.2] \u2014 The Checkout Field Editor (Checkout Manager) for WooCommerce plugin for WordPres",
+      "summary": "The Checkout Field Editor (Checkout Manager) for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via custom radio and checkboxgroup field values submitted through the WooCommerce Block Checkout Store API in all versions up to, and including, 2.1.7. This is due to the `prepare_single_field_data()` method in `class-thwcfd-block-order-data.php` first escaping values with",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "cve": "CVE-2026-3231",
+      "date": "2026-03-11",
+      "url": "https://plugins.trac.wordpress.org/browser/woo-checkout-field-editor-pro/tags/2.1.7/block/class-thwcfd-block-order-data.php#L437",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-3492 [CVSS 6.4] \u2014 The Gravity Forms plugin for WordPress is vulnerable to Stored Cross-Site Script",
+      "summary": "The Gravity Forms plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to, and including, 2.9.28.1. This is due to a compound failure involving missing authorization on the `create_from_template` AJAX endpoint (allowing any authenticated user to create forms), insufficient input sanitization (`sanitize_text_field()` preserves single quotes), and missing output escap",
+      "severity": "MEDIUM",
+      "cvss_score": 6.4,
+      "cve": "CVE-2026-3492",
+      "date": "2026-03-11",
+      "url": "https://docs.gravityforms.com/gravityforms-change-log/",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-3906 [CVSS 4.3] \u2014 WordPress core is vulnerable to unauthorized access in versions 6.9 through 6.9.",
+      "summary": "WordPress core is vulnerable to unauthorized access in versions 6.9 through 6.9.1. The Notes feature (block-level collaboration annotations) was introduced in WordPress 6.9 to allow editorial comments directly on posts in the block editor. However, the REST API `create_item_permissions_check()` method in the comments controller did not verify that the authenticated user has `edit_post` permission ",
+      "severity": "MEDIUM",
+      "cvss_score": 4.3,
+      "cve": "CVE-2026-3906",
+      "date": "2026-03-11",
+      "url": "https://core.trac.wordpress.org/browser/trunk/src/wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php#L562",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-1965 [CVSS 6.5] \u2014 libcurl can in some circumstances reuse the wrong connection when asked to do\nan",
+      "summary": "libcurl can in some circumstances reuse the wrong connection when asked to do\nan Negotiate-authenticated HTTP or HTTPS request.\n\nlibcurl features a pool of recent connections so that subsequent requests can\nreuse an existing connection to avoid overhead.\n\nWhen reusing a connection a range of criterion must first be met. Due to a\nlogical error in the code, a request that was issued by an applicatio",
+      "severity": "MEDIUM",
+      "cvss_score": 6.5,
+      "cve": "CVE-2026-1965",
+      "date": "2026-03-11",
+      "url": "https://curl.se/docs/CVE-2026-1965.html",
+      "mitre": [
+        [
+          "T1078",
+          "Valid Accounts"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-3783 [CVSS 5.3] \u2014 When an OAuth2 bearer token is used for an HTTP(S) transfer, and that transfer\np",
+      "summary": "When an OAuth2 bearer token is used for an HTTP(S) transfer, and that transfer\nperforms a redirect to a second URL, curl could leak that token to the second\nhostname under some circumstances.\n\nIf the hostname that the first request is redirected to has information in the\nused .netrc file, with either of the `machine` or `default` keywords, curl\nwould pass on the bearer token set for the first host",
+      "severity": "MEDIUM",
+      "cvss_score": 5.3,
+      "cve": "CVE-2026-3783",
+      "date": "2026-03-11",
+      "url": "https://curl.se/docs/CVE-2026-3783.html",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-3784 [CVSS 6.5] \u2014 curl would wrongly reuse an existing HTTP proxy connection doing CONNECT to a\nse",
+      "summary": "curl would wrongly reuse an existing HTTP proxy connection doing CONNECT to a\nserver, even if the new request uses different credentials for the HTTP proxy.\nThe proper behavior is to create or use a separate connection.",
+      "severity": "MEDIUM",
+      "cvss_score": 6.5,
+      "cve": "CVE-2026-3784",
+      "date": "2026-03-11",
+      "url": "https://curl.se/docs/CVE-2026-3784.html",
+      "mitre": [
+        [
+          "T1078",
+          "Valid Accounts"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-3805 [CVSS 7.5] \u2014 When doing a second SMB request to the same host again, curl would wrongly use\na",
+      "summary": "When doing a second SMB request to the same host again, curl would wrongly use\na data pointer pointing into already freed memory.",
+      "severity": "HIGH",
+      "cvss_score": 7.5,
+      "cve": "CVE-2026-3805",
+      "date": "2026-03-11",
+      "url": "https://curl.se/docs/CVE-2026-3805.html",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-3178 [CVSS 7.2] \u2014 The Name Directory plugin for WordPress is vulnerable to Stored Cross-Site Scrip",
+      "summary": "The Name Directory plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'name_directory_name' parameter in all versions up to, and including, 1.32.1 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. The vulnerabili",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "cve": "CVE-2026-3178",
+      "date": "2026-03-11",
+      "url": "https://plugins.trac.wordpress.org/browser/name-directory/trunk/admin.php#L930",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-3943 [CVSS 7.3] \u2014 A vulnerability was found in H3C ACG1000-AK230 up to 20260227. This affects an u",
+      "summary": "A vulnerability was found in H3C ACG1000-AK230 up to 20260227. This affects an unknown part of the file /webui/?aaa_portal_auth_local_submit. The manipulation of the argument suffix results in command injection. The attack can be launched remotely. The exploit has been made public and could be used. The vendor is investigating and remediating this issue.",
+      "severity": "HIGH",
+      "cvss_score": 7.3,
+      "cve": "CVE-2026-3943",
+      "date": "2026-03-11",
+      "url": "https://github.com/leeyper/CVE/issues/1",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-3944 [CVSS 7.3] \u2014 A vulnerability was determined in itsourcecode University Management System 1.0.",
+      "summary": "A vulnerability was determined in itsourcecode University Management System 1.0. This vulnerability affects unknown code of the file /att_add.php. This manipulation of the argument Name causes sql injection. The attack may be initiated remotely. The exploit has been publicly disclosed and may be utilized.",
+      "severity": "HIGH",
+      "cvss_score": 7.3,
+      "cve": "CVE-2026-3944",
+      "date": "2026-03-11",
+      "url": "https://github.com/kongjie284/my_CVE/issues/1",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ],
+        [
+          "T1505",
+          "Web Shell"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "CISA Advisory",
+      "category": "gov_advisory",
+      "type": "government_advisory",
+      "title": "Siemens SIDIS Prime",
+      "summary": "View CSAF\nSummary\nSIDIS Prime before V4.0.800 is affected by multiple vulnerabilities in the components OpenSSL, SQLite, and several Node.js packages as described below. Siemens has released a new version of SIDIS Prime and recommends to update to the latest version.\nThe following versions of Siemens SIDIS Prime are affected:\n\nSIDIS Prime vers:intdot/&lt;4.0.800 (CVE-2024-29857, CVE-2024-30171, CV",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-03",
+      "date": "Thu, 12 Mar 26 12:00:00 +",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ],
+        [
+          "T1505",
+          "Web Shell"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "CISA Advisory",
+      "category": "gov_advisory",
+      "type": "government_advisory",
+      "title": "Siemens RUGGEDCOM APE1808 Devices",
+      "summary": "View CSAF\nSummary\nFortinet has published information on vulnerabilities in FORTIOS. This advisory lists the related Siemens Industrial products. Siemens has released a new version for RUGGEDCOM APE1808 and recommends to update to the latest version.\nThe following versions of Siemens RUGGEDCOM APE1808 Devices are affected:\n\nRUGGEDCOM APE1808 vers:all/*, vers:all/* (CVE-2026-24858, CVE-2025-55018, C",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-02",
+      "date": "Thu, 12 Mar 26 12:00:00 +",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "CISA Advisory",
+      "category": "gov_advisory",
+      "type": "government_advisory",
+      "title": "Siemens SIMATIC",
+      "summary": "View CSAF\nSummary\nSIMATIC S7-1500 devices contain a vulnerability that could allow an attacker to inject code by tricking a legitimate user into importing a specially crafted trace file in the web interface. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific countermeasur",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-04",
+      "date": "Thu, 12 Mar 26 12:00:00 +",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "CISA Advisory",
+      "category": "gov_advisory",
+      "type": "government_advisory",
+      "title": "Trane Tracer SC, Tracer SC+, and Tracer Concierge",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information, execute arbitrary commands, or perform a denial-of-service on the product.\nThe following versions of Trane Tracer SC, Tracer SC+, and Tracer Concierge are affected:\n\nTracer SC\nTracer SC+\nTracer Concierge\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 8.1\nTrane\nTrane Trac",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-01",
+      "date": "Thu, 12 Mar 26 12:00:00 +",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "CISA Advisory",
+      "category": "gov_advisory",
+      "type": "government_advisory",
+      "title": "Siemens Heliox EV Chargers",
+      "summary": "View CSAF\nSummary\nHeliox EV Chargers listed below contain improper access control vulnerability that could allow an attacker to reach unauthorized services via the charging cable. Siemens has released new versions for the affected products and recommends to update to the latest versions.\nThe following versions of Siemens Heliox EV Chargers are affected:\n\nHeliox Flex 180 kW EV Charging Station\nHeli",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-05",
+      "date": "Thu, 12 Mar 26 12:00:00 +",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "CISA Advisory",
+      "category": "gov_advisory",
+      "type": "government_advisory",
+      "title": "Inductive Automation Ignition Software",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to execute malicious code with OS application service account permissions that the authenticated, privileged application user did not intend on running.\nThe following versions of Inductive Automation Ignition Software are affected:\n\nIgnition Software &lt;8.3.0 (CVE-2025-13913)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnera",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-071-06",
+      "date": "Thu, 12 Mar 26 12:00:00 +",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "CISA Advisory",
+      "category": "gov_advisory",
+      "type": "government_advisory",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2025-68613 n8n Improper Control of Dynamically-Managed Code Resources Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-0",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/03/11/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "date": "Wed, 11 Mar 26 12:00:00 +",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Shodan",
+      "category": "internet_exposure",
+      "type": "exposure",
+      "title": "0 hosts: Vulnerable Indian hosts (2024 CVEs)",
+      "summary": "Query: vuln:CVE-2024 country:IN",
+      "severity": "MEDIUM",
+      "date": "2026-03-13",
+      "count": 0,
+      "url": "https://www.shodan.io/search?query=vuln%3ACVE-2024%20country%3AIN",
+      "mitre": [
+        [
+          "T1046",
+          "Network Service Scanning"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Shodan",
+      "category": "internet_exposure",
+      "type": "exposure",
+      "title": "38,221 hosts: RDP exposed India",
+      "summary": "Query: port:3389 country:IN",
+      "severity": "MEDIUM",
+      "date": "2026-03-13",
+      "count": 38221,
+      "url": "https://www.shodan.io/search?query=port%3A3389%20country%3AIN",
+      "mitre": [
+        [
+          "T1046",
+          "Network Service Scanning"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Shodan",
+      "category": "internet_exposure",
+      "type": "exposure",
+      "title": "856,963 hosts: All vulnerable hosts India",
+      "summary": "Query: has_vuln:true country:IN",
+      "severity": "HIGH",
+      "date": "2026-03-13",
+      "count": 856963,
+      "url": "https://www.shodan.io/search?query=has_vuln%3Atrue%20country%3AIN",
+      "mitre": [
+        [
+          "T1046",
+          "Network Service Scanning"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Shodan",
+      "category": "internet_exposure",
+      "type": "exposure",
+      "title": "2,428,924 hosts: RDP exposed globally",
+      "summary": "Query: port:3389",
+      "severity": "HIGH",
+      "date": "2026-03-13",
+      "count": 2428924,
+      "url": "https://www.shodan.io/search?query=port%3A3389",
+      "mitre": [
+        [
+          "T1046",
+          "Network Service Scanning"
+        ]
+      ],
+      "today": true
+    }
+  ],
+  "hours_window": 36,
+  "today_only": true,
+  "blog_id": "20260313_010346",
+  "generated_at": "2026-03-12T19:35:28.219439+00:00",
+  "from_cache": false,
+  "cache_age_min": 0,
+  "json_path": "/home/j/voraguard/blogs/blog_20260313_010346_en.json",
+  "html_path": "/home/j/voraguard/blogs/blog_20260313_010346_en.html"
+}

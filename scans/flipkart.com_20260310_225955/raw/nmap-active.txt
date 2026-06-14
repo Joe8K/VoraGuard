@@ -1,0 +1,20 @@
+# Nmap 7.98 scan initiated Tue Mar 10 22:59:56 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC --open -T4 --max-retries 2 -oN /home/j/voraguard/scans/flipkart.com_20260310_225955/raw/nmap-active.txt flipkart.com
+Nmap scan report for flipkart.com (163.53.76.86)
+Host is up (0.038s latency).
+Not shown: 997 filtered tcp ports (no-response), 1 filtered tcp ports (admin-prohibited)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE        VERSION
+80/tcp  open  http-proxy     HAProxy http proxy 2.0.0 or later
+|_http-open-proxy: Proxy might be redirecting requests
+|_http-title: Did not follow redirect to https://flipkart.com:443/
+443/tcp open  ssl/http-proxy HAProxy http proxy
+| ssl-cert: Subject: commonName=www.flipkart.com/organizationName=FLIPKART INTERNET PRIVATE LIMITED/stateOrProvinceName=Karnataka/countryName=IN
+| Subject Alternative Name: DNS:www.flipkart.com, DNS:accounts.flipkart.com, DNS:airtel.store.flipkart.com, DNS:auth.flipkart.com, DNS:axis.store.flipkart.com, DNS:bhaskar.store.flipkart.com, DNS:dl.flipkart.com, DNS:indusind.store.flipkart.com, DNS:insurance.flipkart.com, DNS:itzcash.store.flipkart.com, DNS:m.flipkart.com, DNS:offers.store.flipkart.com, DNS:pay.flipkart.com, DNS:tech.flipkart.com, DNS:yahoo.store.flipkart.com, DNS:yono.store.flipkart.com, DNS:1.uiscoop.flipkart.com, DNS:2.uiscoop.flipkart.com, DNS:flipkart.com
+| Not valid before: 2025-11-11T09:06:01
+|_Not valid after:  2026-07-17T03:39:25
+|_ssl-date: TLS randomness does not represent time
+|_http-title: Flipkart reCAPTCHA
+Service Info: Device: load balancer
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Mar 10 23:01:00 2026 -- 1 IP address (1 host up) scanned in 63.98 seconds

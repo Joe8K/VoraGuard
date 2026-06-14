@@ -1,0 +1,24 @@
+{
+  "domain": "ndtv.com",
+  "timestamp": "2026-03-09T17:43:25.627868+00:00",
+  "open_ports": [
+    "80/tcp",
+    "443/tcp"
+  ],
+  "port_details": [
+    {
+      "port": 80,
+      "protocol": "tcp",
+      "state": "open",
+      "service": "tcpwrapped",
+      "version": "|_http-server-header: AkamaiGHost"
+    },
+    {
+      "port": 443,
+      "protocol": "tcp",
+      "state": "open",
+      "service": "tcpwrapped",
+      "version": "| ssl-cert: Subject: commonName=ndtv.com/organizationName=NDTV Convergence Limited/stateOrProvinceName=Delhi/countryName=IN"
+    }
+  ]
+}

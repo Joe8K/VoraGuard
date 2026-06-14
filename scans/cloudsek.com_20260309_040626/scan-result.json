@@ -1,0 +1,1366 @@
+{
+  "domain": "cloudsek.com",
+  "scan_id": "20260309_040626",
+  "started_at": "2026-03-09T04:06:26.262490",
+  "completed_at": "2026-03-09T04:12:48.076849",
+  "duration_seconds": 381.814359,
+  "nmap": {
+    "success": true,
+    "target": "cloudsek.com",
+    "open_ports": [
+      {
+        "port": 80,
+        "protocol": "tcp",
+        "state": "open",
+        "service": "http",
+        "version": "cloudflare"
+      },
+      {
+        "port": 443,
+        "protocol": "tcp",
+        "state": "open",
+        "service": "tcpwrapped",
+        "version": "| ssl-cert: Subject: commonName=cloudsek.com"
+      },
+      {
+        "port": 8080,
+        "protocol": "tcp",
+        "state": "open",
+        "service": "tcpwrapped",
+        "version": "|_http-server-header: cloudflare"
+      }
+    ],
+    "error": ""
+  },
+  "dnstwist": {
+    "success": true,
+    "target": "cloudsek.com",
+    "total_found": 23,
+    "registered_count": 22,
+    "typosquats": [
+      {
+        "fuzzer": "addition",
+        "domain": "cloudseki.com",
+        "dns_a": "183.90.228.8",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "cloudcek.com",
+        "dns_a": "103.186.30.46",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "cloudsdk.com",
+        "dns_a": "13.248.243.5",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "cloudsei.com",
+        "dns_a": "13.248.243.5",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "cloudrek.com",
+        "dns_a": "167.99.8.17",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "cloudsec.com",
+        "dns_a": "18.161.246.118",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "cloudsuk.com",
+        "dns_a": "3.131.150.69",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "cloudsgk.com",
+        "dns_a": "46.149.194.24",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "cloudseo.com",
+        "dns_a": "",
+        "registered": false
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "xn--cloudse-bhb.com",
+        "dns_a": "15.197.148.33",
+        "registered": true
+      },
+      {
+        "fuzzer": "insertion",
+        "domain": "cloudseek.com",
+        "dns_a": "67.205.29.135",
+        "registered": true
+      },
+      {
+        "fuzzer": "omission",
+        "domain": "cloudsk.com",
+        "dns_a": "13.223.25.84",
+        "registered": true
+      },
+      {
+        "fuzzer": "omission",
+        "domain": "cloudse.com",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "omission",
+        "domain": "cloudek.com",
+        "dns_a": "44.232.173.249",
+        "registered": true
+      },
+      {
+        "fuzzer": "replacement",
+        "domain": "cloudeek.com",
+        "dns_a": "104.21.62.220",
+        "registered": true
+      },
+      {
+        "fuzzer": "replacement",
+        "domain": "cloudsem.com",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "replacement",
+        "domain": "cloudsel.com",
+        "dns_a": "44.230.85.241",
+        "registered": true
+      },
+      {
+        "fuzzer": "replacement",
+        "domain": "cloudssk.com",
+        "dns_a": "51.79.81.171",
+        "registered": true
+      },
+      {
+        "fuzzer": "subdomain",
+        "domain": "clouds.ek.com",
+        "dns_a": "205.178.189.129",
+        "registered": true
+      },
+      {
+        "fuzzer": "subdomain",
+        "domain": "cloud.sek.com",
+        "dns_a": "69.63.131.164",
+        "registered": true
+      },
+      {
+        "fuzzer": "transposition",
+        "domain": "cloudske.com",
+        "dns_a": "124.156.194.17",
+        "registered": true
+      },
+      {
+        "fuzzer": "transposition",
+        "domain": "cloudesk.com",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "vowel-swap",
+        "domain": "cloudsok.com",
+        "dns_a": "13.223.25.84",
+        "registered": true
+      }
+    ],
+    "error": ""
+  },
+  "harvester": {
+    "success": true,
+    "target": "cloudsek.com",
+    "emails": [
+      "cmartorella@edge-security.com"
+    ],
+    "hosts": [],
+    "ips": [],
+    "email_count": 1,
+    "host_count": 0,
+    "error": ""
+  },
+  "vt_domain": {
+    "available": true,
+    "domain": "cloudsek.com",
+    "malicious": 0,
+    "suspicious": 0,
+    "harmless": 62,
+    "total_engines": 94,
+    "reputation_score": 0,
+    "categories": [],
+    "risk_level": "clean",
+    "last_analysis_date": 1772920566
+  },
+  "dns_health": {
+    "domain": "cloudsek.com",
+    "resolves": true,
+    "ip_addresses": [
+      "104.26.15.226",
+      "2606:4700:20::681a:ee2",
+      "172.67.72.49",
+      "104.26.14.226",
+      "2606:4700:20::681a:fe2",
+      "2606:4700:20::ac43:4831"
+    ],
+    "spf": {
+      "present": false,
+      "record": ""
+    },
+    "dmarc": {
+      "present": false,
+      "record": ""
+    },
+    "mx_records": [],
+    "issues": [
+      "Could not check SPF record",
+      "Could not check DMARC record"
+    ]
+  },
+  "ssl_info": {
+    "domain": "cloudsek.com",
+    "port": 443,
+    "has_ssl": false,
+    "valid": false,
+    "expires_in_days": null,
+    "issuer": "",
+    "subject": "",
+    "protocol": "",
+    "issues": [
+      "SSL check error: [Errno -3] Temporary failure in name resolution"
+    ]
+  },
+  "risk": {
+    "score": 59,
+    "risk_level": "HIGH",
+    "risk_color": "#ef4444",
+    "breakdown": {
+      "port_exposure": {
+        "deduction": 0,
+        "max": 25
+      },
+      "vt_reputation": {
+        "deduction": 0,
+        "max": 30
+      },
+      "typosquatting": {
+        "deduction": 15,
+        "max": 15
+      },
+      "dns_health": {
+        "deduction": 16,
+        "max": 20
+      },
+      "ssl_tls": {
+        "deduction": 10,
+        "max": 10
+      }
+    },
+    "key_findings": [
+      "Severe typosquatting: 22 registered lookalike domains",
+      "No HTTPS/SSL detected"
+    ]
+  },
+  "vuln_analysis": {
+    "total_findings": 3,
+    "critical": 0,
+    "high": 1,
+    "medium": 1,
+    "low": 1,
+    "findings": [
+      {
+        "port": 80,
+        "service": "http",
+        "version": "cloudflare",
+        "severity": "MEDIUM",
+        "cves": [
+          {
+            "cve": "CVE-2021-41773",
+            "cvss": 9.8,
+            "desc": "Apache HTTP Server 2.4.49 path traversal and RCE (mod_cgi)"
+          },
+          {
+            "cve": "CVE-2021-42013",
+            "cvss": 9.8,
+            "desc": "Apache HTTP Server 2.4.49/2.4.50 path traversal bypass"
+          },
+          {
+            "cve": "CVE-2022-31813",
+            "cvss": 9.8,
+            "desc": "Apache mod_proxy X-Forwarded-For header forwarding flaw"
+          },
+          {
+            "cve": "CVE-2022-0778",
+            "cvss": 7.5,
+            "desc": "OpenSSL infinite loop in BN_mod_sqrt() causes DoS via crafted certificate"
+          },
+          {
+            "cve": "CVE-2021-3449",
+            "cvss": 5.9,
+            "desc": "OpenSSL NULL pointer deref in TLSv1.2 renegotiation \u2192 DoS"
+          }
+        ],
+        "exploit_available": true,
+        "remediation": "Redirect all HTTP to HTTPS. Implement HSTS. Disable if not needed.",
+        "attack_vector": "Web app attacks, HTTP request smuggling, directory traversal"
+      },
+      {
+        "port": 443,
+        "service": "tcpwrapped",
+        "version": "| ssl-cert: Subject: commonName=cloudsek.com",
+        "severity": "LOW",
+        "cves": [],
+        "exploit_available": false,
+        "remediation": "Ensure TLS 1.2+ only. Disable SSLv3/TLS 1.0/1.1. Implement HSTS preloading.",
+        "attack_vector": "TLS downgrade, web app attacks, certificate spoofing"
+      },
+      {
+        "port": 8080,
+        "service": "tcpwrapped",
+        "version": "|_http-server-header: cloudflare",
+        "severity": "HIGH",
+        "cves": [],
+        "exploit_available": false,
+        "remediation": "Assess necessity of port 8080. Apply vendor security patches. Restrict access via firewall.",
+        "attack_vector": "Network-level exploitation, banner grabbing, version-specific exploits"
+      }
+    ],
+    "overall_risk": "HIGH"
+  },
+  "owasp": {
+    "triggered_count": 3,
+    "total_categories": 10,
+    "findings": [
+      {
+        "id": "A02:2021",
+        "name": "Cryptographic Failures",
+        "evidence": [
+          "Port 80 (http) is open and internet-accessible",
+          "Service 'http' detected on target",
+          "HTTPS/TLS not present on port 443",
+          "HTTP Strict Transport Security not enforced"
+        ],
+        "description": "Plaintext protocols in use (HTTP, FTP, Telnet, SMTP without TLS). Credentials and data transmitted unencrypted.",
+        "remediation": "Enforce HTTPS with HSTS. Disable FTP/Telnet. Require STARTTLS/TLS for SMTP. Redirect all HTTP to HTTPS.",
+        "severity": "HIGH"
+      },
+      {
+        "id": "A05:2021",
+        "name": "Security Misconfiguration",
+        "evidence": [
+          "Port 8080 (tcpwrapped) is open and internet-accessible"
+        ],
+        "description": "Development/admin ports exposed, Elasticsearch or Docker APIs accessible without authentication.",
+        "remediation": "Audit all exposed ports. Disable default credentials. Enable authentication on all admin interfaces.",
+        "severity": "MEDIUM"
+      },
+      {
+        "id": "A09:2021",
+        "name": "Security Logging & Monitoring Failures",
+        "evidence": [
+          "No logging/monitoring endpoints observable from external scan"
+        ],
+        "description": "Lack of observable security monitoring increases attacker dwell time.",
+        "remediation": "Implement SIEM. Alert on auth failures, port scans, anomalous traffic.",
+        "severity": "MEDIUM"
+      }
+    ]
+  },
+  "grc_report": {
+    "domain": "cloudsek.com",
+    "generated_at": "2026-03-08T22:39:26.828520+00:00",
+    "overall_score": 59,
+    "risk_level": "HIGH",
+    "appetite_status": "Threshold Breached",
+    "appetite_color": "orange",
+    "executive_summary": "cloudsek.com presents a HIGH risk profile with an overall score of 59/100. The external attack surface includes 3 open port(s), 0 critical and 1 high-severity service vulnerabilities, and 22 registered typosquatting domains increasing brand/phishing risk. Targeted remediation of high-priority findings is recommended within the next sprint cycle.",
+    "key_risk_indicators": [
+      {
+        "indicator": "HTTPS not enforced",
+        "status": "BREACHED",
+        "value": "No TLS"
+      },
+      {
+        "indicator": "Typosquatting exposure",
+        "status": "ELEVATED",
+        "value": "22 domains"
+      },
+      {
+        "indicator": "SPF record missing",
+        "status": "BREACHED",
+        "value": "Email spoofing risk"
+      },
+      {
+        "indicator": "DMARC record missing",
+        "status": "ELEVATED",
+        "value": "Phishing domain risk"
+      }
+    ],
+    "compliance_posture": {
+      "NIST_CSF": {
+        "Identify": "Partial",
+        "Protect": "Not Met",
+        "Detect": "Not Met",
+        "Respond": "Unknown",
+        "Recover": "Unknown"
+      },
+      "ISO_27001": {
+        "A.8.8 Vulnerability Mgmt": "Partial",
+        "A.8.20 Network Security": "Partial",
+        "A.8.24 Cryptography": "Not Met"
+      },
+      "SOC2": {
+        "CC6.1 Access Controls": "Met",
+        "CC6.6 External Threats": "Partial",
+        "CC7.1 Monitoring": "Not Met"
+      }
+    },
+    "priority_actions": [
+      {
+        "priority": "P1",
+        "action": "Implement HTTPS/TLS immediately \u2014 plaintext traffic is unacceptable",
+        "owner": "DevOps"
+      },
+      {
+        "priority": "P2",
+        "action": "Monitor/take down 22 typosquatting domains \u2014 phishing risk",
+        "owner": "Legal/Security"
+      },
+      {
+        "priority": "P2",
+        "action": "Configure SPF DNS record to prevent email spoofing",
+        "owner": "IT Admin"
+      },
+      {
+        "priority": "P2",
+        "action": "Configure DMARC policy (p=quarantine minimum) to prevent phishing",
+        "owner": "IT Admin"
+      }
+    ],
+    "owasp_coverage": 3,
+    "total_vulnerabilities": 3,
+    "critical_vulns": 0
+  },
+  "attack_surface_change": {
+    "domain": "cloudsek.com",
+    "scanned_at": "2026-03-08T22:39:26.828797+00:00",
+    "current_open_ports": [
+      "443/tcp",
+      "8080/tcp",
+      "80/tcp"
+    ],
+    "total_open": 3,
+    "is_first_scan": true,
+    "new_ports": [],
+    "closed_ports": [],
+    "unchanged_ports": [],
+    "delta_risk": "NONE",
+    "baseline_file": "/home/j/voraguard/scans/cloudsek.com_baseline.json",
+    "message": "Baseline saved with 3 open ports. Run again to detect changes."
+  },
+  "business_impact": {
+    "domain": "cloudsek.com",
+    "overall_confidentiality": "MEDIUM",
+    "overall_integrity": "MEDIUM",
+    "overall_availability": "MEDIUM",
+    "financial_risk_estimate": {
+      "minimum": "$25,000",
+      "maximum": "$150,000",
+      "basis": "IBM Cost of a Data Breach Report 2024 \u2014 average breach cost $4.88M globally",
+      "factors": [
+        "Regulatory fines",
+        "Incident response costs",
+        "Reputational damage",
+        "Legal liability"
+      ]
+    },
+    "impact_findings": [
+      {
+        "port": 80,
+        "service": "http",
+        "asset": "Web Server (HTTP)",
+        "confidentiality": "MEDIUM",
+        "integrity": "MEDIUM",
+        "availability": "MEDIUM",
+        "breach_scenario": "Web app attacks, data interception, SEO poisoning"
+      },
+      {
+        "port": 443,
+        "service": "tcpwrapped",
+        "asset": "Web Server (HTTPS)",
+        "confidentiality": "LOW",
+        "integrity": "MEDIUM",
+        "availability": "MEDIUM",
+        "breach_scenario": "Web app vulnerabilities \u2014 depends on application security"
+      }
+    ],
+    "exposed_asset_count": 2
+  },
+  "regulatory_breach": {
+    "domain": "cloudsek.com",
+    "frameworks_at_risk": 3,
+    "findings": [
+      {
+        "framework": "GDPR (EU General Data Protection Regulation)",
+        "article": "Article 32 \u2014 Security of Processing",
+        "violation_description": "Failure to implement appropriate technical security measures for personal data processing.",
+        "potential_fine": "Up to \u20ac20M or 4% of global annual turnover",
+        "triggered_by": [
+          "no_https",
+          "open_db_ports",
+          "no_spf",
+          "no_dmarc"
+        ],
+        "risk": "HIGH"
+      },
+      {
+        "framework": "HIPAA Security Rule",
+        "article": "45 CFR \u00a7164.312 \u2014 Technical Safeguards",
+        "violation_description": "Electronic Protected Health Information (ePHI) must be encrypted in transit and at rest.",
+        "potential_fine": "$100\u2013$50,000 per violation, up to $1.9M/year per category",
+        "triggered_by": [
+          "no_https",
+          "open_db_ports",
+          "no_ssl"
+        ],
+        "risk": "HIGH"
+      },
+      {
+        "framework": "India IT Act 2000 / DPDP Act 2023",
+        "article": "Section 43A \u2014 Reasonable Security Practices",
+        "violation_description": "Reasonable security practices not implemented \u2014 exposed services and missing email security records.",
+        "potential_fine": "\u20b9250 crore per data breach incident",
+        "triggered_by": [
+          "no_ssl",
+          "open_ports",
+          "no_dmarc"
+        ],
+        "risk": "HIGH"
+      }
+    ],
+    "overall_regulatory_risk": "CRITICAL"
+  },
+  "supply_chain": {
+    "domain": "cloudsek.com",
+    "components_detected": 3,
+    "critical_components": 0,
+    "components": [
+      {
+        "technology": "nginx",
+        "risk": "MEDIUM",
+        "note": "nginx web server \u2014 check version for CVEs",
+        "evidence": [
+          "Port 80 open",
+          "Port 443 open"
+        ]
+      },
+      {
+        "technology": "Apache",
+        "risk": "MEDIUM",
+        "note": "Apache httpd \u2014 verify version is patched",
+        "evidence": [
+          "Port 80 open",
+          "Port 443 open",
+          "Service fingerprint: http"
+        ]
+      },
+      {
+        "technology": "WordPress",
+        "risk": "MEDIUM",
+        "note": "WordPress detected \u2014 check for plugin/theme CVEs, xmlrpc.php exposure",
+        "evidence": [
+          "Port 80 open",
+          "Port 443 open"
+        ]
+      }
+    ],
+    "supply_chain_risk": "MEDIUM"
+  },
+  "honey_trap": {
+    "domain": "cloudsek.com",
+    "verdict": "UNLIKELY HONEYPOT",
+    "confidence_pct": 5,
+    "honeypot_score": 0,
+    "indicators": [
+      "No honeypot indicators detected \u2014 appears to be a real target"
+    ],
+    "recommendation": "No significant honeypot indicators. Proceed with authorized testing."
+  },
+  "attacker_roi": {
+    "domain": "cloudsek.com",
+    "total_roi_score": 35,
+    "max_score": 100,
+    "roi_label": "MEDIUM \u2014 Opportunistic attackers may attempt exploitation",
+    "ease_score": 10,
+    "value_score": 15,
+    "stealth_score": 10,
+    "ease_factors": [
+      "+10 High-severity vulnerabilities (1)"
+    ],
+    "value_factors": [
+      "+10 All internet-facing targets have baseline value",
+      "+5 22 typosquats \u2014 brand/phishing infrastructure value"
+    ],
+    "stealth_factors": [
+      "+5 No observable WAF/firewall detected",
+      "+5 Plaintext protocols \u2014 easier credential capture"
+    ],
+    "attacker_type": "Opportunistic attackers, automated scanners, initial access brokers"
+  },
+  "threat_actors": {
+    "domain": "cloudsek.com",
+    "matched_actor_count": 4,
+    "actors": [
+      {
+        "group": "APT28 (Fancy Bear)",
+        "nation_state": "Russia",
+        "motivation": "Espionage, credential theft",
+        "correlation_score": 55,
+        "matched_ttps": [
+          "T1078 Valid Accounts",
+          "T1190 Exploit Public-Facing App",
+          "T1133 External Remote Services"
+        ],
+        "evidence": [
+          "Port 443 open \u2014 used by APT28 (Fancy Bear) for Espionage, credential theft",
+          "Port 80 open \u2014 used by APT28 (Fancy Bear) for Espionage, credential theft",
+          "Service 'http' is a known TTP vector for this group"
+        ],
+        "mitre_url": "https://attack.mitre.org/groups/G0007/",
+        "risk": "HIGH"
+      },
+      {
+        "group": "Scattered Spider",
+        "nation_state": "English-speaking (cybercriminal)",
+        "motivation": "Financial, ransomware (ALPHV/BlackCat affiliate)",
+        "correlation_score": 55,
+        "matched_ttps": [
+          "T1566 Phishing",
+          "T1621 MFA Fatigue",
+          "T1078 Valid Accounts"
+        ],
+        "evidence": [
+          "Port 443 open \u2014 used by Scattered Spider for Financial, ransomware (ALPHV/BlackCat affiliate)",
+          "Port 80 open \u2014 used by Scattered Spider for Financial, ransomware (ALPHV/BlackCat affiliate)",
+          "Service 'http' is a known TTP vector for this group"
+        ],
+        "mitre_url": "https://attack.mitre.org/groups/G1015/",
+        "risk": "HIGH"
+      },
+      {
+        "group": "Sandworm",
+        "nation_state": "Russia (GRU)",
+        "motivation": "Disruption, sabotage, critical infrastructure",
+        "correlation_score": 55,
+        "matched_ttps": [
+          "T1486 Destructive malware",
+          "T1195 Supply Chain Compromise",
+          "T1498 Network DoS"
+        ],
+        "evidence": [
+          "Port 80 open \u2014 used by Sandworm for Disruption, sabotage, critical infrastructure",
+          "Port 443 open \u2014 used by Sandworm for Disruption, sabotage, critical infrastructure",
+          "Service 'http' is a known TTP vector for this group"
+        ],
+        "mitre_url": "https://attack.mitre.org/groups/G0034/",
+        "risk": "HIGH"
+      },
+      {
+        "group": "Lazarus Group",
+        "nation_state": "North Korea",
+        "motivation": "Financial theft, ransomware, espionage",
+        "correlation_score": 20,
+        "matched_ttps": [
+          "T1486 Data Encrypted for Impact",
+          "T1055 Process Injection",
+          "T1021.001 RDP"
+        ],
+        "evidence": [
+          "Port 443 open \u2014 used by Lazarus Group for Financial theft, ransomware, espionage"
+        ],
+        "mitre_url": "https://attack.mitre.org/groups/G0032/",
+        "risk": "MEDIUM"
+      }
+    ],
+    "note": "Correlation based on exposed attack surface overlap with publicly documented TTPs (MITRE ATT&CK). Does not imply active targeting.",
+    "overall_threat": "HIGH"
+  },
+  "darkweb": {
+    "domain": "cloudsek.com",
+    "overall_risk": "LOW",
+    "summary_findings": [],
+    "total_sources_checked": 6,
+    "total_findings": 0,
+    "sources_status": [
+      {
+        "name": "AlienVault OTX",
+        "status": "\u26a0 OTX connection failed",
+        "key_required": true,
+        "findings": 0
+      },
+      {
+        "name": "HaveIBeenPwned",
+        "status": "\u2717 Unavailable",
+        "key_required": false,
+        "findings": 0
+      },
+      {
+        "name": "URLhaus / Abuse.ch",
+        "status": "\u2713 Checked",
+        "key_required": false,
+        "findings": 0
+      },
+      {
+        "name": "DeHashed",
+        "status": "\u26a0 None",
+        "key_required": true,
+        "findings": 0
+      },
+      {
+        "name": "LeakIX",
+        "status": "\u26a0 None",
+        "key_required": true,
+        "findings": 0
+      },
+      {
+        "name": "AbuseIPDB",
+        "status": "\u26a0 No IPs to check",
+        "key_required": false,
+        "findings": 0
+      }
+    ],
+    "otx": {
+      "source": "AlienVault OTX",
+      "available": false,
+      "pulse_count": 0,
+      "malware_families": [],
+      "malicious_urls": [],
+      "passive_dns": [],
+      "threat_actors": [],
+      "related_cves": [],
+      "domain_findings": [],
+      "ip_findings": [],
+      "total_hits": 0,
+      "highest_severity": "CLEAN",
+      "error": "OTX connection failed"
+    },
+    "hibp": {
+      "source": "HaveIBeenPwned",
+      "available": false,
+      "domain_breaches": [],
+      "email_results": [],
+      "paste_results": [],
+      "total_pwned_accounts": 0,
+      "most_recent_breach": null,
+      "data_classes_exposed": [],
+      "error": null
+    },
+    "urlhaus": {
+      "source": "URLhaus / Abuse.ch",
+      "available": true,
+      "domain_status": "not_listed",
+      "malicious_urls": [],
+      "active_urls": 0,
+      "malware_families": [],
+      "blacklists": {},
+      "ip_findings": [],
+      "overall_risk": "CLEAN",
+      "error": null
+    },
+    "dehashed": {
+      "source": "DeHashed",
+      "available": false,
+      "domain_breach_count": 0,
+      "email_breaches": [],
+      "credential_exposure": [],
+      "databases_found": [],
+      "total_records": 0,
+      "error": null
+    },
+    "leakix": {
+      "source": "LeakIX",
+      "available": false,
+      "leak_events": [],
+      "service_events": [],
+      "total_leaks": 0,
+      "total_services": 0,
+      "critical_leaks": 0,
+      "data_exposed_bytes": 0,
+      "error": null
+    },
+    "abuseipdb": {
+      "source": "AbuseIPDB",
+      "available": false,
+      "ip_verdicts": [],
+      "malicious_ips": 0,
+      "suspicious_ips": 0,
+      "clean_ips": 0,
+      "tor_exits": 0,
+      "total_reports": 0,
+      "top_categories": [],
+      "highest_confidence": 0,
+      "overall_threat": "LOW",
+      "error": "No IPs to check"
+    },
+    "all_breached_emails": [],
+    "credential_exposure_count": 0,
+    "malware_families": [],
+    "threat_actors": [],
+    "related_cves": [],
+    "disclaimer": "Dark web monitoring covers: AlienVault OTX (threat pulses, malware families, threat actors), HaveIBeenPwned (breach database), URLhaus (malicious URL feeds), DeHashed (credential dumps), LeakIX (live data leaks), AbuseIPDB (IP reputation). Full Tor hidden service crawling requires commercial feeds (Recorded Future, DarkOwl, Flashpoint)."
+  },
+  "threat_sim": {
+    "domain": "cloudsek.com",
+    "attack_chains": [
+      {
+        "chain_id": "AC-004",
+        "name": "Web Application Attack \u2192 Server Compromise",
+        "likelihood": "MEDIUM",
+        "entry_point": "Port 80/443 \u2014 web application",
+        "steps": [
+          {
+            "phase": "Reconnaissance",
+            "tactic": "T1595.003 Wordlist Scanning",
+            "desc": "Directory bruteforce (gobuster/ffuf) \u2014 discover admin panels, API endpoints, backup files"
+          },
+          {
+            "phase": "Initial Access",
+            "tactic": "T1190 Web App Exploit",
+            "desc": "SQL injection, file upload bypass, or CVE in web framework version"
+          },
+          {
+            "phase": "Execution",
+            "tactic": "T1059.004 Unix Shell",
+            "desc": "Web shell upload \u2192 OS command execution as www-data"
+          },
+          {
+            "phase": "Privilege Escalation",
+            "tactic": "T1068 Exploitation for Privilege",
+            "desc": "Local privilege escalation \u2192 root/SYSTEM"
+          },
+          {
+            "phase": "Impact",
+            "tactic": "T1565 Data Manipulation",
+            "desc": "Website defacement, malware injection into served pages, data theft"
+          }
+        ],
+        "estimated_time_to_exploit": "Hours to days depending on app complexity",
+        "skill_required": "MEDIUM",
+        "blast_radius": "WEB SERVER COMPROMISE"
+      },
+      {
+        "chain_id": "AC-005",
+        "name": "Phishing / BEC via Domain Spoofing",
+        "likelihood": "HIGH",
+        "entry_point": "Missing SPF/DMARC records + typosquatting domains",
+        "steps": [
+          {
+            "phase": "Reconnaissance",
+            "tactic": "T1589 Gather Victim Identity Info",
+            "desc": "Email addresses harvested via theHarvester/OSINT"
+          },
+          {
+            "phase": "Resource Development",
+            "tactic": "T1583.001 Acquire Infrastructure",
+            "desc": "Typosquat domain registered \u2014 spoofed email sent from lookalike domain"
+          },
+          {
+            "phase": "Initial Access",
+            "tactic": "T1566.002 Spearphishing Link",
+            "desc": "Targeted phishing email to harvested addresses \u2014 credential harvesting page"
+          },
+          {
+            "phase": "Impact",
+            "tactic": "T1657 Financial Theft",
+            "desc": "BEC fraud \u2014 redirect payments, access SaaS accounts, credential resale"
+          }
+        ],
+        "estimated_time_to_exploit": "Minutes to set up, hours to execute",
+        "skill_required": "LOW",
+        "blast_radius": "CREDENTIAL THEFT, FINANCIAL FRAUD"
+      }
+    ],
+    "total_chains": 2,
+    "highest_likelihood": "HIGH",
+    "summary": "2 realistic attack chains modeled. 1 are HIGH or CRITICAL likelihood.",
+    "disclaimer": "This simulation is for authorized security assessment only. Models are based on MITRE ATT&CK framework and publicly documented techniques."
+  },
+  "closed_loop_response": {
+    "domain": "cloudsek.com",
+    "generated_at": "2026-03-08T22:42:28.048745+00:00",
+    "total_actions": 3,
+    "p1_actions": 1,
+    "p2_actions": 2,
+    "p3_actions": 0,
+    "auto_executable_count": 0,
+    "total_commands": 0,
+    "actions": [
+      {
+        "action_id": "ACT-TLS01",
+        "type": "tls_hardening",
+        "port": 443,
+        "service": "HTTPS/TLS",
+        "priority": "P1",
+        "sla_hours": 4,
+        "description": "Obtain TLS certificate and force HTTPS redirect",
+        "commands": [
+          "sudo certbot --nginx -d cloudsek.com --non-interactive --agree-tos -m admin@cloudsek.com",
+          "# OR: sudo certbot --apache -d cloudsek.com"
+        ],
+        "validation_command": "curl -sI https://cloudsek.com | head -5",
+        "rollback_command": "# Revert nginx/apache config",
+        "auto_executable": false,
+        "status": "PENDING"
+      },
+      {
+        "action_id": "ACT-DNS01",
+        "type": "dns_hardening",
+        "port": null,
+        "service": "DNS/Email",
+        "priority": "P2",
+        "sla_hours": 24,
+        "description": "Add SPF TXT record to DNS",
+        "commands": [
+          "# Add to your DNS zone:",
+          "TXT @ \"v=spf1 mx ip4:<your-mail-server-ip> ~all\""
+        ],
+        "validation_command": "dig TXT cloudsek.com | grep spf1",
+        "rollback_command": "# Remove the TXT record from DNS zone",
+        "auto_executable": false,
+        "status": "PENDING"
+      },
+      {
+        "action_id": "ACT-DNS02",
+        "type": "dns_hardening",
+        "port": null,
+        "service": "DNS/Email",
+        "priority": "P2",
+        "sla_hours": 24,
+        "description": "Add DMARC TXT record to DNS",
+        "commands": [
+          "# Add to your DNS zone:",
+          "TXT _dmarc \"v=DMARC1; p=quarantine; rua=mailto:dmarc@cloudsek.com\""
+        ],
+        "validation_command": "dig TXT _dmarc.cloudsek.com | grep DMARC1",
+        "rollback_command": "# Remove _dmarc TXT record from DNS zone",
+        "auto_executable": false,
+        "status": "PENDING"
+      }
+    ],
+    "ir_phases": [
+      {
+        "phase": "CONTAIN",
+        "timeline": "0\u20131 hours",
+        "steps": [
+          "Block all P1 ports at perimeter firewall immediately",
+          "Isolate affected hosts from network if active compromise suspected",
+          "Preserve logs: /var/log/auth.log, /var/log/syslog, firewall logs",
+          "Take memory dump if live compromise suspected (avml/lime)"
+        ]
+      },
+      {
+        "phase": "ERADICATE",
+        "timeline": "1\u201324 hours",
+        "steps": [
+          "Execute all P1 remediation commands in this runbook",
+          "Rotate all credentials exposed via open services",
+          "Search for persistence: crontabs, authorized_keys, /etc/passwd new users",
+          "Scan for webshells: find /var/www -name '*.php' | xargs grep -l 'eval('"
+        ]
+      },
+      {
+        "phase": "RECOVER",
+        "timeline": "24\u201372 hours",
+        "steps": [
+          "Execute P2 and P3 actions",
+          "Re-run VoraGuard scan to verify all remediations effective",
+          "Restore services from clean backup if compromise confirmed",
+          "Enable centralized logging (ELK/Splunk/Wazuh)"
+        ]
+      },
+      {
+        "phase": "POST-INCIDENT",
+        "timeline": "72+ hours",
+        "steps": [
+          "Root cause analysis: how was the service left exposed?",
+          "Update asset inventory and patch management policy",
+          "Schedule VoraGuard weekly scans for continuous monitoring",
+          "File regulatory notification if PII breach confirmed (GDPR 72hr deadline)"
+        ]
+      }
+    ],
+    "runbook_summary": "3 remediation actions generated. 0 can be executed automatically. 1 P1 actions must be completed within SLA.",
+    "estimated_remediation_time_hours": 24
+  },
+  "financial_quantification": {
+    "domain": "cloudsek.com",
+    "business_sector": "General/Unknown",
+    "methodology": "FAIR (Factor Analysis of Information Risk)",
+    "fair_components": {
+      "threat_event_frequency_per_year": 1.2,
+      "vulnerability_factor_pct": 31.4,
+      "loss_event_frequency_per_year": 0.38,
+      "single_loss_magnitude_usd": 2928000,
+      "secondary_loss_usd": 1317600,
+      "total_loss_magnitude_usd": 4245600
+    },
+    "tef_breakdown": [],
+    "annual_loss_expectancy": {
+      "minimum_usd": 165722,
+      "expected_usd": 1601984,
+      "maximum_usd": 5800286,
+      "label": "$0.2M \u2014 $1.6M \u2014 $5.8M"
+    },
+    "breach_probability_12_months_pct": 31.4,
+    "board_metrics": {
+      "risk_reduction_value_usd": 1281587,
+      "risk_reduction_value_5yr_usd": 6407935,
+      "recommended_security_budget_usd": "$0.16M \u2014 $0.24M",
+      "cost_per_record_breach_usd": 156,
+      "industry_avg_breach_cost_usd": 4880000,
+      "your_estimated_breach_cost_usd": 4245600,
+      "vs_industry_avg": "BELOW AVERAGE"
+    },
+    "peer_benchmark": {
+      "industry_sector": "General/Unknown",
+      "your_risk_score": 59,
+      "industry_avg_score": 62,
+      "status": "WORSE than industry average",
+      "percentile": 59
+    },
+    "insurance_guidance": {
+      "recommended_coverage_usd": 4640229,
+      "deductible_suggestion_usd": 80099,
+      "note": "Cyber insurance carrier will likely require remediation of P1 findings before binding coverage"
+    }
+  },
+  "ot_ics": {
+    "domain": "cloudsek.com",
+    "ot_exposure_level": "NONE",
+    "verdict": "No OT/ICS protocols detected on internet-facing ports",
+    "ot_findings_count": 0,
+    "ot_findings": [],
+    "detected_protocols": [],
+    "sector_exposure": [],
+    "attack_scenarios": [],
+    "ot_threat_actors": [],
+    "purdue_model_note": "No Purdue Model violations detected on scanned ports.",
+    "immediate_actions": []
+  },
+  "nhi_shadow_ai": {
+    "domain": "cloudsek.com",
+    "overall_nhi_risk": "MEDIUM",
+    "total_findings": 1,
+    "shadow_ai_count": 0,
+    "nhi_exposure_count": 1,
+    "exposed_secrets_count": 0,
+    "shadow_ai_findings": [],
+    "nhi_findings": [
+      {
+        "port": 8080,
+        "name": "Internal API Gateway",
+        "category": "NHI/API",
+        "risk": "MEDIUM",
+        "description": "HTTP API on alt port \u2014 potentially unauthenticated internal microservice",
+        "service_banner": "tcpwrapped |_http-server-header: cloudflare",
+        "exposure_type": "direct_internet_exposure"
+      }
+    ],
+    "exposed_secrets": [],
+    "ai_related_subdomains": [],
+    "governance_gaps": [],
+    "categories_detected": [
+      "NHI/API"
+    ],
+    "nhi_summary": "1 NHI/Shadow AI exposures detected. 0 unmanaged AI services. 0 potential credentials in banners.",
+    "compliance_note": "Shadow AI deployments may violate EU AI Act (2024) Article 9 risk management requirements and GDPR Article 22 automated decision-making provisions if models process personal data."
+  },
+  "unified_fabric": {
+    "domain": "cloudsek.com",
+    "composite_threat_score": 38,
+    "composite_severity": "MEDIUM",
+    "domain_scores": {
+      "network": {
+        "score": 9,
+        "severity": "LOW",
+        "weight_pct": 20,
+        "top_findings": []
+      },
+      "application": {
+        "score": 80,
+        "severity": "CRITICAL",
+        "weight_pct": 18,
+        "top_findings": [
+          "Cryptographic Failures",
+          "Security Misconfiguration",
+          "Security Logging & Monitoring Failures"
+        ]
+      },
+      "identity": {
+        "score": 90,
+        "severity": "CRITICAL",
+        "weight_pct": 17,
+        "top_findings": [
+          "No SPF record \u2014 email spoofing possible",
+          "No DMARC \u2014 phishing via domain impersonation",
+          "1 email addresses exposed via OSINT"
+        ]
+      },
+      "data": {
+        "score": 0,
+        "severity": "NONE",
+        "weight_pct": 16,
+        "top_findings": []
+      },
+      "cloud_api": {
+        "score": 25,
+        "severity": "LOW",
+        "weight_pct": 12,
+        "top_findings": [
+          "API/service exposed: 8080/tcpwrapped"
+        ]
+      },
+      "supply_chain": {
+        "score": 40,
+        "severity": "MEDIUM",
+        "weight_pct": 10,
+        "top_findings": [
+          "nginx: MEDIUM",
+          "Apache: MEDIUM",
+          "WordPress: MEDIUM"
+        ]
+      },
+      "ot_ics": {
+        "score": 0,
+        "severity": "NONE",
+        "weight_pct": 7,
+        "top_findings": []
+      }
+    },
+    "top_exposed_domains": [
+      {
+        "domain": "identity",
+        "score": 90,
+        "severity": "CRITICAL"
+      },
+      {
+        "domain": "application",
+        "score": 80,
+        "severity": "CRITICAL"
+      },
+      {
+        "domain": "supply_chain",
+        "score": 40,
+        "severity": "MEDIUM"
+      }
+    ],
+    "cross_domain_attack_paths": [
+      {
+        "path_id": "CDP-002",
+        "name": "Identity Spoofing \u2192 Application Attack",
+        "severity": "HIGH",
+        "domains": [
+          "identity",
+          "application"
+        ],
+        "narrative": "No SPF/DMARC allows attacker to send phishing from your domain. User clicks \u2192 credential harvest \u2192 attacker logs into web app with valid credentials. No brute-force needed.",
+        "kill_chain_coverage": [
+          "Delivery",
+          "Exploitation",
+          "Actions on Objectives"
+        ]
+      }
+    ],
+    "total_cross_domain_paths": 1,
+    "kill_chain_coverage": [
+      "Actions on Objectives",
+      "Exploitation",
+      "Delivery"
+    ],
+    "threat_actors_active": 4,
+    "fabric_summary": "Unified threat fabric score: 38/100 across 7 domains. 1 cross-domain attack paths identified. Top exposed domains: identity, application, supply_chain."
+  },
+  "threat_prediction": {
+    "domain": "cloudsek.com",
+    "model": "Bayesian inference + FAIR + CISA KEV + DBIR 2024 historical data",
+    "generated_at": "2026-03-08T22:42:28.053180+00:00",
+    "combined_attack_probability_30_days_pct": 61.1,
+    "combined_attack_probability_60_days_pct": 85.5,
+    "combined_attack_probability_90_days_pct": 99.0,
+    "overall_probability_label": "VERY HIGH",
+    "port_threat_predictions": [
+      {
+        "port": 80,
+        "service": "http",
+        "attack_type": "Web Application Attacks (SQLi, XSS, RCE)",
+        "known_campaigns": [
+          "MOVEit Transfer (Cl0p)",
+          "Log4Shell follow-on",
+          "ProxyLogon"
+        ],
+        "last_major_campaign": "2024 Apache RCE CVE-2021-41773 still exploited in wild",
+        "probability_30_days": 0.372,
+        "probability_60_days": 0.606,
+        "probability_90_days": 0.752,
+        "probability_label": "HIGH (30\u201350%)",
+        "trend": "INCREASING",
+        "cisa_kev": true,
+        "estimated_days_to_exploit": 8,
+        "sector_bias": [
+          "all"
+        ]
+      }
+    ],
+    "total_ports_at_risk": 1,
+    "predicted_attack_types": [
+      {
+        "attack_type": "Phishing/BEC",
+        "probability_30d_pct": 85.0
+      },
+      {
+        "attack_type": "Web Application Attacks (SQLi, XSS, RCE)",
+        "probability_30d_pct": 37.2
+      }
+    ],
+    "weekly_risk_forecast": [
+      {
+        "week": 1,
+        "cumulative_probability": 0.083,
+        "label": "Week 1 (7 days)"
+      },
+      {
+        "week": 2,
+        "cumulative_probability": 0.159,
+        "label": "Week 2 (14 days)"
+      },
+      {
+        "week": 3,
+        "cumulative_probability": 0.229,
+        "label": "Week 3 (21 days)"
+      },
+      {
+        "week": 4,
+        "cumulative_probability": 0.293,
+        "label": "Week 4 (28 days)"
+      },
+      {
+        "week": 5,
+        "cumulative_probability": 0.351,
+        "label": "Week 5 (35 days)"
+      },
+      {
+        "week": 6,
+        "cumulative_probability": 0.405,
+        "label": "Week 6 (42 days)"
+      },
+      {
+        "week": 7,
+        "cumulative_probability": 0.454,
+        "label": "Week 7 (49 days)"
+      },
+      {
+        "week": 8,
+        "cumulative_probability": 0.499,
+        "label": "Week 8 (56 days)"
+      },
+      {
+        "week": 9,
+        "cumulative_probability": 0.541,
+        "label": "Week 9 (63 days)"
+      },
+      {
+        "week": 10,
+        "cumulative_probability": 0.579,
+        "label": "Week 10 (70 days)"
+      },
+      {
+        "week": 11,
+        "cumulative_probability": 0.614,
+        "label": "Week 11 (77 days)"
+      },
+      {
+        "week": 12,
+        "cumulative_probability": 0.646,
+        "label": "Week 12 (84 days)"
+      }
+    ],
+    "global_threat_trends": [
+      {
+        "trend": "Ransomware-as-a-Service targeting SMB",
+        "probability_uplift": 0.08,
+        "active": true
+      },
+      {
+        "trend": "AI-assisted phishing campaigns surge",
+        "probability_uplift": 0.06,
+        "active": true
+      },
+      {
+        "trend": "Supply chain attacks increasing (3CX, XZ)",
+        "probability_uplift": 0.05,
+        "active": true
+      },
+      {
+        "trend": "Initial access broker market growth",
+        "probability_uplift": 0.07,
+        "active": true
+      },
+      {
+        "trend": "State-sponsored OT/ICS targeting",
+        "probability_uplift": 0.04,
+        "active": true
+      },
+      {
+        "trend": "Cloud credential theft via SSRF",
+        "probability_uplift": 0.05,
+        "active": true
+      },
+      {
+        "trend": "Zero-day exploit broker market active",
+        "probability_uplift": 0.03,
+        "active": true
+      }
+    ],
+    "global_trend_uplift_pct": 38.0,
+    "historical_trend": {
+      "available": false
+    },
+    "top_predicted_threats": [
+      {
+        "rank": 1,
+        "port": 80,
+        "service": "http",
+        "attack_type": "Web Application Attacks (SQLi, XSS, RCE)",
+        "probability_30d_pct": 37.2,
+        "probability_90d_pct": 75.2,
+        "days_to_likely_exploit": 8,
+        "known_campaigns": [
+          "MOVEit Transfer (Cl0p)",
+          "Log4Shell follow-on",
+          "ProxyLogon"
+        ]
+      }
+    ],
+    "prediction_disclaimer": "Probabilities are statistical estimates based on historical attack data from CISA KEV, Verizon DBIR 2024, and observed campaign frequency. Not a guarantee of attack occurrence. Remediate identified vulnerabilities to significantly reduce these probabilities."
+  },
+  "ip_scan": {
+    "target": "cloudsek.com",
+    "success": false,
+    "error": "Could not resolve cloudsek.com to any IP address"
+  },
+  "scan_mode": "domain",
+  "output_dir": "/home/j/voraguard/scans/cloudsek.com_20260309_040626",
+  "success": true,
+  "error": ""
+}

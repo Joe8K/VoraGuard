@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><theHarvester><cmd>-d mydesi.click -b crtsh,dnsdumpster,hackertarget,otx -l 200 -f /home/j/voraguard/scans/mydesi.click_20260330_205410/raw/harvester</cmd><host><ip>104.21.67.13</ip><hostname>www.mydesi.click</hostname></host><host>www.mydesi.click</host></theHarvester>

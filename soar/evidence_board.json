@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "type": "IP",
+    "value": "1.2.3.4",
+    "label": "",
+    "connected_to": [],
+    "timestamp": "2026-04-23T07:35:43.476892+00:00",
+    "added_by": "Analyst",
+    "note": "Test IOC"
+  }
+]

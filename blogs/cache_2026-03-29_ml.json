@@ -1,0 +1,2052 @@
+{
+  "date": "2026-03-29",
+  "language": "Malayalam",
+  "language_iso": "ml",
+  "total_items": 82,
+  "total_critical": 13,
+  "total_high": 24,
+  "sources_count": 13,
+  "sources_used": [
+    "BleepingComputer",
+    "CISA Advisory",
+    "Dark Reading",
+    "GBHackers",
+    "Indian Express Tech",
+    "Malwarebytes",
+    "NVD",
+    "SANS ISC",
+    "SecurityAffairs",
+    "SecurityWeek",
+    "Shodan",
+    "The Hacker News",
+    "The Record"
+  ],
+  "executive_summary": "2026-03-29-\u0d32\u0d46 \u0d38\u0d48\u0d2c\u0d7c \u0d2d\u0d40\u0d37\u0d23\u0d3f \u0d07\u0d7b\u0d4d\u0d31\u0d32\u0d3f\u0d1c\u0d7b\u0d38\u0d4d \u0d21\u0d48\u0d1c\u0d38\u0d4d\u0d31\u0d4d\u0d31\u0d4d. 13 \u0d09\u0d31\u0d35\u0d3f\u0d1f\u0d19\u0d4d\u0d19\u0d33\u0d3f\u0d7d \u0d28\u0d3f\u0d28\u0d4d\u0d28\u0d41\u0d33\u0d4d\u0d33 82 \u0d24\u0d24\u0d4d\u0d38\u0d2e\u0d2f \u0d07\u0d28\u0d19\u0d4d\u0d19\u0d7e. \u0d15\u0d34\u0d3f\u0d1e\u0d4d\u0d1e 36 \u0d2e\u0d23\u0d3f\u0d15\u0d4d\u0d15\u0d42\u0d31\u0d3f\u0d28\u0d41\u0d33\u0d4d\u0d33\u0d3f\u0d7d 13 \u0d17\u0d41\u0d30\u0d41\u0d24\u0d30\u0d35\u0d41\u0d02 24 \u0d09\u0d2f\u0d7c\u0d28\u0d4d\u0d28 \u0d24\u0d40\u0d35\u0d4d\u0d30\u0d24\u0d2f\u0d41\u0d2e\u0d41\u0d33\u0d4d\u0d33 \u0d38\u0d02\u0d2d\u0d35\u0d19\u0d4d\u0d19\u0d7e. \u0d2e\u0d41\u0d7b\u0d28\u0d3f\u0d30 \u0d2d\u0d40\u0d37\u0d23\u0d3f\u0d15\u0d7e: CVE-2026-3055 (CVSS 9.3) \u0d2e\u0d46\u0d2e\u0d4d\u0d2e\u0d31\u0d3f \u0d13\u0d35\u0d7c\u0d31\u0d46\u0d21\u0d4d \u0d2c\u0d17\u0d4d, \u0d38\u0d3f\u0d1f\u0d4d\u0d30\u0d3f\u0d15\u0d4d\u0d38\u0d4d \u0d28\u0d46\u0d31\u0d4d\u0d31\u0d4d\u200c\u0d38\u0d4d\u200c\u0d15\u0d47\u0d32\u0d7c \u0d06\u0d15\u0d4d\u0d31\u0d4d\u0d31\u0d40\u0d35\u0d4d \u0d31\u0d40\u0d15\u0d4d\u0d15\u0d23\u0d3f\u0d28\u0d41 \u0d15\u0d40\u0d34\u0d3f\u0d7d; CISA \u0d38\u0d1c\u0d40\u0d35\u0d2e\u0d3e\u0d2f F5 BIG-IP APM \u0d1a\u0d42\u0d37\u0d23\u0d24\u0d4d\u0d24\u0d3f\u0d28\u0d4d \u0d36\u0d47\u0d37\u0d02 KEV-\u0d32\u0d47\u0d15\u0d4d\u0d15\u0d4d CVE-2025-53521 \u0d1a\u0d47\u0d7c\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d41; \u0d38\u0d1c\u0d40\u0d35\u0d2e\u0d3e\u0d2f \u0d35\u0d46\u0d2c\u0d4d \u0d05\u0d27\u0d3f\u0d37\u0d4d\u200c\u0d20\u0d3f\u0d24 \u0d1a\u0d42\u0d37\u0d23\u0d19\u0d4d\u0d19\u0d33\u0d3f\u0d32\u0d42\u0d1f\u0d46 \u0d15\u0d3e\u0d32\u0d39\u0d30\u0d23\u0d2a\u0d4d\u0d2a\u0d46\u0d1f\u0d4d\u0d1f \u0d10\u0d2b\u0d4b\u0d23\u0d41\u0d15\u0d33\u0d3f\u0d32\u0d47\u0d15\u0d4d\u0d15\u0d4d \u0d06\u0d2a\u0d4d\u0d2a\u0d3f\u0d7e \u0d32\u0d4b\u0d15\u0d4d\u0d15\u0d4d \u0d38\u0d4d\u200c\u0d15\u0d4d\u0d30\u0d40\u0d7b \u0d05\u0d32\u0d47\u0d7c\u0d1f\u0d4d\u0d1f\u0d41\u0d15\u0d7e \u0d05\u0d2f\u0d2f\u0d4d\u200c\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d41. \u0d0e\u0d32\u0d4d\u0d32\u0d3e \u0d07\u0d28\u0d19\u0d4d\u0d19\u0d33\u0d41\u0d02 \u0d07\u0d28\u0d4d\u0d28\u0d4d \u0d2e\u0d41\u0d24\u0d7d \u0d2e\u0d3e\u0d24\u0d4d\u0d30\u0d2e\u0d3e\u0d23\u0d4d - \u0d31\u0d40\u0d38\u0d48\u0d15\u0d4d\u0d15\u0d3f\u0d7e \u0d1a\u0d46\u0d2f\u0d4d\u0d24\u0d24\u0d4b \u0d2a\u0d34\u0d2f\u0d24\u0d4b \u0d06\u0d2f \u0d35\u0d3e\u0d7c\u0d24\u0d4d\u0d24\u0d15\u0d33\u0d4a\u0d28\u0d4d\u0d28\u0d41\u0d2e\u0d3f\u0d32\u0d4d\u0d32.",
+  "executive_summary_en": "Cyber threat intelligence digest for 2026-03-29. 82 live items from 13 sources. 13 CRITICAL and 24 HIGH severity events in the last 36 hours. Top threats: Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug; CISA Adds CVE-2025-53521 to KEV After Active F5 BIG-IP APM Exploitation; Apple Sends Lock Screen Alerts to Outdated iPhones Over Active Web-Based Exploits. All items are from today only \u2014 no recycled or old news.",
+  "sections": [
+    {
+      "title": "\ud83d\udd34 \u0d2c\u0d4d\u0d30\u0d47\u0d15\u0d4d\u0d15\u0d3f\u0d02\u0d17\u0d4d - \u0d07\u0d28\u0d4d\u0d28\u0d4d \u0d38\u0d1c\u0d40\u0d35\u0d2e\u0d3e\u0d2f \u0d2d\u0d40\u0d37\u0d23\u0d3f\u0d15\u0d7e",
+      "title_en": "\ud83d\udd34 BREAKING \u2014 Active Threats Today",
+      "items": [
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug",
+          "summary": "A recently disclosed critical security flaw impacting Citrix NetScaler ADC and NetScaler Gateway is witnessing active reconnaissance activity, according to Defused Cyber and watchTowr.\nThe vulnerability, CVE-2026-3055 (CVSS score: 9.3), refers to a case of insufficient input validation leading to memory overread, which an attacker could exploit to leak potentially sensitive information.\nPer",
+          "url": "https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html",
+          "date": "Sat, 28 Mar 2026 14:41:00",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "CISA Adds CVE-2025-53521 to KEV After Active F5 BIG-IP APM Exploitation",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical security flaw impacting F5 BIG-IP Access Policy Manager (APM) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\nThe vulnerability in question is CVE-2025-53521 (CVSS v4 score: 9.3), which could allow a threat actor to achieve remote code execution.\n\"When a",
+          "url": "https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html",
+          "date": "Sat, 28 Mar 2026 12:37:00",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "Apple Sends Lock Screen Alerts to Outdated iPhones Over Active Web-Based Exploits",
+          "summary": "Apple is now sending Lock Screen notifications to iPhones and iPads running older versions of iOS and iPadOS to alert users of web-based attacks and urge them to install the update.\nThe development was first reported by MacRumors.\n\"Apple is aware of attacks targeting out-of-date iOS software, including the version on your iPhone. Install this critical update to protect your iPhone,\" the",
+          "url": "https://thehackernews.com/2026/03/apple-sends-lock-screen-alerts-to.html",
+          "date": "Fri, 27 Mar 2026 22:52:00",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "SecurityAffairs",
+          "category": "global_news",
+          "type": "news",
+          "title": "CISA and BSI warn orgs of critical PTC Windchill and FlexPLM flaw",
+          "summary": "CISA warns of a critical flaw in PTC Windchill and FlexPLM (CVE-2026-4681), with no patch yet and potential for imminent exploitation. CISA issued an advisory about a critical vulnerability, tracked as CVE-2026-4681 (CVSS score of 10.0), in PTC\u2019s Windchill and FlexPLM software. At this time, no patches are available, and no active attacks have been [&#8230;]",
+          "url": "https://securityaffairs.com/190049/security/cisa-and-bsi-warn-orgs-of-critical-ptc-windchill-and-flexplm-flaw.html",
+          "date": "Fri, 27 Mar 2026 14:58:30",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "GBHackers",
+          "category": "global_news",
+          "type": "news",
+          "title": "Open VSX Scanner Vulnerability Lets Malicious Extensions Go Live",
+          "summary": "Open VSX, the extension marketplace used by VS Code forks such as Cursor and Windsurf, recently fixed a critical vulnerability in its newly introduced pre-publish scanning pipeline that could allow malicious extensions to bypass security checks and go live undetected. The issue, dubbed \u201cOpen Sesame,\u201d stemmed from a fail-open condition in the scanning workflow. While [&#8230;]\nThe post Open VSX Sca",
+          "url": "https://gbhackers.com/open-vsx-scanner/",
+          "date": "Sat, 28 Mar 2026 06:39:20",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1046",
+              "Network Scanning"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "GBHackers",
+          "category": "global_news",
+          "type": "news",
+          "title": "BIND 9 Security Flaws Allow Attackers to Bypass Security Controls and Crash Servers",
+          "summary": "The Internet Systems Consortium (ISC) has released critical security advisories addressing three new vulnerabilities in the widely used BIND 9 Domain Name System (DNS) software suite. If left unpatched, remote attackers could exploit these weaknesses to bypass access control lists, consume excessive system resources, or crash DNS servers entirely. Network administrators must apply the provided [&#",
+          "url": "https://gbhackers.com/bind-9-security-flaws/",
+          "date": "Fri, 27 Mar 2026 12:29:58",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        }
+      ],
+      "count": 6
+    },
+    {
+      "title": "\ud83e\udda0 Ransomware & Extortion Campaigns",
+      "title_en": "\ud83e\udda0 Ransomware & Extortion Campaigns",
+      "items": [
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "Bearlyfy Hits Russian Firms with Custom GenieLocker Ransomware",
+          "summary": "A pro-Ukrainian group called Bearlyfy has been attributed to more than 70 cyber attacks targeting Russian companies since it first surfaced in the threat landscape in January 2025, with recent attacks leveraging a custom Windows ransomware strain codenamed GenieLocker.\n\"Bearlyfy (also known as Labubu) operates as a dual-purpose group aimed at inflicting maximum damage upon Russian businesses;",
+          "url": "https://thehackernews.com/2026/03/bearlyfy-hits-70-russian-firms-with.html",
+          "date": "Fri, 27 Mar 2026 15:34:00",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1486",
+              "Ransomware"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "Dark Reading",
+          "category": "global_news",
+          "type": "news",
+          "title": "Infrastructure Attacks With Physical Consequences Down 25%",
+          "summary": "Operational technology (OT) at industrial and critical infrastructure sites seem to have been benefitting from a lull in ransomware, and hackers' relative ignorance of OT systems.",
+          "url": "https://www.darkreading.com/threat-intelligence/infrastructure-attacks-physical-consequences-down",
+          "date": "Fri, 27 Mar 2026 13:30:00",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1486",
+              "Ransomware"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "SANS ISC",
+          "category": "threat_intel",
+          "type": "news",
+          "title": "TeamPCP Supply Chain Campaign: Update 003 - Operational Tempo Shift as Campaign Enters Monetization Phase With No New Compromises in 48 Hours, (Sat, Mar 28th)",
+          "summary": "This is the third update to the TeamPCP supply chain campaign threat intelligence report, \"When the Security Scanner Became the Weapon\" (v3.0, March 25, 2026). Update 002 covered developments through March 27, including the Telnyx PyPI compromise and Vect ransomware partnership. This update covers developments from March 27-28, 2026.&#xd;",
+          "url": "https://isc.sans.edu/diary/rss/32842",
+          "date": "Sat, 28 Mar 2026 15:09:12",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1486",
+              "Ransomware"
+            ],
+            [
+              "T1195",
+              "Supply Chain"
+            ],
+            [
+              "T1046",
+              "Network Scanning"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "SANS ISC",
+          "category": "threat_intel",
+          "type": "news",
+          "title": "TeamPCP Supply Chain Campaign: Update 002 - Telnyx PyPI Compromise, Vect Ransomware Mass Affiliate Program, and First Named Victim Claim, (Fri, Mar 27th)",
+          "summary": "This is the second update to the TeamPCP supply chain campaign threat intelligence report, \"When the Security Scanner Became the Weapon\" (v3.0, March 25, 2026). Update 001 covered developments through March 26. This update covers developments from March 26-27, 2026.&#xd;",
+          "url": "https://isc.sans.edu/diary/rss/32838",
+          "date": "Fri, 27 Mar 2026 14:34:44",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1486",
+              "Ransomware"
+            ],
+            [
+              "T1195",
+              "Supply Chain"
+            ],
+            [
+              "T1046",
+              "Network Scanning"
+            ]
+          ],
+          "today": true
+        }
+      ],
+      "count": 4
+    },
+    {
+      "title": "\ud83d\udd75 APT & \u0d28\u0d47\u0d37\u0d7b-\u0d38\u0d4d\u0d31\u0d4d\u0d31\u0d47\u0d31\u0d4d\u0d31\u0d4d \u0d2a\u0d4d\u0d30\u0d35\u0d7c\u0d24\u0d4d\u0d24\u0d28\u0d19\u0d4d\u0d19\u0d7e",
+      "title_en": "\ud83d\udd75 APT & Nation-State Operations",
+      "items": [
+        {
+          "source": "Dark Reading",
+          "category": "global_news",
+          "type": "news",
+          "title": "China Upgrades the Backdoor It Uses to Spy on Telcos Globally",
+          "summary": "Chinese APT Red Menshen's super-advanced BPFdoor malware defeats traditional cybersecurity protections. All telcos can do, really, is try hunting it down.",
+          "url": "https://www.darkreading.com/threat-intelligence/china-upgrades-backdoor-spy-telcos",
+          "date": "Fri, 27 Mar 2026 16:48:49",
+          "severity": "CRITICAL",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "SecurityWeek",
+          "category": "global_news",
+          "type": "news",
+          "title": "Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs",
+          "summary": "The infection chain includes a fake CAPTCHA page, a Bash script, a Nuitka loader, and the Python-based infostealer.\nThe post Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs appeared first on SecurityWeek.",
+          "url": "https://www.securityweek.com/cloudflare-themed-clickfix-attack-drops-infiniti-stealer-on-macs/",
+          "date": "Sat, 28 Mar 2026 10:30:00",
+          "severity": "CRITICAL",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "TA446 Deploys DarkSword iOS Exploit Kit in Targeted Spear-Phishing Campaign",
+          "summary": "Proofpoint has disclosed details of a targeted email campaign in which threat actors with ties to Russia are leveraging the recently disclosed DarkSword exploit kit to target iOS devices.\nThe activity has been attributed with high confidence to the Russian state-sponsored threat group known as TA446, which is also tracked by the broader cybersecurity community under the monikers Callisto,",
+          "url": "https://thehackernews.com/2026/03/ta446-deploys-leaked-darksword-ios.html",
+          "date": "Sat, 28 Mar 2026 12:37:00",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1566",
+              "Phishing"
+            ],
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        }
+      ],
+      "count": 3
+    },
+    {
+      "title": "\ud83c\uddee\ud83c\uddf3 \u0d07\u0d28\u0d4d\u0d24\u0d4d\u0d2f \u0d38\u0d48\u0d2c\u0d7c \u0d2d\u0d40\u0d37\u0d23\u0d3f \u0d32\u0d3e\u0d7b\u0d21\u0d4d\u200c\u0d38\u0d4d\u200c\u0d15\u0d47\u0d2a\u0d4d\u0d2a\u0d4d",
+      "title_en": "\ud83c\uddee\ud83c\uddf3 India Cyber Threat Landscape",
+      "items": [
+        {
+          "source": "Indian Express Tech",
+          "category": "india",
+          "type": "news",
+          "title": "Why earning more won\u2019t always make you happier, according to science",
+          "summary": "",
+          "url": "https://indianexpress.com/article/technology/science/why-earning-more-wont-always-make-you-happier-according-to-science-10606714/",
+          "date": "Sat, 28 Mar 2026 14:13:58",
+          "severity": "LOW",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "Indian Express Tech",
+          "category": "india",
+          "type": "news",
+          "title": "Artemis 2 astronauts arrive at Kennedy Space Center as Nasa eyes April 1 Moon launch",
+          "summary": "",
+          "url": "https://indianexpress.com/article/technology/science/artemis-2-astronauts-arrive-at-kennedy-space-center-as-nasa-eyes-april-1-moon-launch-10606689/",
+          "date": "Sat, 28 Mar 2026 13:54:56",
+          "severity": "LOW",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "Indian Express Tech",
+          "category": "india",
+          "type": "news",
+          "title": "Why AI systems don\u2019t learn on their own: New research proposes a human-like solution",
+          "summary": "",
+          "url": "https://indianexpress.com/article/technology/artificial-intelligence/why-ai-systems-dont-learn-on-their-own-10606683/",
+          "date": "Sat, 28 Mar 2026 13:42:56",
+          "severity": "LOW",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "Indian Express Tech",
+          "category": "india",
+          "type": "news",
+          "title": "Ancient ape fossils in Egypt desert may rewrite history of human ancestors",
+          "summary": "",
+          "url": "https://indianexpress.com/article/technology/science/ancient-ape-fossils-in-egypt-desert-may-rewrite-history-of-human-ancestors-10606466/",
+          "date": "Sat, 28 Mar 2026 10:52:58",
+          "severity": "LOW",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "Indian Express Tech",
+          "category": "india",
+          "type": "news",
+          "title": "Sony halts SD, CFexpress card orders amid global memory shortage",
+          "summary": "",
+          "url": "https://indianexpress.com/article/technology/tech-news-technology/sony-halts-sd-cfexpress-card-orders-amid-global-memory-shortage-10606313/",
+          "date": "Sat, 28 Mar 2026 09:19:44",
+          "severity": "LOW",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "Indian Express Tech",
+          "category": "india",
+          "type": "news",
+          "title": "Apple iPhone 18 series may launch in phases: What to expect",
+          "summary": "",
+          "url": "https://indianexpress.com/article/technology/tech-news-technology/apple-iphone-18-series-may-launch-in-phases-what-to-expect-apple-iphone-18-series-expected-to-roll-out-in-phases-what-to-expect-10606161/",
+          "date": "Sat, 28 Mar 2026 07:43:06",
+          "severity": "LOW",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "Indian Express Tech",
+          "category": "india",
+          "type": "news",
+          "title": "Why AI that says \u2018you\u2019re right\u2019 could be dangerous, according to a new study",
+          "summary": "",
+          "url": "https://indianexpress.com/article/technology/artificial-intelligence/why-ai-that-says-youre-right-could-be-dangerous-according-to-a-new-study-10605905/",
+          "date": "Sat, 28 Mar 2026 05:11:14",
+          "severity": "LOW",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "Indian Express Tech",
+          "category": "india",
+          "type": "news",
+          "title": "UK joins global push to rein in children\u2019s screen use with national guidance",
+          "summary": "",
+          "url": "https://indianexpress.com/article/technology/tech-news-technology/uk-joins-global-push-to-rein-in-childrens-screen-use-with-national-guidance-10605821/",
+          "date": "Sat, 28 Mar 2026 04:06:58",
+          "severity": "LOW",
+          "mitre": [],
+          "today": true
+        }
+      ],
+      "count": 15
+    },
+    {
+      "title": "\ud83d\udd13 \u0d07\u0d28\u0d4d\u0d28\u0d24\u0d4d\u0d24\u0d46 \u0d2a\u0d41\u0d24\u0d3f\u0d2f CVE\u0d15\u0d7e (NVD \u2014 \u0d05\u0d35\u0d38\u0d3e\u0d28 36 \u0d2e\u0d23\u0d3f\u0d15\u0d4d\u0d15\u0d42\u0d7c)",
+      "title_en": "\ud83d\udd13 New CVEs Today (NVD \u2014 Last 36h)",
+      "items": [
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-27876 [CVSS 9.1] \u2014 A chained attack via SQL Expressions and a Grafana Enterprise plugin can lead to",
+          "summary": "A chained attack via SQL Expressions and a Grafana Enterprise plugin can lead to a remote arbitrary code execution impact (RCE). This is enabled by a feature in Grafana (OSS), so all users are always recommended to update to avoid future attack vectors going this path.\n\nOnly instances with the sqlExpressions feature toggle enabled are vulnerable.",
+          "severity": "CRITICAL",
+          "cvss_score": 9.1,
+          "cve": "CVE-2026-27876",
+          "date": "2026-03-27",
+          "url": "https://grafana.com/security/security-advisories/cve-2026-27876",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2025-69986 [CVSS 7.2] \u2014 A buffer overflow vulnerability exists in the ONVIF GetStreamUri function of LSC",
+          "summary": "A buffer overflow vulnerability exists in the ONVIF GetStreamUri function of LSC Indoor Camera V7.6.32. The application fails to validate the length of the Protocol parameter inside the Transport element. By sending a specially crafted SOAP request containing an oversized protocol string, an attacker can overflow the stack buffer, overwriting the return instruction pointer (RIP). This vulnerabilit",
+          "severity": "HIGH",
+          "cvss_score": 7.2,
+          "cve": "CVE-2025-69986",
+          "date": "2026-03-27",
+          "url": "https://github.com/victorGoeman/LSC-Indoor-Camera-Security-Research/blob/main/CVE-2025-69986.md",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ],
+            [
+              "T1498",
+              "DDoS"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-25099 [CVSS 0] \u2014 Bludit\u2019s API plugin allows an authenticated attacker with a valid API token to u",
+          "summary": "Bludit\u2019s API plugin allows an authenticated attacker with a valid API token to upload files of any type and extension without restriction, which can then be executed, leading to Remote Code Execution.\n\nThis issue was fixed in 3.18.4.",
+          "severity": "MEDIUM",
+          "cvss_score": 0,
+          "cve": "CVE-2026-25099",
+          "date": "2026-03-27",
+          "url": "https://cert.pl/posts/2026/03/CVE-2026-25099",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-25100 [CVSS 0] \u2014 Bludit is vulnerable to Stored Cross-Site Scripting (XSS) in its image upload fu",
+          "summary": "Bludit is vulnerable to Stored Cross-Site Scripting (XSS) in its image upload functionality. An authenticated attacker with content upload privileges (such as Author, Editor, or Administrator) can upload an SVG file containing a malicious payload, which is executed when a victim visits the URL of the uploaded resource. The uploaded resource itself is accessible without authentication.\n\nThe vendor ",
+          "severity": "MEDIUM",
+          "cvss_score": 0,
+          "cve": "CVE-2026-25100",
+          "date": "2026-03-27",
+          "url": "https://cert.pl/posts/2026/03/CVE-2026-25099",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-25101 [CVSS 0] \u2014 Bludit allows user's session identifier to be set before authentication. The val",
+          "summary": "Bludit allows user's session identifier to be set before authentication. The value of this session ID stays the same after authentication. This behavior enables an attacker to fix a session ID\nfor a victim and later hijack the authenticated session.\n\nThis issue was fixed in version 3.17.2.",
+          "severity": "MEDIUM",
+          "cvss_score": 0,
+          "cve": "CVE-2026-25101",
+          "date": "2026-03-27",
+          "url": "https://cert.pl/posts/2026/03/CVE-2026-25099",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-4309 [CVSS 0] \u2014 Missing Authorization vulnerability in NEC Platforms, Ltd. Aterm Series allows a",
+          "summary": "Missing Authorization vulnerability in NEC Platforms, Ltd. Aterm Series allows a attacker to get a specific device information and change the settings via network.",
+          "severity": "MEDIUM",
+          "cvss_score": 0,
+          "cve": "CVE-2026-4309",
+          "date": "2026-03-27",
+          "url": "https://jpn.nec.com/security-info/secinfo/nv26-001_en.html",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-4619 [CVSS 0] \u2014 Path Traversal vulnerability in NEC Platforms, Ltd. Aterm Series allows a attack",
+          "summary": "Path Traversal vulnerability in NEC Platforms, Ltd. Aterm Series allows a attacker to wtite over any file via network.",
+          "severity": "MEDIUM",
+          "cvss_score": 0,
+          "cve": "CVE-2026-4619",
+          "date": "2026-03-27",
+          "url": "https://jpn.nec.com/security-info/secinfo/nv26-001_en.html",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-4620 [CVSS 0] \u2014 OS Command Injection vulnerability in NEC Platforms, Ltd. Aterm Series allows a ",
+          "summary": "OS Command Injection vulnerability in NEC Platforms, Ltd. Aterm Series allows a attacker to execute arbitrary OS commands via network.",
+          "severity": "MEDIUM",
+          "cvss_score": 0,
+          "cve": "CVE-2026-4620",
+          "date": "2026-03-27",
+          "url": "https://jpn.nec.com/security-info/secinfo/nv26-001_en.html",
+          "mitre": [],
+          "today": true
+        }
+      ],
+      "count": 20
+    },
+    {
+      "title": "\ud83c\udfdb\ufe0f \u0d38\u0d7c\u0d15\u0d4d\u0d15\u0d3e\u0d7c \u0d09\u0d2a\u0d26\u0d47\u0d36\u0d19\u0d4d\u0d19\u0d7e",
+      "title_en": "\ud83c\udfdb\ufe0f  Government Advisories",
+      "items": [
+        {
+          "source": "CISA Advisory",
+          "category": "gov_advisory",
+          "type": "government_advisory",
+          "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+          "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2025-53521 F5 BIG-IP Remote Code Execution Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/03/27/cisa-adds-one-known-exploited-vulnerability-catalog",
+          "date": "Fri, 27 Mar 26 12:00:00 +",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "\ud83c\udf10 \u0d07\u0d7b\u0d4d\u0d31\u0d7c\u0d28\u0d46\u0d31\u0d4d\u0d31\u0d4d \u0d0e\u0d15\u0d4d\u0d38\u0d4d\u0d2a\u0d4b\u0d37\u0d7c (\u0d37\u0d4b\u0d21\u0d7b)",
+      "title_en": "\ud83c\udf10 Internet Exposure (Shodan)",
+      "items": [
+        {
+          "source": "Shodan",
+          "category": "internet_exposure",
+          "type": "exposure",
+          "title": "883,521 hosts: All vulnerable hosts India",
+          "summary": "Query: has_vuln:true country:IN",
+          "severity": "HIGH",
+          "date": "2026-03-29",
+          "count": 883521,
+          "url": "https://www.shodan.io/search?query=has_vuln%3Atrue%20country%3AIN",
+          "mitre": [
+            [
+              "T1046",
+              "Network Service Scanning"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "Shodan",
+          "category": "internet_exposure",
+          "type": "exposure",
+          "title": "2,464,817 hosts: RDP exposed globally",
+          "summary": "Query: port:3389",
+          "severity": "HIGH",
+          "date": "2026-03-29",
+          "count": 2464817,
+          "url": "https://www.shodan.io/search?query=port%3A3389",
+          "mitre": [
+            [
+              "T1046",
+              "Network Service Scanning"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "Shodan",
+          "category": "internet_exposure",
+          "type": "exposure",
+          "title": "0 hosts: Vulnerable Indian hosts (2024 CVEs)",
+          "summary": "Query: vuln:CVE-2024 country:IN",
+          "severity": "MEDIUM",
+          "date": "2026-03-29",
+          "count": 0,
+          "url": "https://www.shodan.io/search?query=vuln%3ACVE-2024%20country%3AIN",
+          "mitre": [
+            [
+              "T1046",
+              "Network Service Scanning"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "Shodan",
+          "category": "internet_exposure",
+          "type": "exposure",
+          "title": "38,596 hosts: RDP exposed India",
+          "summary": "Query: port:3389 country:IN",
+          "severity": "MEDIUM",
+          "date": "2026-03-29",
+          "count": 38596,
+          "url": "https://www.shodan.io/search?query=port%3A3389%20country%3AIN",
+          "mitre": [
+            [
+              "T1046",
+              "Network Service Scanning"
+            ]
+          ],
+          "today": true
+        }
+      ],
+      "count": 4
+    },
+    {
+      "title": "\ud83d\udd2c \u0d35\u0d46\u0d23\u0d4d\u0d1f\u0d7c \u0d24\u0d4d\u0d30\u0d46\u0d31\u0d4d\u0d31\u0d4d \u0d07\u0d7b\u0d4d\u0d31\u0d7d (\u0d1f\u0d3e\u0d32\u0d4b\u0d38\u0d4d/\u0d2f\u0d42\u0d23\u0d3f\u0d31\u0d4d\u0d31\u0d4d42/\u0d2e\u0d3e\u0d7b\u0d21\u0d3f\u0d2f\u0d7b\u0d4d\u0d31\u0d4d/\u0d2e\u0d41\u0d24\u0d32\u0d3e\u0d2f\u0d24\u0d4d)",
+      "title_en": "\ud83d\udd2c Vendor Threat Intel (Talos/Unit42/Mandiant/etc)",
+      "items": [
+        {
+          "source": "Malwarebytes",
+          "category": "threat_intel",
+          "type": "news",
+          "title": "Criminals are renting virtual phones to bypass bank security",
+          "summary": "Not a real phone, but good enough to fool your bank. Researchers warn criminals are using virtual devices to bypass fraud checks.",
+          "url": "https://www.malwarebytes.com/blog/news/2026/03/criminals-are-renting-virtual-phones-to-bypass-bank-security",
+          "date": "Fri, 27 Mar 2026 13:34:44",
+          "severity": "LOW",
+          "mitre": [],
+          "today": true
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "\ud83d\udcf0 \u0d38\u0d48\u0d2c\u0d7c \u0d38\u0d41\u0d30\u0d15\u0d4d\u0d37\u0d3e \u0d24\u0d32\u0d15\u0d4d\u0d15\u0d46\u0d1f\u0d4d\u0d1f\u0d41\u0d15\u0d7e",
+      "title_en": "\ud83d\udcf0 Cyber Security Headlines",
+      "items": [
+        {
+          "source": "BleepingComputer",
+          "category": "global_news",
+          "type": "news",
+          "title": "New Infinity Stealer malware grabs macOS data via ClickFix lures",
+          "summary": "A new info-stealing malware named Infinity Stealer is targeting macOS systems with a Python payload packaged as an executable using the open-source Nuitka compiler. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/new-infinity-stealer-malware-grabs-macos-data-via-clickfix-lures/",
+          "date": "Sat, 28 Mar 2026 10:35:10",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "BleepingComputer",
+          "category": "global_news",
+          "type": "news",
+          "title": "Backdoored Telnyx PyPI package pushes malware hidden in WAV audio",
+          "summary": "TeamPCP hackers compromised the Telnyx package on the Python Package Index today, uploading malicious versions that deliver credential-stealing malware hidden inside a WAV file. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/backdoored-telnyx-pypi-package-pushes-malware-hidden-in-wav-audio/",
+          "date": "Fri, 27 Mar 2026 17:13:26",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1078",
+              "Valid Accounts"
+            ],
+            [
+              "T1195",
+              "Supply Chain"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "BleepingComputer",
+          "category": "global_news",
+          "type": "news",
+          "title": "Fake VS Code alerts on GitHub spread malware to developers",
+          "summary": "A large-scale campaign is targeting developers on GitHub with fake Visual Studio Code (VS Code) security alerts posted in the Discussions section of various projects, to trick users into downloading malware. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/fake-vs-code-alerts-on-github-spread-malware-to-developers/",
+          "date": "Fri, 27 Mar 2026 12:51:52",
+          "severity": "HIGH",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "Iran-Linked Hackers Breach FBI Director\u2019s Personal Email, Hit Stryker With Wiper Attack",
+          "summary": "Threat actors with ties to Iran successfully broke into the personal email account of Kash Patel, the director of the U.S. Federal Bureau of Investigation (FBI), and leaked a cache of photos and other documents to the internet.\nHandala Hack Team, which carried out the breach, said on its website that Patel \"will now find his name among the list of successfully hacked victims.\" In a statement",
+          "url": "https://thehackernews.com/2026/03/iran-linked-hackers-breach-fbi.html",
+          "date": "Sat, 28 Mar 2026 21:10:00",
+          "severity": "HIGH",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "TeamPCP Pushes Malicious Telnyx Versions to PyPI, Hides Stealer in WAV Files",
+          "summary": "TeamPCP, the threat actor behind the supply chain attack targeting Trivy, KICS, and litellm, has now compromised the telnyx Python package by pushing two malicious versions to steal sensitive data.\nThe two versions, 4.87.1 and 4.87.2, published to the Python Package Index (PyPI) repository on March 27, 2026, concealed their credential harvesting capabilities within a .WAV file. Users are",
+          "url": "https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html",
+          "date": "Fri, 27 Mar 2026 22:23:00",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1078",
+              "Valid Accounts"
+            ],
+            [
+              "T1195",
+              "Supply Chain"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "AitM Phishing Targets TikTok Business Accounts Using Cloudflare Turnstile Evasion",
+          "summary": "Threat actors are using adversary-in-the-middle (AitM) phishing pages to seize control of TikTok for Business accounts in a new campaign, according to a report from Push Security.\nBusiness accounts associated with social media platforms are a lucrative target, as they can be weaponized by bad actors for malvertising and distributing malware.\n\"TikTok has been historically abused to distribute",
+          "url": "https://thehackernews.com/2026/03/aitm-phishing-targets-tiktok-business.html",
+          "date": "Fri, 27 Mar 2026 17:33:00",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1566",
+              "Phishing"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "LangChain, LangGraph Flaws Expose Files, Secrets, Databases in Widely Used AI Frameworks",
+          "summary": "Cybersecurity researchers have disclosed three security vulnerabilities impacting LangChain and LangGraph that, if successfully exploited, could expose filesystem data, environment secrets, and conversation history.\nBoth LangChain and LangGraph are open-source frameworks that are used to build applications powered by Large Language Models (LLMs). LangGraph is built on the foundations of",
+          "url": "https://thehackernews.com/2026/03/langchain-langgraph-flaws-expose-files.html",
+          "date": "Fri, 27 Mar 2026 13:37:00",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "Dark Reading",
+          "category": "global_news",
+          "type": "news",
+          "title": "Wartime Usage of Compromised IP Cameras Highlight Their Danger",
+          "summary": "The list of countries exploiting Internet-connected cameras to give them eyes inside their adversaries' borders continues to expand. What should companies look out for?",
+          "url": "https://www.darkreading.com/cyber-risk/wartime-usage-of-compromised-ip-cameras-highlight-their-danger",
+          "date": "Fri, 27 Mar 2026 16:21:48",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        }
+      ],
+      "count": 28
+    }
+  ],
+  "raw_items": [
+    {
+      "source": "BleepingComputer",
+      "category": "global_news",
+      "type": "news",
+      "title": "New Infinity Stealer malware grabs macOS data via ClickFix lures",
+      "summary": "A new info-stealing malware named Infinity Stealer is targeting macOS systems with a Python payload packaged as an executable using the open-source Nuitka compiler. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/new-infinity-stealer-malware-grabs-macos-data-via-clickfix-lures/",
+      "date": "Sat, 28 Mar 2026 10:35:10",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "BleepingComputer",
+      "category": "global_news",
+      "type": "news",
+      "title": "Backdoored Telnyx PyPI package pushes malware hidden in WAV audio",
+      "summary": "TeamPCP hackers compromised the Telnyx package on the Python Package Index today, uploading malicious versions that deliver credential-stealing malware hidden inside a WAV file. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/backdoored-telnyx-pypi-package-pushes-malware-hidden-in-wav-audio/",
+      "date": "Fri, 27 Mar 2026 17:13:26",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1078",
+          "Valid Accounts"
+        ],
+        [
+          "T1195",
+          "Supply Chain"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "BleepingComputer",
+      "category": "global_news",
+      "type": "news",
+      "title": "Fake VS Code alerts on GitHub spread malware to developers",
+      "summary": "A large-scale campaign is targeting developers on GitHub with fake Visual Studio Code (VS Code) security alerts posted in the Discussions section of various projects, to trick users into downloading malware. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-vs-code-alerts-on-github-spread-malware-to-developers/",
+      "date": "Fri, 27 Mar 2026 12:51:52",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "Iran-Linked Hackers Breach FBI Director\u2019s Personal Email, Hit Stryker With Wiper Attack",
+      "summary": "Threat actors with ties to Iran successfully broke into the personal email account of Kash Patel, the director of the U.S. Federal Bureau of Investigation (FBI), and leaked a cache of photos and other documents to the internet.\nHandala Hack Team, which carried out the breach, said on its website that Patel \"will now find his name among the list of successfully hacked victims.\" In a statement",
+      "url": "https://thehackernews.com/2026/03/iran-linked-hackers-breach-fbi.html",
+      "date": "Sat, 28 Mar 2026 21:10:00",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug",
+      "summary": "A recently disclosed critical security flaw impacting Citrix NetScaler ADC and NetScaler Gateway is witnessing active reconnaissance activity, according to Defused Cyber and watchTowr.\nThe vulnerability, CVE-2026-3055 (CVSS score: 9.3), refers to a case of insufficient input validation leading to memory overread, which an attacker could exploit to leak potentially sensitive information.\nPer",
+      "url": "https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html",
+      "date": "Sat, 28 Mar 2026 14:41:00",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "CISA Adds CVE-2025-53521 to KEV After Active F5 BIG-IP APM Exploitation",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical security flaw impacting F5 BIG-IP Access Policy Manager (APM) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\nThe vulnerability in question is CVE-2025-53521 (CVSS v4 score: 9.3), which could allow a threat actor to achieve remote code execution.\n\"When a",
+      "url": "https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html",
+      "date": "Sat, 28 Mar 2026 12:37:00",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "TA446 Deploys DarkSword iOS Exploit Kit in Targeted Spear-Phishing Campaign",
+      "summary": "Proofpoint has disclosed details of a targeted email campaign in which threat actors with ties to Russia are leveraging the recently disclosed DarkSword exploit kit to target iOS devices.\nThe activity has been attributed with high confidence to the Russian state-sponsored threat group known as TA446, which is also tracked by the broader cybersecurity community under the monikers Callisto,",
+      "url": "https://thehackernews.com/2026/03/ta446-deploys-leaked-darksword-ios.html",
+      "date": "Sat, 28 Mar 2026 12:37:00",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1566",
+          "Phishing"
+        ],
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "Apple Sends Lock Screen Alerts to Outdated iPhones Over Active Web-Based Exploits",
+      "summary": "Apple is now sending Lock Screen notifications to iPhones and iPads running older versions of iOS and iPadOS to alert users of web-based attacks and urge them to install the update.\nThe development was first reported by MacRumors.\n\"Apple is aware of attacks targeting out-of-date iOS software, including the version on your iPhone. Install this critical update to protect your iPhone,\" the",
+      "url": "https://thehackernews.com/2026/03/apple-sends-lock-screen-alerts-to.html",
+      "date": "Fri, 27 Mar 2026 22:52:00",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "TeamPCP Pushes Malicious Telnyx Versions to PyPI, Hides Stealer in WAV Files",
+      "summary": "TeamPCP, the threat actor behind the supply chain attack targeting Trivy, KICS, and litellm, has now compromised the telnyx Python package by pushing two malicious versions to steal sensitive data.\nThe two versions, 4.87.1 and 4.87.2, published to the Python Package Index (PyPI) repository on March 27, 2026, concealed their credential harvesting capabilities within a .WAV file. Users are",
+      "url": "https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html",
+      "date": "Fri, 27 Mar 2026 22:23:00",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1078",
+          "Valid Accounts"
+        ],
+        [
+          "T1195",
+          "Supply Chain"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "Open VSX Bug Let Malicious VS Code Extensions Bypass Pre-Publish Security Checks",
+      "summary": "Cybersecurity researchers have disclosed details of a now-patched bug impacting Open VSX's pre-publish scanning pipeline to cause the tool to allow a malicious Microsoft Visual Studio Code (VS Code) extension to pass the vetting process and go live in the registry.\n\"The pipeline had a single boolean return value that meant both 'no scanners are configured' and 'all scanners failed to run,'\" Koi",
+      "url": "https://thehackernews.com/2026/03/open-vsx-bug-let-malicious-vs-code.html",
+      "date": "Fri, 27 Mar 2026 19:27:00",
+      "severity": "MEDIUM",
+      "mitre": [
+        [
+          "T1046",
+          "Network Scanning"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "AitM Phishing Targets TikTok Business Accounts Using Cloudflare Turnstile Evasion",
+      "summary": "Threat actors are using adversary-in-the-middle (AitM) phishing pages to seize control of TikTok for Business accounts in a new campaign, according to a report from Push Security.\nBusiness accounts associated with social media platforms are a lucrative target, as they can be weaponized by bad actors for malvertising and distributing malware.\n\"TikTok has been historically abused to distribute",
+      "url": "https://thehackernews.com/2026/03/aitm-phishing-targets-tiktok-business.html",
+      "date": "Fri, 27 Mar 2026 17:33:00",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1566",
+          "Phishing"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "We Are At War",
+      "summary": "Rising geopolitical tensions are reflected (or in some cases preceded) by cyber operations, while technology itself has become politicized. Let\u2019s admit it: we are in the middle of it.&nbsp;\nIntroduction: One tech power to rule them all is a thing of the past&nbsp;\nThe relative safety, peace and prosperity that much of the world has enjoyed since 1945 was not accidental. It emerged from the ashes",
+      "url": "https://thehackernews.com/2026/03/we-are-at-war.html",
+      "date": "Fri, 27 Mar 2026 16:30:00",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "Bearlyfy Hits Russian Firms with Custom GenieLocker Ransomware",
+      "summary": "A pro-Ukrainian group called Bearlyfy has been attributed to more than 70 cyber attacks targeting Russian companies since it first surfaced in the threat landscape in January 2025, with recent attacks leveraging a custom Windows ransomware strain codenamed GenieLocker.\n\"Bearlyfy (also known as Labubu) operates as a dual-purpose group aimed at inflicting maximum damage upon Russian businesses;",
+      "url": "https://thehackernews.com/2026/03/bearlyfy-hits-70-russian-firms-with.html",
+      "date": "Fri, 27 Mar 2026 15:34:00",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1486",
+          "Ransomware"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "LangChain, LangGraph Flaws Expose Files, Secrets, Databases in Widely Used AI Frameworks",
+      "summary": "Cybersecurity researchers have disclosed three security vulnerabilities impacting LangChain and LangGraph that, if successfully exploited, could expose filesystem data, environment secrets, and conversation history.\nBoth LangChain and LangGraph are open-source frameworks that are used to build applications powered by Large Language Models (LLMs). LangGraph is built on the foundations of",
+      "url": "https://thehackernews.com/2026/03/langchain-langgraph-flaws-expose-files.html",
+      "date": "Fri, 27 Mar 2026 13:37:00",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Dark Reading",
+      "category": "global_news",
+      "type": "news",
+      "title": "China Upgrades the Backdoor It Uses to Spy on Telcos Globally",
+      "summary": "Chinese APT Red Menshen's super-advanced BPFdoor malware defeats traditional cybersecurity protections. All telcos can do, really, is try hunting it down.",
+      "url": "https://www.darkreading.com/threat-intelligence/china-upgrades-backdoor-spy-telcos",
+      "date": "Fri, 27 Mar 2026 16:48:49",
+      "severity": "CRITICAL",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Dark Reading",
+      "category": "global_news",
+      "type": "news",
+      "title": "Wartime Usage of Compromised IP Cameras Highlight Their Danger",
+      "summary": "The list of countries exploiting Internet-connected cameras to give them eyes inside their adversaries' borders continues to expand. What should companies look out for?",
+      "url": "https://www.darkreading.com/cyber-risk/wartime-usage-of-compromised-ip-cameras-highlight-their-danger",
+      "date": "Fri, 27 Mar 2026 16:21:48",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Dark Reading",
+      "category": "global_news",
+      "type": "news",
+      "title": "Infrastructure Attacks With Physical Consequences Down 25%",
+      "summary": "Operational technology (OT) at industrial and critical infrastructure sites seem to have been benefitting from a lull in ransomware, and hackers' relative ignorance of OT systems.",
+      "url": "https://www.darkreading.com/threat-intelligence/infrastructure-attacks-physical-consequences-down",
+      "date": "Fri, 27 Mar 2026 13:30:00",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1486",
+          "Ransomware"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Dark Reading",
+      "category": "global_news",
+      "type": "news",
+      "title": "Google Sets 2029 Deadline for Quantum-Safe Cryptography",
+      "summary": "The post-quantum future may be coming sooner than you think, as Google plans to have PQC migration in place by 2029.",
+      "url": "https://www.darkreading.com/application-security/google-2029-deadline-quantum-safe-cryptography",
+      "date": "Fri, 27 Mar 2026 13:00:00",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "The Record",
+      "category": "global_news",
+      "type": "news",
+      "title": "European Parliament rejects extension of CSAM scanning rules for tech platforms",
+      "summary": "The 311 members of Parliament who voted against an extension did so despite strong support from law enforcement, children\u2019s rights groups, German Chancellor Friedrich Merz, several European commissioners and a half dozen big tech companies to allow the scans to continue.",
+      "url": "https://therecord.media/eu-parliament-rejects-csam-scanning-extension",
+      "date": "Fri, 27 Mar 2026 18:44:00",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ],
+        [
+          "T1046",
+          "Network Scanning"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Record",
+      "category": "global_news",
+      "type": "news",
+      "title": "UK weighs new limits on political donations as reports warn of hard-to-trace foreign interference",
+      "summary": "The parliamentary report warns that hostile actors are conducting sustained and increasingly sophisticated campaigns to interfere in democratic processes, exploiting divisive issues to amplify tensions and influence public debate.",
+      "url": "https://therecord.media/uk-weighs-limits-political-donations-foreign-interference",
+      "date": "Fri, 27 Mar 2026 17:28:00",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Record",
+      "category": "global_news",
+      "type": "news",
+      "title": "FBI confirms theft of director\u2019s personal emails by Iran-linked hacking group",
+      "summary": "An FBI spokesperson told Recorded Future News that the information is \u201chistorical in nature and involves no government information,\u201d adding that the agency has \u201ctaken all necessary steps to mitigate potential risks associated with this activity.\"",
+      "url": "https://therecord.media/fbi-confirms-theft-of-directors-personal-emails-iran-group",
+      "date": "Fri, 27 Mar 2026 17:06:00",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "The Record",
+      "category": "global_news",
+      "type": "news",
+      "title": "Dutch court threatens xAI with fines over Grok's nonconsensual nude images",
+      "summary": "Grok \u2014 which is owned by Elon Musk\u2019s xAI \u2014 will be forced to pay damages of \u20ac100,000 ($115,000) a day if it does not comply, according to the ruling.",
+      "url": "https://therecord.media/dutch-court-threatens-xai-with-fines-grok-nudification",
+      "date": "Fri, 27 Mar 2026 15:29:00",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Record",
+      "category": "global_news",
+      "type": "news",
+      "title": "Latvia accuses Russia of of disinformation campaign targeting Baltic states",
+      "summary": "Russian media outlets and Telegram channels have circulated allegations that the Baltic states opened their airspace to Ukrainian drones targeting Russian territory \u2014 a claim Riga strongly denied.",
+      "url": "https://therecord.media/latvia-accuses-russia-of-disinformation-campaign-ukraine-war",
+      "date": "Fri, 27 Mar 2026 13:31:00",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityWeek",
+      "category": "global_news",
+      "type": "news",
+      "title": "Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs",
+      "summary": "The infection chain includes a fake CAPTCHA page, a Bash script, a Nuitka loader, and the Python-based infostealer.\nThe post Cloudflare-Themed ClickFix Attack Drops Infiniti Stealer on Macs appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/cloudflare-themed-clickfix-attack-drops-infiniti-stealer-on-macs/",
+      "date": "Sat, 28 Mar 2026 10:30:00",
+      "severity": "CRITICAL",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityWeek",
+      "category": "global_news",
+      "type": "news",
+      "title": "Pro-Iranian Hacking Group Claims Credit for Hack of FBI Director Kash Patel\u2019s Personal Account",
+      "summary": "The group that it was making available for download emails and other documents from Patel\u2019s account. \nThe post Pro-Iranian Hacking Group Claims Credit for Hack of FBI Director Kash Patel\u2019s Personal Account appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/pro-iranian-hacking-group-claims-credit-for-hack-of-fbi-director-kash-patels-personal-account/",
+      "date": "Fri, 27 Mar 2026 16:42:22",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityWeek",
+      "category": "global_news",
+      "type": "news",
+      "title": "In Other News: Palo Alto Recruiter Scam, Anti-Deepfake Chip, Google Sets 2029 Quantum Deadline",
+      "summary": "Other noteworthy stories that might have slipped under the radar: Heritage Bank data breach, new State Department unit tackles cyber threats, LA Metro disruptions.\nThe post In Other News: Palo Alto Recruiter Scam, Anti-Deepfake Chip, Google Sets 2029 Quantum Deadline appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/in-other-news-palo-alto-recruiter-scam-anti-deepfake-chip-google-sets-2029-quantum-deadline/",
+      "date": "Fri, 27 Mar 2026 14:25:52",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityWeek",
+      "category": "global_news",
+      "type": "news",
+      "title": "OpenAI Launches Bug Bounty Program for Abuse and Safety Risks",
+      "summary": "Through the new program, OpenAI will reward reports covering design or implementation issues leading to material harm.\nThe post OpenAI Launches Bug Bounty Program for Abuse and Safety Risks appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/openai-launches-bug-bounty-program-for-abuse-and-safety-risks/",
+      "date": "Fri, 27 Mar 2026 13:33:11",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityWeek",
+      "category": "global_news",
+      "type": "news",
+      "title": "TP-Link Patches High-Severity Router Vulnerabilities",
+      "summary": "The security defects could be used to bypass authentication, execute arbitrary commands, and decrypt configuration files.\nThe post TP-Link Patches High-Severity Router Vulnerabilities appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/tp-link-patches-high-severity-router-vulnerabilities/",
+      "date": "Fri, 27 Mar 2026 11:42:30",
+      "severity": "MEDIUM",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SANS ISC",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "TeamPCP Supply Chain Campaign: Update 003 - Operational Tempo Shift as Campaign Enters Monetization Phase With No New Compromises in 48 Hours, (Sat, Mar 28th)",
+      "summary": "This is the third update to the TeamPCP supply chain campaign threat intelligence report, \"When the Security Scanner Became the Weapon\" (v3.0, March 25, 2026). Update 002 covered developments through March 27, including the Telnyx PyPI compromise and Vect ransomware partnership. This update covers developments from March 27-28, 2026.&#xd;",
+      "url": "https://isc.sans.edu/diary/rss/32842",
+      "date": "Sat, 28 Mar 2026 15:09:12",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1486",
+          "Ransomware"
+        ],
+        [
+          "T1195",
+          "Supply Chain"
+        ],
+        [
+          "T1046",
+          "Network Scanning"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "SANS ISC",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "TeamPCP Supply Chain Campaign: Update 002 - Telnyx PyPI Compromise, Vect Ransomware Mass Affiliate Program, and First Named Victim Claim, (Fri, Mar 27th)",
+      "summary": "This is the second update to the TeamPCP supply chain campaign threat intelligence report, \"When the Security Scanner Became the Weapon\" (v3.0, March 25, 2026). Update 001 covered developments through March 26. This update covers developments from March 26-27, 2026.&#xd;",
+      "url": "https://isc.sans.edu/diary/rss/32838",
+      "date": "Fri, 27 Mar 2026 14:34:44",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1486",
+          "Ransomware"
+        ],
+        [
+          "T1195",
+          "Supply Chain"
+        ],
+        [
+          "T1046",
+          "Network Scanning"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Malwarebytes",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "Criminals are renting virtual phones to bypass bank security",
+      "summary": "Not a real phone, but good enough to fool your bank. Researchers warn criminals are using virtual devices to bypass fraud checks.",
+      "url": "https://www.malwarebytes.com/blog/news/2026/03/criminals-are-renting-virtual-phones-to-bypass-bank-security",
+      "date": "Fri, 27 Mar 2026 13:34:44",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Why earning more won\u2019t always make you happier, according to science",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/science/why-earning-more-wont-always-make-you-happier-according-to-science-10606714/",
+      "date": "Sat, 28 Mar 2026 14:13:58",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Artemis 2 astronauts arrive at Kennedy Space Center as Nasa eyes April 1 Moon launch",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/science/artemis-2-astronauts-arrive-at-kennedy-space-center-as-nasa-eyes-april-1-moon-launch-10606689/",
+      "date": "Sat, 28 Mar 2026 13:54:56",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Why AI systems don\u2019t learn on their own: New research proposes a human-like solution",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/why-ai-systems-dont-learn-on-their-own-10606683/",
+      "date": "Sat, 28 Mar 2026 13:42:56",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Ancient ape fossils in Egypt desert may rewrite history of human ancestors",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/science/ancient-ape-fossils-in-egypt-desert-may-rewrite-history-of-human-ancestors-10606466/",
+      "date": "Sat, 28 Mar 2026 10:52:58",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Sony halts SD, CFexpress card orders amid global memory shortage",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/sony-halts-sd-cfexpress-card-orders-amid-global-memory-shortage-10606313/",
+      "date": "Sat, 28 Mar 2026 09:19:44",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Apple iPhone 18 series may launch in phases: What to expect",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/apple-iphone-18-series-may-launch-in-phases-what-to-expect-apple-iphone-18-series-expected-to-roll-out-in-phases-what-to-expect-10606161/",
+      "date": "Sat, 28 Mar 2026 07:43:06",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Why AI that says \u2018you\u2019re right\u2019 could be dangerous, according to a new study",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/why-ai-that-says-youre-right-could-be-dangerous-according-to-a-new-study-10605905/",
+      "date": "Sat, 28 Mar 2026 05:11:14",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "UK joins global push to rein in children\u2019s screen use with national guidance",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/uk-joins-global-push-to-rein-in-childrens-screen-use-with-national-guidance-10605821/",
+      "date": "Sat, 28 Mar 2026 04:06:58",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Austria plans social media ban for children under 14",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/austria-plans-social-media-ban-for-children-under-14-10605815/",
+      "date": "Sat, 28 Mar 2026 03:58:47",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Sony to hike PlayStation 5 prices again as memory chip costs surge",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/sony-to-hike-playstation-5-prices-again-as-memory-chip-costs-surge-10605792/",
+      "date": "Sat, 28 Mar 2026 03:41:01",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Tech can be an impact amplifier, but it\u2019s not the whole story: Brigit Helms, Miller Center for Global Impact",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/innovation-brigit-helms-miller-center-social-enterprises-india-ai-impact-10604450/",
+      "date": "Sat, 28 Mar 2026 01:00:21",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "NASA Artemis 2 countdown begins: Crew prepares for historic moon mission launch",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/science/countdown-begins-nasas-artemis-2-crew-prepares-for-launch-just-a-week-away-10604812/",
+      "date": "Fri, 27 Mar 2026 12:08:38",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Tech and Gadget Launches Today (March 27, 2026): TECNO Spark 50, Samsung Galaxy Book6, and more",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/tech-and-gadget-launches-today-march-27-2026-tecno-spark-50-samsung-galaxy-book6-and-more-10604747/",
+      "date": "Fri, 27 Mar 2026 12:02:52",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Apple may be testing a 200MP sensor for future iPhone Pro models",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/mobile-tabs/apple-iphone-200mp-camera-sensor-leak-sony-lyt-901-details-10604435/",
+      "date": "Fri, 27 Mar 2026 11:28:12",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Indian Express Tech",
+      "category": "india",
+      "type": "news",
+      "title": "Are we close to finding life beyond Earth? 45 planets show potential, say scientists",
+      "summary": "",
+      "url": "https://indianexpress.com/article/technology/science/could-life-exist-here-scientists-highlight-45-intriguing-planets-10604597/",
+      "date": "Fri, 27 Mar 2026 11:25:13",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityAffairs",
+      "category": "global_news",
+      "type": "news",
+      "title": "ShinyHunters claims the hack of the European Commission",
+      "summary": "The European Commission has allegedly been breached by ShinyHunters, with reported data dumps including content from mail servers. The European Commission has allegedly been breached by ShinyHunters, with reported data dumps including content from mail servers and internal communications systems. The cybercrime group added the Commission to its Tor data leak site, claiming the theft [&#8230;]",
+      "url": "https://securityaffairs.com/190095/data-breach/shinyhunters-claims-the-hack-of-the-european-commission.html",
+      "date": "Sat, 28 Mar 2026 15:58:21",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityAffairs",
+      "category": "global_news",
+      "type": "news",
+      "title": "Iran-linked group Handala hacked FBI Director Kash Patel\u2019s personal email account",
+      "summary": "Iran-linked group Handala claims it hacked FBI Director Kash Patel\u2019s personal email, leaking files. The FBI says no government data was exposed. Iran-linked hacking group Handala claims it breached FBI Director Kash Patel\u2019s personal Gmail account and shared alleged data, including photos and files. The FBI confirmed it is aware of the incident and has [&#8230;]",
+      "url": "https://securityaffairs.com/190088/intelligence/iran-linked-group-handala-hacked-fbi-director-kash-patels-personal-email-account.html",
+      "date": "Sat, 28 Mar 2026 10:22:33",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityAffairs",
+      "category": "global_news",
+      "type": "news",
+      "title": "U.S. CISA adds a flaw in F5 BIG-IP AMP to its Known Exploited Vulnerabilities catalog",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a flaw in F5 BIG-IP AMP to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA)\u00a0added\u00a0a flaw in F5 BIG-IP AMP, tracked as CVE-2025-53521 (CVSS ver. 3.1 score of 9.8), to its\u00a0Known Exploited Vulnerabilities (KEV) catalog. The vulnerability in BIG-IP APM allows [&#8230;]",
+      "url": "https://securityaffairs.com/190076/uncategorized/u-s-cisa-adds-a-flaw-in-f5-big-ip-amp-to-its-known-exploited-vulnerabilities-catalog.html",
+      "date": "Sat, 28 Mar 2026 07:33:15",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "SecurityAffairs",
+      "category": "global_news",
+      "type": "news",
+      "title": "The European Commission confirmed a cyberattack affecting part of its cloud systems",
+      "summary": "The European Commission confirmed a cyberattack affecting part of its cloud systems, now contained, with no impact on internal networks. On March 24, the European Commission detected a cyberattack affecting the cloud infrastructure hosting its Europa.eu websites. The incident was quickly contained, with mitigation measures applied and no disruption to website availability. Early findings suggest [",
+      "url": "https://securityaffairs.com/190067/data-breach/the-european-commission-confirmed-a-cyberattack-affecting-part-of-its-cloud-systems.html",
+      "date": "Fri, 27 Mar 2026 21:43:25",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityAffairs",
+      "category": "global_news",
+      "type": "news",
+      "title": "New AITM phishing wave hijacks TikTok Business accounts",
+      "summary": "A new AITM phishing campaign targets TikTok Business accounts to hijack them for malvertising, continuing tactics seen in earlier Google-themed scams. Push Security researchers uncovered a new wave of AITM phishing pages targeting TikTok for Business accounts, aiming to hijack them for malvertising. The campaign includes TikTok and Google-themed fake pages, showing links to previous [&#8230;]",
+      "url": "https://securityaffairs.com/190058/security/new-aitm-phishing-wave-hijacks-tiktok-business-accounts.html",
+      "date": "Fri, 27 Mar 2026 15:23:28",
+      "severity": "MEDIUM",
+      "mitre": [
+        [
+          "T1566",
+          "Phishing"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "SecurityAffairs",
+      "category": "global_news",
+      "type": "news",
+      "title": "CISA and BSI warn orgs of critical PTC Windchill and FlexPLM flaw",
+      "summary": "CISA warns of a critical flaw in PTC Windchill and FlexPLM (CVE-2026-4681), with no patch yet and potential for imminent exploitation. CISA issued an advisory about a critical vulnerability, tracked as CVE-2026-4681 (CVSS score of 10.0), in PTC\u2019s Windchill and FlexPLM software. At this time, no patches are available, and no active attacks have been [&#8230;]",
+      "url": "https://securityaffairs.com/190049/security/cisa-and-bsi-warn-orgs-of-critical-ptc-windchill-and-flexplm-flaw.html",
+      "date": "Fri, 27 Mar 2026 14:58:30",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "GBHackers",
+      "category": "global_news",
+      "type": "news",
+      "title": "Malicious Browser Extensions Hijack Users\u2019 AI Chats in New \u201cPrompt Poaching\u201d Attack",
+      "summary": "A new wave of malicious browser extensions is quietly harvesting sensitive user interactions with AI tools, in a growing threat now dubbed \u201cprompt poaching.\u201d The rise of AI assistants in everyday browsing has created a usability gap. Most users interact with AI tools in isolated tabs, manually copying and pasting content for analysis or summarization. [&#8230;]\nThe post Malicious Browser Extension",
+      "url": "https://gbhackers.com/malicious-browser-extensions-2/",
+      "date": "Sat, 28 Mar 2026 10:36:50",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "GBHackers",
+      "category": "global_news",
+      "type": "news",
+      "title": "Fake Certificate Loader Hides BlankGrabber Malware Chain",
+      "summary": "BlankGrabber\u2019s operators are now abusing a fake \u201ccertificate\u201d loader to hide a multi\u2011stage Rust and Python infection chain, making this commodity stealer significantly harder to spot on Windows endpoints. The new technique relies on built\u2011in tools such as certutil.exe, heavily obfuscated PyInstaller stubs, and stealthy exfiltration via Telegram and public web services to evade both [&#8230;]\nThe p",
+      "url": "https://gbhackers.com/blankgrabber-malware/",
+      "date": "Sat, 28 Mar 2026 08:26:55",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "GBHackers",
+      "category": "global_news",
+      "type": "news",
+      "title": "Open VSX Scanner Vulnerability Lets Malicious Extensions Go Live",
+      "summary": "Open VSX, the extension marketplace used by VS Code forks such as Cursor and Windsurf, recently fixed a critical vulnerability in its newly introduced pre-publish scanning pipeline that could allow malicious extensions to bypass security checks and go live undetected. The issue, dubbed \u201cOpen Sesame,\u201d stemmed from a fail-open condition in the scanning workflow. While [&#8230;]\nThe post Open VSX Sca",
+      "url": "https://gbhackers.com/open-vsx-scanner/",
+      "date": "Sat, 28 Mar 2026 06:39:20",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1046",
+          "Network Scanning"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "GBHackers",
+      "category": "global_news",
+      "type": "news",
+      "title": "European Commission Confirms Cyberattack After AWS Account Breach",
+      "summary": "The European Commission has confirmed a cybersecurity incident affecting its cloud-based infrastructure after attackers gained access to an Amazon Web Services (AWS) account hosting parts of the Europa.eu platform. According to an official statement, the compromised infrastructure supported the Commission\u2019s public-facing web services. Despite the intrusion, authorities reported no disruption to th",
+      "url": "https://gbhackers.com/aws-account-breach/",
+      "date": "Sat, 28 Mar 2026 04:59:32",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "GBHackers",
+      "category": "global_news",
+      "type": "news",
+      "title": "BIND 9 Security Flaws Allow Attackers to Bypass Security Controls and Crash Servers",
+      "summary": "The Internet Systems Consortium (ISC) has released critical security advisories addressing three new vulnerabilities in the widely used BIND 9 Domain Name System (DNS) software suite. If left unpatched, remote attackers could exploit these weaknesses to bypass access control lists, consume excessive system resources, or crash DNS servers entirely. Network administrators must apply the provided [&#",
+      "url": "https://gbhackers.com/bind-9-security-flaws/",
+      "date": "Fri, 27 Mar 2026 12:29:58",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-25099 [CVSS 0] \u2014 Bludit\u2019s API plugin allows an authenticated attacker with a valid API token to u",
+      "summary": "Bludit\u2019s API plugin allows an authenticated attacker with a valid API token to upload files of any type and extension without restriction, which can then be executed, leading to Remote Code Execution.\n\nThis issue was fixed in 3.18.4.",
+      "severity": "MEDIUM",
+      "cvss_score": 0,
+      "cve": "CVE-2026-25099",
+      "date": "2026-03-27",
+      "url": "https://cert.pl/posts/2026/03/CVE-2026-25099",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-25100 [CVSS 0] \u2014 Bludit is vulnerable to Stored Cross-Site Scripting (XSS) in its image upload fu",
+      "summary": "Bludit is vulnerable to Stored Cross-Site Scripting (XSS) in its image upload functionality. An authenticated attacker with content upload privileges (such as Author, Editor, or Administrator) can upload an SVG file containing a malicious payload, which is executed when a victim visits the URL of the uploaded resource. The uploaded resource itself is accessible without authentication.\n\nThe vendor ",
+      "severity": "MEDIUM",
+      "cvss_score": 0,
+      "cve": "CVE-2026-25100",
+      "date": "2026-03-27",
+      "url": "https://cert.pl/posts/2026/03/CVE-2026-25099",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-25101 [CVSS 0] \u2014 Bludit allows user's session identifier to be set before authentication. The val",
+      "summary": "Bludit allows user's session identifier to be set before authentication. The value of this session ID stays the same after authentication. This behavior enables an attacker to fix a session ID\nfor a victim and later hijack the authenticated session.\n\nThis issue was fixed in version 3.17.2.",
+      "severity": "MEDIUM",
+      "cvss_score": 0,
+      "cve": "CVE-2026-25101",
+      "date": "2026-03-27",
+      "url": "https://cert.pl/posts/2026/03/CVE-2026-25099",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-4309 [CVSS 0] \u2014 Missing Authorization vulnerability in NEC Platforms, Ltd. Aterm Series allows a",
+      "summary": "Missing Authorization vulnerability in NEC Platforms, Ltd. Aterm Series allows a attacker to get a specific device information and change the settings via network.",
+      "severity": "MEDIUM",
+      "cvss_score": 0,
+      "cve": "CVE-2026-4309",
+      "date": "2026-03-27",
+      "url": "https://jpn.nec.com/security-info/secinfo/nv26-001_en.html",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-4619 [CVSS 0] \u2014 Path Traversal vulnerability in NEC Platforms, Ltd. Aterm Series allows a attack",
+      "summary": "Path Traversal vulnerability in NEC Platforms, Ltd. Aterm Series allows a attacker to wtite over any file via network.",
+      "severity": "MEDIUM",
+      "cvss_score": 0,
+      "cve": "CVE-2026-4619",
+      "date": "2026-03-27",
+      "url": "https://jpn.nec.com/security-info/secinfo/nv26-001_en.html",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-4620 [CVSS 0] \u2014 OS Command Injection vulnerability in NEC Platforms, Ltd. Aterm Series allows a ",
+      "summary": "OS Command Injection vulnerability in NEC Platforms, Ltd. Aterm Series allows a attacker to execute arbitrary OS commands via network.",
+      "severity": "MEDIUM",
+      "cvss_score": 0,
+      "cve": "CVE-2026-4620",
+      "date": "2026-03-27",
+      "url": "https://jpn.nec.com/security-info/secinfo/nv26-001_en.html",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-4621 [CVSS 0] \u2014 Hidden Functionality vulnerability in NEC Platforms, Ltd. Aterm Series allows a ",
+      "summary": "Hidden Functionality vulnerability in NEC Platforms, Ltd. Aterm Series allows a attacker to enable telnet via network.",
+      "severity": "MEDIUM",
+      "cvss_score": 0,
+      "cve": "CVE-2026-4621",
+      "date": "2026-03-27",
+      "url": "https://jpn.nec.com/security-info/secinfo/nv26-001_en.html",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-4622 [CVSS 0] \u2014 OS Command Injection vulnerability in NEC Platforms, Ltd. Aterm Series allows a ",
+      "summary": "OS Command Injection vulnerability in NEC Platforms, Ltd. Aterm Series allows a attacker to execute arbitrary OS commands via network.",
+      "severity": "MEDIUM",
+      "cvss_score": 0,
+      "cve": "CVE-2026-4622",
+      "date": "2026-03-27",
+      "url": "https://jpn.nec.com/security-info/secinfo/nv26-001_en.html",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-4340 [CVSS 0] \u2014 Rejected reason: ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. Reason: This can",
+      "summary": "Rejected reason: ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. Reason: This candidate was issued in error. Notes: All references and descriptions in this candidate have been removed to prevent accidental usage.",
+      "severity": "MEDIUM",
+      "cvss_score": 0,
+      "cve": "CVE-2026-4340",
+      "date": "2026-03-27",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4340",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-4982 [CVSS 0] \u2014 A user with permission \"update world\" in any Venueless world is able to exfiltra",
+      "summary": "A user with permission \"update world\" in any Venueless world is able to exfiltrate chat messages from direct messages or channels in other worlds on the same server due to a bug in the reporting feature.\n\nThe exploitability is limited by the fact that the attacker needs to know the internal channel UUID of the chat channel, which is unlikely to be obtained by an outside attacker, especially for di",
+      "severity": "MEDIUM",
+      "cvss_score": 0,
+      "cve": "CVE-2026-4982",
+      "date": "2026-03-27",
+      "url": "https://github.com/venueless/venueless/security/advisories/GHSA-6fq7-pgj3-6cfp",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2025-13478 [CVSS 0] \u2014 Cache misconfiguration vulnerability in OpenText Identity Manager on Windows, Li",
+      "summary": "Cache misconfiguration vulnerability in OpenText Identity Manager on Windows, Linux allows remote authenticated users to obtain another user's session data via insecure application cache handling. This issue affects Identity Manager: 25.2(v4.10.1).",
+      "severity": "MEDIUM",
+      "cvss_score": 0,
+      "cve": "CVE-2025-13478",
+      "date": "2026-03-27",
+      "url": "https://docs.microfocus.com/doc/2159/25.2/cvesecurityfix",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-32695 [CVSS 0] \u2014 Traefik is an HTTP reverse proxy and load balancer. Prior to versions 3.6.11 and",
+      "summary": "Traefik is an HTTP reverse proxy and load balancer. Prior to versions 3.6.11 and 3.7.0-ea.2, Traefik's Knative provider builds router rules by interpolating user-controlled values into backtick-delimited rule expressions without escaping. In live cluster validation, Knative `rules[].hosts[]` was exploitable for host restriction bypass (for example `tenant.example.com`) || Host(`attacker.com`), pro",
+      "severity": "MEDIUM",
+      "cvss_score": 0,
+      "cve": "CVE-2026-32695",
+      "date": "2026-03-27",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.6.11",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-32859 [CVSS 5.4] \u2014 ByteDance Deer-Flow versions prior to commit 5dbb362\u00a0contain a stored cross-site",
+      "summary": "ByteDance Deer-Flow versions prior to commit 5dbb362\u00a0contain a stored cross-site scripting vulnerability in the artifacts API that allows attackers to execute arbitrary scripts by uploading malicious HTML or script content as artifacts. Attackers can store malicious content that executes in the browser context when users view artifacts, leading to session compromise, credential theft, and arbitrar",
+      "severity": "MEDIUM",
+      "cvss_score": 5.4,
+      "cve": "CVE-2026-32859",
+      "date": "2026-03-27",
+      "url": "https://github.com/bytedance/deer-flow/commit/5dbb3623b2f0e490c8bb3cd81b1e3b1b12eae1a6",
+      "mitre": [
+        [
+          "T1078",
+          "Valid Accounts"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2024-11604 [CVSS 0] \u2014 Insertion of Sensitive Information into Log File vulnerability in the SCIM Drive",
+      "summary": "Insertion of Sensitive Information into Log File vulnerability in the SCIM Driver module in OpenText IDM Driver and Extensions on Windows, Linux, 64 bit allows authenticated local users to obtain sensitive information via access to log files. This issue affects IDM SCIM Driver: 1.0.0.0000 through 1.0.1.0300 and 1.1.0.0000.",
+      "severity": "MEDIUM",
+      "cvss_score": 0,
+      "cve": "CVE-2024-11604",
+      "date": "2026-03-27",
+      "url": "https://www.netiq.com/documentation/identity-manager-48-drivers/SCIMDriver1.0.1.0400_readme/data/SCIMDriver1.0.1.0400_readme.html",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2025-61190 [CVSS 0] \u2014 A Reflected Cross-Site Scripting (XSS) vulnerability has been identified in DSpa",
+      "summary": "A Reflected Cross-Site Scripting (XSS) vulnerability has been identified in DSpace JSPUI 6.5 within the search/discover filtering functionality. The vulnerability exists due to improper sanitization of user-supplied input via the filter_type_1 parameter.",
+      "severity": "MEDIUM",
+      "cvss_score": 0,
+      "cve": "CVE-2025-61190",
+      "date": "2026-03-27",
+      "url": "http://dspace.com",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2025-69986 [CVSS 7.2] \u2014 A buffer overflow vulnerability exists in the ONVIF GetStreamUri function of LSC",
+      "summary": "A buffer overflow vulnerability exists in the ONVIF GetStreamUri function of LSC Indoor Camera V7.6.32. The application fails to validate the length of the Protocol parameter inside the Transport element. By sending a specially crafted SOAP request containing an oversized protocol string, an attacker can overflow the stack buffer, overwriting the return instruction pointer (RIP). This vulnerabilit",
+      "severity": "HIGH",
+      "cvss_score": 7.2,
+      "cve": "CVE-2025-69986",
+      "date": "2026-03-27",
+      "url": "https://github.com/victorGoeman/LSC-Indoor-Camera-Security-Research/blob/main/CVE-2025-69986.md",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ],
+        [
+          "T1498",
+          "DDoS"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2025-69988 [CVSS 6.5] \u2014 BS Producten Petcam 33.1.0.0818 is vulnerable to Incorrect Access Control. An un",
+      "summary": "BS Producten Petcam 33.1.0.0818 is vulnerable to Incorrect Access Control. An unauthenticated attacker in physical proximity can associate with this open network. Once connected, the attacker gains access to the camera's private network interface and can retrieve sensitive information, including the live video and audio stream, without providing credentials.",
+      "severity": "MEDIUM",
+      "cvss_score": 6.5,
+      "cve": "CVE-2025-69988",
+      "date": "2026-03-27",
+      "url": "https://github.com/victorGoeman/BS-Producten-Petcam-Security-Research/blob/main/CVE-2025-69988.md",
+      "mitre": [
+        [
+          "T1078",
+          "Valid Accounts"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-1496 [CVSS 0] \u2014 Vulnerable versions of Coverity Connect lack an error handler in the authenticat",
+      "summary": "Vulnerable versions of Coverity Connect lack an error handler in the authentication logic for command line tooling that makes it vulnerable to an authentication bypass.\u00a0A malicious actor with access to the\u00a0/token\u00a0API endpoint that either knows or guesses a valid username, can use this in a specially crafted HTTP request to bypass authentication.\u00a0Successful exploitation allows the malicious actor t",
+      "severity": "MEDIUM",
+      "cvss_score": 0,
+      "cve": "CVE-2026-1496",
+      "date": "2026-03-27",
+      "url": "https://community.blackduck.com/s/article/Black-Duck-Security-Advisory-CVE-2026-1496",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-27876 [CVSS 9.1] \u2014 A chained attack via SQL Expressions and a Grafana Enterprise plugin can lead to",
+      "summary": "A chained attack via SQL Expressions and a Grafana Enterprise plugin can lead to a remote arbitrary code execution impact (RCE). This is enabled by a feature in Grafana (OSS), so all users are always recommended to update to avoid future attack vectors going this path.\n\nOnly instances with the sqlExpressions feature toggle enabled are vulnerable.",
+      "severity": "CRITICAL",
+      "cvss_score": 9.1,
+      "cve": "CVE-2026-27876",
+      "date": "2026-03-27",
+      "url": "https://grafana.com/security/security-advisories/cve-2026-27876",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-27877 [CVSS 6.5] \u2014 When using public dashboards and direct data-sources, all direct data-sources' p",
+      "summary": "When using public dashboards and direct data-sources, all direct data-sources' passwords are exposed despite not being used in dashboards.\n\nNo passwords of proxied data-sources are exposed. We encourage all direct data-sources to be converted to proxied data-sources as far as possible to improve your deployments' security.",
+      "severity": "MEDIUM",
+      "cvss_score": 6.5,
+      "cve": "CVE-2026-27877",
+      "date": "2026-03-27",
+      "url": "https://grafana.com/security/security-advisories/cve-2026-27877",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "CISA Advisory",
+      "category": "gov_advisory",
+      "type": "government_advisory",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2025-53521 F5 BIG-IP Remote Code Execution Vulnerability\n\nThis type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/03/27/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "date": "Fri, 27 Mar 26 12:00:00 +",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Shodan",
+      "category": "internet_exposure",
+      "type": "exposure",
+      "title": "0 hosts: Vulnerable Indian hosts (2024 CVEs)",
+      "summary": "Query: vuln:CVE-2024 country:IN",
+      "severity": "MEDIUM",
+      "date": "2026-03-29",
+      "count": 0,
+      "url": "https://www.shodan.io/search?query=vuln%3ACVE-2024%20country%3AIN",
+      "mitre": [
+        [
+          "T1046",
+          "Network Service Scanning"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Shodan",
+      "category": "internet_exposure",
+      "type": "exposure",
+      "title": "38,596 hosts: RDP exposed India",
+      "summary": "Query: port:3389 country:IN",
+      "severity": "MEDIUM",
+      "date": "2026-03-29",
+      "count": 38596,
+      "url": "https://www.shodan.io/search?query=port%3A3389%20country%3AIN",
+      "mitre": [
+        [
+          "T1046",
+          "Network Service Scanning"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Shodan",
+      "category": "internet_exposure",
+      "type": "exposure",
+      "title": "883,521 hosts: All vulnerable hosts India",
+      "summary": "Query: has_vuln:true country:IN",
+      "severity": "HIGH",
+      "date": "2026-03-29",
+      "count": 883521,
+      "url": "https://www.shodan.io/search?query=has_vuln%3Atrue%20country%3AIN",
+      "mitre": [
+        [
+          "T1046",
+          "Network Service Scanning"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Shodan",
+      "category": "internet_exposure",
+      "type": "exposure",
+      "title": "2,464,817 hosts: RDP exposed globally",
+      "summary": "Query: port:3389",
+      "severity": "HIGH",
+      "date": "2026-03-29",
+      "count": 2464817,
+      "url": "https://www.shodan.io/search?query=port%3A3389",
+      "mitre": [
+        [
+          "T1046",
+          "Network Service Scanning"
+        ]
+      ],
+      "today": true
+    }
+  ],
+  "hours_window": 36,
+  "today_only": true,
+  "blog_id": "20260329_045152",
+  "generated_at": "2026-03-28T23:23:00.424006+00:00",
+  "from_cache": false,
+  "cache_age_min": 0,
+  "json_path": "/home/j/voraguard/blogs/blog_20260329_045152_ml.json"
+}

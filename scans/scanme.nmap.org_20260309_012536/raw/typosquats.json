@@ -1,0 +1,249 @@
+[
+    {
+        "dns_a": [
+            "45.33.32.156"
+        ],
+        "dns_aaaa": [
+            "2600:3c01::f03c:91ff:fe18:bb2f"
+        ],
+        "domain": "scanme.nmap.org",
+        "fuzzer": "*original"
+    },
+    {
+        "dns_a": [
+            "103.224.212.101"
+        ],
+        "dns_mx": [
+            "park-mx.above.com"
+        ],
+        "dns_ns": [
+            "ns1.abovedomains.com"
+        ],
+        "domain": "scanme.nmapu.org",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "104.247.81.99"
+        ],
+        "dns_ns": [
+            "ns1.parkingcrew.net"
+        ],
+        "domain": "scanme.nmaps.org",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "15.197.204.56"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns01.cashparking.com"
+        ],
+        "domain": "scanme.nmapd.org",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "!ServFail"
+        ],
+        "dns_aaaa": [
+            "!ServFail"
+        ],
+        "dns_ns": [
+            "!ServFail"
+        ],
+        "domain": "scanme.nmax.org",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.afternic.com"
+        ],
+        "domain": "scanme.niap.org",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns5.afternic.com"
+        ],
+        "domain": "scanme.nlap.org",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns5.afternic.com"
+        ],
+        "domain": "scanme.nmcp.org",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.afternic.com"
+        ],
+        "domain": "scanme.nmip.org",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.afternic.com"
+        ],
+        "domain": "scanme.noap.org",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "62.210.16.62"
+        ],
+        "domain": "scanme.lmap.org",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns3.afternic.com"
+        ],
+        "domain": "scanme.mnap.org",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.afternic.com"
+        ],
+        "domain": "scanme.nrap.org",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.afternic.com"
+        ],
+        "domain": "scanme.rnap.org",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns3.afternic.com"
+        ],
+        "domain": "scanme.rrap.org",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "50.116.1.225"
+        ],
+        "domain": "scanme.nnap.org",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "50.116.1.225"
+        ],
+        "domain": "scanme.n-map.org",
+        "fuzzer": "hyphenation"
+    },
+    {
+        "dns_a": [
+            "104.21.1.50"
+        ],
+        "dns_aaaa": [
+            "2606:4700:3031::6815:132"
+        ],
+        "domain": "scanme.nmao.org",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.afternic.com"
+        ],
+        "domain": "scanme.njap.org",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.afternic.com"
+        ],
+        "domain": "scanme.nmsp.org",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "206.188.193.167"
+        ],
+        "domain": "scanme.nmam.org",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "141.193.213.10"
+        ],
+        "domain": "scanme.nmpa.org",
+        "fuzzer": "transposition"
+    }
+]

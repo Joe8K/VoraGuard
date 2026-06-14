@@ -1,0 +1,43 @@
+# Nmap 7.98 scan initiated Mon Mar  9 04:06:26 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC --open -T4 --max-retries 2 -oN /home/j/voraguard/scans/cloudsek.com_20260309_040626/raw/nmap-active.txt cloudsek.com
+Nmap scan report for cloudsek.com (172.67.72.49)
+Host is up (0.017s latency).
+Other addresses for cloudsek.com (not scanned): 104.26.14.226 104.26.15.226 2606:4700:20::681a:fe2 2606:4700:20::ac43:4831 2606:4700:20::681a:ee2
+Not shown: 997 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE    VERSION
+80/tcp   open  http       cloudflare
+|_http-server-header: cloudflare
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Sun, 08 Mar 2026 22:37:25 GMT
+|     Content-Length: 68
+|     Connection: close
+|     Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+|     Referrer-Policy: same-origin
+|     Expires: Thu, 01 Jan 1970 00:00:01 GMT
+|     Proxy-Status: Cloudflare-Proxy;error=http_request_error
+|     CF-RAY: 9d95530c6ab6460f-MAA
+|_    Cloudflare encountered an error processing this request: Bad Request
+443/tcp  open  tcpwrapped
+| ssl-cert: Subject: commonName=cloudsek.com
+| Subject Alternative Name: DNS:cloudsek.com, DNS:*.cloudsek.com
+| Not valid before: 2026-01-09T07:19:19
+|_Not valid after:  2026-04-09T08:19:17
+|_http-server-header: cloudflare
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+8080/tcp open  tcpwrapped
+|_http-server-header: cloudflare
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.98%I=7%D=3/9%Time=69ADFA27%P=x86_64-pc-linux-gnu%r(GetRe
+SF:quest,1AC,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Sun,\x2008\x2
+SF:0Mar\x202026\x2022:37:25\x20GMT\r\nContent-Length:\x2068\r\nConnection:
+SF:\x20close\r\nCache-Control:\x20private,\x20max-age=0,\x20no-store,\x20n
+SF:o-cache,\x20must-revalidate,\x20post-check=0,\x20pre-check=0\r\nReferre
+SF:r-Policy:\x20same-origin\r\nExpires:\x20Thu,\x2001\x20Jan\x201970\x2000
+SF::00:01\x20GMT\r\nProxy-Status:\x20Cloudflare-Proxy;error=http_request_e
+SF:rror\r\nCF-RAY:\x209d95530c6ab6460f-MAA\r\n\r\nCloudflare\x20encountere
+SF:d\x20an\x20error\x20processing\x20this\x20request:\x20Bad\x20Request");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Mar  9 04:07:48 2026 -- 1 IP address (1 host up) scanned in 82.43 seconds

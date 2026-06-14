@@ -1,0 +1,20 @@
+# Nmap 7.98 scan initiated Mon Mar  9 23:08:57 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC --open -T4 --max-retries 2 -oN /home/j/voraguard/scans/ndtv.com_20260309_230854/raw/nmap-active.txt ndtv.com
+Nmap scan report for ndtv.com (23.58.19.149)
+Host is up (0.021s latency).
+Other addresses for ndtv.com (not scanned): 2600:1417:71:186::24e8 2600:1417:71:188::24e8
+rDNS record for 23.58.19.149: a23-58-19-149.deploy.static.akamaitechnologies.com
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE    VERSION
+80/tcp  open  tcpwrapped
+|_http-server-header: AkamaiGHost
+443/tcp open  tcpwrapped
+| ssl-cert: Subject: commonName=ndtv.com/organizationName=NDTV Convergence Limited/stateOrProvinceName=Delhi/countryName=IN
+| Subject Alternative Name: DNS:ndtv.com, DNS:*.apis.ndtv.com, DNS:*.awards.ndtv.com, DNS:*.domains.ndtv.com, DNS:*.gadgets360cdn.com, DNS:*.graphity.in, DNS:*.hotdeals360.com, DNS:*.ians.in, DNS:*.khachack.com, DNS:*.kostprice.com, DNS:*.ndtv.com, DNS:*.ndtv.in, DNS:*.ndtv1.com, DNS:*.ndtvconvergence.com, DNS:*.ndtvgames.com, DNS:*.ndtvhop.com, DNS:*.ndtvimg.com, DNS:*.ndtvprofit.com, DNS:*.ndtvprofitshopping.com, DNS:*.sports.ndtv.com, DNS:*.ureqa.com, DNS:ak.videos.ndtv.com, DNS:api.gen.ndtv.com, DNS:api.photos.ndtv.com, DNS:api.videos.ndtv.com, DNS:graphity.in, DNS:hotdeals360.com, DNS:ians.in, DNS:khachack.com, DNS:kostprice.com, DNS:ndtv.in, DNS:ndtvconvergence.com, DNS:ndtvgames.com, DNS:ndtvhop.com, DNS:ndtvprofit.com, DNS:ndtvprofitshopping.com, DNS:s3.data.ndtv.com, DNS:static.social.ndtv.com, DNS:tvdata.s2.apps.ndtv.com, DNS:ureqa.com
+| Not valid before: 2025-12-11T00:00:00
+|_Not valid after:  2026-12-11T23:59:59
+|_http-server-header: AkamaiGHost
+|_ssl-date: TLS randomness does not represent time
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Mar  9 23:11:15 2026 -- 1 IP address (1 host up) scanned in 139.82 seconds

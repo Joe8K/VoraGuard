@@ -1,0 +1,251 @@
+[
+  {
+    "id": "rule_001",
+    "name": "Critical Credential Exposure \u2192 Alert + Ticket + Notify User",
+    "enabled": true,
+    "trigger": "credential_exposure",
+    "conditions": {
+      "severity": [
+        "CRITICAL",
+        "HIGH"
+      ]
+    },
+    "actions": [
+      "send_alert",
+      "create_ticket",
+      "notify_user",
+      "log_incident"
+    ],
+    "priority": 1,
+    "description": "Leaked credentials found \u2014 alert all channels, create ticket, email affected user."
+  },
+  {
+    "id": "rule_002",
+    "name": "Network Port Scan \u2192 Alert + Log",
+    "enabled": true,
+    "trigger": "network_alert",
+    "conditions": {
+      "attack_type": [
+        "port_scan",
+        "syn_scan",
+        "udp_scan"
+      ]
+    },
+    "actions": [
+      "send_alert",
+      "log_incident"
+    ],
+    "priority": 2,
+    "description": "Port scan detected on network."
+  },
+  {
+    "id": "rule_003",
+    "name": "Brute Force Attack \u2192 Alert + Block IP + Ticket",
+    "enabled": true,
+    "trigger": "network_alert",
+    "conditions": {
+      "attack_type": [
+        "brute_force",
+        "ssh_brute",
+        "rdp_brute",
+        "credential_stuffing"
+      ]
+    },
+    "actions": [
+      "send_alert",
+      "block_ip",
+      "create_ticket",
+      "log_incident"
+    ],
+    "priority": 1,
+    "description": "Brute force attack detected \u2014 block source IP immediately."
+  },
+  {
+    "id": "rule_004",
+    "name": "C2 / Malware Beaconing \u2192 CRITICAL Alert + Block + Ticket",
+    "enabled": true,
+    "trigger": "network_alert",
+    "conditions": {
+      "attack_type": [
+        "c2_beacon",
+        "malware_c2",
+        "dns_tunnel"
+      ]
+    },
+    "actions": [
+      "send_alert",
+      "block_ip",
+      "create_ticket",
+      "log_incident"
+    ],
+    "priority": 1,
+    "description": "C2 communication detected \u2014 block and escalate immediately."
+  },
+  {
+    "id": "rule_005",
+    "name": "Phishing / Typosquat Domain \u2192 Alert + Quarantine + Ticket",
+    "enabled": true,
+    "trigger": "domain_alert",
+    "conditions": {
+      "threat_type": [
+        "phishing",
+        "typosquat",
+        "impersonation",
+        "homograph"
+      ]
+    },
+    "actions": [
+      "send_alert",
+      "create_ticket",
+      "quarantine_domain",
+      "log_incident"
+    ],
+    "priority": 1,
+    "description": "Phishing or lookalike domain detected \u2014 quarantine locally."
+  },
+  {
+    "id": "rule_006",
+    "name": "CISA KEV CVE \u2192 Alert + Ticket",
+    "enabled": true,
+    "trigger": "vulnerability",
+    "conditions": {
+      "is_kev": true
+    },
+    "actions": [
+      "send_alert",
+      "create_ticket",
+      "log_incident"
+    ],
+    "priority": 1,
+    "description": "Actively exploited CVE (CISA KEV list) \u2014 immediate patch required."
+  },
+  {
+    "id": "rule_007",
+    "name": "High EPSS Score CVE \u2192 Alert",
+    "enabled": true,
+    "trigger": "vulnerability",
+    "conditions": {
+      "epss_score_min": 0.7
+    },
+    "actions": [
+      "send_alert",
+      "log_incident"
+    ],
+    "priority": 2,
+    "description": "CVE with \u226570% exploitation probability detected."
+  },
+  {
+    "id": "rule_008",
+    "name": "Dark Web Brand Mention \u2192 Alert + Ticket",
+    "enabled": true,
+    "trigger": "darkweb_mention",
+    "conditions": {
+      "severity": [
+        "CRITICAL",
+        "HIGH"
+      ]
+    },
+    "actions": [
+      "send_alert",
+      "create_ticket",
+      "log_incident"
+    ],
+    "priority": 1,
+    "description": "Brand or domain found on dark web / stealer logs."
+  },
+  {
+    "id": "rule_009",
+    "name": "Known APT Activity \u2192 CRITICAL Alert + Ticket",
+    "enabled": true,
+    "trigger": "threat_actor",
+    "conditions": {
+      "confidence_min": 0.6
+    },
+    "actions": [
+      "send_alert",
+      "create_ticket",
+      "log_incident"
+    ],
+    "priority": 1,
+    "description": "Activity matching known APT threat actor detected."
+  },
+  {
+    "id": "rule_010",
+    "name": "Identity Risk Event \u2192 Alert + Force Password Reset",
+    "enabled": true,
+    "trigger": "identity_risk",
+    "conditions": {
+      "risk_level": [
+        "HIGH",
+        "CRITICAL"
+      ]
+    },
+    "actions": [
+      "send_alert",
+      "force_password_reset",
+      "create_ticket",
+      "log_incident"
+    ],
+    "priority": 1,
+    "description": "High-risk identity event from Entra/Workspace/Okta."
+  },
+  {
+    "id": "rule_011",
+    "name": "ARP Spoofing / MITM \u2192 CRITICAL Alert",
+    "enabled": true,
+    "trigger": "network_alert",
+    "conditions": {
+      "attack_type": [
+        "arp_spoof",
+        "mitm",
+        "arp_poison"
+      ]
+    },
+    "actions": [
+      "send_alert",
+      "log_incident"
+    ],
+    "priority": 1,
+    "description": "ARP spoofing / man-in-the-middle attack on local network."
+  },
+  {
+    "id": "rule_012",
+    "name": "DNS Anomaly \u2192 Alert",
+    "enabled": true,
+    "trigger": "network_alert",
+    "conditions": {
+      "attack_type": [
+        "dns_spoof",
+        "dns_hijack",
+        "dns_exfil"
+      ]
+    },
+    "actions": [
+      "send_alert",
+      "log_incident"
+    ],
+    "priority": 2,
+    "description": "Suspicious DNS activity \u2014 possible hijacking or data exfiltration."
+  },
+  {
+    "id": "rule_013",
+    "name": "Data Exfiltration Pattern \u2192 CRITICAL Alert + Block",
+    "enabled": true,
+    "trigger": "network_alert",
+    "conditions": {
+      "attack_type": [
+        "data_exfil",
+        "large_upload",
+        "suspicious_transfer"
+      ]
+    },
+    "actions": [
+      "send_alert",
+      "block_ip",
+      "create_ticket",
+      "log_incident"
+    ],
+    "priority": 1,
+    "description": "Possible data exfiltration detected \u2014 large outbound transfer to external host."
+  }
+]

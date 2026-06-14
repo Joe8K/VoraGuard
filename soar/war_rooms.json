@@ -1,0 +1,28 @@
+[
+  {
+    "id": "WR-467180CA",
+    "title": "Test Room",
+    "incident": "",
+    "severity": "HIGH",
+    "created_at": "2026-04-23T07:35:16.546453+00:00",
+    "status": "ACTIVE",
+    "participants": [
+      "Analyst"
+    ],
+    "messages": [],
+    "evidence": []
+  },
+  {
+    "id": "WR-657D046C",
+    "title": "Test Room",
+    "incident": "",
+    "severity": "HIGH",
+    "created_at": "2026-04-23T07:35:18.587137+00:00",
+    "status": "ACTIVE",
+    "participants": [
+      "Analyst"
+    ],
+    "messages": [],
+    "evidence": []
+  }
+]

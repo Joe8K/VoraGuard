@@ -1,0 +1,2312 @@
+{
+  "domain": "flipkart.com",
+  "scan_id": "20260309_191649",
+  "started_at": "2026-03-09T19:16:49.040904",
+  "completed_at": "2026-03-09T19:26:10.971888",
+  "duration_seconds": 561.930984,
+  "nmap": {
+    "success": true,
+    "target": "flipkart.com",
+    "open_ports": [
+      {
+        "port": 80,
+        "protocol": "tcp",
+        "state": "open",
+        "service": "tcpwrapped",
+        "version": "|_http-title: Did not follow redirect to https://flipkart.com:443/"
+      },
+      {
+        "port": 443,
+        "protocol": "tcp",
+        "state": "open",
+        "service": "tcpwrapped",
+        "version": "|_ssl-date: TLS randomness does not represent time"
+      }
+    ],
+    "error": ""
+  },
+  "dnstwist": {
+    "success": true,
+    "target": "flipkart.com",
+    "total_found": 79,
+    "registered_count": 74,
+    "typosquats": [
+      {
+        "fuzzer": "addition",
+        "domain": "flipkart0.com",
+        "dns_a": "!ServFail",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "flipkartr.com",
+        "dns_a": "!ServFail",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "flipkartt.com",
+        "dns_a": "103.224.182.189",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "flipkart2.com",
+        "dns_a": "104.21.8.191",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "flipkartl.com",
+        "dns_a": "104.21.96.53",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "flipkarte.com",
+        "dns_a": "104.247.81.99",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "flipkartz.com",
+        "dns_a": "13.223.25.84",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "flipkartn.com",
+        "dns_a": "13.248.243.5",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "flipkarti.com",
+        "dns_a": "139.162.174.209",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "flipkarto.com",
+        "dns_a": "147.79.69.46",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "flipkarty.com",
+        "dns_a": "172.233.219.123",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "flipkarts.com",
+        "dns_a": "64.190.63.222",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "flipkart8.com",
+        "dns_a": "",
+        "registered": false
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "flipkarth.com",
+        "dns_a": "",
+        "registered": false
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "flipkartx.com",
+        "dns_a": "",
+        "registered": false
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "flipcart.com",
+        "dns_a": "!ServFail",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "flipkast.com",
+        "dns_a": "13.223.25.84",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "flitkart.com",
+        "dns_a": "13.223.25.84",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "blipkart.com",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "flapkart.com",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "flypkart.com",
+        "dns_a": "15.197.225.128",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "flipjart.com",
+        "dns_a": "185.53.179.128",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "flipkert.com",
+        "dns_a": "198.143.145.61",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "flipkard.com",
+        "dns_a": "34.117.176.22",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "fliqkart.com",
+        "dns_a": "64.190.63.222",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "flixkart.com",
+        "dns_a": "91.195.241.232",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "dlipkart.com",
+        "dns_a": "",
+        "registered": false
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "glipkart.com",
+        "dns_a": "",
+        "registered": false
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "xn--flipkrt-en4c.com",
+        "dns_a": "!ServFail",
+        "registered": true
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "filpkart.com",
+        "dns_a": "103.224.182.250",
+        "registered": true
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "fllpkart.com",
+        "dns_a": "13.223.25.84",
+        "registered": true
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "fiipkart.com",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "flipicart.com",
+        "dns_a": "23.227.38.32",
+        "registered": true
+      },
+      {
+        "fuzzer": "hyphenation",
+        "domain": "flip-kart.com",
+        "dns_a": "13.223.25.84",
+        "registered": true
+      },
+      {
+        "fuzzer": "insertion",
+        "domain": "flipikart.com",
+        "dns_a": "!ServFail",
+        "registered": true
+      },
+      {
+        "fuzzer": "insertion",
+        "domain": "flipkaret.com",
+        "dns_a": "!ServFail",
+        "registered": true
+      },
+      {
+        "fuzzer": "insertion",
+        "domain": "flipksart.com",
+        "dns_a": "104.21.54.207",
+        "registered": true
+      },
+      {
+        "fuzzer": "insertion",
+        "domain": "flikpkart.com",
+        "dns_a": "104.247.81.99",
+        "registered": true
+      },
+      {
+        "fuzzer": "insertion",
+        "domain": "flipokart.com",
+        "dns_a": "172.233.219.123",
+        "registered": true
+      },
+      {
+        "fuzzer": "insertion",
+        "domain": "flipkaert.com",
+        "dns_a": "44.230.85.241",
+        "registered": true
+      },
+      {
+        "fuzzer": "omission",
+        "domain": "fipkart.com",
+        "dns_a": "!ServFail",
+        "registered": true
+      },
+      {
+        "fuzzer": "omission",
+        "domain": "flipkar.com",
+        "dns_a": "!ServFail",
+        "registered": true
+      },
+      {
+        "fuzzer": "omission",
+        "domain": "flipkrt.com",
+        "dns_a": "!ServFail",
+        "registered": true
+      },
+      {
+        "fuzzer": "omission",
+        "domain": "flpkart.com",
+        "dns_a": "!ServFail",
+        "registered": true
+      },
+      {
+        "fuzzer": "omission",
+        "domain": "flipkat.com",
+        "dns_a": "103.224.182.246",
+        "registered": true
+      },
+      {
+        "fuzzer": "omission",
+        "domain": "flikart.com",
+        "dns_a": "103.224.212.200",
+        "registered": true
+      },
+      {
+        "fuzzer": "omission",
+        "domain": "lipkart.com",
+        "dns_a": "64.190.63.222",
+        "registered": true
+      },
+      {
+        "fuzzer": "omission",
+        "domain": "flipart.com",
+        "dns_a": "82.98.139.169",
+        "registered": true
+      },
+      {
+        "fuzzer": "plural",
+        "domain": "flipskart.com",
+        "dns_a": "52.172.39.101",
+        "registered": true
+      },
+      {
+        "fuzzer": "repetition",
+        "domain": "fliipkart.com",
+        "dns_a": "103.224.182.189",
+        "registered": true
+      }
+    ],
+    "error": ""
+  },
+  "harvester": {
+    "success": true,
+    "target": "flipkart.com",
+    "emails": [
+      "cmartorella@edge-security.com"
+    ],
+    "hosts": [
+      "adfs.flipkart.com",
+      "dl.flipkart.com",
+      "il0po832mni3.flipkart.com",
+      "brandhub.flipkart.com",
+      "duh69w3jnp.flipkart.com",
+      "nct.flipkart.com",
+      "ac.flipkart.com",
+      "ekl-fm-during.flipkart.com",
+      "digital.flipkart.com",
+      "advertising.flipkart.com",
+      "ekl-port-app.flipkart.com",
+      "mail2.flipkart.com",
+      "m101.flipkart.com",
+      "ncp.flipkart.com",
+      "ch-m100.flipkart.com",
+      "ch.flipkart.com",
+      "m100.flipkart.com",
+      "delivery.flipkart.com",
+      "ncb.flipkart.com",
+      "fknet.flipkart.com",
+      "beta-homeservice.flipkart.com",
+      "adp.flipkart.com",
+      "affiliate.flipkart.com",
+      "brandmanager.flipkart.com",
+      "auth.flipkart.com",
+      "chat.flipkart.com",
+      "api.flipkart.com",
+      "cloud.flipkart.com",
+      "accounts.flipkart.com",
+      "mail1.flipkart.com",
+      "beta-seller.flipkart.com",
+      "email.flipkart.com",
+      "brands.flipkart.com",
+      "ads.flipkart.com",
+      "m201.flipkart.com"
+    ],
+    "ips": [
+      "103.4.252.49",
+      "103.4.252.127",
+      "103.4.253.160",
+      "175.158.68.60",
+      "163.53.77.55",
+      "103.4.253.129",
+      "103.4.253.252",
+      "103.4.252.189",
+      "103.4.252.4",
+      "103.4.253.111",
+      "103.4.252.159",
+      "103.4.252.211",
+      "103.4.252.186",
+      "167.89.45.71",
+      "103.4.252.210",
+      "103.4.253.200",
+      "175.158.68.63",
+      "103.4.252.47",
+      "103.4.253.15",
+      "103.4.253.186",
+      "103.4.252.94",
+      "103.4.252.170",
+      "103.4.253.41",
+      "103.4.253.99",
+      "103.4.252.3",
+      "103.4.253.251",
+      "103.4.253.155",
+      "103.4.253.183",
+      "103.4.252.182",
+      "175.158.64.139",
+      "103.4.252.215",
+      "103.4.253.248",
+      "103.4.252.39",
+      "103.4.253.164",
+      "103.4.252.164",
+      "103.4.252.6",
+      "103.243.33.5",
+      "103.52.180.86",
+      "103.4.253.222",
+      "103.4.252.148",
+      "103.4.253.242",
+      "103.4.253.171",
+      "103.4.252.160",
+      "52.172.39.71",
+      "103.4.253.97",
+      "103.4.252.131",
+      "175.158.64.121",
+      "103.4.253.76",
+      "180.179.67.217",
+      "103.4.252.135",
+      "103.243.32.24",
+      "163.53.76.95",
+      "103.4.253.112",
+      "103.4.253.73",
+      "103.4.252.121",
+      "103.52.180.146",
+      "180.179.116.50",
+      "163.53.77.17",
+      "103.4.253.51",
+      "103.243.33.38",
+      "103.4.252.196",
+      "103.4.252.10",
+      "103.4.252.152",
+      "103.4.252.58",
+      "103.4.253.178",
+      "175.158.64.134",
+      "103.4.253.104",
+      "3.20.87.51",
+      "103.4.252.161",
+      "103.4.253.210",
+      "103.4.252.48",
+      "180.179.68.45",
+      "175.158.64.128",
+      "103.4.253.218",
+      "103.4.253.26",
+      "103.4.252.102",
+      "103.4.252.56",
+      "103.4.253.243",
+      "103.4.252.23",
+      "103.4.253.115",
+      "103.4.253.63",
+      "103.4.253.95",
+      "103.243.33.39",
+      "103.4.252.103",
+      "103.4.253.230",
+      "103.4.253.48",
+      "103.4.253.117",
+      "103.4.253.247",
+      "103.4.253.197",
+      "103.4.252.80",
+      "103.4.252.194",
+      "103.4.253.22",
+      "103.4.252.50",
+      "103.4.252.32",
+      "103.4.253.207",
+      "103.4.252.220",
+      "103.4.253.29",
+      "103.4.253.23",
+      "103.4.252.96",
+      "103.4.253.96",
+      "103.4.252.150",
+      "103.4.253.208",
+      "103.4.253.44",
+      "103.4.253.110",
+      "103.4.253.190",
+      "103.4.253.67",
+      "103.4.252.201",
+      "103.4.253.150",
+      "103.4.252.126",
+      "103.4.252.153",
+      "103.4.252.162",
+      "103.4.253.220",
+      "103.4.253.125",
+      "103.4.252.52",
+      "103.52.180.73",
+      "175.158.68.59",
+      "103.4.253.4",
+      "175.158.68.74",
+      "103.4.252.84",
+      "163.53.77.12",
+      "103.4.253.109",
+      "175.158.68.67",
+      "103.243.32.71",
+      "103.4.253.239",
+      "103.4.252.104",
+      "175.158.68.61",
+      "103.4.252.97",
+      "103.4.252.25",
+      "175.158.68.62",
+      "103.4.252.130",
+      "103.4.253.14",
+      "103.4.253.70",
+      "103.4.253.254",
+      "103.4.252.139",
+      "103.4.253.229",
+      "103.4.252.205",
+      "103.4.253.191",
+      "103.4.253.168",
+      "103.4.252.175",
+      "103.4.253.36",
+      "103.4.252.158",
+      "103.4.252.88",
+      "103.4.253.165",
+      "103.4.253.57",
+      "103.4.253.216",
+      "103.4.252.71",
+      "175.158.68.53",
+      "103.4.253.142",
+      "103.4.253.38",
+      "103.4.252.67",
+      "175.158.68.65",
+      "103.4.253.77",
+      "103.4.252.142",
+      "103.4.253.119",
+      "175.158.68.71",
+      "103.4.253.245",
+      "167.89.56.209",
+      "103.4.253.60",
+      "103.4.253.124",
+      "103.4.253.88",
+      "103.52.180.71",
+      "103.4.253.98",
+      "103.4.253.156",
+      "103.4.253.236",
+      "103.4.252.212",
+      "103.4.252.44",
+      "103.4.252.105",
+      "103.243.32.90",
+      "103.4.252.229",
+      "103.4.253.92",
+      "103.4.252.245",
+      "103.4.252.46",
+      "103.4.252.227",
+      "103.4.252.233",
+      "103.4.252.192",
+      "103.4.253.80",
+      "103.4.252.62",
+      "103.4.252.68",
+      "103.4.252.125",
+      "103.4.252.87",
+      "103.4.252.77",
+      "103.4.252.82",
+      "103.4.253.176",
+      "103.4.253.45",
+      "163.53.77.16",
+      "103.4.253.131",
+      "103.4.253.145",
+      "103.4.253.55",
+      "163.53.76.196",
+      "103.4.253.114",
+      "103.4.253.182",
+      "103.4.253.91",
+      "103.4.252.37",
+      "103.4.253.102",
+      "103.4.252.116",
+      "103.4.253.227",
+      "103.4.253.85",
+      "103.4.252.174",
+      "103.4.252.115",
+      "103.4.252.213",
+      "103.4.253.84",
+      "103.4.252.228",
+      "103.4.253.253",
+      "103.4.252.83",
+      "103.4.253.25",
+      "103.4.253.133",
+      "103.4.253.194",
+      "103.4.253.211",
+      "103.4.253.11",
+      "103.4.253.24",
+      "103.4.252.133",
+      "103.4.253.87",
+      "103.4.253.175",
+      "103.4.253.181",
+      "103.4.253.149",
+      "103.4.253.146",
+      "103.4.253.31",
+      "103.4.253.78",
+      "103.4.252.232",
+      "103.4.252.24",
+      "103.4.253.5",
+      "103.4.252.16",
+      "103.4.252.226",
+      "103.4.252.184",
+      "103.4.253.52",
+      "163.53.76.81",
+      "103.4.253.122",
+      "103.4.252.243",
+      "103.4.252.137",
+      "103.4.252.123",
+      "103.4.252.223",
+      "103.4.252.234",
+      "175.158.64.137",
+      "163.53.76.13",
+      "103.4.253.249",
+      "175.158.68.51",
+      "103.4.253.250",
+      "103.4.252.204",
+      "103.52.180.74",
+      "103.4.252.59",
+      "103.4.253.105",
+      "103.4.252.34",
+      "103.4.252.140",
+      "103.4.252.13",
+      "103.52.180.149",
+      "103.4.252.65",
+      "103.4.252.151",
+      "103.4.253.132",
+      "103.4.253.103",
+      "103.4.252.66",
+      "103.4.252.54",
+      "103.4.252.69",
+      "103.4.253.143",
+      "103.4.253.121",
+      "103.4.252.176",
+      "103.4.253.3",
+      "163.53.76.21",
+      "103.4.253.89",
+      "103.4.252.98",
+      "34.160.216.114",
+      "103.4.252.17",
+      "103.4.253.50",
+      "175.158.64.131",
+      "103.4.253.221",
+      "103.4.253.66",
+      "103.4.253.246",
+      "103.4.252.101",
+      "103.4.253.107",
+      "103.4.253.140",
+      "167.89.40.241",
+      "103.4.252.92",
+      "163.53.76.119",
+      "103.4.252.241",
+      "103.52.180.145",
+      "103.4.253.137",
+      "103.4.252.218",
+      "103.4.253.108",
+      "103.4.252.31",
+      "103.4.253.136",
+      "103.4.252.100",
+      "103.4.253.141",
+      "180.179.116.54",
+      "103.4.252.206",
+      "103.4.253.196",
+      "103.4.253.199",
+      "103.4.253.42",
+      "103.4.252.202",
+      "103.4.252.168",
+      "103.4.252.221",
+      "103.4.252.225",
+      "103.4.252.95",
+      "103.52.180.72",
+      "103.4.253.19",
+      "103.4.253.188",
+      "103.4.252.250",
+      "103.4.253.82",
+      "103.4.252.128",
+      "103.52.180.147",
+      "103.4.252.110",
+      "103.4.252.11",
+      "52.172.4.94",
+      "103.4.253.47",
+      "103.4.253.17",
+      "103.4.253.59",
+      "103.4.253.9",
+      "103.4.252.191",
+      "103.4.252.193",
+      "167.89.46.70",
+      "103.4.252.72",
+      "194.29.100.42",
+      "103.4.253.204",
+      "103.4.253.244",
+      "175.158.64.130",
+      "175.158.68.68",
+      "103.4.253.94",
+      "103.4.252.222",
+      "103.4.252.79",
+      "163.53.76.18",
+      "103.4.252.237",
+      "103.4.252.178",
+      "103.4.252.254",
+      "103.4.253.214",
+      "103.4.252.64",
+      "103.243.32.9",
+      "103.4.252.235",
+      "103.4.252.216",
+      "103.4.252.183",
+      "103.4.252.14",
+      "103.243.32.94",
+      "103.4.253.53",
+      "103.4.252.90",
+      "103.4.252.166",
+      "103.4.253.8",
+      "103.4.252.203",
+      "103.4.252.224",
+      "103.4.253.174",
+      "103.4.253.237",
+      "103.4.253.33",
+      "103.4.253.219",
+      "103.4.253.158",
+      "103.4.252.12",
+      "103.4.252.238",
+      "163.53.77.10",
+      "103.4.252.120",
+      "103.243.32.111",
+      "103.4.253.148",
+      "103.4.252.163",
+      "103.4.253.32",
+      "175.158.64.138",
+      "103.4.253.58",
+      "103.4.253.232",
+      "103.4.252.5",
+      "103.4.252.114",
+      "34.36.209.50",
+      "103.4.252.207",
+      "103.4.253.72",
+      "103.4.252.85",
+      "103.4.253.205",
+      "175.158.68.55",
+      "34.117.197.73",
+      "103.4.252.57",
+      "194.29.100.254",
+      "103.4.252.173",
+      "103.4.252.27",
+      "103.52.180.70",
+      "103.52.180.85",
+      "103.4.253.202",
+      "103.4.252.187",
+      "103.4.253.154",
+      "103.4.253.12",
+      "103.4.253.43",
+      "103.4.253.201",
+      "103.4.253.162",
+      "103.4.252.155",
+      "103.4.252.239",
+      "103.4.253.28",
+      "103.4.253.238",
+      "103.4.252.8",
+      "175.158.68.54",
+      "103.4.253.225",
+      "175.158.64.136",
+      "103.4.252.63",
+      "103.4.253.172",
+      "103.4.252.41",
+      "103.4.253.226",
+      "103.4.253.134",
+      "163.53.77.0",
+      "103.4.252.209",
+      "103.4.252.190",
+      "103.4.252.242",
+      "103.4.252.248",
+      "103.4.252.73",
+      "103.4.252.9",
+      "35.207.233.148",
+      "103.4.252.89",
+      "103.4.253.127",
+      "103.4.253.68",
+      "103.4.253.173",
+      "175.158.68.56",
+      "103.4.252.93",
+      "103.4.252.247",
+      "103.4.252.252",
+      "175.158.68.73",
+      "103.4.253.37",
+      "103.4.252.141",
+      "103.4.252.113",
+      "163.53.77.32",
+      "103.4.252.198",
+      "103.4.253.241",
+      "103.4.253.62",
+      "163.53.76.33",
+      "175.158.68.57",
+      "103.4.252.200",
+      "103.4.253.49",
+      "103.4.252.70",
+      "103.4.253.10",
+      "103.4.252.132",
+      "34.149.201.2",
+      "103.4.252.42",
+      "103.4.253.189",
+      "180.179.55.2",
+      "103.4.253.79",
+      "103.4.253.75",
+      "103.4.253.195",
+      "103.4.253.65",
+      "103.4.252.26",
+      "103.4.253.198",
+      "103.4.253.217",
+      "103.4.252.21",
+      "103.4.253.64",
+      "103.4.253.187",
+      "103.4.253.203",
+      "103.4.252.185",
+      "163.53.79.55",
+      "103.4.252.136",
+      "103.4.253.7",
+      "103.4.252.197",
+      "175.158.64.127",
+      "103.4.252.143",
+      "103.4.253.159",
+      "103.4.252.36",
+      "103.4.252.249",
+      "103.4.253.139",
+      "103.4.253.1",
+      "103.4.252.20",
+      "103.4.252.167",
+      "103.4.252.154",
+      "103.4.253.30",
+      "103.4.252.78",
+      "103.4.252.91",
+      "103.4.253.144",
+      "103.4.253.228",
+      "175.158.68.66",
+      "103.4.253.113",
+      "103.4.252.147",
+      "103.4.253.212",
+      "103.4.252.112",
+      "175.158.68.58",
+      "175.158.68.69",
+      "103.4.252.22",
+      "103.4.253.206",
+      "103.4.252.45",
+      "103.4.252.60",
+      "103.4.253.167",
+      "115.114.61.130",
+      "103.4.253.120",
+      "103.4.252.35",
+      "103.4.253.20",
+      "103.4.253.157",
+      "103.4.253.116",
+      "163.53.76.191",
+      "175.158.68.70",
+      "163.53.77.8",
+      "103.4.253.233",
+      "103.4.253.93",
+      "163.53.76.168",
+      "103.4.252.180",
+      "103.4.253.83",
+      "103.4.252.106",
+      "103.4.252.61",
+      "103.4.253.106",
+      "103.4.252.53",
+      "103.4.253.34",
+      "103.4.253.224",
+      "103.4.253.235",
+      "103.4.252.146",
+      "103.4.252.236",
+      "103.4.253.128",
+      "103.4.252.124",
+      "103.4.253.18",
+      "103.4.252.117",
+      "103.52.180.150",
+      "103.52.180.148",
+      "103.4.252.165",
+      "103.4.252.169",
+      "115.114.191.195",
+      "175.158.64.126",
+      "103.4.253.130",
+      "103.4.253.126",
+      "103.4.253.35",
+      "103.4.253.39",
+      "103.4.252.217",
+      "103.4.252.118",
+      "103.4.253.240",
+      "103.4.252.171",
+      "103.4.253.209",
+      "103.4.252.29",
+      "103.4.252.181",
+      "34.100.132.15",
+      "103.4.253.193",
+      "103.4.253.170",
+      "103.4.252.1",
+      "103.4.252.253",
+      "103.4.252.134",
+      "103.4.252.179",
+      "103.4.252.55",
+      "103.4.252.81",
+      "103.4.253.151",
+      "103.4.252.109",
+      "103.4.252.231",
+      "163.53.76.86",
+      "103.4.252.138",
+      "103.4.253.46",
+      "103.4.253.74",
+      "103.4.252.219",
+      "103.4.252.122",
+      "103.4.252.240",
+      "103.4.252.30",
+      "103.4.252.195",
+      "163.53.76.64",
+      "103.4.252.214"
+    ],
+    "email_count": 1,
+    "host_count": 35,
+    "error": ""
+  },
+  "vt_domain": {
+    "available": true,
+    "domain": "flipkart.com",
+    "malicious": 0,
+    "suspicious": 0,
+    "harmless": 62,
+    "total_engines": 94,
+    "reputation_score": 0,
+    "categories": [
+      "online shopping",
+      "shopping",
+      "onlineshop"
+    ],
+    "risk_level": "clean",
+    "last_analysis_date": 1773060585
+  },
+  "dns_health": {
+    "domain": "flipkart.com",
+    "resolves": true,
+    "ip_addresses": [
+      "103.243.32.90"
+    ],
+    "spf": {
+      "present": false,
+      "record": ""
+    },
+    "dmarc": {
+      "present": false,
+      "record": ""
+    },
+    "mx_records": [],
+    "issues": [
+      "Could not check SPF record",
+      "Could not check DMARC record"
+    ]
+  },
+  "ssl_info": {
+    "domain": "flipkart.com",
+    "port": 443,
+    "has_ssl": false,
+    "valid": false,
+    "expires_in_days": null,
+    "issuer": "",
+    "subject": "",
+    "protocol": "",
+    "issues": [
+      "SSL check error: [Errno -3] Temporary failure in name resolution"
+    ]
+  },
+  "risk": {
+    "score": 59,
+    "risk_level": "HIGH",
+    "risk_color": "#ef4444",
+    "breakdown": {
+      "port_exposure": {
+        "deduction": 0,
+        "max": 25
+      },
+      "vt_reputation": {
+        "deduction": 0,
+        "max": 30
+      },
+      "typosquatting": {
+        "deduction": 15,
+        "max": 15
+      },
+      "dns_health": {
+        "deduction": 16,
+        "max": 20
+      },
+      "ssl_tls": {
+        "deduction": 10,
+        "max": 10
+      }
+    },
+    "key_findings": [
+      "Severe typosquatting: 74 registered lookalike domains",
+      "No HTTPS/SSL detected"
+    ]
+  },
+  "vuln_analysis": {
+    "total_findings": 2,
+    "critical": 0,
+    "high": 0,
+    "medium": 1,
+    "low": 1,
+    "findings": [
+      {
+        "port": 80,
+        "service": "tcpwrapped",
+        "version": "|_http-title: Did not follow redirect to https://flipkart.com:443/",
+        "severity": "MEDIUM",
+        "cves": [],
+        "exploit_available": false,
+        "remediation": "Redirect all HTTP to HTTPS. Implement HSTS. Disable if not needed.",
+        "attack_vector": "Web app attacks, HTTP request smuggling, directory traversal"
+      },
+      {
+        "port": 443,
+        "service": "tcpwrapped",
+        "version": "|_ssl-date: TLS randomness does not represent time",
+        "severity": "LOW",
+        "cves": [],
+        "exploit_available": false,
+        "remediation": "Ensure TLS 1.2+ only. Disable SSLv3/TLS 1.0/1.1. Implement HSTS preloading.",
+        "attack_vector": "TLS downgrade, web app attacks, certificate spoofing"
+      }
+    ],
+    "overall_risk": "MEDIUM"
+  },
+  "owasp": {
+    "triggered_count": 2,
+    "total_categories": 10,
+    "findings": [
+      {
+        "id": "A02:2021",
+        "name": "Cryptographic Failures",
+        "evidence": [
+          "Port 80 (tcpwrapped) is open and internet-accessible",
+          "HTTPS/TLS not present on port 443",
+          "HTTP Strict Transport Security not enforced"
+        ],
+        "description": "Plaintext protocols in use (HTTP, FTP, Telnet, SMTP without TLS). Credentials and data transmitted unencrypted.",
+        "remediation": "Enforce HTTPS with HSTS. Disable FTP/Telnet. Require STARTTLS/TLS for SMTP. Redirect all HTTP to HTTPS.",
+        "severity": "HIGH"
+      },
+      {
+        "id": "A09:2021",
+        "name": "Security Logging & Monitoring Failures",
+        "evidence": [
+          "No logging/monitoring endpoints observable from external scan"
+        ],
+        "description": "Lack of observable security monitoring increases attacker dwell time.",
+        "remediation": "Implement SIEM. Alert on auth failures, port scans, anomalous traffic.",
+        "severity": "MEDIUM"
+      }
+    ]
+  },
+  "grc_report": {
+    "domain": "flipkart.com",
+    "generated_at": "2026-03-09T13:51:07.407790+00:00",
+    "overall_score": 59,
+    "risk_level": "HIGH",
+    "appetite_status": "Threshold Breached",
+    "appetite_color": "orange",
+    "executive_summary": "flipkart.com presents a HIGH risk profile with an overall score of 59/100. The external attack surface includes 2 open port(s), 0 critical and 0 high-severity service vulnerabilities, and 74 registered typosquatting domains increasing brand/phishing risk. Targeted remediation of high-priority findings is recommended within the next sprint cycle.",
+    "key_risk_indicators": [
+      {
+        "indicator": "HTTPS not enforced",
+        "status": "BREACHED",
+        "value": "No TLS"
+      },
+      {
+        "indicator": "Typosquatting exposure",
+        "status": "ELEVATED",
+        "value": "74 domains"
+      },
+      {
+        "indicator": "SPF record missing",
+        "status": "BREACHED",
+        "value": "Email spoofing risk"
+      },
+      {
+        "indicator": "DMARC record missing",
+        "status": "ELEVATED",
+        "value": "Phishing domain risk"
+      }
+    ],
+    "compliance_posture": {
+      "NIST_CSF": {
+        "Identify": "Partial",
+        "Protect": "Not Met",
+        "Detect": "Not Met",
+        "Respond": "Unknown",
+        "Recover": "Unknown"
+      },
+      "ISO_27001": {
+        "A.8.8 Vulnerability Mgmt": "Partial",
+        "A.8.20 Network Security": "Partial",
+        "A.8.24 Cryptography": "Not Met"
+      },
+      "SOC2": {
+        "CC6.1 Access Controls": "Met",
+        "CC6.6 External Threats": "Partial",
+        "CC7.1 Monitoring": "Not Met"
+      }
+    },
+    "priority_actions": [
+      {
+        "priority": "P1",
+        "action": "Implement HTTPS/TLS immediately \u2014 plaintext traffic is unacceptable",
+        "owner": "DevOps"
+      },
+      {
+        "priority": "P2",
+        "action": "Monitor/take down 74 typosquatting domains \u2014 phishing risk",
+        "owner": "Legal/Security"
+      },
+      {
+        "priority": "P2",
+        "action": "Configure SPF DNS record to prevent email spoofing",
+        "owner": "IT Admin"
+      },
+      {
+        "priority": "P2",
+        "action": "Configure DMARC policy (p=quarantine minimum) to prevent phishing",
+        "owner": "IT Admin"
+      }
+    ],
+    "owasp_coverage": 2,
+    "total_vulnerabilities": 2,
+    "critical_vulns": 0
+  },
+  "attack_surface_change": {
+    "domain": "flipkart.com",
+    "scanned_at": "2026-03-09T13:51:07.407975+00:00",
+    "current_open_ports": [
+      "443/tcp",
+      "80/tcp"
+    ],
+    "total_open": 2,
+    "is_first_scan": false,
+    "new_ports": [
+      "443/tcp",
+      "80/tcp"
+    ],
+    "closed_ports": [],
+    "unchanged_ports": [],
+    "delta_risk": "MEDIUM",
+    "baseline_file": "/home/j/voraguard/scans/flipkart.com_baseline.json",
+    "baseline_timestamp": "2026-03-08T21:26:56.256988+00:00",
+    "message": "2 new port(s) opened since 2026-03-08. INVESTIGATE IMMEDIATELY."
+  },
+  "business_impact": {
+    "domain": "flipkart.com",
+    "overall_confidentiality": "MEDIUM",
+    "overall_integrity": "MEDIUM",
+    "overall_availability": "MEDIUM",
+    "financial_risk_estimate": {
+      "minimum": "$25,000",
+      "maximum": "$150,000",
+      "basis": "IBM Cost of a Data Breach Report 2024 \u2014 average breach cost $4.88M globally",
+      "factors": [
+        "Regulatory fines",
+        "Incident response costs",
+        "Reputational damage",
+        "Legal liability"
+      ]
+    },
+    "impact_findings": [
+      {
+        "port": 80,
+        "service": "tcpwrapped",
+        "asset": "Web Server (HTTP)",
+        "confidentiality": "MEDIUM",
+        "integrity": "MEDIUM",
+        "availability": "MEDIUM",
+        "breach_scenario": "Web app attacks, data interception, SEO poisoning"
+      },
+      {
+        "port": 443,
+        "service": "tcpwrapped",
+        "asset": "Web Server (HTTPS)",
+        "confidentiality": "LOW",
+        "integrity": "MEDIUM",
+        "availability": "MEDIUM",
+        "breach_scenario": "Web app vulnerabilities \u2014 depends on application security"
+      }
+    ],
+    "exposed_asset_count": 2
+  },
+  "regulatory_breach": {
+    "domain": "flipkart.com",
+    "frameworks_at_risk": 3,
+    "findings": [
+      {
+        "framework": "GDPR (EU General Data Protection Regulation)",
+        "article": "Article 32 \u2014 Security of Processing",
+        "violation_description": "Failure to implement appropriate technical security measures for personal data processing.",
+        "potential_fine": "Up to \u20ac20M or 4% of global annual turnover",
+        "triggered_by": [
+          "no_https",
+          "open_db_ports",
+          "no_spf",
+          "no_dmarc"
+        ],
+        "risk": "HIGH"
+      },
+      {
+        "framework": "HIPAA Security Rule",
+        "article": "45 CFR \u00a7164.312 \u2014 Technical Safeguards",
+        "violation_description": "Electronic Protected Health Information (ePHI) must be encrypted in transit and at rest.",
+        "potential_fine": "$100\u2013$50,000 per violation, up to $1.9M/year per category",
+        "triggered_by": [
+          "no_https",
+          "open_db_ports",
+          "no_ssl"
+        ],
+        "risk": "HIGH"
+      },
+      {
+        "framework": "India IT Act 2000 / DPDP Act 2023",
+        "article": "Section 43A \u2014 Reasonable Security Practices",
+        "violation_description": "Reasonable security practices not implemented \u2014 exposed services and missing email security records.",
+        "potential_fine": "\u20b9250 crore per data breach incident",
+        "triggered_by": [
+          "no_ssl",
+          "open_ports",
+          "no_dmarc"
+        ],
+        "risk": "HIGH"
+      }
+    ],
+    "overall_regulatory_risk": "CRITICAL"
+  },
+  "supply_chain": {
+    "domain": "flipkart.com",
+    "components_detected": 3,
+    "critical_components": 0,
+    "components": [
+      {
+        "technology": "nginx",
+        "risk": "MEDIUM",
+        "note": "nginx web server \u2014 check version for CVEs",
+        "evidence": [
+          "Port 80 open",
+          "Port 443 open"
+        ]
+      },
+      {
+        "technology": "Apache",
+        "risk": "MEDIUM",
+        "note": "Apache httpd \u2014 verify version is patched",
+        "evidence": [
+          "Port 80 open",
+          "Port 443 open",
+          "Service fingerprint: http"
+        ]
+      },
+      {
+        "technology": "WordPress",
+        "risk": "MEDIUM",
+        "note": "WordPress detected \u2014 check for plugin/theme CVEs, xmlrpc.php exposure",
+        "evidence": [
+          "Port 80 open",
+          "Port 443 open"
+        ]
+      }
+    ],
+    "supply_chain_risk": "MEDIUM"
+  },
+  "honey_trap": {
+    "domain": "flipkart.com",
+    "verdict": "UNLIKELY HONEYPOT",
+    "confidence_pct": 5,
+    "honeypot_score": 0,
+    "indicators": [
+      "No honeypot indicators detected \u2014 appears to be a real target"
+    ],
+    "recommendation": "No significant honeypot indicators. Proceed with authorized testing."
+  },
+  "attacker_roi": {
+    "domain": "flipkart.com",
+    "total_roi_score": 25,
+    "max_score": 100,
+    "roi_label": "LOW \u2014 Limited attacker motivation, hardened target",
+    "ease_score": 0,
+    "value_score": 15,
+    "stealth_score": 10,
+    "ease_factors": [],
+    "value_factors": [
+      "+10 All internet-facing targets have baseline value",
+      "+5 74 typosquats \u2014 brand/phishing infrastructure value"
+    ],
+    "stealth_factors": [
+      "+5 No observable WAF/firewall detected",
+      "+5 Plaintext protocols \u2014 easier credential capture"
+    ],
+    "attacker_type": "Only highly motivated, targeted APT actors"
+  },
+  "threat_actors": {
+    "domain": "flipkart.com",
+    "matched_actor_count": 4,
+    "actors": [
+      {
+        "group": "APT28 (Fancy Bear)",
+        "nation_state": "Russia",
+        "motivation": "Espionage, credential theft",
+        "correlation_score": 40,
+        "matched_ttps": [
+          "T1078 Valid Accounts",
+          "T1190 Exploit Public-Facing App",
+          "T1133 External Remote Services"
+        ],
+        "evidence": [
+          "Port 443 open \u2014 used by APT28 (Fancy Bear) for Espionage, credential theft",
+          "Port 80 open \u2014 used by APT28 (Fancy Bear) for Espionage, credential theft"
+        ],
+        "mitre_url": "https://attack.mitre.org/groups/G0007/",
+        "risk": "HIGH"
+      },
+      {
+        "group": "Scattered Spider",
+        "nation_state": "English-speaking (cybercriminal)",
+        "motivation": "Financial, ransomware (ALPHV/BlackCat affiliate)",
+        "correlation_score": 40,
+        "matched_ttps": [
+          "T1566 Phishing",
+          "T1621 MFA Fatigue",
+          "T1078 Valid Accounts"
+        ],
+        "evidence": [
+          "Port 443 open \u2014 used by Scattered Spider for Financial, ransomware (ALPHV/BlackCat affiliate)",
+          "Port 80 open \u2014 used by Scattered Spider for Financial, ransomware (ALPHV/BlackCat affiliate)"
+        ],
+        "mitre_url": "https://attack.mitre.org/groups/G1015/",
+        "risk": "HIGH"
+      },
+      {
+        "group": "Sandworm",
+        "nation_state": "Russia (GRU)",
+        "motivation": "Disruption, sabotage, critical infrastructure",
+        "correlation_score": 40,
+        "matched_ttps": [
+          "T1486 Destructive malware",
+          "T1195 Supply Chain Compromise",
+          "T1498 Network DoS"
+        ],
+        "evidence": [
+          "Port 80 open \u2014 used by Sandworm for Disruption, sabotage, critical infrastructure",
+          "Port 443 open \u2014 used by Sandworm for Disruption, sabotage, critical infrastructure"
+        ],
+        "mitre_url": "https://attack.mitre.org/groups/G0034/",
+        "risk": "HIGH"
+      },
+      {
+        "group": "Lazarus Group",
+        "nation_state": "North Korea",
+        "motivation": "Financial theft, ransomware, espionage",
+        "correlation_score": 20,
+        "matched_ttps": [
+          "T1486 Data Encrypted for Impact",
+          "T1055 Process Injection",
+          "T1021.001 RDP"
+        ],
+        "evidence": [
+          "Port 443 open \u2014 used by Lazarus Group for Financial theft, ransomware, espionage"
+        ],
+        "mitre_url": "https://attack.mitre.org/groups/G0032/",
+        "risk": "MEDIUM"
+      }
+    ],
+    "note": "Correlation based on exposed attack surface overlap with publicly documented TTPs (MITRE ATT&CK). Does not imply active targeting.",
+    "overall_threat": "HIGH"
+  },
+  "darkweb": {
+    "domain": "flipkart.com",
+    "overall_risk": "LOW",
+    "summary_findings": [],
+    "total_sources_checked": 6,
+    "total_findings": 0,
+    "sources_status": [
+      {
+        "name": "AlienVault OTX",
+        "status": "\u26a0 OTX connection failed",
+        "key_required": true,
+        "findings": 0
+      },
+      {
+        "name": "HaveIBeenPwned",
+        "status": "\u2717 Unavailable",
+        "key_required": false,
+        "findings": 0
+      },
+      {
+        "name": "URLhaus / Abuse.ch",
+        "status": "\u2713 Checked",
+        "key_required": false,
+        "findings": 0
+      },
+      {
+        "name": "DeHashed",
+        "status": "\u26a0 DEHASHED_EMAIL and DEHASHED_API_KEY not set. Account required at https://dehashed.com (API from $5.99/mo)",
+        "key_required": true,
+        "findings": 0
+      },
+      {
+        "name": "LeakIX",
+        "status": "\u26a0 None",
+        "key_required": true,
+        "findings": 0
+      },
+      {
+        "name": "AbuseIPDB",
+        "status": "\u2713 Checked",
+        "key_required": false,
+        "findings": 0
+      }
+    ],
+    "otx": {
+      "source": "AlienVault OTX",
+      "available": false,
+      "pulse_count": 0,
+      "malware_families": [],
+      "malicious_urls": [],
+      "passive_dns": [],
+      "threat_actors": [],
+      "related_cves": [],
+      "domain_findings": [],
+      "ip_findings": [],
+      "total_hits": 0,
+      "highest_severity": "CLEAN",
+      "error": "OTX connection failed"
+    },
+    "hibp": {
+      "source": "HaveIBeenPwned",
+      "available": false,
+      "domain_breaches": [],
+      "email_results": [],
+      "paste_results": [],
+      "total_pwned_accounts": 0,
+      "most_recent_breach": null,
+      "data_classes_exposed": [],
+      "error": null
+    },
+    "urlhaus": {
+      "source": "URLhaus / Abuse.ch",
+      "available": true,
+      "domain_status": "not_listed",
+      "malicious_urls": [],
+      "active_urls": 0,
+      "malware_families": [],
+      "blacklists": {},
+      "ip_findings": [],
+      "overall_risk": "CLEAN",
+      "error": null
+    },
+    "dehashed": {
+      "source": "DeHashed",
+      "available": false,
+      "domain_breach_count": 0,
+      "email_breaches": [],
+      "credential_exposure": [],
+      "databases_found": [],
+      "total_records": 0,
+      "error": "DEHASHED_EMAIL and DEHASHED_API_KEY not set. Account required at https://dehashed.com (API from $5.99/mo)"
+    },
+    "leakix": {
+      "source": "LeakIX",
+      "available": false,
+      "leak_events": [],
+      "service_events": [],
+      "total_leaks": 0,
+      "total_services": 0,
+      "critical_leaks": 0,
+      "data_exposed_bytes": 0,
+      "error": null
+    },
+    "abuseipdb": {
+      "source": "AbuseIPDB",
+      "available": true,
+      "ip_verdicts": [
+        {
+          "ip": "103.4.252.127",
+          "confidence_score": 0,
+          "confidence_label": "CLEAN",
+          "total_reports": 0,
+          "last_reported": "Never",
+          "country": "IN",
+          "isp": "Flipkart Internet Pvt Ltd",
+          "domain": "flipkart.com",
+          "usage_type": null,
+          "is_tor": false,
+          "attack_categories": [],
+          "threat_level": "CLEAN",
+          "recent_reports": [],
+          "link": "https://www.abuseipdb.com/check/103.4.252.127"
+        },
+        {
+          "ip": "103.4.253.160",
+          "confidence_score": 0,
+          "confidence_label": "CLEAN",
+          "total_reports": 0,
+          "last_reported": "Never",
+          "country": "IN",
+          "isp": "Flipkart Internet Pvt Ltd",
+          "domain": "flipkart.com",
+          "usage_type": "Data Center/Web Hosting/Transit",
+          "is_tor": false,
+          "attack_categories": [],
+          "threat_level": "CLEAN",
+          "recent_reports": [],
+          "link": "https://www.abuseipdb.com/check/103.4.253.160"
+        },
+        {
+          "ip": "163.53.77.55",
+          "confidence_score": 0,
+          "confidence_label": "CLEAN",
+          "total_reports": 0,
+          "last_reported": "Never",
+          "country": "IN",
+          "isp": "Flipkart Internet Pvt Ltd",
+          "domain": "flipkart.com",
+          "usage_type": "Data Center/Web Hosting/Transit",
+          "is_tor": false,
+          "attack_categories": [],
+          "threat_level": "CLEAN",
+          "recent_reports": [],
+          "link": "https://www.abuseipdb.com/check/163.53.77.55"
+        },
+        {
+          "ip": "103.4.253.129",
+          "confidence_score": 0,
+          "confidence_label": "CLEAN",
+          "total_reports": 0,
+          "last_reported": "Never",
+          "country": "IN",
+          "isp": "Flipkart Internet Pvt Ltd",
+          "domain": "flipkart.com",
+          "usage_type": "Data Center/Web Hosting/Transit",
+          "is_tor": false,
+          "attack_categories": [],
+          "threat_level": "CLEAN",
+          "recent_reports": [],
+          "link": "https://www.abuseipdb.com/check/103.4.253.129"
+        },
+        {
+          "ip": "103.4.253.252",
+          "confidence_score": 0,
+          "confidence_label": "CLEAN",
+          "total_reports": 0,
+          "last_reported": "Never",
+          "country": "IN",
+          "isp": "Flipkart Internet Pvt Ltd",
+          "domain": "flipkart.com",
+          "usage_type": "Data Center/Web Hosting/Transit",
+          "is_tor": false,
+          "attack_categories": [],
+          "threat_level": "CLEAN",
+          "recent_reports": [],
+          "link": "https://www.abuseipdb.com/check/103.4.253.252"
+        },
+        {
+          "ip": "103.4.252.189",
+          "confidence_score": 0,
+          "confidence_label": "CLEAN",
+          "total_reports": 0,
+          "last_reported": "Never",
+          "country": "IN",
+          "isp": "Flipkart Internet Pvt Ltd",
+          "domain": "flipkart.com",
+          "usage_type": null,
+          "is_tor": false,
+          "attack_categories": [],
+          "threat_level": "CLEAN",
+          "recent_reports": [],
+          "link": "https://www.abuseipdb.com/check/103.4.252.189"
+        }
+      ],
+      "malicious_ips": 0,
+      "suspicious_ips": 0,
+      "clean_ips": 6,
+      "tor_exits": 0,
+      "total_reports": 0,
+      "top_categories": [],
+      "highest_confidence": 0,
+      "overall_threat": "LOW",
+      "error": null
+    },
+    "all_breached_emails": [],
+    "credential_exposure_count": 0,
+    "malware_families": [],
+    "threat_actors": [],
+    "related_cves": [],
+    "disclaimer": "Dark web monitoring covers: AlienVault OTX (threat pulses, malware families, threat actors), HaveIBeenPwned (breach database), URLhaus (malicious URL feeds), DeHashed (credential dumps), LeakIX (live data leaks), AbuseIPDB (IP reputation). Full Tor hidden service crawling requires commercial feeds (Recorded Future, DarkOwl, Flashpoint)."
+  },
+  "threat_sim": {
+    "domain": "flipkart.com",
+    "attack_chains": [
+      {
+        "chain_id": "AC-004",
+        "name": "Web Application Attack \u2192 Server Compromise",
+        "likelihood": "MEDIUM",
+        "entry_point": "Port 80/443 \u2014 web application",
+        "steps": [
+          {
+            "phase": "Reconnaissance",
+            "tactic": "T1595.003 Wordlist Scanning",
+            "desc": "Directory bruteforce (gobuster/ffuf) \u2014 discover admin panels, API endpoints, backup files"
+          },
+          {
+            "phase": "Initial Access",
+            "tactic": "T1190 Web App Exploit",
+            "desc": "SQL injection, file upload bypass, or CVE in web framework version"
+          },
+          {
+            "phase": "Execution",
+            "tactic": "T1059.004 Unix Shell",
+            "desc": "Web shell upload \u2192 OS command execution as www-data"
+          },
+          {
+            "phase": "Privilege Escalation",
+            "tactic": "T1068 Exploitation for Privilege",
+            "desc": "Local privilege escalation \u2192 root/SYSTEM"
+          },
+          {
+            "phase": "Impact",
+            "tactic": "T1565 Data Manipulation",
+            "desc": "Website defacement, malware injection into served pages, data theft"
+          }
+        ],
+        "estimated_time_to_exploit": "Hours to days depending on app complexity",
+        "skill_required": "MEDIUM",
+        "blast_radius": "WEB SERVER COMPROMISE"
+      },
+      {
+        "chain_id": "AC-005",
+        "name": "Phishing / BEC via Domain Spoofing",
+        "likelihood": "HIGH",
+        "entry_point": "Missing SPF/DMARC records + typosquatting domains",
+        "steps": [
+          {
+            "phase": "Reconnaissance",
+            "tactic": "T1589 Gather Victim Identity Info",
+            "desc": "Email addresses harvested via theHarvester/OSINT"
+          },
+          {
+            "phase": "Resource Development",
+            "tactic": "T1583.001 Acquire Infrastructure",
+            "desc": "Typosquat domain registered \u2014 spoofed email sent from lookalike domain"
+          },
+          {
+            "phase": "Initial Access",
+            "tactic": "T1566.002 Spearphishing Link",
+            "desc": "Targeted phishing email to harvested addresses \u2014 credential harvesting page"
+          },
+          {
+            "phase": "Impact",
+            "tactic": "T1657 Financial Theft",
+            "desc": "BEC fraud \u2014 redirect payments, access SaaS accounts, credential resale"
+          }
+        ],
+        "estimated_time_to_exploit": "Minutes to set up, hours to execute",
+        "skill_required": "LOW",
+        "blast_radius": "CREDENTIAL THEFT, FINANCIAL FRAUD"
+      }
+    ],
+    "total_chains": 2,
+    "highest_likelihood": "HIGH",
+    "summary": "2 realistic attack chains modeled. 1 are HIGH or CRITICAL likelihood.",
+    "disclaimer": "This simulation is for authorized security assessment only. Models are based on MITRE ATT&CK framework and publicly documented techniques."
+  },
+  "closed_loop_response": {
+    "domain": "flipkart.com",
+    "generated_at": "2026-03-09T13:56:04.387899+00:00",
+    "total_actions": 3,
+    "p1_actions": 1,
+    "p2_actions": 2,
+    "p3_actions": 0,
+    "auto_executable_count": 0,
+    "total_commands": 0,
+    "actions": [
+      {
+        "action_id": "ACT-TLS01",
+        "type": "tls_hardening",
+        "port": 443,
+        "service": "HTTPS/TLS",
+        "priority": "P1",
+        "sla_hours": 4,
+        "description": "Obtain TLS certificate and force HTTPS redirect",
+        "commands": [
+          "sudo certbot --nginx -d flipkart.com --non-interactive --agree-tos -m admin@flipkart.com",
+          "# OR: sudo certbot --apache -d flipkart.com"
+        ],
+        "validation_command": "curl -sI https://flipkart.com | head -5",
+        "rollback_command": "# Revert nginx/apache config",
+        "auto_executable": false,
+        "status": "PENDING"
+      },
+      {
+        "action_id": "ACT-DNS01",
+        "type": "dns_hardening",
+        "port": null,
+        "service": "DNS/Email",
+        "priority": "P2",
+        "sla_hours": 24,
+        "description": "Add SPF TXT record to DNS",
+        "commands": [
+          "# Add to your DNS zone:",
+          "TXT @ \"v=spf1 mx ip4:<your-mail-server-ip> ~all\""
+        ],
+        "validation_command": "dig TXT flipkart.com | grep spf1",
+        "rollback_command": "# Remove the TXT record from DNS zone",
+        "auto_executable": false,
+        "status": "PENDING"
+      },
+      {
+        "action_id": "ACT-DNS02",
+        "type": "dns_hardening",
+        "port": null,
+        "service": "DNS/Email",
+        "priority": "P2",
+        "sla_hours": 24,
+        "description": "Add DMARC TXT record to DNS",
+        "commands": [
+          "# Add to your DNS zone:",
+          "TXT _dmarc \"v=DMARC1; p=quarantine; rua=mailto:dmarc@flipkart.com\""
+        ],
+        "validation_command": "dig TXT _dmarc.flipkart.com | grep DMARC1",
+        "rollback_command": "# Remove _dmarc TXT record from DNS zone",
+        "auto_executable": false,
+        "status": "PENDING"
+      }
+    ],
+    "ir_phases": [
+      {
+        "phase": "CONTAIN",
+        "timeline": "0\u20131 hours",
+        "steps": [
+          "Block all P1 ports at perimeter firewall immediately",
+          "Isolate affected hosts from network if active compromise suspected",
+          "Preserve logs: /var/log/auth.log, /var/log/syslog, firewall logs",
+          "Take memory dump if live compromise suspected (avml/lime)"
+        ]
+      },
+      {
+        "phase": "ERADICATE",
+        "timeline": "1\u201324 hours",
+        "steps": [
+          "Execute all P1 remediation commands in this runbook",
+          "Rotate all credentials exposed via open services",
+          "Search for persistence: crontabs, authorized_keys, /etc/passwd new users",
+          "Scan for webshells: find /var/www -name '*.php' | xargs grep -l 'eval('"
+        ]
+      },
+      {
+        "phase": "RECOVER",
+        "timeline": "24\u201372 hours",
+        "steps": [
+          "Execute P2 and P3 actions",
+          "Re-run VoraGuard scan to verify all remediations effective",
+          "Restore services from clean backup if compromise confirmed",
+          "Enable centralized logging (ELK/Splunk/Wazuh)"
+        ]
+      },
+      {
+        "phase": "POST-INCIDENT",
+        "timeline": "72+ hours",
+        "steps": [
+          "Root cause analysis: how was the service left exposed?",
+          "Update asset inventory and patch management policy",
+          "Schedule VoraGuard weekly scans for continuous monitoring",
+          "File regulatory notification if PII breach confirmed (GDPR 72hr deadline)"
+        ]
+      }
+    ],
+    "runbook_summary": "3 remediation actions generated. 0 can be executed automatically. 1 P1 actions must be completed within SLA.",
+    "estimated_remediation_time_hours": 24
+  },
+  "financial_quantification": {
+    "domain": "flipkart.com",
+    "business_sector": "General/Unknown",
+    "methodology": "FAIR (Factor Analysis of Information Risk)",
+    "fair_components": {
+      "threat_event_frequency_per_year": 1.2,
+      "vulnerability_factor_pct": 31.4,
+      "loss_event_frequency_per_year": 0.38,
+      "single_loss_magnitude_usd": 2928000,
+      "secondary_loss_usd": 1317600,
+      "total_loss_magnitude_usd": 4245600
+    },
+    "tef_breakdown": [],
+    "annual_loss_expectancy": {
+      "minimum_usd": 165722,
+      "expected_usd": 1601984,
+      "maximum_usd": 5800286,
+      "label": "$0.2M \u2014 $1.6M \u2014 $5.8M"
+    },
+    "breach_probability_12_months_pct": 31.4,
+    "board_metrics": {
+      "risk_reduction_value_usd": 1281587,
+      "risk_reduction_value_5yr_usd": 6407935,
+      "recommended_security_budget_usd": "$0.16M \u2014 $0.24M",
+      "cost_per_record_breach_usd": 156,
+      "industry_avg_breach_cost_usd": 4880000,
+      "your_estimated_breach_cost_usd": 4245600,
+      "vs_industry_avg": "BELOW AVERAGE"
+    },
+    "peer_benchmark": {
+      "industry_sector": "General/Unknown",
+      "your_risk_score": 59,
+      "industry_avg_score": 62,
+      "status": "WORSE than industry average",
+      "percentile": 59
+    },
+    "insurance_guidance": {
+      "recommended_coverage_usd": 4640229,
+      "deductible_suggestion_usd": 80099,
+      "note": "Cyber insurance carrier will likely require remediation of P1 findings before binding coverage"
+    }
+  },
+  "ot_ics": {
+    "domain": "flipkart.com",
+    "ot_exposure_level": "NONE",
+    "verdict": "No OT/ICS protocols detected on internet-facing ports",
+    "ot_findings_count": 0,
+    "ot_findings": [],
+    "detected_protocols": [],
+    "sector_exposure": [],
+    "attack_scenarios": [],
+    "ot_threat_actors": [],
+    "purdue_model_note": "No Purdue Model violations detected on scanned ports.",
+    "immediate_actions": []
+  },
+  "nhi_shadow_ai": {
+    "domain": "flipkart.com",
+    "overall_nhi_risk": "NONE",
+    "total_findings": 0,
+    "shadow_ai_count": 0,
+    "nhi_exposure_count": 0,
+    "exposed_secrets_count": 0,
+    "shadow_ai_findings": [],
+    "nhi_findings": [],
+    "exposed_secrets": [],
+    "ai_related_subdomains": [
+      {
+        "subdomain": "mail2.flipkart.com",
+        "risk": "MEDIUM",
+        "note": "AI/ML-related subdomain detected \u2014 assess for Shadow AI deployment"
+      },
+      {
+        "subdomain": "mail1.flipkart.com",
+        "risk": "MEDIUM",
+        "note": "AI/ML-related subdomain detected \u2014 assess for Shadow AI deployment"
+      },
+      {
+        "subdomain": "email.flipkart.com",
+        "risk": "MEDIUM",
+        "note": "AI/ML-related subdomain detected \u2014 assess for Shadow AI deployment"
+      }
+    ],
+    "governance_gaps": [],
+    "categories_detected": [],
+    "nhi_summary": "No NHI or Shadow AI exposures detected on scanned ports.",
+    "compliance_note": "Shadow AI deployments may violate EU AI Act (2024) Article 9 risk management requirements and GDPR Article 22 automated decision-making provisions if models process personal data."
+  },
+  "unified_fabric": {
+    "domain": "flipkart.com",
+    "composite_threat_score": 29,
+    "composite_severity": "LOW",
+    "domain_scores": {
+      "network": {
+        "score": 6,
+        "severity": "LOW",
+        "weight_pct": 20,
+        "top_findings": []
+      },
+      "application": {
+        "score": 60,
+        "severity": "HIGH",
+        "weight_pct": 18,
+        "top_findings": [
+          "Cryptographic Failures",
+          "Security Logging & Monitoring Failures",
+          "No HTTPS \u2014 plaintext traffic"
+        ]
+      },
+      "identity": {
+        "score": 75,
+        "severity": "HIGH",
+        "weight_pct": 17,
+        "top_findings": [
+          "No SPF record \u2014 email spoofing possible",
+          "No DMARC \u2014 phishing via domain impersonation",
+          "1 email addresses exposed via OSINT"
+        ]
+      },
+      "data": {
+        "score": 0,
+        "severity": "NONE",
+        "weight_pct": 16,
+        "top_findings": []
+      },
+      "cloud_api": {
+        "score": 0,
+        "severity": "NONE",
+        "weight_pct": 12,
+        "top_findings": []
+      },
+      "supply_chain": {
+        "score": 40,
+        "severity": "MEDIUM",
+        "weight_pct": 10,
+        "top_findings": [
+          "nginx: MEDIUM",
+          "Apache: MEDIUM",
+          "WordPress: MEDIUM"
+        ]
+      },
+      "ot_ics": {
+        "score": 0,
+        "severity": "NONE",
+        "weight_pct": 7,
+        "top_findings": []
+      }
+    },
+    "top_exposed_domains": [
+      {
+        "domain": "identity",
+        "score": 75,
+        "severity": "HIGH"
+      },
+      {
+        "domain": "application",
+        "score": 60,
+        "severity": "HIGH"
+      },
+      {
+        "domain": "supply_chain",
+        "score": 40,
+        "severity": "MEDIUM"
+      }
+    ],
+    "cross_domain_attack_paths": [
+      {
+        "path_id": "CDP-002",
+        "name": "Identity Spoofing \u2192 Application Attack",
+        "severity": "HIGH",
+        "domains": [
+          "identity",
+          "application"
+        ],
+        "narrative": "No SPF/DMARC allows attacker to send phishing from your domain. User clicks \u2192 credential harvest \u2192 attacker logs into web app with valid credentials. No brute-force needed.",
+        "kill_chain_coverage": [
+          "Delivery",
+          "Exploitation",
+          "Actions on Objectives"
+        ]
+      }
+    ],
+    "total_cross_domain_paths": 1,
+    "kill_chain_coverage": [
+      "Actions on Objectives",
+      "Exploitation",
+      "Delivery"
+    ],
+    "threat_actors_active": 4,
+    "fabric_summary": "Unified threat fabric score: 29/100 across 7 domains. 1 cross-domain attack paths identified. Top exposed domains: identity, application, supply_chain."
+  },
+  "threat_prediction": {
+    "domain": "flipkart.com",
+    "model": "Bayesian inference + FAIR + CISA KEV + DBIR 2024 historical data",
+    "generated_at": "2026-03-09T13:56:04.391307+00:00",
+    "combined_attack_probability_30_days_pct": 61.1,
+    "combined_attack_probability_60_days_pct": 85.5,
+    "combined_attack_probability_90_days_pct": 99.0,
+    "overall_probability_label": "VERY HIGH",
+    "port_threat_predictions": [
+      {
+        "port": 80,
+        "service": "tcpwrapped",
+        "attack_type": "Web Application Attacks (SQLi, XSS, RCE)",
+        "known_campaigns": [
+          "MOVEit Transfer (Cl0p)",
+          "Log4Shell follow-on",
+          "ProxyLogon"
+        ],
+        "last_major_campaign": "2024 Apache RCE CVE-2021-41773 still exploited in wild",
+        "probability_30_days": 0.372,
+        "probability_60_days": 0.606,
+        "probability_90_days": 0.752,
+        "probability_label": "HIGH (30\u201350%)",
+        "trend": "INCREASING",
+        "cisa_kev": true,
+        "estimated_days_to_exploit": 8,
+        "sector_bias": [
+          "all"
+        ]
+      }
+    ],
+    "total_ports_at_risk": 1,
+    "predicted_attack_types": [
+      {
+        "attack_type": "Phishing/BEC",
+        "probability_30d_pct": 85.0
+      },
+      {
+        "attack_type": "Web Application Attacks (SQLi, XSS, RCE)",
+        "probability_30d_pct": 37.2
+      }
+    ],
+    "weekly_risk_forecast": [
+      {
+        "week": 1,
+        "cumulative_probability": 0.083,
+        "label": "Week 1 (7 days)"
+      },
+      {
+        "week": 2,
+        "cumulative_probability": 0.159,
+        "label": "Week 2 (14 days)"
+      },
+      {
+        "week": 3,
+        "cumulative_probability": 0.229,
+        "label": "Week 3 (21 days)"
+      },
+      {
+        "week": 4,
+        "cumulative_probability": 0.293,
+        "label": "Week 4 (28 days)"
+      },
+      {
+        "week": 5,
+        "cumulative_probability": 0.351,
+        "label": "Week 5 (35 days)"
+      },
+      {
+        "week": 6,
+        "cumulative_probability": 0.405,
+        "label": "Week 6 (42 days)"
+      },
+      {
+        "week": 7,
+        "cumulative_probability": 0.454,
+        "label": "Week 7 (49 days)"
+      },
+      {
+        "week": 8,
+        "cumulative_probability": 0.499,
+        "label": "Week 8 (56 days)"
+      },
+      {
+        "week": 9,
+        "cumulative_probability": 0.541,
+        "label": "Week 9 (63 days)"
+      },
+      {
+        "week": 10,
+        "cumulative_probability": 0.579,
+        "label": "Week 10 (70 days)"
+      },
+      {
+        "week": 11,
+        "cumulative_probability": 0.614,
+        "label": "Week 11 (77 days)"
+      },
+      {
+        "week": 12,
+        "cumulative_probability": 0.646,
+        "label": "Week 12 (84 days)"
+      }
+    ],
+    "global_threat_trends": [
+      {
+        "trend": "Ransomware-as-a-Service targeting SMB",
+        "probability_uplift": 0.08,
+        "active": true
+      },
+      {
+        "trend": "AI-assisted phishing campaigns surge",
+        "probability_uplift": 0.06,
+        "active": true
+      },
+      {
+        "trend": "Supply chain attacks increasing (3CX, XZ)",
+        "probability_uplift": 0.05,
+        "active": true
+      },
+      {
+        "trend": "Initial access broker market growth",
+        "probability_uplift": 0.07,
+        "active": true
+      },
+      {
+        "trend": "State-sponsored OT/ICS targeting",
+        "probability_uplift": 0.04,
+        "active": true
+      },
+      {
+        "trend": "Cloud credential theft via SSRF",
+        "probability_uplift": 0.05,
+        "active": true
+      },
+      {
+        "trend": "Zero-day exploit broker market active",
+        "probability_uplift": 0.03,
+        "active": true
+      }
+    ],
+    "global_trend_uplift_pct": 38.0,
+    "historical_trend": {
+      "available": false
+    },
+    "top_predicted_threats": [
+      {
+        "rank": 1,
+        "port": 80,
+        "service": "tcpwrapped",
+        "attack_type": "Web Application Attacks (SQLi, XSS, RCE)",
+        "probability_30d_pct": 37.2,
+        "probability_90d_pct": 75.2,
+        "days_to_likely_exploit": 8,
+        "known_campaigns": [
+          "MOVEit Transfer (Cl0p)",
+          "Log4Shell follow-on",
+          "ProxyLogon"
+        ]
+      }
+    ],
+    "prediction_disclaimer": "Probabilities are statistical estimates based on historical attack data from CISA KEV, Verizon DBIR 2024, and observed campaign frequency. Not a guarantee of attack occurrence. Remediate identified vulnerabilities to significantly reduce these probabilities."
+  },
+  "ip_scan": {
+    "target": "flipkart.com",
+    "is_direct_ip": false,
+    "resolved_ips": [
+      "103.243.32.90"
+    ],
+    "scan_duration": 6.579822,
+    "scanned_at": "2026-03-09T19:26:10",
+    "success": true,
+    "overall_score": 1,
+    "overall_threat": "LOW",
+    "total_cves": 0,
+    "total_reports": 0,
+    "key_findings": [],
+    "ip_results": [
+      {
+        "ip": "103.243.32.90",
+        "unified_score": 1,
+        "threat_level": "LOW",
+        "source_scores": {
+          "abuseipdb": 0,
+          "shodan": 0,
+          "ipqualityscore": 0,
+          "criminalip": 1
+        },
+        "country": "India",
+        "city": "Chennai",
+        "org": "Flipkart Internet Pvt Ltd",
+        "isp": "Flipkart Internet Pvt Ltd",
+        "is_tor": false,
+        "is_vpn": false,
+        "is_proxy": false,
+        "is_bot": false,
+        "is_scanner": false,
+        "open_ports": [
+          {
+            "port": 80,
+            "protocol": "tcp",
+            "service": "",
+            "version": "",
+            "source": "Shodan"
+          },
+          {
+            "port": 443,
+            "protocol": "tcp",
+            "service": "",
+            "version": "",
+            "source": "Shodan"
+          }
+        ],
+        "cves": [],
+        "key_findings": [],
+        "abuseipdb": {
+          "source": "AbuseIPDB",
+          "available": true,
+          "ip": "103.243.32.90",
+          "confidence_score": 0,
+          "confidence_label": "CLEAN",
+          "total_reports": 0,
+          "last_reported": "2025-07-28",
+          "country": "IN",
+          "isp": "Flipkart Internet Pvt Ltd",
+          "usage_type": "Data Center/Web Hosting/Transit",
+          "is_tor": false,
+          "is_public": true,
+          "attack_categories": [],
+          "recent_reports": [],
+          "threat_level": "CLEAN",
+          "link": "https://www.abuseipdb.com/check/103.243.32.90",
+          "error": null
+        },
+        "shodan": {
+          "source": "Shodan",
+          "available": true,
+          "ip": "103.243.32.90",
+          "open_ports": [
+            80,
+            443
+          ],
+          "services": [
+            {
+              "port": 80,
+              "protocol": "tcp",
+              "product": "",
+              "version": "",
+              "banner": "HTTP/1.1 301 Moved Permanently\r content-length: 0\r location: https://103.243.32.90:443/\r \r ",
+              "cpe": [],
+              "vulns": []
+            },
+            {
+              "port": 443,
+              "protocol": "tcp",
+              "product": "",
+              "version": "",
+              "banner": "",
+              "cpe": [],
+              "vulns": []
+            }
+          ],
+          "cves": [],
+          "os": "",
+          "country": "India",
+          "city": "Chennai",
+          "org": "Flipkart Internet Pvt Ltd",
+          "isp": "Flipkart Internet Pvt Ltd",
+          "hostnames": [],
+          "domains": [],
+          "tags": [],
+          "last_update": "2026-03-09",
+          "vulns": [],
+          "threat_level": "LOW",
+          "link": "https://www.shodan.io/host/103.243.32.90",
+          "error": null
+        },
+        "ipqualityscore": {
+          "source": "IPQualityScore",
+          "available": true,
+          "ip": "103.243.32.90",
+          "fraud_score": 0,
+          "fraud_label": "CLEAN",
+          "is_proxy": false,
+          "is_vpn": false,
+          "is_tor": false,
+          "is_bot": false,
+          "is_crawler": false,
+          "recent_abuse": false,
+          "abuse_velocity": "Premium required.",
+          "country": "IN",
+          "city": "Bengaluru",
+          "region": "Karnataka",
+          "isp": "Flipkart Internet",
+          "org": "Flipkart Internet",
+          "timezone": "Asia/Kolkata",
+          "mobile": false,
+          "connection_type": "Premium required.",
+          "threat_level": "CLEAN",
+          "link": "https://www.ipqualityscore.com/free-ip-lookup-proxy-vpn-test/lookup/103.243.32.90",
+          "error": null
+        },
+        "criminalip": {
+          "source": "CriminalIP",
+          "available": true,
+          "ip": "103.243.32.90",
+          "attack_score": 1,
+          "score_label": "LOW",
+          "inbound_score": 1,
+          "outbound_score": 1,
+          "is_scanner": false,
+          "is_vpn": false,
+          "is_tor": false,
+          "is_cloud": false,
+          "is_datacenter": false,
+          "country": "",
+          "city": "",
+          "org": "",
+          "isp": "",
+          "open_ports": [],
+          "cves": [],
+          "tags": [],
+          "current_opened_count": 0,
+          "threat_level": "LOW",
+          "link": "https://www.criminalip.io/ip/103.243.32.90",
+          "error": null
+        }
+      }
+    ],
+    "sources_used": [
+      "AbuseIPDB",
+      "Shodan",
+      "IPQualityScore",
+      "CriminalIP"
+    ],
+    "sources_active": [
+      "AbuseIPDB",
+      "Shodan",
+      "IPQualityScore",
+      "CriminalIP"
+    ]
+  },
+  "scan_mode": "domain",
+  "output_dir": "/home/j/voraguard/scans/flipkart.com_20260309_191649",
+  "success": true,
+  "error": ""
+}

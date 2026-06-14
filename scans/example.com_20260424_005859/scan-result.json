@@ -1,0 +1,3560 @@
+{
+  "domain": "example.com",
+  "scan_id": "20260424_005859",
+  "started_at": "2026-04-24T00:58:59.375031",
+  "completed_at": "2026-04-24T01:04:09.536966",
+  "duration_seconds": 310.161935,
+  "nmap": {
+    "success": false,
+    "open_ports": [],
+    "reason": "Passive mode"
+  },
+  "dnstwist": {
+    "success": true,
+    "target": "example.com",
+    "total_found": 110,
+    "registered_count": 91,
+    "typosquats": [
+      {
+        "fuzzer": "addition",
+        "domain": "exampler.com",
+        "dns_a": "103.168.172.37",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "example8.com",
+        "dns_a": "104.21.23.31",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "example2.com",
+        "dns_a": "104.21.44.49",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "example6.com",
+        "dns_a": "104.21.59.130",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "examplex.com",
+        "dns_a": "104.21.85.141",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "example3.com",
+        "dns_a": "104.26.14.194",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "example5.com",
+        "dns_a": "13.223.25.84",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "example9.com",
+        "dns_a": "13.223.25.84",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "examplea.com",
+        "dns_a": "13.223.25.84",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "exampleb.com",
+        "dns_a": "13.223.25.84",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "examplec.com",
+        "dns_a": "13.223.25.84",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "exampley.com",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "examplez.com",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "examplet.com",
+        "dns_a": "15.197.148.33",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "examplek.com",
+        "dns_a": "162.159.130.6",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "examplee.com",
+        "dns_a": "162.248.211.18",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "examplel.com",
+        "dns_a": "188.40.59.208",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "example1.com",
+        "dns_a": "192.185.44.208",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "exampleq.com",
+        "dns_a": "192.241.217.167",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "examples.com",
+        "dns_a": "34.54.3.56",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "example7.com",
+        "dns_a": "35.212.120.76",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "exampleg.com",
+        "dns_a": "43.252.42.21",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "exampled.com",
+        "dns_a": "64.190.63.222",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "example4.com",
+        "dns_a": "91.98.25.171",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "example0.com",
+        "dns_a": "",
+        "registered": false
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "examplef.com",
+        "dns_a": "",
+        "registered": false
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "exampleh.com",
+        "dns_a": "",
+        "registered": false
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "examplen.com",
+        "dns_a": "",
+        "registered": false
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "exampleu.com",
+        "dns_a": "",
+        "registered": false
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "examplev.com",
+        "dns_a": "",
+        "registered": false
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "dxample.com",
+        "dns_a": "!ServFail",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "exa-ple.com",
+        "dns_a": "!ServFail",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "exqmple.com",
+        "dns_a": "!ServFail",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "exemple.com",
+        "dns_a": "103.224.182.245",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "ezample.com",
+        "dns_a": "13.223.25.84",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "exampla.com",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "eximple.com",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "axample.com",
+        "dns_a": "157.90.33.73",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "uxample.com",
+        "dns_a": "172.65.211.209",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "mxample.com",
+        "dns_a": "78.31.70.110",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "excmple.com",
+        "dns_a": "",
+        "registered": false
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "exarnp1e.com",
+        "dns_a": "!ServFail",
+        "registered": true
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "exanp1e.com",
+        "dns_a": "104.21.75.90",
+        "registered": true
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "exammple.com",
+        "dns_a": "13.223.25.84",
+        "registered": true
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "exampic.com",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "exampie.com",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "exanple.com",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "xn--xample-9ua.com",
+        "dns_a": "144.126.215.83",
+        "registered": true
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "xn--exampl-gva.com",
+        "dns_a": "216.198.79.65",
+        "registered": true
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "exarnple.com",
+        "dns_a": "38.38.218.4",
+        "registered": true
+      }
+    ],
+    "error": ""
+  },
+  "harvester": {
+    "success": true,
+    "target": "example.com",
+    "emails": [
+      "cmartorella@edge-security.com"
+    ],
+    "hosts": [
+      "5.example.com",
+      "1990.example.com",
+      "175479.example.com",
+      "208392.example.com",
+      "185565.example.com",
+      "5025squidsbased.example.com",
+      "49251.example.com",
+      "191498.example.com",
+      "174327.example.com",
+      "183044.example.com",
+      "464.example.com",
+      "178774.example.com",
+      "211229.example.com",
+      "02.example.com",
+      "133175.example.com",
+      "183097.example.com",
+      "188.example.com",
+      "2906402ua10.example.com",
+      "199498.example.com",
+      "4444squidsbased.example.com",
+      "155418.example.com",
+      "5366squidsbased.example.com",
+      "211241.example.com",
+      "188086.example.com",
+      "3386squidsbased.example.com",
+      "4938squidsbased.example.com",
+      "176123.example.com",
+      "174332.example.com",
+      "183260.example.com",
+      "191406.example.com",
+      "191267.example.com",
+      "5168squidsbased.example.com",
+      "193976.example.com",
+      "193697.example.com",
+      "41861.example.com",
+      "5155squidsbased.example.com",
+      "40283.example.com",
+      "184377.example.com",
+      "188068.example.com",
+      "196772.example.com",
+      "177930.example.com",
+      "245.example.com",
+      "3707squidsbased.example.com",
+      "163.example.com",
+      "5410squidsbased.example.com",
+      "193264.example.com",
+      "211247.example.com",
+      "180651.example.com",
+      "4743squidsbased.example.com",
+      "32626.example.com",
+      "189061.example.com",
+      "226.example.com",
+      "2065squidsbased.example.com",
+      "4020squidsbased.example.com",
+      "156.example.com",
+      "21588.example.com",
+      "41949.example.com",
+      "4647squidsbased.example.com",
+      "2906402ua1.example.com",
+      "41734.example.com",
+      "18911.example.com",
+      "4364squidsbased.example.com",
+      "5384squidsbased.example.com",
+      "1999.example.com",
+      "211857.example.com",
+      "2024userown.example.com",
+      "211299.example.com",
+      "2906402ua2.example.com",
+      "195-234-63-8.example.com",
+      "4879squidsbased.example.com",
+      "189154.example.com",
+      "206920.example.com",
+      "2.example.com",
+      "206135.example.com",
+      "4791squidsbased.example.com",
+      "4563squidsbased.example.com",
+      "3794squidsbased.example.com",
+      "180970.example.com",
+      "184661.example.com",
+      "2906402ua9.example.com",
+      "0455737.example.com",
+      "213193.example.com",
+      "164614.example.com",
+      "200769.example.com",
+      "186174.example.com",
+      "189812.example.com",
+      "176948.example.com",
+      "210496.example.com",
+      "191754.example.com",
+      "5201squidsbased.example.com",
+      "3526squidsbased.example.com",
+      "41931.example.com",
+      "4653squidsbased.example.com",
+      "193952.example.com",
+      "28194.example.com",
+      "40651.example.com",
+      "179820.example.com",
+      "40896.example.com",
+      "18x96x50x110.example.com",
+      "2005.example.com",
+      "184872.example.com",
+      "187194.example.com",
+      "198489.example.com",
+      "45.example.com",
+      "184481.example.com",
+      "41350.example.com",
+      "190400.example.com",
+      "190189.example.com",
+      "3661squidsbased.example.com",
+      "189160.example.com",
+      "41887.example.com",
+      "31986.example.com",
+      "5301squidsbased.example.com",
+      "2154squidsbased.example.com",
+      "2906402ua6.example.com",
+      "41919.example.com",
+      "3514squidsbased.example.com",
+      "211223.example.com",
+      "3908squidsbased.example.com",
+      "184559.example.com",
+      "189396.example.com",
+      "2022squidsbased.example.com",
+      "5367squidsbased.example.com",
+      "3668squidsbased.example.com",
+      "4214squidsbased.example.com",
+      "4r4929.example.com",
+      "3627squidsbased.example.com",
+      "3748squidsbased.example.com",
+      "53.example.com",
+      "189818.example.com",
+      "30.example.com",
+      "212827.example.com",
+      "175605.example.com",
+      "193219.example.com",
+      "38603.example.com",
+      "182075.example.com",
+      "333.example.com",
+      "191567.example.com",
+      "2505271.example.com",
+      "5195squidsbased.example.com",
+      "3844squidsbased.example.com",
+      "456.example.com",
+      "3277squidsbased.example.com",
+      "172388.example.com",
+      "5088squidsbased.example.com",
+      "211275.example.com",
+      "189537.example.com",
+      "4480squidsbased.example.com",
+      "198609.example.com",
+      "4793squidsbased.example.com",
+      "193788.example.com",
+      "232.example.com",
+      "4851squidsbased.example.com",
+      "199778.example.com",
+      "5220squidsbased.example.com",
+      "189408.example.com",
+      "191617.example.com",
+      "174352.example.com",
+      "2906402ua14.example.com",
+      "1995.example.com",
+      "184306.example.com",
+      "5031squidsbased.example.com",
+      "191611.example.com",
+      "37441.example.com",
+      "210489.example.com",
+      "4544squidsbased.example.com",
+      "33611785.example.com",
+      "4564squidsbased.example.com",
+      "182631.example.com",
+      "181613.example.com",
+      "224-228-7-45.example.com",
+      "164959.example.com",
+      "191623.example.com",
+      "193045.example.com",
+      "4499squidsbased.example.com",
+      "195-234-63-5.example.com",
+      "165688.example.com",
+      "199784.example.com",
+      "5310squidsbased.example.com",
+      "187451.example.com",
+      "4514squidsbased.example.com",
+      "1hp.example.com",
+      "161741.example.com",
+      "196592.example.com",
+      "187736.example.com",
+      "199408.example.com",
+      "1965.example.com",
+      "211130.example.com",
+      "211281.example.com",
+      "2906402ua3.example.com",
+      "2006.example.com",
+      "109199.example.com",
+      "177671.example.com",
+      "455.example.com",
+      "3671squidsbased.example.com",
+      "213556.example.com",
+      "27226.example.com",
+      "139520.example.com",
+      "155498.example.com",
+      "15.example.com",
+      "163986.example.com",
+      "162384.example.com",
+      "18923.example.com",
+      "175122.example.com",
+      "210855.example.com",
+      "5252squidsbased.example.com",
+      "00.example.com",
+      "176958.example.com",
+      "187742.example.com",
+      "5457squidsbased.example.com",
+      "14538.example.com",
+      "4790squidsbased.example.com",
+      "34109.example.com",
+      "197183.example.com",
+      "05.example.com",
+      "213463.example.com",
+      "41867.example.com",
+      "211235.example.com",
+      "191132.example.com",
+      "5129squidsbased.example.com",
+      "213481.example.com",
+      "210617.example.com",
+      "5300squidsbased.example.com",
+      "159.example.com",
+      "189708.example.com",
+      "23s.example.com",
+      "4993squidsbased.example.com",
+      "23a.example.com",
+      "2014.example.com",
+      "53omasgan5.example.com",
+      "193685.example.com",
+      "0001.example.com",
+      "210503.example.com",
+      "5427squidsbased.example.com",
+      "176953.example.com",
+      "41849.example.com",
+      "5303squidsbased.example.com",
+      "41680.example.com",
+      "194423.example.com",
+      "1.example.com",
+      "4815squidsbased.example.com",
+      "194.example.com",
+      "195-234-63-7.example.com",
+      "176-56-231-202.example.com",
+      "181598.example.com",
+      "211335.example.com",
+      "1270011721.example.com",
+      "1207.example.com",
+      "193691.example.com",
+      "210033.example.com",
+      "4995060356.example.com",
+      "0o.example.com",
+      "183747.example.com",
+      "191353.example.com",
+      "479082.example.com",
+      "2043squidsbased.example.com",
+      "188441.example.com",
+      "5218squidsbased.example.com",
+      "31477.example.com",
+      "4635squidsbased.example.com",
+      "195.example.com",
+      "1q.example.com",
+      "110711.example.com",
+      "174172.example.com",
+      "182080.example.com",
+      "175435.example.com",
+      "189441.example.com",
+      "4351squidsbased.example.com",
+      "168.example.com",
+      "184466.example.com",
+      "123456.example.com",
+      "197716.example.com",
+      "188435.example.com",
+      "41318.example.com",
+      "09.example.com",
+      "175454.example.com",
+      "189806.example.com",
+      "4824squidsbased.example.com",
+      "5358squidsbased.example.com",
+      "5296squidsbased.example.com",
+      "3241squidsbased.example.com",
+      "41783.example.com",
+      "192575.example.com",
+      "2906402ua8.example.com",
+      "0yaoming.example.com",
+      "32064.example.com",
+      "187946.example.com",
+      "4912squidsbased.example.com",
+      "1993.example.com",
+      "198477.example.com",
+      "3387squidsbased.example.com",
+      "195-234-63-10.example.com",
+      "192602.example.com",
+      "31998.example.com",
+      "1991.example.com",
+      "189735.example.com",
+      "219.example.com",
+      "4220152.example.com",
+      "165756.example.com",
+      "191529.example.com",
+      "191237.example.com",
+      "194ddis81.example.com",
+      "194255.example.com",
+      "174123.example.com",
+      "4740squidsbased.example.com",
+      "209029.example.com",
+      "1979.example.com",
+      "162372.example.com",
+      "174347.example.com",
+      "211293.example.com",
+      "163081.example.com",
+      "187311.example.com",
+      "4384squidsbased.example.com",
+      "2906402ua.example.com",
+      "192674.example.com",
+      "31974.example.com",
+      "192210.example.com",
+      "190159.example.com",
+      "164249.example.com",
+      "212108.example.com",
+      "191261.example.com",
+      "175440.example.com",
+      "192216.example.com",
+      "2000.example.com",
+      "212660.example.com",
+      "198603.example.com",
+      "183177.example.com",
+      "504.example.com",
+      "165693.example.com",
+      "183487.example.com",
+      "3453squidsbased.example.com",
+      "351400.example.com",
+      "17992.example.com",
+      "194009.example.com",
+      "191126.example.com",
+      "41118.example.com",
+      "332022.example.com",
+      "3995squidsbased.example.com",
+      "26.example.com",
+      "185768.example.com",
+      "187604.example.com",
+      "199831.example.com",
+      "194473.example.com",
+      "1969.example.com",
+      "112.example.com",
+      "3cx.example.com",
+      "3776squidsbased.example.com",
+      "4526squidsbased.example.com",
+      "5182squidsbased.example.com",
+      "2871192.example.com",
+      "5462squidsbased.example.com",
+      "5019squidsbased.example.com",
+      "3434234.example.com",
+      "195-234-63-9.example.com",
+      "199617.example.com",
+      "01.example.com",
+      "28.example.com",
+      "2906402ua13.example.com",
+      "191138.example.com",
+      "123.example.com",
+      "4076squidsbased.example.com",
+      "211002.example.com",
+      "21810.example.com",
+      "182216.example.com",
+      "3.example.com",
+      "4ndreyka.example.com",
+      "182182.example.com",
+      "1996.example.com",
+      "190406.example.com",
+      "192716.example.com",
+      "5362squidsbased.example.com",
+      "3144squidsbased.example.com",
+      "369.example.com",
+      "184397.example.com",
+      "38543.example.com",
+      "191391.example.com",
+      "186705.example.com",
+      "31880.example.com",
+      "4593squidsbased.example.com",
+      "117.example.com",
+      "174342.example.com",
+      "172323.example.com",
+      "4562squidsbased.example.com",
+      "4883squidsbased.example.com",
+      "5368squidsbased.example.com",
+      "4409.example.com",
+      "191730.example.com",
+      "5380squidsbased.example.com",
+      "07.example.com",
+      "4361squidsbased.example.com",
+      "185498.example.com",
+      "4070squidsbased.example.com",
+      "182226.example.com",
+      "5419squidsbased.example.com",
+      "212069.example.com",
+      "195-234-63-6.example.com",
+      "192845.example.com",
+      "4591squidsbased.example.com",
+      "192710.example.com",
+      "41650.example.com",
+      "5474squidsbased.example.com",
+      "189794.example.com",
+      "191718.example.com",
+      "3402squidsbased.example.com",
+      "179958.example.com",
+      "2715squidsbased.example.com",
+      "192680.example.com",
+      "31954.example.com",
+      "5346squidsbased.example.com",
+      "5356squidsbased.example.com",
+      "192130.example.com",
+      "193964.example.com",
+      "4710squidsbased.example.com",
+      "189337.example.com",
+      "429.example.com",
+      "195-234-63-4.example.com",
+      "5226squidsbased.example.com",
+      "15463147.example.com",
+      "183970.example.com",
+      "162394.example.com",
+      "188513.example.com",
+      "192704.example.com",
+      "2906402ua12.example.com",
+      "5463squidsbased.example.com",
+      "4804squidsbased.example.com",
+      "5104squidsbased.example.com",
+      "5269squidsbased.example.com",
+      "180020.example.com",
+      "18917.example.com",
+      "4792squidsbased.example.com",
+      "4463squidsbased.example.com",
+      "195-234-63-11.example.com",
+      "211287.example.com",
+      "21.example.com",
+      "2906402ua7.example.com",
+      "228.example.com",
+      "407.example.com",
+      "14.example.com",
+      "40184.example.com",
+      "46.example.com",
+      "5029squidsbased.example.com",
+      "202003.example.com",
+      "3026squidsbased.example.com",
+      "193970.example.com",
+      "5453squidsbased.example.com",
+      "199402.example.com",
+      "205066.example.com",
+      "211323.example.com",
+      "5329squidsbased.example.com",
+      "4484squidsbased.example.com",
+      "4744squidsbased.example.com",
+      "161240.example.com",
+      "40890.example.com",
+      "2015.example.com",
+      "5254squidsbased.example.com",
+      "211269.example.com",
+      "08wjc.example.com",
+      "41943.example.com",
+      "184392.example.com",
+      "4560squidsbased.example.com",
+      "191629.example.com",
+      "3236squidsbased.example.com",
+      "33678.example.com",
+      "174143.example.com",
+      "40657.example.com",
+      "4788squidsbased.example.com",
+      "190273.example.com",
+      "189402.example.com",
+      "14----apr----rrdd.example.com",
+      "192722.example.com",
+      "193982.example.com",
+      "5278squidsbased.example.com",
+      "199813.example.com",
+      "2889811.example.com"
+    ],
+    "ips": [
+      "195.123.220.114",
+      "195.123.238.78",
+      "141.98.6.111",
+      "178.17.59.112",
+      "46.8.153.111",
+      "62.233.57.125",
+      "195.234.63.7",
+      "185.14.30.29",
+      "195.123.218.183",
+      "31.41.44.31",
+      "95.164.53.45",
+      "79.190.176.226",
+      "31.41.44.23",
+      "195.123.218.146",
+      "5.34.182.234",
+      "95.164.123.80",
+      "95.164.55.1",
+      "195.123.218.94",
+      "45.90.58.45",
+      "141.98.6.73",
+      "31.41.44.30",
+      "217.12.207.78",
+      "185.104.248.228",
+      "5.181.77.143",
+      "91.210.191.210",
+      "195.123.219.44",
+      "195.123.217.51",
+      "192.162.247.239",
+      "5.188.38.110",
+      "185.238.191.26",
+      "195.123.217.70",
+      "93.123.39.68",
+      "93.123.39.32",
+      "95.164.53.237",
+      "195.123.245.117",
+      "103.119.109.221",
+      "82.117.253.185",
+      "195.123.212.98",
+      "62.233.57.145",
+      "83.14.191.100",
+      "5.34.180.211",
+      "89.44.196.92",
+      "195.123.220.192",
+      "195.123.219.14",
+      "95.164.123.58",
+      "62.233.57.248",
+      "195.123.224.121",
+      "45.12.5.162",
+      "5.34.176.88",
+      "31.41.44.137",
+      "195.123.226.98",
+      "195.123.208.122",
+      "23.140.40.56",
+      "195.123.210.170",
+      "31.41.44.29",
+      "95.164.53.99",
+      "45.90.57.249",
+      "5.181.77.54",
+      "5.34.182.36",
+      "95.164.53.145",
+      "5.34.176.151",
+      "193.183.99.28",
+      "82.118.22.95",
+      "217.12.207.180",
+      "93.123.39.166",
+      "5.34.176.83",
+      "82.118.16.132",
+      "194.87.87.13",
+      "95.164.53.140",
+      "192.162.247.41",
+      "195.123.221.125",
+      "45.90.57.42",
+      "195.123.244.217",
+      "95.164.53.213",
+      "185.14.30.86",
+      "46.28.70.139",
+      "195.123.245.6",
+      "141.98.6.99",
+      "93.123.39.58",
+      "195.123.219.80",
+      "95.164.55.132",
+      "217.12.207.47",
+      "195.123.220.12",
+      "195.123.210.159",
+      "91.210.191.247",
+      "82.118.22.105",
+      "95.164.53.144",
+      "195.123.210.230",
+      "185.238.191.65",
+      "195.140.144.194",
+      "195.123.219.107",
+      "178.17.59.113",
+      "217.12.207.183",
+      "195.123.218.104",
+      "5.34.176.90",
+      "45.90.59.247",
+      "195.123.233.38",
+      "5.34.182.147",
+      "85.90.197.13",
+      "95.164.123.151",
+      "95.164.53.153",
+      "92.38.176.27",
+      "31.41.44.185",
+      "195.123.218.72",
+      "45.143.136.4",
+      "5.34.180.6",
+      "195.123.212.10",
+      "195.123.220.203",
+      "192.162.246.3",
+      "195.123.209.193",
+      "195.123.211.219",
+      "195.123.233.91",
+      "217.12.206.201",
+      "217.12.207.31",
+      "82.118.16.190",
+      "195.123.209.45",
+      "195.123.218.230",
+      "185.82.219.244",
+      "195.123.220.199",
+      "45.90.57.205",
+      "95.164.55.76",
+      "185.82.218.42",
+      "45.14.247.117",
+      "31.41.44.111",
+      "185.238.191.126",
+      "195.123.212.167",
+      "195.123.209.174",
+      "195.123.224.198",
+      "195.123.219.51",
+      "185.68.93.203",
+      "195.123.245.244",
+      "195.123.217.192",
+      "45.90.58.14",
+      "95.164.55.58",
+      "185.238.191.102",
+      "45.81.32.34",
+      "62.173.154.150",
+      "212.52.1.232",
+      "195.123.208.128",
+      "178.17.59.32",
+      "31.41.44.82",
+      "109.61.109.99",
+      "195.123.217.166",
+      "95.164.123.208",
+      "192.162.246.99",
+      "195.123.218.44",
+      "195.123.225.247",
+      "95.164.53.207",
+      "141.98.6.131",
+      "185.14.30.36",
+      "95.164.123.203",
+      "212.80.217.188",
+      "62.233.57.37",
+      "95.164.123.251",
+      "95.164.55.74",
+      "95.164.123.85",
+      "185.14.30.166",
+      "185.17.120.165",
+      "5.34.176.45",
+      "5.34.183.219",
+      "103.113.68.103",
+      "82.118.22.24",
+      "195.234.63.9",
+      "195.123.220.162",
+      "5.181.27.241",
+      "195.123.218.226",
+      "87.251.73.71",
+      "95.164.53.114",
+      "110.50.96.18",
+      "195.123.210.187",
+      "95.164.55.245",
+      "195.123.220.201",
+      "45.80.215.175",
+      "95.164.53.5",
+      "195.123.245.220",
+      "195.123.245.71",
+      "195.140.144.195",
+      "5.34.180.177",
+      "95.164.123.159",
+      "103.102.230.52",
+      "93.123.39.133",
+      "195.123.242.5",
+      "195.123.217.177",
+      "195.123.217.82",
+      "195.123.220.218",
+      "195.123.211.62",
+      "95.164.53.198",
+      "195.123.245.151",
+      "91.210.191.89",
+      "195.123.218.176",
+      "195.123.212.51",
+      "212.80.218.240",
+      "185.14.30.245",
+      "195.123.219.3",
+      "195.123.219.55",
+      "5.34.180.119",
+      "5.34.176.143",
+      "195.123.247.168",
+      "185.14.28.105",
+      "85.90.207.159",
+      "93.123.39.127",
+      "185.195.25.248",
+      "217.12.206.105",
+      "45.90.57.108",
+      "95.164.53.105",
+      "185.238.191.20",
+      "93.123.39.1",
+      "195.123.226.228",
+      "95.164.53.184",
+      "45.89.109.15",
+      "45.90.59.85",
+      "91.217.81.162",
+      "217.12.207.79",
+      "82.118.16.171",
+      "185.14.30.249",
+      "31.41.44.108",
+      "185.82.218.235",
+      "185.14.30.230",
+      "94.142.141.206",
+      "212.80.218.178",
+      "185.82.218.140",
+      "82.118.21.83",
+      "195.234.63.5",
+      "195.123.246.247",
+      "93.123.39.45",
+      "195.123.219.27",
+      "185.14.28.196",
+      "185.204.2.39",
+      "5.34.180.57",
+      "95.164.55.143",
+      "95.164.53.126",
+      "93.123.39.100",
+      "195.123.220.17",
+      "178.17.59.56",
+      "62.233.57.55",
+      "91.210.191.170",
+      "5.8.33.177",
+      "95.164.55.77",
+      "195.123.212.218",
+      "95.164.123.87",
+      "195.123.210.214",
+      "5.34.176.87",
+      "185.238.191.79",
+      "195.123.246.96",
+      "5.188.3.254",
+      "212.80.218.215",
+      "82.118.21.15",
+      "193.238.152.7",
+      "195.123.210.204",
+      "5.34.182.68",
+      "82.118.22.209",
+      "195.123.244.216",
+      "82.118.22.85",
+      "185.238.191.9",
+      "195.123.210.174",
+      "217.12.210.128",
+      "185.14.30.2",
+      "62.233.57.224",
+      "195.123.220.202",
+      "185.117.116.82",
+      "31.41.44.59",
+      "195.123.211.78",
+      "93.123.39.218",
+      "82.118.20.91",
+      "95.164.53.12",
+      "212.80.216.234",
+      "185.31.160.68",
+      "91.210.191.175",
+      "95.164.53.77",
+      "5.188.3.244",
+      "195.123.244.225",
+      "141.98.6.178",
+      "195.234.62.75",
+      "45.143.139.24",
+      "141.98.6.167",
+      "5.34.180.68",
+      "195.123.219.16",
+      "195.123.209.104",
+      "193.238.152.20",
+      "195.123.224.181",
+      "212.80.218.183",
+      "185.14.29.31",
+      "85.208.110.136",
+      "82.202.160.244",
+      "62.173.152.196",
+      "82.118.16.212",
+      "95.164.53.84",
+      "185.14.28.77",
+      "195.123.233.173",
+      "195.123.216.152",
+      "95.164.53.200",
+      "91.210.191.209",
+      "82.118.22.100",
+      "185.238.191.27",
+      "185.195.25.210",
+      "141.98.6.7",
+      "95.164.55.81",
+      "93.123.39.38",
+      "195.123.219.218",
+      "45.150.239.100",
+      "195.123.244.196",
+      "82.118.22.190",
+      "195.123.225.25",
+      "5.188.3.141",
+      "185.14.31.42",
+      "95.164.55.86",
+      "62.233.57.161",
+      "195.123.245.51",
+      "185.14.31.90",
+      "95.164.55.13",
+      "95.164.123.56",
+      "95.164.53.61",
+      "95.164.55.44",
+      "93.123.39.18",
+      "95.164.53.51",
+      "5.34.182.88",
+      "94.131.113.43",
+      "95.164.55.125",
+      "95.164.123.223",
+      "141.98.6.65",
+      "195.123.244.153",
+      "95.164.53.208",
+      "82.118.21.252",
+      "141.98.6.198",
+      "192.162.247.37",
+      "193.238.152.5",
+      "185.204.0.52",
+      "92.223.109.88",
+      "195.123.218.107",
+      "195.123.209.175",
+      "46.8.153.30",
+      "95.164.53.156",
+      "91.210.191.81",
+      "91.210.191.93",
+      "195.123.212.162",
+      "91.210.191.90",
+      "23.140.40.65",
+      "95.164.123.92",
+      "212.80.219.24",
+      "185.238.191.6",
+      "185.14.28.201",
+      "195.123.244.238",
+      "180.149.44.66",
+      "195.123.220.35",
+      "217.12.206.11",
+      "91.210.191.233",
+      "185.238.191.120",
+      "195.123.238.49",
+      "5.101.218.86",
+      "82.118.21.31",
+      "5.34.176.15",
+      "141.98.6.31",
+      "195.123.209.12",
+      "103.136.70.82",
+      "5.34.180.191",
+      "195.123.217.81",
+      "195.123.208.119",
+      "185.81.128.154",
+      "46.28.69.190",
+      "5.34.176.26",
+      "141.98.6.9",
+      "93.180.134.1",
+      "95.164.123.212",
+      "185.82.219.219",
+      "195.123.212.212",
+      "195.123.218.95",
+      "195.123.226.158",
+      "141.98.6.25",
+      "185.14.31.165",
+      "195.123.226.237",
+      "212.80.216.233",
+      "5.188.39.28",
+      "195.123.211.47",
+      "95.164.55.254",
+      "82.118.19.21",
+      "195.123.216.62",
+      "217.12.206.87",
+      "195.123.247.153",
+      "95.164.123.247",
+      "185.82.219.132",
+      "217.12.206.166",
+      "185.68.93.104",
+      "195.123.246.123",
+      "5.101.36.38",
+      "195.123.217.75",
+      "195.123.212.29",
+      "31.41.44.187",
+      "178.17.59.17",
+      "195.123.225.170",
+      "95.164.55.79",
+      "82.118.21.11",
+      "91.210.191.174",
+      "93.123.39.151",
+      "5.34.182.207",
+      "192.162.247.190",
+      "185.82.219.183",
+      "195.22.149.29",
+      "217.12.207.20",
+      "185.195.24.11",
+      "5.8.33.119",
+      "95.164.53.7",
+      "92.223.30.185",
+      "95.164.53.121",
+      "185.82.218.247",
+      "195.123.211.22",
+      "93.123.39.93",
+      "95.164.123.149",
+      "5.34.176.13",
+      "5.34.180.218",
+      "5.34.176.153",
+      "195.234.63.11",
+      "217.12.220.254",
+      "62.233.57.173",
+      "192.162.247.10",
+      "195.123.225.51",
+      "185.242.86.250",
+      "195.123.211.41",
+      "92.38.189.197",
+      "45.7.228.224",
+      "5.34.180.151",
+      "95.164.53.20",
+      "31.41.44.110",
+      "46.28.70.84",
+      "195.123.247.14",
+      "31.222.238.106",
+      "195.123.208.165",
+      "195.123.226.162",
+      "195.123.239.40",
+      "195.123.218.73",
+      "185.17.121.22",
+      "212.80.218.161",
+      "141.98.6.48",
+      "185.14.31.74",
+      "195.123.210.229",
+      "31.41.44.34",
+      "217.12.221.46",
+      "95.164.123.154",
+      "195.123.218.116",
+      "141.98.6.179",
+      "195.123.217.57",
+      "62.233.57.63",
+      "195.123.218.178",
+      "31.41.44.147",
+      "95.164.123.175",
+      "176.56.231.202",
+      "192.162.246.80",
+      "5.188.38.35",
+      "192.162.247.67",
+      "5.34.180.154",
+      "46.173.214.51",
+      "195.123.218.25",
+      "195.234.63.8",
+      "141.98.6.222",
+      "195.123.218.241",
+      "82.118.16.159",
+      "5.34.176.244",
+      "91.210.191.244",
+      "195.123.210.157",
+      "202.78.167.155",
+      "95.164.55.93",
+      "185.246.118.12",
+      "93.123.39.88",
+      "95.164.53.174",
+      "185.224.212.55",
+      "185.14.31.79",
+      "195.123.217.99",
+      "45.65.9.125",
+      "185.14.31.92",
+      "195.22.152.63",
+      "45.82.161.54",
+      "195.234.63.4",
+      "195.123.209.252",
+      "178.17.59.83",
+      "195.234.63.6",
+      "95.164.55.41",
+      "195.123.219.83",
+      "62.233.57.102",
+      "45.90.57.58",
+      "141.98.6.158",
+      "5.34.176.133",
+      "192.162.246.31",
+      "95.164.123.131",
+      "195.234.63.10",
+      "192.162.240.35",
+      "166.1.61.29",
+      "217.12.206.175",
+      "185.14.30.150",
+      "195.123.211.224",
+      "95.164.55.78",
+      "5.34.176.242",
+      "195.123.212.217",
+      "31.41.44.95",
+      "195.123.212.213",
+      "95.164.53.9",
+      "139.180.141.53",
+      "195.123.222.63",
+      "93.123.39.59",
+      "195.123.220.200",
+      "45.90.58.225",
+      "45.143.139.4"
+    ],
+    "email_count": 1,
+    "host_count": 474,
+    "error": ""
+  },
+  "vt_domain": {
+    "available": true,
+    "domain": "example.com",
+    "malicious": 0,
+    "suspicious": 0,
+    "harmless": 65,
+    "total_engines": 94,
+    "reputation_score": 12,
+    "categories": [],
+    "risk_level": "clean",
+    "last_analysis_date": 1776970516
+  },
+  "dns_health": {
+    "domain": "example.com",
+    "resolves": true,
+    "ip_addresses": [
+      "172.66.147.243",
+      "2606:4700:10::6814:179a",
+      "2606:4700:10::ac42:93f3",
+      "104.20.23.154"
+    ],
+    "spf": {
+      "present": true,
+      "record": "v=spf1 -all"
+    },
+    "dmarc": {
+      "present": true,
+      "record": "v=DMARC1;p=reject;sp=reject;adkim=s;aspf=s"
+    },
+    "mx_records": [
+      "0 ."
+    ],
+    "issues": []
+  },
+  "ssl_info": {
+    "domain": "example.com",
+    "port": 443,
+    "has_ssl": true,
+    "valid": true,
+    "expires_in_days": 69,
+    "issuer": "CLOUDFLARE, INC.",
+    "subject": "example.com",
+    "protocol": null,
+    "issues": []
+  },
+  "risk": {
+    "score": 85,
+    "risk_level": "LOW",
+    "risk_color": "#22c55e",
+    "breakdown": {
+      "port_exposure": {
+        "deduction": 0,
+        "max": 25
+      },
+      "vt_reputation": {
+        "deduction": 0,
+        "max": 30
+      },
+      "typosquatting": {
+        "deduction": 15,
+        "max": 15
+      },
+      "dns_health": {
+        "deduction": 0,
+        "max": 20
+      },
+      "ssl_tls": {
+        "deduction": 0,
+        "max": 10
+      }
+    },
+    "key_findings": [
+      "Severe typosquatting: 91 registered lookalike domains"
+    ]
+  },
+  "vuln_analysis": {
+    "total_findings": 0,
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0,
+    "findings": [],
+    "overall_risk": "LOW"
+  },
+  "owasp": {
+    "triggered_count": 1,
+    "total_categories": 10,
+    "findings": [
+      {
+        "id": "A09:2021",
+        "name": "Security Logging & Monitoring Failures",
+        "evidence": [
+          "No logging/monitoring endpoints observable from external scan"
+        ],
+        "description": "Lack of observable security monitoring increases attacker dwell time.",
+        "remediation": "Implement SIEM. Alert on auth failures, port scans, anomalous traffic.",
+        "severity": "MEDIUM"
+      }
+    ]
+  },
+  "grc_report": {
+    "domain": "example.com",
+    "generated_at": "2026-04-23T19:31:01.074852+00:00",
+    "overall_score": 85,
+    "risk_level": "LOW",
+    "appetite_status": "Within Tolerance",
+    "appetite_color": "green",
+    "executive_summary": "example.com presents a LOW risk profile with an overall score of 85/100. The external attack surface includes 0 open port(s), 0 critical and 0 high-severity service vulnerabilities, and 91 registered typosquatting domains increasing brand/phishing risk. Targeted remediation of high-priority findings is recommended within the next sprint cycle.",
+    "key_risk_indicators": [
+      {
+        "indicator": "Typosquatting exposure",
+        "status": "ELEVATED",
+        "value": "91 domains"
+      }
+    ],
+    "compliance_posture": {
+      "NIST_CSF": {
+        "Identify": "Met",
+        "Protect": "Partial",
+        "Detect": "Not Met",
+        "Respond": "Unknown",
+        "Recover": "Unknown"
+      },
+      "ISO_27001": {
+        "A.8.8 Vulnerability Mgmt": "Partial",
+        "A.8.20 Network Security": "Partial",
+        "A.8.24 Cryptography": "Met"
+      },
+      "SOC2": {
+        "CC6.1 Access Controls": "Met",
+        "CC6.6 External Threats": "Partial",
+        "CC7.1 Monitoring": "Not Met"
+      }
+    },
+    "priority_actions": [
+      {
+        "priority": "P2",
+        "action": "Monitor/take down 91 typosquatting domains \u2014 phishing risk",
+        "owner": "Legal/Security"
+      }
+    ],
+    "owasp_coverage": 1,
+    "total_vulnerabilities": 0,
+    "critical_vulns": 0
+  },
+  "attack_surface_change": {
+    "domain": "example.com",
+    "scanned_at": "2026-04-23T19:31:01.075571+00:00",
+    "current_open_ports": [],
+    "total_open": 0,
+    "is_first_scan": false,
+    "new_ports": [],
+    "closed_ports": [],
+    "unchanged_ports": [],
+    "delta_risk": "NONE",
+    "baseline_file": "/home/j/voraguard/scans/example.com_baseline.json",
+    "baseline_timestamp": "2026-03-31T23:57:30.154013+00:00",
+    "message": "No changes detected since baseline scan on 2026-03-31."
+  },
+  "business_impact": {
+    "domain": "example.com",
+    "overall_confidentiality": "LOW",
+    "overall_integrity": "LOW",
+    "overall_availability": "LOW",
+    "financial_risk_estimate": {
+      "minimum": "$2,500",
+      "maximum": "$15,000",
+      "basis": "IBM Cost of a Data Breach Report 2024 \u2014 average breach cost $4.88M globally",
+      "factors": [
+        "Regulatory fines",
+        "Incident response costs",
+        "Reputational damage",
+        "Legal liability"
+      ]
+    },
+    "impact_findings": [],
+    "exposed_asset_count": 0
+  },
+  "regulatory_breach": {
+    "domain": "example.com",
+    "frameworks_at_risk": 0,
+    "findings": [],
+    "overall_regulatory_risk": "LOW"
+  },
+  "supply_chain": {
+    "domain": "example.com",
+    "components_detected": 1,
+    "critical_components": 0,
+    "components": [
+      {
+        "technology": "Cloudflare CDN",
+        "risk": "LOW",
+        "note": "Traffic proxied through Cloudflare \u2014 DDoS protection active",
+        "evidence": [
+          "HTTP header: cf-ray",
+          "HTTP header: cf-cache-status"
+        ]
+      }
+    ],
+    "supply_chain_risk": "MEDIUM"
+  },
+  "honey_trap": {
+    "domain": "example.com",
+    "verdict": "UNLIKELY HONEYPOT",
+    "confidence_pct": 5,
+    "honeypot_score": 0,
+    "indicators": [
+      "No honeypot indicators detected \u2014 appears to be a real target"
+    ],
+    "recommendation": "No significant honeypot indicators. Proceed with authorized testing."
+  },
+  "attacker_roi": {
+    "domain": "example.com",
+    "total_roi_score": 20,
+    "max_score": 100,
+    "roi_label": "LOW \u2014 Limited attacker motivation, hardened target",
+    "ease_score": 0,
+    "value_score": 15,
+    "stealth_score": 5,
+    "ease_factors": [],
+    "value_factors": [
+      "+10 All internet-facing targets have baseline value",
+      "+5 91 typosquats \u2014 brand/phishing infrastructure value"
+    ],
+    "stealth_factors": [
+      "+5 No observable WAF/firewall detected"
+    ],
+    "attacker_type": "Only highly motivated, targeted APT actors"
+  },
+  "threat_actors": {
+    "domain": "example.com",
+    "matched_actor_count": 0,
+    "actors": [],
+    "note": "Correlation based on exposed attack surface overlap with publicly documented TTPs (MITRE ATT&CK). Does not imply active targeting.",
+    "overall_threat": "LOW"
+  },
+  "darkweb": {
+    "domain": "example.com",
+    "overall_risk": "CRITICAL",
+    "summary_findings": [
+      {
+        "source": "AlienVault OTX",
+        "severity": "CRITICAL",
+        "title": "Domain found in 50 OTX threat pulses",
+        "detail": "Malware families: HiddenTear, Malware Family: StealthWorker / GoBrut, MD5 Hash: f8add7e7161460ea2b1970cf4ca535bf | Threat actors: DragonForce Hacker Group Malaysia, Al-Arqam, StealthWorker/GoBrut (The adversary demonstrates advanced telemetry suppression within specialized s",
+        "data_classes": [
+          "Domain Reputation",
+          "Threat Intelligence"
+        ]
+      },
+      {
+        "source": "AbuseIPDB",
+        "severity": "CRITICAL",
+        "title": "IP classified malicious \u2014 AbuseIPDB confidence: 2%",
+        "detail": "Attack categories: SQL Injection, Bad Web Bot, Web App Attack",
+        "data_classes": [
+          "C2 Infrastructure",
+          "Botnet"
+        ]
+      }
+    ],
+    "total_sources_checked": 6,
+    "total_findings": 2,
+    "sources_status": [
+      {
+        "name": "AlienVault OTX",
+        "status": "\u2713 Checked",
+        "key_required": true,
+        "findings": 50
+      },
+      {
+        "name": "HaveIBeenPwned",
+        "status": "\u2713 Checked",
+        "key_required": false,
+        "findings": 0
+      },
+      {
+        "name": "URLhaus / Abuse.ch",
+        "status": "\u2713 Checked",
+        "key_required": false,
+        "findings": 0
+      },
+      {
+        "name": "DeHashed",
+        "status": "\u26a0 DEHASHED_EMAIL and DEHASHED_API_KEY not set. Account required at https://dehashed.com (API from $5.99/mo)",
+        "key_required": true,
+        "findings": 0
+      },
+      {
+        "name": "LeakIX",
+        "status": "\u2713 Checked",
+        "key_required": true,
+        "findings": 0
+      },
+      {
+        "name": "AbuseIPDB",
+        "status": "\u2713 Checked",
+        "key_required": false,
+        "findings": 1
+      }
+    ],
+    "otx": {
+      "source": "AlienVault OTX",
+      "available": true,
+      "pulse_count": 50,
+      "malware_families": [
+        "HiddenTear",
+        "Malware Family: StealthWorker / GoBrut",
+        "MD5 Hash: f8add7e7161460ea2b1970cf4ca535bf",
+        1776911652,
+        1776905002,
+        1776903894,
+        1776807057,
+        1776755964,
+        1776700525,
+        1776700435,
+        1776692586,
+        1776682450,
+        1776681721
+      ],
+      "malicious_urls": [
+        {
+          "url": "http://example.com/",
+          "date": "2026-04-23",
+          "result": "",
+          "gsb": ""
+        },
+        {
+          "url": "https://app.example.com/api/transfer",
+          "date": "2026-04-23",
+          "result": "",
+          "gsb": []
+        },
+        {
+          "url": "https://example.com/document3.pdf",
+          "date": "2026-04-23",
+          "result": "",
+          "gsb": []
+        },
+        {
+          "url": "https://example.com/document2.pdf",
+          "date": "2026-04-23",
+          "result": "",
+          "gsb": []
+        },
+        {
+          "url": "https://example.com/document1.pdf",
+          "date": "2026-04-23",
+          "result": "",
+          "gsb": []
+        },
+        {
+          "url": "https://arounduz.example.com/",
+          "date": "2026-04-23",
+          "result": "",
+          "gsb": []
+        },
+        {
+          "url": "https://arounduz.example.com/samarkand",
+          "date": "2026-04-23",
+          "result": "",
+          "gsb": []
+        },
+        {
+          "url": "https://yourapp.example.com/",
+          "date": "2026-04-23",
+          "result": "",
+          "gsb": []
+        },
+        {
+          "url": "https://example.com/mcp-connectivity-test",
+          "date": "2026-04-23",
+          "result": "",
+          "gsb": []
+        },
+        {
+          "url": "https://graph.example.com/graphql",
+          "date": "2026-04-23",
+          "result": "",
+          "gsb": []
+        }
+      ],
+      "passive_dns": [],
+      "threat_actors": [
+        "DragonForce Hacker Group Malaysia, Al-Arqam",
+        "StealthWorker/GoBrut (The adversary demonstrates advanced telemetry suppression within specialized s"
+      ],
+      "related_cves": [],
+      "domain_findings": [
+        {
+          "pulse_name": "[The Real Jane Doe Syndrome Files] Credit: Ravescoutllc [clone]",
+          "author": "Unknown",
+          "created": "2026-04-23",
+          "modified": "2026-04-23",
+          "tlp": "white",
+          "tags": [
+            "copyright",
+            "apple computer",
+            "tcpip",
+            "supported",
+            "quantum"
+          ],
+          "threat_type": "DragonForce Hacker Group Malaysia, Al-Arqam",
+          "description": "Researcher @Ravescoutllc. Posts this decription:\n\"An array of scripts and files designed to completely compromise your MacBook and effectively erase your digital identity from the internet exists. Thi"
+        },
+        {
+          "pulse_name": "Microsoft Phishing Collection",
+          "author": "Unknown",
+          "created": "2023-01-25",
+          "modified": "2026-04-23",
+          "tlp": "white",
+          "tags": [
+            "urls",
+            "phishing",
+            "scam",
+            "microsoft"
+          ],
+          "threat_type": "Unknown",
+          "description": "This page stores Microsoft phishing page IOCs. Legitimate website for the brand is https://microsoft.com\nNOLA defense is tracking newly observed phishing websites. Follow us on twitter https://twitter"
+        },
+        {
+          "pulse_name": "\u201cBroken Seal\u201d DocuSign-themed Delivery with Fileless Process Hollowing (Zeppelin/Bloat-A)",
+          "author": "Unknown",
+          "created": "2026-02-13",
+          "modified": "2026-04-23",
+          "tlp": "white",
+          "tags": [
+            "Zeppelin, Bloat-A, W32.Bloat-A, Zero-Day-Delivery, Protocol-Devi",
+            "9698f46495ce9401c8bcaf9a2afe1598",
+            "Imphash: 9698f46495ce9401c8bcaf9a2afe1598 | Imports (additional)",
+            "MD5: b47266fef17ad4b2e4ca6ee1d06c39a7 SHA-1: cb92796715c799d7e71",
+            "Filename: b47266fef17ad4b2e4ca6ee1d06c39a7.virus File Type: Win3"
+          ],
+          "threat_type": "Unknown",
+          "description": "Forensic analysis indicates a DocuSign-themed phishing campaign using a deliberately invalid X.509 PKI seal (\u201cBroken Seal\u201d) to trigger fail-open verification logic in automated handlers. The delivery "
+        },
+        {
+          "pulse_name": "CAPE Sandbox",
+          "author": "Unknown",
+          "created": "2026-03-22",
+          "modified": "2026-04-21",
+          "tlp": "white",
+          "tags": [],
+          "threat_type": "Unknown",
+          "description": ""
+        },
+        {
+          "pulse_name": "Hidden Tear BruteForcer Clone Credit OctoSeek",
+          "author": "Unknown",
+          "created": "2026-04-18",
+          "modified": "2026-04-18",
+          "tlp": "white",
+          "tags": [
+            "no expiration",
+            "domain",
+            "hostname",
+            "expiration",
+            "filehashsha256"
+          ],
+          "threat_type": "HiddenTear",
+          "description": ""
+        },
+        {
+          "pulse_name": "Distributed Credential Exhaustion & C2 Orchestration via Golang-Based StealthWorker (ELF.Agent-VW)",
+          "author": "Unknown",
+          "created": "2026-02-16",
+          "modified": "2026-04-13",
+          "tlp": "white",
+          "tags": [
+            "Obfuscation: XOR-based String Encryption (0x20)",
+            "T1110.001 (Brute Force: Password Guessing)",
+            "Primary Hash (SHA256): cd3989830da99a69380901769fd78902efb3cd8ba",
+            "MD5 Hash: f8add7e7161460ea2b1970cf4ca535bf",
+            "#PotentialUS-Origin_FalseFlag_Obfuscation"
+          ],
+          "threat_type": "StealthWorker/GoBrut (The adversary demonstrates advanced telemetry suppression within specialized s",
+          "description": "Researcher credit: msudosos, level blue platform----\nThis artifact represents a high-integrity StealthWorker (GoBrut) botnet agent, architected as a statically linked, stripped 32-bit ELF binary to en"
+        },
+        {
+          "pulse_name": "VirusTotal report\n                    for flow-browser-main.zip",
+          "author": "Unknown",
+          "created": "2026-04-09",
+          "modified": "2026-04-11",
+          "tlp": "white",
+          "tags": [
+            "file type",
+            "png image",
+            "ascii",
+            "ascii text",
+            "java source"
+          ],
+          "threat_type": "Unknown",
+          "description": "A sample of flow-browser-main, an unauthorised version of the web browser, has been detected by researchers at the University of California, Los Angeles, and the National Security Agency (NSA). myvzw."
+        },
+        {
+          "pulse_name": "VirusTotal report\n                    for flow-browser-main.zip",
+          "author": "Unknown",
+          "created": "2026-04-09",
+          "modified": "2026-04-10",
+          "tlp": "white",
+          "tags": [
+            "file type",
+            "png image",
+            "ascii",
+            "ascii text",
+            "java source"
+          ],
+          "threat_type": "Unknown",
+          "description": "A sample of flow-browser-main, an unauthorised version of the web browser, has been detected by researchers at the University of California, Los Angeles, and the National Security Agency (NSA). myvzw."
+        },
+        {
+          "pulse_name": "VirusTotal report\n                    for flow-browser-main.zip",
+          "author": "Unknown",
+          "created": "2026-04-09",
+          "modified": "2026-04-10",
+          "tlp": "white",
+          "tags": [
+            "file type",
+            "png image",
+            "ascii",
+            "ascii text",
+            "java source"
+          ],
+          "threat_type": "Unknown",
+          "description": "A sample of flow-browser-main, an unauthorised version of the web browser, has been detected by researchers at the University of California, Los Angeles, and the National Security Agency (NSA). myvzw."
+        },
+        {
+          "pulse_name": "VirusTotal report\n                    for flow-browser-main.zip",
+          "author": "Unknown",
+          "created": "2026-04-09",
+          "modified": "2026-04-09",
+          "tlp": "white",
+          "tags": [
+            "file type",
+            "png image",
+            "ascii",
+            "ascii text",
+            "java source"
+          ],
+          "threat_type": "Unknown",
+          "description": "A sample of flow-browser-main, an unauthorised version of the web browser, has been detected by researchers at the University of California, Los Angeles, and the National Security Agency (NSA). myvzw."
+        },
+        {
+          "pulse_name": "Blacklist: akamai",
+          "author": "akamai",
+          "created": "",
+          "tlp": "red",
+          "tags": [],
+          "threat_type": "Akamai Popular Domain",
+          "description": "Domain listed on akamai as Akamai Popular Domain"
+        },
+        {
+          "pulse_name": "Blacklist: majestic",
+          "author": "majestic",
+          "created": "",
+          "tlp": "red",
+          "tags": [],
+          "threat_type": "Whitelisted domain",
+          "description": "Domain listed on majestic as Whitelisted domain"
+        },
+        {
+          "pulse_name": "Blacklist: whitelist",
+          "author": "whitelist",
+          "created": "",
+          "tlp": "red",
+          "tags": [],
+          "threat_type": "Whitelisted domain",
+          "description": "Domain listed on whitelist as Whitelisted domain"
+        }
+      ],
+      "ip_findings": [
+        {
+          "ip": "195.123.238.78",
+          "pulse_count": 0,
+          "reputation": 0,
+          "asn": "AS204957 green floid llc",
+          "country": "Singapore",
+          "threat_score": 0
+        },
+        {
+          "ip": "141.98.6.111",
+          "pulse_count": 0,
+          "reputation": 0,
+          "asn": "ASNone ",
+          "country": "Bulgaria",
+          "threat_score": 0
+        }
+      ],
+      "total_hits": 50,
+      "highest_severity": "CRITICAL",
+      "error": null
+    },
+    "hibp": {
+      "source": "HaveIBeenPwned",
+      "available": true,
+      "domain_breaches": [],
+      "email_results": [],
+      "paste_results": [],
+      "total_pwned_accounts": 0,
+      "most_recent_breach": null,
+      "data_classes_exposed": [],
+      "error": null
+    },
+    "urlhaus": {
+      "source": "URLhaus / Abuse.ch",
+      "available": true,
+      "domain_status": "not_listed",
+      "malicious_urls": [],
+      "active_urls": 0,
+      "malware_families": [],
+      "blacklists": {},
+      "ip_findings": [],
+      "overall_risk": "CLEAN",
+      "error": null
+    },
+    "dehashed": {
+      "source": "DeHashed",
+      "available": false,
+      "domain_breach_count": 0,
+      "email_breaches": [],
+      "credential_exposure": [],
+      "databases_found": [],
+      "total_records": 0,
+      "error": "DEHASHED_EMAIL and DEHASHED_API_KEY not set. Account required at https://dehashed.com (API from $5.99/mo)"
+    },
+    "leakix": {
+      "source": "LeakIX",
+      "available": true,
+      "leak_events": [],
+      "service_events": [
+        {
+          "plugin": "HttpPlugin",
+          "event_type": "service",
+          "ip": "44.223.220.152",
+          "host": "mail.ginaric.inception-example.com",
+          "port": "443",
+          "summary": "HTTP/1.1 301 Moved Permanently\nConnection: close\r\ncontent-type: text/html; charset=UTF-8\r\nexpires: Thu, 23 Apr 2026 20:30:08 GMT\r\ncache-control: max-age=3600\r\nx-redirect-by: WordPress\r\nlocation: https://www.ginaric.inception-example.com/\r\ncontent-length: 0\r\ndate: Thu, 23 Apr 2026 19:30:08 GMT\r\nserver: LiteSpeed\r\nvary: User-Agent\r\nalt-svc: h3=\":443\"; ma=2592000, h3-29=\":443\"; ma=2592000, h3-Q050=\":443\"; ma=2592000, h3-Q046=\":443\"; ma=2592000, h3-Q043=\":443\"; ma=2592000, quic=\":443\"; ma=2592000; v=\"43,46\"\r\n",
+          "severity": "",
+          "leak_type": "",
+          "leak_stage": "",
+          "size_bytes": 0,
+          "size_human": "unknown",
+          "rows": 0,
+          "collections": 0,
+          "is_infected": false,
+          "ransom_notes": null,
+          "date": "2026-04-23",
+          "country": "United States",
+          "tags": [
+            "rescan"
+          ]
+        },
+        {
+          "plugin": "HttpPlugin",
+          "event_type": "service",
+          "ip": "52.0.54.202",
+          "host": "gplegacy436.inception-example.com.52-0-54-202.cpanel.site",
+          "port": "443",
+          "summary": "HTTP/1.1 301 Moved Permanently\nServer: nginx\r\nDate: Thu, 23 Apr 2026 19:27:18 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Length: 0\r\nConnection: close\r\nexpires: Thu, 23 Apr 2026 20:27:18 GMT\r\ncache-control: max-age=3600\r\nx-redirect-by: WordPress\r\nlocation: https://www.upgradepdx.com/\r\nvary: User-Agent,User-Agent\r\nx-robots-tag: noindex, nofollow\r\nalt-svc: h3=\":444\"; ma=2592000, h3-29=\":444\"; ma=2592000, h3-Q050=\":444\"; ma=2592000, h3-Q046=\":444\"; ma=2592000, h3-Q043=\":444\"; ma=2592000, quic=\":444\"; ma=2592000; v=\"43,46\"\r\nx-turbo-charged-by: LiteSpeed\r\n",
+          "severity": "",
+          "leak_type": "",
+          "leak_stage": "",
+          "size_bytes": 0,
+          "size_human": "unknown",
+          "rows": 0,
+          "collections": 0,
+          "is_infected": false,
+          "ransom_notes": null,
+          "date": "2026-04-23",
+          "country": "United States",
+          "tags": [
+            "rescan"
+          ]
+        },
+        {
+          "plugin": "HttpPlugin",
+          "event_type": "service",
+          "ip": "52.0.54.202",
+          "host": "www.gplegacy319.inception-example.com.52-0-54-202.cpanel.site",
+          "port": "443",
+          "summary": "HTTP/1.1 301 Moved Permanently\nServer: nginx\r\nDate: Thu, 23 Apr 2026 19:26:59 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Length: 0\r\nConnection: close\r\nexpires: Thu, 23 Apr 2026 20:26:59 GMT\r\ncache-control: max-age=3600\r\nx-redirect-by: WordPress\r\nlocation: https://www.prosthodontistqing.com/\r\nvary: User-Agent,User-Agent\r\nx-robots-tag: noindex, nofollow\r\nalt-svc: h3=\":444\"; ma=2592000, h3-29=\":444\"; ma=2592000, h3-Q050=\":444\"; ma=2592000, h3-Q046=\":444\"; ma=2592000, h3-Q043=\":444\"; ma=2592000, quic=\":444\"; ma=2592000; v=\"43,46\"\r\nx-turbo-charged-by: LiteSpeed\r\n",
+          "severity": "",
+          "leak_type": "",
+          "leak_stage": "",
+          "size_bytes": 0,
+          "size_human": "unknown",
+          "rows": 0,
+          "collections": 0,
+          "is_infected": false,
+          "ransom_notes": null,
+          "date": "2026-04-23",
+          "country": "United States",
+          "tags": [
+            "rescan"
+          ]
+        },
+        {
+          "plugin": "HttpPlugin",
+          "event_type": "service",
+          "ip": "52.0.54.202",
+          "host": "www.growthplug30.inception-example.com",
+          "port": "443",
+          "summary": "HTTP/1.1 200 OK\nServer: nginx\r\nDate: Thu, 23 Apr 2026 19:24:54 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: close\r\nlink: <https://www.growthplug30.inception-example.com/wp-json/>; rel=\"https://api.w.org/\"\r\nlink: <https://www.growthplug30.inception-example.com/wp-json/wp/v2/pages/2>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\r\nlink: <https://www.growthplug30.inception-example.com/>; rel=shortlink\r\ncache-control: public, max-age=600\r\nexpires: Thu, 23 Apr 2026 19:34:54 GMT\r\nvary: User-Agent,User-Agent\r\nalt-svc: h3=\":444\"; ma=2592000, h3-29=\":444\"; ma=2592000, h3-Q050=\":444\"; ma=2592000, h3-Q046=\":444\"; ma=2592000, h3-Q043=\":444\"; ma=2592000, quic=\":444\"; ma=2592000; v=\"43,46\"\r\nx-turbo-charged-by: LiteSpeed\r\n",
+          "severity": "",
+          "leak_type": "",
+          "leak_stage": "",
+          "size_bytes": 0,
+          "size_human": "unknown",
+          "rows": 0,
+          "collections": 0,
+          "is_infected": false,
+          "ransom_notes": null,
+          "date": "2026-04-23",
+          "country": "United States",
+          "tags": [
+            "rescan"
+          ]
+        },
+        {
+          "plugin": "HttpPlugin",
+          "event_type": "service",
+          "ip": "52.0.54.202",
+          "host": "www.robdese.inception-example.com.52-0-54-202.cpanel.site",
+          "port": "443",
+          "summary": "HTTP/1.1 301 Moved Permanently\nServer: nginx\r\nDate: Thu, 23 Apr 2026 19:24:34 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Length: 0\r\nConnection: close\r\nexpires: Thu, 23 Apr 2026 20:24:33 GMT\r\ncache-control: max-age=3600\r\nx-redirect-by: WordPress\r\nlocation: https://www.robdese.inception-example.com/\r\nvary: User-Agent,User-Agent\r\nx-robots-tag: noindex, nofollow\r\nalt-svc: h3=\":444\"; ma=2592000, h3-29=\":444\"; ma=2592000, h3-Q050=\":444\"; ma=2592000, h3-Q046=\":444\"; ma=2592000, h3-Q043=\":444\"; ma=2592000, quic=\":444\"; ma=2592000; v=\"43,46\"\r\nx-turbo-charged-by: LiteSpeed\r\n",
+          "severity": "",
+          "leak_type": "",
+          "leak_stage": "",
+          "size_bytes": 0,
+          "size_human": "unknown",
+          "rows": 0,
+          "collections": 0,
+          "is_infected": false,
+          "ransom_notes": null,
+          "date": "2026-04-23",
+          "country": "United States",
+          "tags": [
+            "rescan"
+          ]
+        },
+        {
+          "plugin": "HttpPlugin",
+          "event_type": "service",
+          "ip": "18.214.60.67",
+          "host": "patrham.inception-example.com",
+          "port": "443",
+          "summary": "HTTP/1.1 301 Moved Permanently\nConnection: close\r\ncontent-type: text/html; charset=UTF-8\r\nexpires: Thu, 23 Apr 2026 20:20:31 GMT\r\ncache-control: max-age=3600\r\nx-redirect-by: WordPress\r\nlocation: https://www.patrham.inception-example.com/\r\ncontent-length: 0\r\ndate: Thu, 23 Apr 2026 19:20:32 GMT\r\nserver: LiteSpeed\r\nvary: User-Agent\r\nalt-svc: h3=\":443\"; ma=2592000, h3-29=\":443\"; ma=2592000, h3-Q050=\":443\"; ma=2592000, h3-Q046=\":443\"; ma=2592000, h3-Q043=\":443\"; ma=2592000, quic=\":443\"; ma=2592000; v=\"43,46\"\r\n",
+          "severity": "",
+          "leak_type": "",
+          "leak_stage": "",
+          "size_bytes": 0,
+          "size_human": "unknown",
+          "rows": 0,
+          "collections": 0,
+          "is_infected": false,
+          "ransom_notes": null,
+          "date": "2026-04-23",
+          "country": "United States",
+          "tags": [
+            "rescan"
+          ]
+        },
+        {
+          "plugin": "HttpPlugin",
+          "event_type": "service",
+          "ip": "52.0.54.202",
+          "host": "mail.chemmi.inception-example.com",
+          "port": "443",
+          "summary": "HTTP/1.1 301 Moved Permanently\nServer: nginx\r\nDate: Thu, 23 Apr 2026 19:17:36 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Length: 0\r\nConnection: close\r\nexpires: Thu, 23 Apr 2026 20:17:35 GMT\r\ncache-control: max-age=3600\r\nx-redirect-by: WordPress\r\nlocation: https://www.chemmi.inception-example.com/\r\nvary: User-Agent,User-Agent\r\nalt-svc: h3=\":444\"; ma=2592000, h3-29=\":444\"; ma=2592000, h3-Q050=\":444\"; ma=2592000, h3-Q046=\":444\"; ma=2592000, h3-Q043=\":444\"; ma=2592000, quic=\":444\"; ma=2592000; v=\"43,46\"\r\nx-turbo-charged-by: LiteSpeed\r\n",
+          "severity": "",
+          "leak_type": "",
+          "leak_stage": "",
+          "size_bytes": 0,
+          "size_human": "unknown",
+          "rows": 0,
+          "collections": 0,
+          "is_infected": false,
+          "ransom_notes": null,
+          "date": "2026-04-23",
+          "country": "United States",
+          "tags": [
+            "rescan"
+          ]
+        },
+        {
+          "plugin": "HttpPlugin",
+          "event_type": "service",
+          "ip": "52.0.54.202",
+          "host": "mail.tbexample.inception-example.com",
+          "port": "443",
+          "summary": "HTTP/1.1 301 Moved Permanently\nServer: nginx\r\nDate: Thu, 23 Apr 2026 19:17:33 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Length: 0\r\nConnection: close\r\nx-redirect-by: WordPress\r\nlocation: https://www.tbexample.inception-example.com/\r\ncache-control: public, max-age=600\r\nexpires: Thu, 23 Apr 2026 19:27:33 GMT\r\nvary: User-Agent,User-Agent\r\nalt-svc: h3=\":444\"; ma=2592000, h3-29=\":444\"; ma=2592000, h3-Q050=\":444\"; ma=2592000, h3-Q046=\":444\"; ma=2592000, h3-Q043=\":444\"; ma=2592000, quic=\":444\"; ma=2592000; v=\"43,46\"\r\nx-turbo-charged-by: LiteSpeed\r\n",
+          "severity": "",
+          "leak_type": "",
+          "leak_stage": "",
+          "size_bytes": 0,
+          "size_human": "unknown",
+          "rows": 0,
+          "collections": 0,
+          "is_infected": false,
+          "ransom_notes": null,
+          "date": "2026-04-23",
+          "country": "United States",
+          "tags": [
+            "rescan"
+          ]
+        },
+        {
+          "plugin": "HttpPlugin",
+          "event_type": "service",
+          "ip": "52.0.54.202",
+          "host": "www.micahed.inception-example.com",
+          "port": "443",
+          "summary": "HTTP/1.1 200 OK\nServer: nginx\r\nDate: Thu, 23 Apr 2026 19:17:19 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: close\r\nlink: <https://www.micahed.inception-example.com/wp-json/>; rel=\"https://api.w.org/\"\r\nlink: <https://www.micahed.inception-example.com/wp-json/wp/v2/pages/2>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\"\r\nlink: <https://www.micahed.inception-example.com/>; rel=shortlink\r\ncache-control: public, max-age=600\r\nexpires: Thu, 23 Apr 2026 19:27:19 GMT\r\nvary: User-Agent,User-Agent\r\nalt-svc: h3=\":444\"; ma=2592000, h3-29=\":444\"; ma=2592000, h3-Q050=\":444\"; ma=2592000, h3-Q046=\":444\"; ma=2592000, h3-Q043=\":444\"; ma=2592000, quic=\":444\"; ma=2592000; v=\"43,46\"\r\nx-turbo-charged-by: LiteSpeed\r\n",
+          "severity": "",
+          "leak_type": "",
+          "leak_stage": "",
+          "size_bytes": 0,
+          "size_human": "unknown",
+          "rows": 0,
+          "collections": 0,
+          "is_infected": false,
+          "ransom_notes": null,
+          "date": "2026-04-23",
+          "country": "United States",
+          "tags": [
+            "rescan"
+          ]
+        },
+        {
+          "plugin": "HttpPlugin",
+          "event_type": "service",
+          "ip": "52.0.54.202",
+          "host": "www.alignmer.inception-example.com.52-0-54-202.cpanel.site",
+          "port": "443",
+          "summary": "HTTP/1.1 301 Moved Permanently\nServer: nginx\r\nDate: Thu, 23 Apr 2026 19:16:22 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nContent-Length: 0\r\nConnection: close\r\nexpires: Thu, 23 Apr 2026 20:16:22 GMT\r\ncache-control: max-age=3600\r\nx-redirect-by: WordPress\r\nlocation: https://www.alignmer.inception-example.com/\r\nvary: User-Agent,User-Agent\r\nx-robots-tag: noindex, nofollow\r\nalt-svc: h3=\":444\"; ma=2592000, h3-29=\":444\"; ma=2592000, h3-Q050=\":444\"; ma=2592000, h3-Q046=\":444\"; ma=2592000, h3-Q043=\":444\"; ma=2592000, quic=\":444\"; ma=2592000; v=\"43,46\"\r\nx-turbo-charged-by: LiteSpeed\r\n",
+          "severity": "",
+          "leak_type": "",
+          "leak_stage": "",
+          "size_bytes": 0,
+          "size_human": "unknown",
+          "rows": 0,
+          "collections": 0,
+          "is_infected": false,
+          "ransom_notes": null,
+          "date": "2026-04-23",
+          "country": "United States",
+          "tags": [
+            "rescan"
+          ]
+        }
+      ],
+      "total_leaks": 0,
+      "total_services": 20,
+      "critical_leaks": 0,
+      "data_exposed_bytes": 0,
+      "error": null
+    },
+    "abuseipdb": {
+      "source": "AbuseIPDB",
+      "available": true,
+      "ip_verdicts": [
+        {
+          "ip": "195.123.220.114",
+          "confidence_score": 0,
+          "confidence_label": "CLEAN",
+          "total_reports": 0,
+          "last_reported": "Never",
+          "country": "NL",
+          "isp": "Green Floid LLC",
+          "domain": "itldc.com",
+          "usage_type": "Commercial",
+          "is_tor": false,
+          "attack_categories": [],
+          "threat_level": "CLEAN",
+          "recent_reports": [],
+          "link": "https://www.abuseipdb.com/check/195.123.220.114"
+        },
+        {
+          "ip": "195.123.238.78",
+          "confidence_score": 0,
+          "confidence_label": "CLEAN",
+          "total_reports": 0,
+          "last_reported": "Never",
+          "country": "SG",
+          "isp": "Green Floid LLC",
+          "domain": "itldc.com",
+          "usage_type": "Data Center/Web Hosting/Transit",
+          "is_tor": false,
+          "attack_categories": [],
+          "threat_level": "CLEAN",
+          "recent_reports": [],
+          "link": "https://www.abuseipdb.com/check/195.123.238.78"
+        },
+        {
+          "ip": "141.98.6.111",
+          "confidence_score": 2,
+          "confidence_label": "LOW RISK",
+          "total_reports": 1,
+          "last_reported": "2026-04-08",
+          "country": "NL",
+          "isp": "NL-Network",
+          "domain": "linkedinlocalnetherlands.com",
+          "usage_type": "Data Center/Web Hosting/Transit",
+          "is_tor": false,
+          "attack_categories": [
+            "SQL Injection",
+            "Bad Web Bot",
+            "Web App Attack"
+          ],
+          "threat_level": "CRITICAL",
+          "recent_reports": [
+            {
+              "reported_at": "2026-04-08",
+              "comment": "Scanning for web/db/file exploits on vostruckparts.nl",
+              "categories": [
+                "SQL Injection",
+                "Bad Web Bot",
+                "Web App Attack"
+              ],
+              "reporter_country": ""
+            }
+          ],
+          "link": "https://www.abuseipdb.com/check/141.98.6.111"
+        },
+        {
+          "ip": "178.17.59.112",
+          "confidence_score": 0,
+          "confidence_label": "CLEAN",
+          "total_reports": 0,
+          "last_reported": "Never",
+          "country": "PL",
+          "isp": "QWINS Hosting",
+          "domain": "qwins.co",
+          "usage_type": "Data Center/Web Hosting/Transit",
+          "is_tor": false,
+          "attack_categories": [],
+          "threat_level": "CLEAN",
+          "recent_reports": [],
+          "link": "https://www.abuseipdb.com/check/178.17.59.112"
+        },
+        {
+          "ip": "46.8.153.111",
+          "confidence_score": 0,
+          "confidence_label": "CLEAN",
+          "total_reports": 0,
+          "last_reported": "Never",
+          "country": "RU",
+          "isp": "Delta Ltd",
+          "domain": "deltainfocom.com",
+          "usage_type": "Data Center/Web Hosting/Transit",
+          "is_tor": false,
+          "attack_categories": [],
+          "threat_level": "CLEAN",
+          "recent_reports": [],
+          "link": "https://www.abuseipdb.com/check/46.8.153.111"
+        },
+        {
+          "ip": "62.233.57.125",
+          "confidence_score": 0,
+          "confidence_label": "CLEAN",
+          "total_reports": 0,
+          "last_reported": "Never",
+          "country": "CZ",
+          "isp": "GREEN FLOID LLC",
+          "domain": "itldc.com",
+          "usage_type": "Data Center/Web Hosting/Transit",
+          "is_tor": false,
+          "attack_categories": [],
+          "threat_level": "CLEAN",
+          "recent_reports": [],
+          "link": "https://www.abuseipdb.com/check/62.233.57.125"
+        },
+        {
+          "ip": "195.234.63.7",
+          "confidence_score": 0,
+          "confidence_label": "CLEAN",
+          "total_reports": 0,
+          "last_reported": "Never",
+          "country": "KZ",
+          "isp": "G-Core Labs Customer assignment",
+          "domain": "gcore.com",
+          "usage_type": "Data Center/Web Hosting/Transit",
+          "is_tor": false,
+          "attack_categories": [],
+          "threat_level": "CLEAN",
+          "recent_reports": [],
+          "link": "https://www.abuseipdb.com/check/195.234.63.7"
+        },
+        {
+          "ip": "185.14.30.29",
+          "confidence_score": 0,
+          "confidence_label": "CLEAN",
+          "total_reports": 0,
+          "last_reported": "Never",
+          "country": "NL",
+          "isp": "GREEN FLOID LLC",
+          "domain": "itldc.com",
+          "usage_type": "Commercial",
+          "is_tor": false,
+          "attack_categories": [],
+          "threat_level": "CLEAN",
+          "recent_reports": [],
+          "link": "https://www.abuseipdb.com/check/185.14.30.29"
+        }
+      ],
+      "malicious_ips": 1,
+      "suspicious_ips": 0,
+      "clean_ips": 7,
+      "tor_exits": 0,
+      "total_reports": 1,
+      "top_categories": [
+        {
+          "category": "SQL Injection",
+          "count": 1,
+          "severity": "HIGH"
+        },
+        {
+          "category": "Bad Web Bot",
+          "count": 1,
+          "severity": "LOW"
+        },
+        {
+          "category": "Web App Attack",
+          "count": 1,
+          "severity": "HIGH"
+        }
+      ],
+      "highest_confidence": 2,
+      "overall_threat": "CRITICAL",
+      "error": null
+    },
+    "all_breached_emails": [],
+    "credential_exposure_count": 0,
+    "malware_families": [
+      1776911652,
+      1776905002,
+      1776692586,
+      1776700525,
+      "Malware Family: StealthWorker / GoBrut",
+      1776807057,
+      1776682450,
+      "MD5 Hash: f8add7e7161460ea2b1970cf4ca535bf",
+      1776700435,
+      1776903894,
+      1776681721,
+      1776755964,
+      "HiddenTear"
+    ],
+    "threat_actors": [
+      "DragonForce Hacker Group Malaysia, Al-Arqam",
+      "StealthWorker/GoBrut (The adversary demonstrates advanced telemetry suppression within specialized s"
+    ],
+    "related_cves": [],
+    "disclaimer": "Dark web monitoring covers: AlienVault OTX (threat pulses, malware families, threat actors), HaveIBeenPwned (breach database), URLhaus (malicious URL feeds), DeHashed (credential dumps), LeakIX (live data leaks), AbuseIPDB (IP reputation). Full Tor hidden service crawling requires commercial feeds (Recorded Future, DarkOwl, Flashpoint)."
+  },
+  "threat_sim": {
+    "domain": "example.com",
+    "attack_chains": [
+      {
+        "chain_id": "AC-005",
+        "name": "Phishing / BEC via Domain Spoofing",
+        "likelihood": "HIGH",
+        "entry_point": "Missing SPF/DMARC records + typosquatting domains",
+        "steps": [
+          {
+            "phase": "Reconnaissance",
+            "tactic": "T1589 Gather Victim Identity Info",
+            "desc": "Email addresses harvested via theHarvester/OSINT"
+          },
+          {
+            "phase": "Resource Development",
+            "tactic": "T1583.001 Acquire Infrastructure",
+            "desc": "Typosquat domain registered \u2014 spoofed email sent from lookalike domain"
+          },
+          {
+            "phase": "Initial Access",
+            "tactic": "T1566.002 Spearphishing Link",
+            "desc": "Targeted phishing email to harvested addresses \u2014 credential harvesting page"
+          },
+          {
+            "phase": "Impact",
+            "tactic": "T1657 Financial Theft",
+            "desc": "BEC fraud \u2014 redirect payments, access SaaS accounts, credential resale"
+          }
+        ],
+        "estimated_time_to_exploit": "Minutes to set up, hours to execute",
+        "skill_required": "LOW",
+        "blast_radius": "CREDENTIAL THEFT, FINANCIAL FRAUD"
+      }
+    ],
+    "total_chains": 1,
+    "highest_likelihood": "HIGH",
+    "summary": "1 realistic attack chains modeled. 1 are HIGH or CRITICAL likelihood.",
+    "disclaimer": "This simulation is for authorized security assessment only. Models are based on MITRE ATT&CK framework and publicly documented techniques."
+  },
+  "closed_loop_response": {
+    "domain": "example.com",
+    "generated_at": "2026-04-23T19:32:13.798495+00:00",
+    "total_actions": 0,
+    "p1_actions": 0,
+    "p2_actions": 0,
+    "p3_actions": 0,
+    "auto_executable_count": 0,
+    "total_commands": 0,
+    "actions": [],
+    "ir_phases": [
+      {
+        "phase": "CONTAIN",
+        "timeline": "0\u20131 hours",
+        "steps": [
+          "Block all P1 ports at perimeter firewall immediately",
+          "Isolate affected hosts from network if active compromise suspected",
+          "Preserve logs: /var/log/auth.log, /var/log/syslog, firewall logs",
+          "Take memory dump if live compromise suspected (avml/lime)"
+        ]
+      },
+      {
+        "phase": "ERADICATE",
+        "timeline": "1\u201324 hours",
+        "steps": [
+          "Execute all P1 remediation commands in this runbook",
+          "Rotate all credentials exposed via open services",
+          "Search for persistence: crontabs, authorized_keys, /etc/passwd new users",
+          "Scan for webshells: find /var/www -name '*.php' | xargs grep -l 'eval('"
+        ]
+      },
+      {
+        "phase": "RECOVER",
+        "timeline": "24\u201372 hours",
+        "steps": [
+          "Execute P2 and P3 actions",
+          "Re-run VoraGuard scan to verify all remediations effective",
+          "Restore services from clean backup if compromise confirmed",
+          "Enable centralized logging (ELK/Splunk/Wazuh)"
+        ]
+      },
+      {
+        "phase": "POST-INCIDENT",
+        "timeline": "72+ hours",
+        "steps": [
+          "Root cause analysis: how was the service left exposed?",
+          "Update asset inventory and patch management policy",
+          "Schedule VoraGuard weekly scans for continuous monitoring",
+          "File regulatory notification if PII breach confirmed (GDPR 72hr deadline)"
+        ]
+      }
+    ],
+    "runbook_summary": "0 remediation actions generated. 0 can be executed automatically. 0 P1 actions must be completed within SLA.",
+    "estimated_remediation_time_hours": 0
+  },
+  "financial_quantification": {
+    "domain": "example.com",
+    "business_sector": "General/Unknown",
+    "methodology": "FAIR (Factor Analysis of Information Risk)",
+    "fair_components": {
+      "threat_event_frequency_per_year": 1.2,
+      "vulnerability_factor_pct": 29.3,
+      "loss_event_frequency_per_year": 0.35,
+      "single_loss_magnitude_usd": 2928000,
+      "secondary_loss_usd": 1317600,
+      "total_loss_magnitude_usd": 4245600
+    },
+    "tef_breakdown": [],
+    "annual_loss_expectancy": {
+      "minimum_usd": 154212,
+      "expected_usd": 1490715,
+      "maximum_usd": 5397417,
+      "label": "$0.2M \u2014 $1.5M \u2014 $5.4M"
+    },
+    "breach_probability_12_months_pct": 29.6,
+    "board_metrics": {
+      "risk_reduction_value_usd": 1192572,
+      "risk_reduction_value_5yr_usd": 5962860,
+      "recommended_security_budget_usd": "$0.15M \u2014 $0.22M",
+      "cost_per_record_breach_usd": 156,
+      "industry_avg_breach_cost_usd": 4880000,
+      "your_estimated_breach_cost_usd": 4245600,
+      "vs_industry_avg": "BELOW AVERAGE"
+    },
+    "peer_benchmark": {
+      "industry_sector": "General/Unknown",
+      "your_risk_score": 85,
+      "industry_avg_score": 62,
+      "status": "BETTER than industry average",
+      "percentile": 85
+    },
+    "insurance_guidance": {
+      "recommended_coverage_usd": 4317933,
+      "deductible_suggestion_usd": 74536,
+      "note": "Cyber insurance carrier will likely require remediation of P1 findings before binding coverage"
+    }
+  },
+  "ot_ics": {
+    "domain": "example.com",
+    "ot_exposure_level": "NONE",
+    "verdict": "No OT/ICS protocols detected on internet-facing ports",
+    "ot_findings_count": 0,
+    "ot_findings": [],
+    "detected_protocols": [],
+    "sector_exposure": [],
+    "attack_scenarios": [],
+    "ot_threat_actors": [],
+    "purdue_model_note": "No Purdue Model violations detected on scanned ports.",
+    "immediate_actions": []
+  },
+  "nhi_shadow_ai": {
+    "domain": "example.com",
+    "overall_nhi_risk": "NONE",
+    "total_findings": 0,
+    "shadow_ai_count": 0,
+    "nhi_exposure_count": 0,
+    "exposed_secrets_count": 0,
+    "shadow_ai_findings": [],
+    "nhi_findings": [],
+    "exposed_secrets": [],
+    "ai_related_subdomains": [],
+    "governance_gaps": [],
+    "categories_detected": [],
+    "nhi_summary": "No NHI or Shadow AI exposures detected on scanned ports.",
+    "compliance_note": "Shadow AI deployments may violate EU AI Act (2024) Article 9 risk management requirements and GDPR Article 22 automated decision-making provisions if models process personal data."
+  },
+  "unified_fabric": {
+    "domain": "example.com",
+    "composite_threat_score": 12,
+    "composite_severity": "LOW",
+    "domain_scores": {
+      "network": {
+        "score": 0,
+        "severity": "NONE",
+        "weight_pct": 20,
+        "top_findings": []
+      },
+      "application": {
+        "score": 20,
+        "severity": "LOW",
+        "weight_pct": 18,
+        "top_findings": [
+          "Security Logging & Monitoring Failures"
+        ]
+      },
+      "identity": {
+        "score": 5,
+        "severity": "LOW",
+        "weight_pct": 17,
+        "top_findings": [
+          "1 email addresses exposed via OSINT"
+        ]
+      },
+      "data": {
+        "score": 20,
+        "severity": "LOW",
+        "weight_pct": 16,
+        "top_findings": [
+          "2 findings on dark web sources"
+        ]
+      },
+      "cloud_api": {
+        "score": 0,
+        "severity": "NONE",
+        "weight_pct": 12,
+        "top_findings": []
+      },
+      "supply_chain": {
+        "score": 40,
+        "severity": "MEDIUM",
+        "weight_pct": 10,
+        "top_findings": [
+          "Cloudflare CDN: LOW"
+        ]
+      },
+      "ot_ics": {
+        "score": 0,
+        "severity": "NONE",
+        "weight_pct": 7,
+        "top_findings": []
+      }
+    },
+    "top_exposed_domains": [
+      {
+        "domain": "supply_chain",
+        "score": 40,
+        "severity": "MEDIUM"
+      },
+      {
+        "domain": "application",
+        "score": 20,
+        "severity": "LOW"
+      },
+      {
+        "domain": "data",
+        "score": 20,
+        "severity": "LOW"
+      }
+    ],
+    "cross_domain_attack_paths": [],
+    "total_cross_domain_paths": 0,
+    "kill_chain_coverage": [],
+    "threat_actors_active": 0,
+    "fabric_summary": "Unified threat fabric score: 12/100 across 7 domains. 0 cross-domain attack paths identified. Top exposed domains: supply_chain, application, data."
+  },
+  "threat_prediction": {
+    "domain": "example.com",
+    "model": "Bayesian inference + FAIR + CISA KEV + DBIR 2024 historical data",
+    "generated_at": "2026-04-23T19:32:13.802438+00:00",
+    "combined_attack_probability_30_days_pct": 38.0,
+    "combined_attack_probability_60_days_pct": 53.2,
+    "combined_attack_probability_90_days_pct": 64.6,
+    "overall_probability_label": "HIGH",
+    "port_threat_predictions": [],
+    "total_ports_at_risk": 0,
+    "predicted_attack_types": [],
+    "weekly_risk_forecast": [
+      {
+        "week": 1,
+        "cumulative_probability": 0.0,
+        "label": "Week 1 (7 days)"
+      },
+      {
+        "week": 2,
+        "cumulative_probability": 0.0,
+        "label": "Week 2 (14 days)"
+      },
+      {
+        "week": 3,
+        "cumulative_probability": 0.0,
+        "label": "Week 3 (21 days)"
+      },
+      {
+        "week": 4,
+        "cumulative_probability": 0.0,
+        "label": "Week 4 (28 days)"
+      },
+      {
+        "week": 5,
+        "cumulative_probability": 0.0,
+        "label": "Week 5 (35 days)"
+      },
+      {
+        "week": 6,
+        "cumulative_probability": 0.0,
+        "label": "Week 6 (42 days)"
+      },
+      {
+        "week": 7,
+        "cumulative_probability": 0.0,
+        "label": "Week 7 (49 days)"
+      },
+      {
+        "week": 8,
+        "cumulative_probability": 0.0,
+        "label": "Week 8 (56 days)"
+      },
+      {
+        "week": 9,
+        "cumulative_probability": 0.0,
+        "label": "Week 9 (63 days)"
+      },
+      {
+        "week": 10,
+        "cumulative_probability": 0.0,
+        "label": "Week 10 (70 days)"
+      },
+      {
+        "week": 11,
+        "cumulative_probability": 0.0,
+        "label": "Week 11 (77 days)"
+      },
+      {
+        "week": 12,
+        "cumulative_probability": 0.0,
+        "label": "Week 12 (84 days)"
+      }
+    ],
+    "global_threat_trends": [
+      {
+        "trend": "Ransomware-as-a-Service targeting SMB",
+        "probability_uplift": 0.08,
+        "active": true
+      },
+      {
+        "trend": "AI-assisted phishing campaigns surge",
+        "probability_uplift": 0.06,
+        "active": true
+      },
+      {
+        "trend": "Supply chain attacks increasing (3CX, XZ)",
+        "probability_uplift": 0.05,
+        "active": true
+      },
+      {
+        "trend": "Initial access broker market growth",
+        "probability_uplift": 0.07,
+        "active": true
+      },
+      {
+        "trend": "State-sponsored OT/ICS targeting",
+        "probability_uplift": 0.04,
+        "active": true
+      },
+      {
+        "trend": "Cloud credential theft via SSRF",
+        "probability_uplift": 0.05,
+        "active": true
+      },
+      {
+        "trend": "Zero-day exploit broker market active",
+        "probability_uplift": 0.03,
+        "active": true
+      }
+    ],
+    "global_trend_uplift_pct": 38.0,
+    "historical_trend": {
+      "available": false
+    },
+    "top_predicted_threats": [],
+    "prediction_disclaimer": "Probabilities are statistical estimates based on historical attack data from CISA KEV, Verizon DBIR 2024, and observed campaign frequency. Not a guarantee of attack occurrence. Remediate identified vulnerabilities to significantly reduce these probabilities."
+  },
+  "ip_scan": {
+    "target": "example.com",
+    "is_direct_ip": false,
+    "resolved_ips": [
+      "172.66.147.243",
+      "104.20.23.154"
+    ],
+    "scan_duration": 12.317206,
+    "scanned_at": "2026-04-24T01:04:09",
+    "success": true,
+    "overall_score": 2,
+    "overall_threat": "HIGH",
+    "total_cves": 0,
+    "total_reports": 0,
+    "key_findings": [],
+    "ip_results": [
+      {
+        "ip": "172.66.147.243",
+        "unified_score": 2,
+        "threat_level": "HIGH",
+        "source_scores": {
+          "abuseipdb": 0,
+          "shodan": 0,
+          "ipqualityscore": 0,
+          "criminalip": 2
+        },
+        "country": "United States",
+        "city": "San Francisco",
+        "org": "Cloudflare, Inc.",
+        "isp": "Cloudflare, Inc.",
+        "is_tor": false,
+        "is_vpn": false,
+        "is_proxy": false,
+        "is_bot": false,
+        "is_scanner": false,
+        "open_ports": [
+          {
+            "port": 80,
+            "protocol": "tcp",
+            "service": "",
+            "version": "",
+            "source": "Shodan"
+          },
+          {
+            "port": 443,
+            "protocol": "tcp",
+            "service": "CloudFlare",
+            "version": "",
+            "source": "Shodan"
+          },
+          {
+            "port": 2052,
+            "protocol": "tcp",
+            "service": "",
+            "version": "",
+            "source": "Shodan"
+          },
+          {
+            "port": 2053,
+            "protocol": "tcp",
+            "service": "",
+            "version": "",
+            "source": "Shodan"
+          },
+          {
+            "port": 2082,
+            "protocol": "tcp",
+            "service": "",
+            "version": "",
+            "source": "Shodan"
+          },
+          {
+            "port": 2083,
+            "protocol": "tcp",
+            "service": "",
+            "version": "",
+            "source": "Shodan"
+          },
+          {
+            "port": 2086,
+            "protocol": "tcp",
+            "service": "",
+            "version": "",
+            "source": "Shodan"
+          },
+          {
+            "port": 2087,
+            "protocol": "tcp",
+            "service": "",
+            "version": "",
+            "source": "Shodan"
+          },
+          {
+            "port": 8080,
+            "protocol": "tcp",
+            "service": "",
+            "version": "",
+            "source": "Shodan"
+          },
+          {
+            "port": 8443,
+            "protocol": "tcp",
+            "service": "CloudFlare",
+            "version": "",
+            "source": "Shodan"
+          },
+          {
+            "port": 8880,
+            "protocol": "tcp",
+            "service": "",
+            "version": "",
+            "source": "Shodan"
+          }
+        ],
+        "cves": [],
+        "key_findings": [],
+        "abuseipdb": {
+          "source": "AbuseIPDB",
+          "available": true,
+          "ip": "172.66.147.243",
+          "confidence_score": 0,
+          "confidence_label": "CLEAN",
+          "total_reports": 0,
+          "last_reported": "Never",
+          "country": "US",
+          "isp": "Cloudflare, Inc.",
+          "usage_type": "Content Delivery Network",
+          "is_tor": false,
+          "is_public": true,
+          "attack_categories": [],
+          "recent_reports": [],
+          "threat_level": "CLEAN",
+          "link": "https://www.abuseipdb.com/check/172.66.147.243",
+          "error": null
+        },
+        "shodan": {
+          "source": "Shodan",
+          "available": true,
+          "ip": "172.66.147.243",
+          "open_ports": [
+            8080,
+            2082,
+            2083,
+            2052,
+            2053,
+            2086,
+            2087,
+            80,
+            8880,
+            8443,
+            443
+          ],
+          "services": [
+            {
+              "port": 80,
+              "protocol": "tcp",
+              "product": "",
+              "version": "",
+              "banner": "HTTP/1.1 403 Forbidden\r Date: Thu, 23 Apr 2026 02:04:12 GMT\r Content-Type: text/plain; charset=UTF-8\r Content-Length: 16",
+              "cpe": [
+                "cpe:/a:cloudflare:cloudflare"
+              ],
+              "vulns": []
+            },
+            {
+              "port": 443,
+              "protocol": "tcp",
+              "product": "CloudFlare",
+              "version": "",
+              "banner": "HTTP/1.1 400 Bad Request\r Server: cloudflare\r Date: Thu, 23 Apr 2026 17:08:45 GMT\r Content-Type: text/html\r Content-Leng",
+              "cpe": [
+                "cpe:/a:cloudflare:cloudflare"
+              ],
+              "vulns": []
+            },
+            {
+              "port": 2052,
+              "protocol": "tcp",
+              "product": "",
+              "version": "",
+              "banner": "HTTP/1.1 403 Forbidden\r Date: Tue, 21 Apr 2026 11:21:58 GMT\r Content-Type: text/plain; charset=UTF-8\r Content-Length: 16",
+              "cpe": [
+                "cpe:/a:cloudflare:cloudflare"
+              ],
+              "vulns": []
+            },
+            {
+              "port": 2053,
+              "protocol": "tcp",
+              "product": "",
+              "version": "",
+              "banner": "HTTP/1.1 400 Bad Request\r Server: cloudflare\r Date: Mon, 20 Apr 2026 15:57:51 GMT\r Content-Type: text/html\r Content-Leng",
+              "cpe": [
+                "cpe:/a:cloudflare:cloudflare"
+              ],
+              "vulns": []
+            },
+            {
+              "port": 2082,
+              "protocol": "tcp",
+              "product": "",
+              "version": "",
+              "banner": "HTTP/1.1 403 Forbidden\r Date: Thu, 23 Apr 2026 13:57:39 GMT\r Content-Type: text/plain; charset=UTF-8\r Content-Length: 16",
+              "cpe": [
+                "cpe:/a:cloudflare:cloudflare"
+              ],
+              "vulns": []
+            },
+            {
+              "port": 2083,
+              "protocol": "tcp",
+              "product": "",
+              "version": "",
+              "banner": "HTTP/1.1 400 Bad Request\r Server: cloudflare\r Date: Thu, 23 Apr 2026 09:25:53 GMT\r Content-Type: text/html\r Content-Leng",
+              "cpe": [
+                "cpe:/a:cloudflare:cloudflare"
+              ],
+              "vulns": []
+            },
+            {
+              "port": 2086,
+              "protocol": "tcp",
+              "product": "",
+              "version": "",
+              "banner": "HTTP/1.1 403 Forbidden\r Date: Thu, 23 Apr 2026 14:02:26 GMT\r Content-Type: text/plain; charset=UTF-8\r Content-Length: 16",
+              "cpe": [
+                "cpe:/a:cloudflare:cloudflare"
+              ],
+              "vulns": []
+            },
+            {
+              "port": 2087,
+              "protocol": "tcp",
+              "product": "",
+              "version": "",
+              "banner": "HTTP/1.1 400 Bad Request\r Server: cloudflare\r Date: Thu, 23 Apr 2026 13:53:00 GMT\r Content-Type: text/html\r Content-Leng",
+              "cpe": [],
+              "vulns": []
+            },
+            {
+              "port": 8080,
+              "protocol": "tcp",
+              "product": "",
+              "version": "",
+              "banner": "HTTP/1.1 403 Forbidden\r Date: Thu, 23 Apr 2026 11:40:08 GMT\r Content-Type: text/plain; charset=UTF-8\r Content-Length: 16",
+              "cpe": [
+                "cpe:/a:cloudflare:cloudflare"
+              ],
+              "vulns": []
+            },
+            {
+              "port": 8443,
+              "protocol": "tcp",
+              "product": "CloudFlare",
+              "version": "",
+              "banner": "HTTP/1.1 400 Bad Request\r Server: cloudflare\r Date: Thu, 23 Apr 2026 11:20:16 GMT\r Content-Type: text/html\r Content-Leng",
+              "cpe": [
+                "cpe:/a:cloudflare:cloudflare"
+              ],
+              "vulns": []
+            },
+            {
+              "port": 8880,
+              "protocol": "tcp",
+              "product": "",
+              "version": "",
+              "banner": "HTTP/1.1 403 Forbidden\r Date: Thu, 23 Apr 2026 14:56:25 GMT\r Content-Type: text/plain; charset=UTF-8\r Content-Length: 16",
+              "cpe": [],
+              "vulns": []
+            }
+          ],
+          "cves": [],
+          "os": "",
+          "country": "United States",
+          "city": "San Francisco",
+          "org": "Cloudflare, Inc.",
+          "isp": "Cloudflare, Inc.",
+          "hostnames": [],
+          "domains": [],
+          "tags": [
+            "cdn"
+          ],
+          "last_update": "2026-04-23",
+          "vulns": [],
+          "threat_level": "HIGH",
+          "link": "https://www.shodan.io/host/172.66.147.243",
+          "error": null
+        },
+        "ipqualityscore": {
+          "source": "IPQualityScore",
+          "available": false,
+          "ip": "172.66.147.243",
+          "fraud_score": 0,
+          "fraud_label": "UNKNOWN",
+          "is_proxy": false,
+          "is_vpn": false,
+          "is_tor": false,
+          "is_bot": false,
+          "is_crawler": false,
+          "recent_abuse": false,
+          "abuse_velocity": "none",
+          "country": "",
+          "city": "",
+          "region": "",
+          "isp": "",
+          "org": "",
+          "timezone": "",
+          "mobile": false,
+          "connection_type": "",
+          "threat_level": "UNKNOWN",
+          "link": "https://www.ipqualityscore.com/free-ip-lookup-proxy-vpn-test/lookup/172.66.147.243",
+          "error": "You have insufficient credits to make this query. Please contact IPQualityScore support if this error persists."
+        },
+        "criminalip": {
+          "source": "CriminalIP",
+          "available": true,
+          "ip": "172.66.147.243",
+          "attack_score": 2,
+          "score_label": "LOW",
+          "inbound_score": 2,
+          "outbound_score": 1,
+          "is_scanner": false,
+          "is_vpn": false,
+          "is_tor": false,
+          "is_cloud": false,
+          "is_datacenter": false,
+          "country": "",
+          "city": "",
+          "org": "",
+          "isp": "",
+          "open_ports": [],
+          "cves": [],
+          "tags": [],
+          "current_opened_count": 0,
+          "threat_level": "LOW",
+          "link": "https://www.criminalip.io/ip/172.66.147.243",
+          "error": null
+        }
+      },
+      {
+        "ip": "104.20.23.154",
+        "unified_score": 2,
+        "threat_level": "LOW",
+        "source_scores": {
+          "abuseipdb": 0,
+          "shodan": 0,
+          "ipqualityscore": 0,
+          "criminalip": 2
+        },
+        "country": "US",
+        "city": "",
+        "org": "",
+        "isp": "Cloudflare, Inc.",
+        "is_tor": false,
+        "is_vpn": false,
+        "is_proxy": false,
+        "is_bot": false,
+        "is_scanner": false,
+        "open_ports": [],
+        "cves": [],
+        "key_findings": [],
+        "abuseipdb": {
+          "source": "AbuseIPDB",
+          "available": true,
+          "ip": "104.20.23.154",
+          "confidence_score": 0,
+          "confidence_label": "CLEAN",
+          "total_reports": 0,
+          "last_reported": "Never",
+          "country": "US",
+          "isp": "Cloudflare, Inc.",
+          "usage_type": "Content Delivery Network",
+          "is_tor": false,
+          "is_public": true,
+          "attack_categories": [],
+          "recent_reports": [],
+          "threat_level": "CLEAN",
+          "link": "https://www.abuseipdb.com/check/104.20.23.154",
+          "error": null
+        },
+        "shodan": {
+          "source": "Shodan",
+          "available": false,
+          "ip": "104.20.23.154",
+          "open_ports": [],
+          "services": [],
+          "cves": [],
+          "os": "",
+          "country": "",
+          "city": "",
+          "org": "",
+          "isp": "",
+          "hostnames": [],
+          "domains": [],
+          "tags": [],
+          "last_update": "",
+          "vulns": [],
+          "threat_level": "UNKNOWN",
+          "link": "https://www.shodan.io/host/104.20.23.154",
+          "error": "HTTP 403"
+        },
+        "ipqualityscore": {
+          "source": "IPQualityScore",
+          "available": false,
+          "ip": "104.20.23.154",
+          "fraud_score": 0,
+          "fraud_label": "UNKNOWN",
+          "is_proxy": false,
+          "is_vpn": false,
+          "is_tor": false,
+          "is_bot": false,
+          "is_crawler": false,
+          "recent_abuse": false,
+          "abuse_velocity": "none",
+          "country": "",
+          "city": "",
+          "region": "",
+          "isp": "",
+          "org": "",
+          "timezone": "",
+          "mobile": false,
+          "connection_type": "",
+          "threat_level": "UNKNOWN",
+          "link": "https://www.ipqualityscore.com/free-ip-lookup-proxy-vpn-test/lookup/104.20.23.154",
+          "error": "You have insufficient credits to make this query. Please contact IPQualityScore support if this error persists."
+        },
+        "criminalip": {
+          "source": "CriminalIP",
+          "available": true,
+          "ip": "104.20.23.154",
+          "attack_score": 2,
+          "score_label": "LOW",
+          "inbound_score": 2,
+          "outbound_score": 1,
+          "is_scanner": false,
+          "is_vpn": false,
+          "is_tor": false,
+          "is_cloud": false,
+          "is_datacenter": false,
+          "country": "",
+          "city": "",
+          "org": "",
+          "isp": "",
+          "open_ports": [],
+          "cves": [],
+          "tags": [],
+          "current_opened_count": 0,
+          "threat_level": "LOW",
+          "link": "https://www.criminalip.io/ip/104.20.23.154",
+          "error": null
+        }
+      }
+    ],
+    "sources_used": [
+      "AbuseIPDB",
+      "Shodan",
+      "IPQualityScore",
+      "CriminalIP"
+    ],
+    "sources_active": [
+      "AbuseIPDB",
+      "Shodan",
+      "IPQualityScore",
+      "CriminalIP"
+    ]
+  },
+  "deep_scan": {
+    "dnssec": {
+      "enabled": true,
+      "ds_record": true,
+      "dnskey": true,
+      "rrsig": true,
+      "issues": []
+    },
+    "zone_transfer": {
+      "vulnerable": false,
+      "nameservers_tested": [
+        "hera.ns.cloudflare.com",
+        "elliott.ns.cloudflare.com"
+      ],
+      "leaked_records": [],
+      "issues": []
+    },
+    "dangling_cnames": {
+      "dangling": [],
+      "checked": [],
+      "issues": []
+    },
+    "ttl_analysis": {
+      "records": [
+        {
+          "type": "A",
+          "ttl": 5
+        },
+        {
+          "type": "A",
+          "ttl": 5
+        },
+        {
+          "type": "MX",
+          "ttl": 5
+        },
+        {
+          "type": "NS",
+          "ttl": 5
+        },
+        {
+          "type": "NS",
+          "ttl": 5
+        },
+        {
+          "type": "TXT",
+          "ttl": 5
+        },
+        {
+          "type": "TXT",
+          "ttl": 5
+        }
+      ],
+      "issues": [
+        "Very low TTL (5s) on A record \u2014 may cause instability",
+        "Very low TTL (5s) on A record \u2014 may cause instability",
+        "Very low TTL (5s) on MX record \u2014 may cause instability",
+        "Very low TTL (5s) on NS record \u2014 may cause instability",
+        "Very low TTL (5s) on NS record \u2014 may cause instability",
+        "Very low TTL (5s) on TXT record \u2014 may cause instability",
+        "Very low TTL (5s) on TXT record \u2014 may cause instability"
+      ]
+    },
+    "ns_redundancy": {
+      "nameservers": [
+        "hera.ns.cloudflare.com",
+        "elliott.ns.cloudflare.com"
+      ],
+      "unique_asns": [
+        "172.64",
+        "108.162"
+      ],
+      "redundant": true,
+      "issues": []
+    },
+    "dkim": {
+      "selectors_found": [
+        "default",
+        "google",
+        "mail",
+        "dkim",
+        "k1",
+        "k2",
+        "s1",
+        "s2",
+        "selector1",
+        "selector2",
+        "email",
+        "smtp",
+        "mta",
+        "key1",
+        "key2",
+        "sendgrid",
+        "mailchimp",
+        "amazonses",
+        "pm",
+        "mandrill"
+      ],
+      "valid_keys": [
+        "default",
+        "google",
+        "mail",
+        "dkim",
+        "k1",
+        "k2",
+        "s1",
+        "s2",
+        "selector1",
+        "selector2",
+        "email",
+        "smtp",
+        "mta",
+        "key1",
+        "key2",
+        "sendgrid",
+        "mailchimp",
+        "amazonses",
+        "pm",
+        "mandrill"
+      ],
+      "issues": []
+    },
+    "bimi": {
+      "present": false,
+      "record": "",
+      "has_logo": false,
+      "has_vmc": false,
+      "issues": [
+        "No BIMI record \u2014 brand logo not shown in supported email clients"
+      ]
+    },
+    "mta_sts": {
+      "mta_sts_present": false,
+      "tls_rpt_present": false,
+      "policy": {},
+      "issues": [
+        "MTA-STS not configured \u2014 SMTP connections vulnerable to downgrade attacks",
+        "TLS-RPT not configured \u2014 no SMTP TLS failure reporting"
+      ]
+    },
+    "open_relay": {
+      "mx_hosts": [
+        ""
+      ],
+      "open_relay": false,
+      "tested": false,
+      "issues": []
+    },
+    "rbl_check": {
+      "ip": "172.66.147.243",
+      "listed_on": [],
+      "clean": true,
+      "checked_lists": 10,
+      "issues": []
+    },
+    "cipher_suites": {
+      "supported_protocols": [
+        "TLSv1.3"
+      ],
+      "weak_ciphers": [],
+      "strong_ciphers": [
+        "TLS_AES_256_GCM_SHA384"
+      ],
+      "issues": []
+    },
+    "hsts": {
+      "hsts_present": false,
+      "max_age": 0,
+      "include_subdomains": false,
+      "preload": false,
+      "preload_eligible": false,
+      "issues": [
+        "HSTS header missing \u2014 users vulnerable to SSL stripping attacks"
+      ]
+    },
+    "ct_logs": {
+      "recent_certs": [],
+      "total_found": 0,
+      "suspicious": [],
+      "issues": [
+        "CT log check error: HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=15)"
+      ]
+    },
+    "cookie_security": {
+      "cookies": [],
+      "insecure_cookies": [],
+      "issues": []
+    },
+    "cms_fingerprint": {
+      "cms": null,
+      "version": null,
+      "plugins": [],
+      "issues": []
+    },
+    "waf_detection": {
+      "waf_detected": true,
+      "waf_name": "Cloudflare",
+      "confidence": "high",
+      "issues": []
+    },
+    "cloud_assets": {
+      "exposed_buckets": [
+        {
+          "provider": "S3",
+          "url": "https://example.s3.amazonaws.com",
+          "status": "EXISTS_PRIVATE"
+        },
+        {
+          "provider": "S3",
+          "url": "https://s3.amazonaws.com/example",
+          "status": "EXISTS_PRIVATE"
+        },
+        {
+          "provider": "GCP",
+          "url": "https://storage.googleapis.com/example",
+          "status": "EXISTS_PRIVATE"
+        },
+        {
+          "provider": "S3",
+          "url": "https://example-backup.s3.amazonaws.com",
+          "status": "EXISTS_PRIVATE"
+        },
+        {
+          "provider": "GCP",
+          "url": "https://storage.googleapis.com/example-backup",
+          "status": "EXISTS_PRIVATE"
+        },
+        {
+          "provider": "S3",
+          "url": "https://example-static.s3.amazonaws.com",
+          "status": "EXISTS_PRIVATE"
+        },
+        {
+          "provider": "S3",
+          "url": "https://s3.amazonaws.com/example-static",
+          "status": "EXISTS_PRIVATE"
+        },
+        {
+          "provider": "S3",
+          "url": "https://example-media.s3.amazonaws.com",
+          "status": "EXISTS_PRIVATE"
+        },
+        {
+          "provider": "GCP",
+          "url": "https://storage.googleapis.com/example-media",
+          "status": "EXISTS_PRIVATE"
+        }
+      ],
+      "checked": [
+        "https://example.s3.amazonaws.com",
+        "https://s3.amazonaws.com/example",
+        "https://example.blob.core.windows.net",
+        "https://storage.googleapis.com/example",
+        "https://example-backup.s3.amazonaws.com",
+        "https://s3.amazonaws.com/example-backup",
+        "https://example-backup.blob.core.windows.net",
+        "https://storage.googleapis.com/example-backup",
+        "https://example-assets.s3.amazonaws.com",
+        "https://s3.amazonaws.com/example-assets",
+        "https://example-assets.blob.core.windows.net",
+        "https://storage.googleapis.com/example-assets",
+        "https://example-static.s3.amazonaws.com",
+        "https://s3.amazonaws.com/example-static",
+        "https://example-static.blob.core.windows.net",
+        "https://storage.googleapis.com/example-static",
+        "https://example-media.s3.amazonaws.com",
+        "https://s3.amazonaws.com/example-media",
+        "https://example-media.blob.core.windows.net",
+        "https://storage.googleapis.com/example-media"
+      ],
+      "issues": []
+    },
+    "subdomains": {
+      "subdomains": [
+        "example.com",
+        "www.example.com"
+      ],
+      "total": 2,
+      "live": [
+        "example.com",
+        "www.example.com"
+      ],
+      "issues": []
+    },
+    "spf_hard_fail": {
+      "spf_record": "v=spf1 -all",
+      "policy": "hard_fail (-all)",
+      "hard_fail": true,
+      "lookup_count": 0,
+      "issues": []
+    },
+    "dmarc_policy": {
+      "record": "v=DMARC1;p=reject;sp=reject;adkim=s;aspf=s",
+      "policy": "reject",
+      "subdomain_policy": "reject",
+      "pct": 100,
+      "rua": [],
+      "ruf": [],
+      "strict_alignment": true,
+      "issues": [
+        "No DMARC aggregate reporting address (rua) \u2014 not receiving spoofing reports"
+      ]
+    },
+    "summary": {
+      "total_checks": 20,
+      "total_issues": 13,
+      "all_issues": [
+        {
+          "check": "ttl_analysis",
+          "issue": "Very low TTL (5s) on A record \u2014 may cause instability"
+        },
+        {
+          "check": "ttl_analysis",
+          "issue": "Very low TTL (5s) on A record \u2014 may cause instability"
+        },
+        {
+          "check": "ttl_analysis",
+          "issue": "Very low TTL (5s) on MX record \u2014 may cause instability"
+        },
+        {
+          "check": "ttl_analysis",
+          "issue": "Very low TTL (5s) on NS record \u2014 may cause instability"
+        },
+        {
+          "check": "ttl_analysis",
+          "issue": "Very low TTL (5s) on NS record \u2014 may cause instability"
+        },
+        {
+          "check": "ttl_analysis",
+          "issue": "Very low TTL (5s) on TXT record \u2014 may cause instability"
+        },
+        {
+          "check": "ttl_analysis",
+          "issue": "Very low TTL (5s) on TXT record \u2014 may cause instability"
+        },
+        {
+          "check": "bimi",
+          "issue": "No BIMI record \u2014 brand logo not shown in supported email clients"
+        },
+        {
+          "check": "mta_sts",
+          "issue": "MTA-STS not configured \u2014 SMTP connections vulnerable to downgrade attacks"
+        },
+        {
+          "check": "mta_sts",
+          "issue": "TLS-RPT not configured \u2014 no SMTP TLS failure reporting"
+        },
+        {
+          "check": "hsts",
+          "issue": "HSTS header missing \u2014 users vulnerable to SSL stripping attacks"
+        },
+        {
+          "check": "ct_logs",
+          "issue": "CT log check error: HTTPSConnectionPool(host='crt.sh', port=443): Read timed out. (read timeout=15)"
+        },
+        {
+          "check": "dmarc_policy",
+          "issue": "No DMARC aggregate reporting address (rua) \u2014 not receiving spoofing reports"
+        }
+      ],
+      "critical_count": 0,
+      "scanned_at": "2026-04-23T19:33:57.218285+00:00"
+    }
+  },
+  "scan_mode": "domain",
+  "output_dir": "/home/j/voraguard/scans/example.com_20260424_005859",
+  "success": true,
+  "error": ""
+}

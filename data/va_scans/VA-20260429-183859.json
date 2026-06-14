@@ -1,0 +1,308 @@
+{
+  "scan_id": "VA-20260429-183859",
+  "target": "keralapsc.gov.in",
+  "scan_type": "non_credentialed",
+  "started_at": "2026-04-29T13:08:59.698737+00:00",
+  "completed_at": "2026-04-29T13:09:14.952780+00:00",
+  "duration_seconds": 15.3,
+  "status": "complete",
+  "open_ports": [
+    {
+      "port": 80,
+      "protocol": "tcp",
+      "service": "http",
+      "banner": "",
+      "state": "open",
+      "risk": "HIGH"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2021-41773",
+      "cvss": 9.8,
+      "severity": "CRITICAL",
+      "description": "Apache HTTP Server path traversal and RCE",
+      "affected": "Apache 2.4.49",
+      "fix": "Upgrade Apache to 2.4.51+",
+      "exploitable": true,
+      "exploit_available": true,
+      "port": 80,
+      "service": "http",
+      "banner": "",
+      "detected_version": "unknown",
+      "false_positive_risk": "LOW",
+      "remediation": "Update http to latest version and apply security hardening",
+      "risk_score": 7.0,
+      "adjusted_risk": 10.0,
+      "priority": "PATCH_NOW"
+    },
+    {
+      "cve": "CVE-2023-25690",
+      "cvss": 9.8,
+      "severity": "CRITICAL",
+      "description": "Apache HTTP request splitting",
+      "affected": "Apache 2.4.0-2.4.55",
+      "fix": "Upgrade Apache to 2.4.56+",
+      "exploitable": true,
+      "exploit_available": true,
+      "port": 80,
+      "service": "http",
+      "banner": "",
+      "detected_version": "unknown",
+      "false_positive_risk": "LOW",
+      "remediation": "Update http to latest version and apply security hardening",
+      "risk_score": 7.0,
+      "adjusted_risk": 10.0,
+      "priority": "PATCH_NOW"
+    },
+    {
+      "cve": "CVE-2022-22720",
+      "cvss": 9.8,
+      "severity": "CRITICAL",
+      "description": "Apache HTTP request smuggling",
+      "affected": "Apache 2.4.0-2.4.52",
+      "fix": "Upgrade Apache to 2.4.53+",
+      "exploitable": true,
+      "exploit_available": false,
+      "port": 80,
+      "service": "http",
+      "banner": "",
+      "detected_version": "unknown",
+      "false_positive_risk": "MEDIUM",
+      "remediation": "Update http to latest version and apply security hardening",
+      "risk_score": 7.0,
+      "adjusted_risk": 9.8,
+      "priority": "PATCH_NOW"
+    }
+  ],
+  "compliance": {
+    "PCI-DSS": {
+      "score": 83,
+      "status": "PARTIAL",
+      "violations": [
+        {
+          "rule": "4.2.1",
+          "description": "No HTTPS detected \u2014 cardholder data may be transmitted unencrypted",
+          "severity": "CRITICAL",
+          "check_id": "no_https"
+        }
+      ],
+      "passed": [
+        {
+          "rule": "2.2.2",
+          "description": "No open telnet detected",
+          "check_id": "open_telnet"
+        },
+        {
+          "rule": "2.2.2",
+          "description": "No open ftp detected",
+          "check_id": "open_ftp"
+        },
+        {
+          "rule": "8.6.1",
+          "description": "No open rdp detected",
+          "check_id": "open_rdp"
+        },
+        {
+          "rule": "6.3.3",
+          "description": "No no ssh version detected",
+          "check_id": "no_ssh_version"
+        },
+        {
+          "rule": "1.3.2",
+          "description": "No open smb detected",
+          "check_id": "open_smb"
+        }
+      ],
+      "total_checks": 6,
+      "pass_count": 5,
+      "fail_count": 1
+    },
+    "HIPAA": {
+      "score": 75,
+      "status": "PARTIAL",
+      "violations": [
+        {
+          "rule": "164.312(e)(2)(ii)",
+          "description": "No encryption in transit for potential PHI",
+          "severity": "CRITICAL",
+          "check_id": "no_https"
+        }
+      ],
+      "passed": [
+        {
+          "rule": "164.312(e)(1)",
+          "description": "No open telnet detected",
+          "check_id": "open_telnet"
+        },
+        {
+          "rule": "164.312(d)",
+          "description": "No open rdp detected",
+          "check_id": "open_rdp"
+        },
+        {
+          "rule": "164.312(e)(1)",
+          "description": "No open ftp detected",
+          "check_id": "open_ftp"
+        }
+      ],
+      "total_checks": 4,
+      "pass_count": 3,
+      "fail_count": 1
+    },
+    "GDPR": {
+      "score": 75,
+      "status": "PARTIAL",
+      "violations": [
+        {
+          "rule": "Art.32",
+          "description": "No HTTPS \u2014 personal data may be transmitted without encryption (Art. 32)",
+          "severity": "CRITICAL",
+          "check_id": "no_https"
+        }
+      ],
+      "passed": [
+        {
+          "rule": "Art.32",
+          "description": "No open telnet detected",
+          "check_id": "open_telnet"
+        },
+        {
+          "rule": "Art.32",
+          "description": "No open ftp detected",
+          "check_id": "open_ftp"
+        },
+        {
+          "rule": "Art.25",
+          "description": "No open rdp detected",
+          "check_id": "open_rdp"
+        }
+      ],
+      "total_checks": 4,
+      "pass_count": 3,
+      "fail_count": 1
+    },
+    "SOC2": {
+      "score": 75,
+      "status": "PARTIAL",
+      "violations": [
+        {
+          "rule": "CC6.7",
+          "description": "Unencrypted transmission violates CC6.7",
+          "severity": "HIGH",
+          "check_id": "no_https"
+        }
+      ],
+      "passed": [
+        {
+          "rule": "CC6.1",
+          "description": "No open telnet detected",
+          "check_id": "open_telnet"
+        },
+        {
+          "rule": "CC6.6",
+          "description": "No open rdp detected",
+          "check_id": "open_rdp"
+        },
+        {
+          "rule": "CC6.6",
+          "description": "No open smb detected",
+          "check_id": "open_smb"
+        }
+      ],
+      "total_checks": 4,
+      "pass_count": 3,
+      "fail_count": 1
+    },
+    "CIS": {
+      "score": 80,
+      "status": "PARTIAL",
+      "violations": [
+        {
+          "rule": "CIS-3.10",
+          "description": "Encrypt sensitive data in transit (CIS Control 3.10)",
+          "severity": "HIGH",
+          "check_id": "no_https"
+        }
+      ],
+      "passed": [
+        {
+          "rule": "CIS-4.1",
+          "description": "No open telnet detected",
+          "check_id": "open_telnet"
+        },
+        {
+          "rule": "CIS-12.8",
+          "description": "No open rdp detected",
+          "check_id": "open_rdp"
+        },
+        {
+          "rule": "CIS-4.1",
+          "description": "No open ftp detected",
+          "check_id": "open_ftp"
+        },
+        {
+          "rule": "CIS-9.2",
+          "description": "No open smb detected",
+          "check_id": "open_smb"
+        }
+      ],
+      "total_checks": 5,
+      "pass_count": 4,
+      "fail_count": 1
+    }
+  },
+  "attack_paths": [
+    {
+      "id": "PATH-003",
+      "name": "Web Application Attack \u2192 Code Execution \u2192 Persistence",
+      "steps": [
+        {
+          "step": 1,
+          "technique": "T1190 - Exploit Public-Facing Application",
+          "description": "CVE-2021-41773: Apache HTTP Server path traversal and RCE"
+        },
+        {
+          "step": 2,
+          "technique": "T1059 - Command Execution",
+          "description": "Attacker executes OS commands via web shell"
+        },
+        {
+          "step": 3,
+          "technique": "T1505.003 - Web Shell",
+          "description": "Attacker installs persistent web shell"
+        },
+        {
+          "step": 4,
+          "technique": "T1078 - Valid Accounts",
+          "description": "Attacker harvests credentials from web application"
+        }
+      ],
+      "risk": "HIGH",
+      "cvss_chain": 9.8,
+      "likelihood": "MEDIUM",
+      "impact": "Web application compromise, data breach"
+    }
+  ],
+  "shadow_it": [],
+  "ssl_analysis": {},
+  "credentialed_findings": [],
+  "risk_summary": {},
+  "remediation_plan": [
+    {
+      "priority": "PATCH_NOW",
+      "cve": "CVE-2021-41773",
+      "action": "Update http to latest version and apply security hardening",
+      "severity": "CRITICAL"
+    }
+  ],
+  "total_vulns": 3,
+  "critical_count": 3,
+  "high_count": 0,
+  "medium_count": 0,
+  "low_count": 0,
+  "risk_score": 10.0,
+  "asset_criticality": "MEDIUM",
+  "error": "",
+  "risk_level": "CRITICAL"
+}

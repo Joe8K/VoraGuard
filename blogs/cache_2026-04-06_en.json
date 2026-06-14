@@ -1,0 +1,1508 @@
+{
+  "date": "2026-04-06",
+  "language": "English",
+  "language_iso": "en",
+  "total_items": 48,
+  "total_critical": 9,
+  "total_high": 16,
+  "sources_count": 11,
+  "sources_used": [
+    "BleepingComputer",
+    "Check Point Research",
+    "Krebs on Security",
+    "Malwarebytes",
+    "NVD",
+    "SANS ISC",
+    "SecurityAffairs",
+    "SecurityWeek",
+    "Shodan",
+    "The Hacker News",
+    "The Record"
+  ],
+  "executive_summary": "Cyber threat intelligence digest for 2026-04-06. 48 live items from 11 sources. 9 CRITICAL and 16 HIGH severity events in the last 36 hours. Top threats: New FortiClient EMS flaw exploited in attacks, emergency patch released; How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers; Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools. All items are from today only \u2014 no recycled or old news.",
+  "executive_summary_en": "Cyber threat intelligence digest for 2026-04-06. 48 live items from 11 sources. 9 CRITICAL and 16 HIGH severity events in the last 36 hours. Top threats: New FortiClient EMS flaw exploited in attacks, emergency patch released; How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers; Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools. All items are from today only \u2014 no recycled or old news.",
+  "sections": [
+    {
+      "title": "\ud83d\udd34 BREAKING \u2014 Active Threats Today",
+      "title_en": "\ud83d\udd34 BREAKING \u2014 Active Threats Today",
+      "items": [
+        {
+          "source": "BleepingComputer",
+          "category": "global_news",
+          "type": "news",
+          "title": "New FortiClient EMS flaw exploited in attacks, emergency patch released",
+          "summary": "Fortinet has released an emergency weekend security update for a new critical FortiClient Enterprise Management Server (EMS) vulnerability that is actively exploited in attacks. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/",
+          "date": "Sun, 05 Apr 2026 14:45:17",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS",
+          "summary": "Fortinet has released out-of-band patches for a critical security flaw impacting FortiClient EMS that it said has been exploited in the&nbsp;wild.\nThe&nbsp;vulnerability, tracked&nbsp;as CVE-2026-35616 (CVSS score: 9.1), has been described as a pre-authentication API access bypass leading to privilege escalation.\n\"An improper access control vulnerability [CWE-284] in FortiClient EMS may allow an",
+          "url": "https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html",
+          "date": "Sun, 05 Apr 2026 10:02:00",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "SecurityWeek",
+          "category": "global_news",
+          "type": "news",
+          "title": "Fortinet Rushes Emergency Fixes for Exploited Zero-Day",
+          "summary": "The improper access control bug in FortiClient EMS allows unauthenticated attackers to execute arbitrary code remotely.\nThe post Fortinet Rushes Emergency Fixes for Exploited Zero-Day appeared first on SecurityWeek.",
+          "url": "https://www.securityweek.com/fortinet-rushes-emergency-fixes-for-exploited-zero-day/",
+          "date": "Mon, 06 Apr 2026 09:37:28",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "SecurityAffairs",
+          "category": "global_news",
+          "type": "news",
+          "title": "CVE-2026-35616: Fortinet fixes actively exploited high-severity flaw",
+          "summary": "Fortinet issued emergency patches for a critical FortiClient EMS flaw (CVE-2026-35616) actively exploited in the wild. Fortinet released out-of-band patches for a critical FortiClient EMS vulnerability, tracked as CVE-2026-35616 (CVSS 9.1), which is already being exploited in attacks in the wild. The flaw is an improper access control issue that allows attackers to bypass authentication [&#8230;]",
+          "url": "https://securityaffairs.com/190392/hacking/cve-2026-35616-fortinet-fixes-actively-exploited-high-severity-flaw.html",
+          "date": "Mon, 06 Apr 2026 05:10:29",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        }
+      ],
+      "count": 4
+    },
+    {
+      "title": "\ud83e\udda0 Ransomware & Extortion Campaigns",
+      "title_en": "\ud83e\udda0 Ransomware & Extortion Campaigns",
+      "items": [
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools",
+          "summary": "Threat actors associated&nbsp;with Qilin&nbsp;and Warlock ransomware operations&nbsp;have been&nbsp;observed using the bring your own vulnerable driver&nbsp;(BYOVD) technique to silence security tools running on compromised hosts, according to findings from Cisco Talos and Trend&nbsp;Micro.\nQilin attacks analyzed by Talos&nbsp;have been&nbsp;found to deploy a malicious DLL named \"msimg32.dll,\"",
+          "url": "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html",
+          "date": "Mon, 06 Apr 2026 15:37:00",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1486",
+              "Ransomware"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks",
+          "summary": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identities of two of the key figures associated with the now-defunct REvil (aka Sodinokibi) ransomware-as-a-service (RaaS) operation.\nOne of the threat actors, who went by the alias UNKN, functioned as a representative of the group, advertising the ransomware in June 2019 on the XSS cybercrime forum",
+          "url": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
+          "date": "Mon, 06 Apr 2026 12:29:00",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1486",
+              "Ransomware"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "Krebs on Security",
+          "category": "global_news",
+          "type": "news",
+          "title": "Germany Doxes \u201cUNKN,\u201d Head of RU Ransomware Gangs REvil, GandCrab",
+          "summary": "An elusive hacker who went by the handle \"UNKN\" and ran the early Russian ransomware groups GandCrab and REvil now has a name and a face. Authorities in Germany say 31-year-old Russian Daniil Maksimovich Shchukin headed both cybercrime gangs and helped carry out at least 130 acts of computer sabotage and extortion against victims across the country between 2019 and 2021.",
+          "url": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
+          "date": "Mon, 06 Apr 2026 02:07:17",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1486",
+              "Ransomware"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "SecurityAffairs",
+          "category": "global_news",
+          "type": "news",
+          "title": "Security Affairs newsletter Round 571 by Pierluigi Paganini \u2013 INTERNATIONAL EDITION",
+          "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including the international press. Qilin ransomware group claims the hack of German political party Die Linke U.S. CISA adds a [&#8230;]",
+          "url": "https://securityaffairs.com/190368/breaking-news/security-affairs-newsletter-round-571-by-pierluigi-paganini-international-edition.html",
+          "date": "Sun, 05 Apr 2026 08:29:28",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1486",
+              "Ransomware"
+            ]
+          ],
+          "today": true
+        }
+      ],
+      "count": 4
+    },
+    {
+      "title": "\ud83d\udd75 APT & Nation-State Operations",
+      "title_en": "\ud83d\udd75 APT & Nation-State Operations",
+      "items": [
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers",
+          "summary": "The&nbsp;most active piece of enterprise infrastructure in the company is the developer workstation. That&nbsp;laptop is where credentials are created, tested, cached, copied, and reused across services, bots, build tools, and now local AI&nbsp;agents.\nIn&nbsp;March 2026, the TeamPCP threat&nbsp;actor proved just how&nbsp;valuable developer&nbsp;machines are. Their&nbsp;supply chain attack on",
+          "url": "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
+          "date": "Mon, 06 Apr 2026 17:15:00",
+          "severity": "CRITICAL",
+          "mitre": [
+            [
+              "T1078",
+              "Valid Accounts"
+            ],
+            [
+              "T1195",
+              "Supply Chain"
+            ]
+          ],
+          "today": true
+        }
+      ],
+      "count": 1
+    },
+    {
+      "title": "\ud83d\udd13 New CVEs Today (NVD \u2014 Last 36h)",
+      "title_en": "\ud83d\udd13 New CVEs Today (NVD \u2014 Last 36h)",
+      "items": [
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-5534 [CVSS 7.3] \u2014 A vulnerability was identified in itsourcecode Online Enrollment System 1.0. Thi",
+          "summary": "A vulnerability was identified in itsourcecode Online Enrollment System 1.0. This affects an unknown function of the file /sms/user/index.php?view=edit&id=10 of the component Parameter Handler. Such manipulation of the argument USERID leads to sql injection. The attack can be executed remotely. The exploit is publicly available and might be used.",
+          "severity": "HIGH",
+          "cvss_score": 7.3,
+          "cve": "CVE-2026-5534",
+          "date": "2026-04-05",
+          "url": "https://github.com/ldan42008-ux/cve/issues/2",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ],
+            [
+              "T1505",
+              "Web Shell"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-5536 [CVSS 7.3] \u2014 A weakness has been identified in FedML-AI FedML up to 0.8.9. Affected is the fu",
+          "summary": "A weakness has been identified in FedML-AI FedML up to 0.8.9. Affected is the function sendMessage of the file grpc_server.py of the component gRPC server. Executing a manipulation can lead to deserialization. The attack may be performed from remote. The vendor was contacted early about this disclosure but did not respond in any way.",
+          "severity": "HIGH",
+          "cvss_score": 7.3,
+          "cve": "CVE-2026-5536",
+          "date": "2026-04-05",
+          "url": "https://github.com/AnalogyC0de/public_exp/issues/26",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-5540 [CVSS 7.3] \u2014 A vulnerability has been found in code-projects Simple Laundry System 1.0. This ",
+          "summary": "A vulnerability has been found in code-projects Simple Laundry System 1.0. This vulnerability affects unknown code of the file /modifymember.php of the component Parameter Handler. Such manipulation of the argument firstName leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+          "severity": "HIGH",
+          "cvss_score": 7.3,
+          "cve": "CVE-2026-5540",
+          "date": "2026-04-05",
+          "url": "https://code-projects.org/",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ],
+            [
+              "T1505",
+              "Web Shell"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-5544 [CVSS 8.8] \u2014 A security flaw has been discovered in UTT HiPER 1250GW up to 3.2.7-210907-18053",
+          "summary": "A security flaw has been discovered in UTT HiPER 1250GW up to 3.2.7-210907-180535. The impacted element is an unknown function of the file /goform/formRemoteControl. The manipulation of the argument Profile results in stack-based buffer overflow. The attack can be executed remotely. The exploit has been released to the public and may be used for attacks.",
+          "severity": "HIGH",
+          "cvss_score": 8.8,
+          "cve": "CVE-2026-5544",
+          "date": "2026-04-05",
+          "url": "https://github.com/jinxjinxboom/cve/issues/1",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-5548 [CVSS 8.8] \u2014 A vulnerability was found in Tenda AC10 16.03.10.10_multi_TDE01. Affected by thi",
+          "summary": "A vulnerability was found in Tenda AC10 16.03.10.10_multi_TDE01. Affected by this vulnerability is the function fromSysToolChangePwd of the file /bin/httpd. Performing a manipulation of the argument sys.userpass results in stack-based buffer overflow. The attack can be initiated remotely.",
+          "severity": "HIGH",
+          "cvss_score": 8.8,
+          "cve": "CVE-2026-5548",
+          "date": "2026-04-05",
+          "url": "https://github.com/somanyerrors/tenda-ac10v4-vulnerabilities/blob/main/findings/CRITICAL-04-stackoverflow-fromsystoolchangepwd.md",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-5550 [CVSS 8.8] \u2014 A vulnerability was identified in Tenda AC10 16.03.10.10_multi_TDE01. This affec",
+          "summary": "A vulnerability was identified in Tenda AC10 16.03.10.10_multi_TDE01. This affects the function fromSysToolChangePwd of the file /bin/httpd. The manipulation leads to stack-based buffer overflow. The attack may be initiated remotely. Multiple endpoints might be affected.",
+          "severity": "HIGH",
+          "cvss_score": 8.8,
+          "cve": "CVE-2026-5550",
+          "date": "2026-04-05",
+          "url": "https://github.com/somanyerrors/tenda-ac10v4-vulnerabilities/blob/main/findings/HIGH-01-getvalue-229-callers.md",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-5531 [CVSS 5.3] \u2014 A vulnerability has been found in SourceCodester Student Result Management Syste",
+          "summary": "A vulnerability has been found in SourceCodester Student Result Management System 1.0. Impacted is an unknown function of the file /login_credentials.txt of the component HTTP GET Request Handler. The manipulation leads to cleartext storage in a file or on disk. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+          "severity": "MEDIUM",
+          "cvss_score": 5.3,
+          "cve": "CVE-2026-5531",
+          "date": "2026-04-05",
+          "url": "https://drive.google.com/file/d/1moQEev6skJoIe7UlL6YyR2xGgX5smeXb/view?usp=sharing",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ],
+            [
+              "T1078",
+              "Valid Accounts"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "NVD",
+          "category": "cve",
+          "type": "cve",
+          "title": "CVE-2026-5532 [CVSS 6.3] \u2014 A vulnerability was found in ScrapeGraphAI scrapegraph-ai up to 1.74.0. The affe",
+          "summary": "A vulnerability was found in ScrapeGraphAI scrapegraph-ai up to 1.74.0. The affected element is the function create_sandbox_and_execute of the file scrapegraphai/nodes/generate_code_node.py of the component GenerateCodeNode Component. The manipulation results in os command injection. The attack may be launched remotely. The exploit has been made public and could be used. The vendor was contacted e",
+          "severity": "MEDIUM",
+          "cvss_score": 6.3,
+          "cve": "CVE-2026-5532",
+          "date": "2026-04-05",
+          "url": "https://github.com/August829/CVEP/issues/19",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ]
+          ],
+          "today": true
+        }
+      ],
+      "count": 20
+    },
+    {
+      "title": "\ud83c\udf10 Internet Exposure (Shodan)",
+      "title_en": "\ud83c\udf10 Internet Exposure (Shodan)",
+      "items": [
+        {
+          "source": "Shodan",
+          "category": "internet_exposure",
+          "type": "exposure",
+          "title": "885,044 hosts: All vulnerable hosts India",
+          "summary": "Query: has_vuln:true country:IN",
+          "severity": "HIGH",
+          "date": "2026-04-06",
+          "count": 885044,
+          "url": "https://www.shodan.io/search?query=has_vuln%3Atrue%20country%3AIN",
+          "mitre": [
+            [
+              "T1046",
+              "Network Service Scanning"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "Shodan",
+          "category": "internet_exposure",
+          "type": "exposure",
+          "title": "2,487,954 hosts: RDP exposed globally",
+          "summary": "Query: port:3389",
+          "severity": "HIGH",
+          "date": "2026-04-06",
+          "count": 2487954,
+          "url": "https://www.shodan.io/search?query=port%3A3389",
+          "mitre": [
+            [
+              "T1046",
+              "Network Service Scanning"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "Shodan",
+          "category": "internet_exposure",
+          "type": "exposure",
+          "title": "0 hosts: Vulnerable Indian hosts (2024 CVEs)",
+          "summary": "Query: vuln:CVE-2024 country:IN",
+          "severity": "MEDIUM",
+          "date": "2026-04-06",
+          "count": 0,
+          "url": "https://www.shodan.io/search?query=vuln%3ACVE-2024%20country%3AIN",
+          "mitre": [
+            [
+              "T1046",
+              "Network Service Scanning"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "Shodan",
+          "category": "internet_exposure",
+          "type": "exposure",
+          "title": "38,622 hosts: RDP exposed India",
+          "summary": "Query: port:3389 country:IN",
+          "severity": "MEDIUM",
+          "date": "2026-04-06",
+          "count": 38622,
+          "url": "https://www.shodan.io/search?query=port%3A3389%20country%3AIN",
+          "mitre": [
+            [
+              "T1046",
+              "Network Service Scanning"
+            ]
+          ],
+          "today": true
+        }
+      ],
+      "count": 4
+    },
+    {
+      "title": "\ud83d\udd2c Vendor Threat Intel (Talos/Unit42/Mandiant/etc)",
+      "title_en": "\ud83d\udd2c Vendor Threat Intel (Talos/Unit42/Mandiant/etc)",
+      "items": [
+        {
+          "source": "Check Point Research",
+          "category": "threat_intel",
+          "type": "news",
+          "title": "6th April \u2013 Threat Intelligence Report",
+          "summary": "For the latest discoveries in cyber research for the week of 30th March, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES The European Commission, the European Union&#8217;s executive body, has confirmed a data breach after its Europa.eu platform was compromised through a third-party exchange linked to the Trivy supply chain attack. The incident [&#8230;]\nThe post 6th Apr",
+          "url": "https://research.checkpoint.com/2026/6th-march-threat-intelligence-report-2/",
+          "date": "Mon, 06 Apr 2026 11:21:31",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1195",
+              "Supply Chain"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "SANS ISC",
+          "category": "threat_intel",
+          "type": "news",
+          "title": "How often are redirects used in phishing in 2026&#x3f;, (Mon, Apr 6th)",
+          "summary": "In one of his recent diaries, Johannes discussed how open redirects are actively being sought out by threat actors&#x5b;1&#x5d;, which made me wonder about how commonly these mechanisms are actually misused&#xe2;&#x80;&#xa6;&#xd;",
+          "url": "https://isc.sans.edu/diary/rss/32870",
+          "date": "Mon, 06 Apr 2026 08:50:27",
+          "severity": "MEDIUM",
+          "mitre": [
+            [
+              "T1566",
+              "Phishing"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "SANS ISC",
+          "category": "threat_intel",
+          "type": "news",
+          "title": "ISC Stormcast For Monday, April 6th, 2026 https://isc.sans.edu/podcastdetail/9880, (Mon, Apr 6th)",
+          "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+          "url": "https://isc.sans.edu/diary/rss/32868",
+          "date": "Mon, 06 Apr 2026 02:00:02",
+          "severity": "LOW",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "Malwarebytes",
+          "category": "threat_intel",
+          "type": "news",
+          "title": "A week in security (March 30 &#8211; April 5)",
+          "summary": "A list of topics we covered in the week of March 30 to April 5 of 2026",
+          "url": "https://www.malwarebytes.com/blog/news/2026/04/a-week-in-security-march-30-april-5-2",
+          "date": "Mon, 06 Apr 2026 07:01:00",
+          "severity": "LOW",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "Malwarebytes",
+          "category": "threat_intel",
+          "type": "news",
+          "title": "Killer robots are here. Now what? (Lock and Code S07E07)",
+          "summary": "This week on the Lock and Code podcast, we speak with Peter Asaro about killer robots, how to stop them, and their obvious consequences.",
+          "url": "https://www.malwarebytes.com/blog/podcast/2026/04/killer-robots-are-here-now-what-lock-and-code-s07e07",
+          "date": "Sun, 05 Apr 2026 23:10:20",
+          "severity": "LOW",
+          "mitre": [],
+          "today": true
+        }
+      ],
+      "count": 5
+    },
+    {
+      "title": "\ud83d\udcf0 Cyber Security Headlines",
+      "title_en": "\ud83d\udcf0 Cyber Security Headlines",
+      "items": [
+        {
+          "source": "BleepingComputer",
+          "category": "global_news",
+          "type": "news",
+          "title": "Hackers exploit React2Shell in automated credential theft campaign",
+          "summary": "Hackers are running a large-scale campaign to steal credentials in an automated way after exploiting React2Shell (CVE-2025-55182) in vulnerable Next.js apps. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/",
+          "date": "Sun, 05 Apr 2026 10:17:23",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ],
+            [
+              "T1078",
+              "Valid Accounts"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "$285 Million Drift Hack Traced to Six-Month DPRK Social Engineering Operation",
+          "summary": "Drift&nbsp;has revealed that the April 1, 2026, attack that led to&nbsp;the theft of $285&nbsp;million was the culmination of a months-long targeted and meticulously planned social engineering operation undertaken by the Democratic People's Republic of Korea (DPRK) that began in the fall of&nbsp;2025.\nThe&nbsp;Solana-based decentralized exchange described it as \"an attack six months in the",
+          "url": "https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html",
+          "date": "Sun, 05 Apr 2026 23:55:00",
+          "severity": "HIGH",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "The Hacker News",
+          "category": "global_news",
+          "type": "news",
+          "title": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants",
+          "summary": "Cybersecurity researchers have discovered 36 malicious packages in the npm registry that are disguised as Strapi CMS plugins but come with different payloads to facilitate Redis and PostgreSQL exploitation, deploy reverse shells, harvest credentials, and drop a persistent&nbsp;implant.\n\"Every package contains three files (package.json, index.js, postinstall.js), has no description, repository,",
+          "url": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
+          "date": "Sun, 05 Apr 2026 10:37:00",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1190",
+              "Exploit Public App"
+            ],
+            [
+              "T1078",
+              "Valid Accounts"
+            ],
+            [
+              "T1195",
+              "Supply Chain"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "The Record",
+          "category": "global_news",
+          "type": "news",
+          "title": "Hackers threaten to leak data after cyberattack on German party Die Linke",
+          "summary": "Die Linke confirmed in late March that its IT infrastructure had been hit by what it described as a \u201cserious cyberattack.\u201d",
+          "url": "https://therecord.media/hackers-threaten-to-leak-german-political-party-data",
+          "date": "Mon, 06 Apr 2026 12:29:00",
+          "severity": "HIGH",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "SecurityWeek",
+          "category": "global_news",
+          "type": "news",
+          "title": "North Korean Hackers Target High-Profile Node.js Maintainers",
+          "summary": "The threat actor behind the Axios supply chain attack has been aiming at other maintainers in its social engineering campaign.\nThe post North Korean Hackers Target High-Profile Node.js Maintainers appeared first on SecurityWeek.",
+          "url": "https://www.securityweek.com/north-korean-hackers-target-high-profile-node-js-maintainers/",
+          "date": "Mon, 06 Apr 2026 11:02:36",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1195",
+              "Supply Chain"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "SecurityAffairs",
+          "category": "global_news",
+          "type": "news",
+          "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 91",
+          "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Infiniti Stealer: a new macOS infostealer using ClickFix and Python/Nuitka&#160;&#160; Converging Interests: Analysis of Threat Clusters Targeting a Southeast Asian Government RoadK1ll: A WebSocket Based Pivoting Implant&#160;&#160;&#160; axios Compromised: npm Supp",
+          "url": "https://securityaffairs.com/190379/malware/security-affairs-malware-newsletter-round-91.html",
+          "date": "Sun, 05 Apr 2026 14:34:20",
+          "severity": "HIGH",
+          "mitre": [
+            [
+              "T1195",
+              "Supply Chain"
+            ]
+          ],
+          "today": true
+        },
+        {
+          "source": "SecurityAffairs",
+          "category": "global_news",
+          "type": "news",
+          "title": "Image or Malware? Read until the end and answer in comments :)",
+          "summary": "A malicious email delivered a .cmd malware that escalates privileges, bypasses antivirus, downloads payloads, sets persistence, and self-deletes. I received this email from a friend to make an analysis. First, let me express my thanks to Jan\u00f4 Falkowski Burkard for this amazing contribution. A little context, He received an email that was really strange and [&#8230;]",
+          "url": "https://securityaffairs.com/190358/hacking/image-or-malware-read-until-the-end-and-answer-in-comments.html",
+          "date": "Sun, 05 Apr 2026 08:35:40",
+          "severity": "HIGH",
+          "mitre": [],
+          "today": true
+        },
+        {
+          "source": "BleepingComputer",
+          "category": "global_news",
+          "type": "news",
+          "title": "Traffic violation scams switch to QR codes in new phishing texts",
+          "summary": "Scammers are sending fake \"Notice of Default\" traffic violation text messages impersonating state courts across the U.S., pressuring recipients to scan a QR code that leads to a phishing site demanding a $6.99 payment while stealing personal and financial information. [...]",
+          "url": "https://www.bleepingcomputer.com/news/security/traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts/",
+          "date": "Sun, 05 Apr 2026 15:44:10",
+          "severity": "MEDIUM",
+          "mitre": [
+            [
+              "T1566",
+              "Phishing"
+            ],
+            [
+              "T1046",
+              "Network Scanning"
+            ]
+          ],
+          "today": true
+        }
+      ],
+      "count": 10
+    }
+  ],
+  "raw_items": [
+    {
+      "source": "BleepingComputer",
+      "category": "global_news",
+      "type": "news",
+      "title": "Traffic violation scams switch to QR codes in new phishing texts",
+      "summary": "Scammers are sending fake \"Notice of Default\" traffic violation text messages impersonating state courts across the U.S., pressuring recipients to scan a QR code that leads to a phishing site demanding a $6.99 payment while stealing personal and financial information. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/traffic-violation-scams-switch-to-qr-codes-in-new-phishing-texts/",
+      "date": "Sun, 05 Apr 2026 15:44:10",
+      "severity": "MEDIUM",
+      "mitre": [
+        [
+          "T1566",
+          "Phishing"
+        ],
+        [
+          "T1046",
+          "Network Scanning"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "BleepingComputer",
+      "category": "global_news",
+      "type": "news",
+      "title": "New FortiClient EMS flaw exploited in attacks, emergency patch released",
+      "summary": "Fortinet has released an emergency weekend security update for a new critical FortiClient Enterprise Management Server (EMS) vulnerability that is actively exploited in attacks. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/",
+      "date": "Sun, 05 Apr 2026 14:45:17",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "BleepingComputer",
+      "category": "global_news",
+      "type": "news",
+      "title": "Hackers exploit React2Shell in automated credential theft campaign",
+      "summary": "Hackers are running a large-scale campaign to steal credentials in an automated way after exploiting React2Shell (CVE-2025-55182) in vulnerable Next.js apps. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/",
+      "date": "Sun, 05 Apr 2026 10:17:23",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ],
+        [
+          "T1078",
+          "Valid Accounts"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers",
+      "summary": "The&nbsp;most active piece of enterprise infrastructure in the company is the developer workstation. That&nbsp;laptop is where credentials are created, tested, cached, copied, and reused across services, bots, build tools, and now local AI&nbsp;agents.\nIn&nbsp;March 2026, the TeamPCP threat&nbsp;actor proved just how&nbsp;valuable developer&nbsp;machines are. Their&nbsp;supply chain attack on",
+      "url": "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
+      "date": "Mon, 06 Apr 2026 17:15:00",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1078",
+          "Valid Accounts"
+        ],
+        [
+          "T1195",
+          "Supply Chain"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools",
+      "summary": "Threat actors associated&nbsp;with Qilin&nbsp;and Warlock ransomware operations&nbsp;have been&nbsp;observed using the bring your own vulnerable driver&nbsp;(BYOVD) technique to silence security tools running on compromised hosts, according to findings from Cisco Talos and Trend&nbsp;Micro.\nQilin attacks analyzed by Talos&nbsp;have been&nbsp;found to deploy a malicious DLL named \"msimg32.dll,\"",
+      "url": "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html",
+      "date": "Mon, 06 Apr 2026 15:37:00",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1486",
+          "Ransomware"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks",
+      "summary": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identities of two of the key figures associated with the now-defunct REvil (aka Sodinokibi) ransomware-as-a-service (RaaS) operation.\nOne of the threat actors, who went by the alias UNKN, functioned as a representative of the group, advertising the ransomware in June 2019 on the XSS cybercrime forum",
+      "url": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
+      "date": "Mon, 06 Apr 2026 12:29:00",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1486",
+          "Ransomware"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "$285 Million Drift Hack Traced to Six-Month DPRK Social Engineering Operation",
+      "summary": "Drift&nbsp;has revealed that the April 1, 2026, attack that led to&nbsp;the theft of $285&nbsp;million was the culmination of a months-long targeted and meticulously planned social engineering operation undertaken by the Democratic People's Republic of Korea (DPRK) that began in the fall of&nbsp;2025.\nThe&nbsp;Solana-based decentralized exchange described it as \"an attack six months in the",
+      "url": "https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html",
+      "date": "Sun, 05 Apr 2026 23:55:00",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants",
+      "summary": "Cybersecurity researchers have discovered 36 malicious packages in the npm registry that are disguised as Strapi CMS plugins but come with different payloads to facilitate Redis and PostgreSQL exploitation, deploy reverse shells, harvest credentials, and drop a persistent&nbsp;implant.\n\"Every package contains three files (package.json, index.js, postinstall.js), has no description, repository,",
+      "url": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
+      "date": "Sun, 05 Apr 2026 10:37:00",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ],
+        [
+          "T1078",
+          "Valid Accounts"
+        ],
+        [
+          "T1195",
+          "Supply Chain"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Hacker News",
+      "category": "global_news",
+      "type": "news",
+      "title": "Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS",
+      "summary": "Fortinet has released out-of-band patches for a critical security flaw impacting FortiClient EMS that it said has been exploited in the&nbsp;wild.\nThe&nbsp;vulnerability, tracked&nbsp;as CVE-2026-35616 (CVSS score: 9.1), has been described as a pre-authentication API access bypass leading to privilege escalation.\n\"An improper access control vulnerability [CWE-284] in FortiClient EMS may allow an",
+      "url": "https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html",
+      "date": "Sun, 05 Apr 2026 10:02:00",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Krebs on Security",
+      "category": "global_news",
+      "type": "news",
+      "title": "Germany Doxes \u201cUNKN,\u201d Head of RU Ransomware Gangs REvil, GandCrab",
+      "summary": "An elusive hacker who went by the handle \"UNKN\" and ran the early Russian ransomware groups GandCrab and REvil now has a name and a face. Authorities in Germany say 31-year-old Russian Daniil Maksimovich Shchukin headed both cybercrime gangs and helped carry out at least 130 acts of computer sabotage and extortion against victims across the country between 2019 and 2021.",
+      "url": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
+      "date": "Mon, 06 Apr 2026 02:07:17",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1486",
+          "Ransomware"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "The Record",
+      "category": "global_news",
+      "type": "news",
+      "title": "Major outage hits Russian banking apps, metro payments across regions",
+      "summary": "The disruption on Friday affected apps from some of the country\u2019s largest banks, including Sberbank, VTB, Alfa-Bank, T-Bank and Gazprombank.",
+      "url": "https://therecord.media/outage-hits-russian-banking-apps",
+      "date": "Mon, 06 Apr 2026 12:37:00",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "The Record",
+      "category": "global_news",
+      "type": "news",
+      "title": "Hackers threaten to leak data after cyberattack on German party Die Linke",
+      "summary": "Die Linke confirmed in late March that its IT infrastructure had been hit by what it described as a \u201cserious cyberattack.\u201d",
+      "url": "https://therecord.media/hackers-threaten-to-leak-german-political-party-data",
+      "date": "Mon, 06 Apr 2026 12:29:00",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityWeek",
+      "category": "global_news",
+      "type": "news",
+      "title": "Guardarian Users Targeted With Malicious Strapi NPM Packages",
+      "summary": "Hackers published 36 NPM packages posing as Strapi plugins to execute shells, escape containers, and harvest credentials.\nThe post Guardarian Users Targeted With Malicious Strapi NPM Packages appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/guardarian-users-targeted-with-malicious-strapi-npm-packages/",
+      "date": "Mon, 06 Apr 2026 11:40:56",
+      "severity": "LOW",
+      "mitre": [
+        [
+          "T1078",
+          "Valid Accounts"
+        ],
+        [
+          "T1195",
+          "Supply Chain"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "SecurityWeek",
+      "category": "global_news",
+      "type": "news",
+      "title": "North Korean Hackers Target High-Profile Node.js Maintainers",
+      "summary": "The threat actor behind the Axios supply chain attack has been aiming at other maintainers in its social engineering campaign.\nThe post North Korean Hackers Target High-Profile Node.js Maintainers appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/north-korean-hackers-target-high-profile-node-js-maintainers/",
+      "date": "Mon, 06 Apr 2026 11:02:36",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1195",
+          "Supply Chain"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "SecurityWeek",
+      "category": "global_news",
+      "type": "news",
+      "title": "Fortinet Rushes Emergency Fixes for Exploited Zero-Day",
+      "summary": "The improper access control bug in FortiClient EMS allows unauthenticated attackers to execute arbitrary code remotely.\nThe post Fortinet Rushes Emergency Fixes for Exploited Zero-Day appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/fortinet-rushes-emergency-fixes-for-exploited-zero-day/",
+      "date": "Mon, 06 Apr 2026 09:37:28",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "SANS ISC",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "How often are redirects used in phishing in 2026&#x3f;, (Mon, Apr 6th)",
+      "summary": "In one of his recent diaries, Johannes discussed how open redirects are actively being sought out by threat actors&#x5b;1&#x5d;, which made me wonder about how commonly these mechanisms are actually misused&#xe2;&#x80;&#xa6;&#xd;",
+      "url": "https://isc.sans.edu/diary/rss/32870",
+      "date": "Mon, 06 Apr 2026 08:50:27",
+      "severity": "MEDIUM",
+      "mitre": [
+        [
+          "T1566",
+          "Phishing"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "SANS ISC",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "ISC Stormcast For Monday, April 6th, 2026 https://isc.sans.edu/podcastdetail/9880, (Mon, Apr 6th)",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "url": "https://isc.sans.edu/diary/rss/32868",
+      "date": "Mon, 06 Apr 2026 02:00:02",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Check Point Research",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "6th April \u2013 Threat Intelligence Report",
+      "summary": "For the latest discoveries in cyber research for the week of 30th March, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES The European Commission, the European Union&#8217;s executive body, has confirmed a data breach after its Europa.eu platform was compromised through a third-party exchange linked to the Trivy supply chain attack. The incident [&#8230;]\nThe post 6th Apr",
+      "url": "https://research.checkpoint.com/2026/6th-march-threat-intelligence-report-2/",
+      "date": "Mon, 06 Apr 2026 11:21:31",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1195",
+          "Supply Chain"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Malwarebytes",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "A week in security (March 30 &#8211; April 5)",
+      "summary": "A list of topics we covered in the week of March 30 to April 5 of 2026",
+      "url": "https://www.malwarebytes.com/blog/news/2026/04/a-week-in-security-march-30-april-5-2",
+      "date": "Mon, 06 Apr 2026 07:01:00",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Malwarebytes",
+      "category": "threat_intel",
+      "type": "news",
+      "title": "Killer robots are here. Now what? (Lock and Code S07E07)",
+      "summary": "This week on the Lock and Code podcast, we speak with Peter Asaro about killer robots, how to stop them, and their obvious consequences.",
+      "url": "https://www.malwarebytes.com/blog/podcast/2026/04/killer-robots-are-here-now-what-lock-and-code-s07e07",
+      "date": "Sun, 05 Apr 2026 23:10:20",
+      "severity": "LOW",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityAffairs",
+      "category": "global_news",
+      "type": "news",
+      "title": "CVE-2026-35616: Fortinet fixes actively exploited high-severity flaw",
+      "summary": "Fortinet issued emergency patches for a critical FortiClient EMS flaw (CVE-2026-35616) actively exploited in the wild. Fortinet released out-of-band patches for a critical FortiClient EMS vulnerability, tracked as CVE-2026-35616 (CVSS 9.1), which is already being exploited in attacks in the wild. The flaw is an improper access control issue that allows attackers to bypass authentication [&#8230;]",
+      "url": "https://securityaffairs.com/190392/hacking/cve-2026-35616-fortinet-fixes-actively-exploited-high-severity-flaw.html",
+      "date": "Mon, 06 Apr 2026 05:10:29",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "SecurityAffairs",
+      "category": "global_news",
+      "type": "news",
+      "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 91",
+      "summary": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Infiniti Stealer: a new macOS infostealer using ClickFix and Python/Nuitka&#160;&#160; Converging Interests: Analysis of Threat Clusters Targeting a Southeast Asian Government RoadK1ll: A WebSocket Based Pivoting Implant&#160;&#160;&#160; axios Compromised: npm Supp",
+      "url": "https://securityaffairs.com/190379/malware/security-affairs-malware-newsletter-round-91.html",
+      "date": "Sun, 05 Apr 2026 14:34:20",
+      "severity": "HIGH",
+      "mitre": [
+        [
+          "T1195",
+          "Supply Chain"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "SecurityAffairs",
+      "category": "global_news",
+      "type": "news",
+      "title": "Image or Malware? Read until the end and answer in comments :)",
+      "summary": "A malicious email delivered a .cmd malware that escalates privileges, bypasses antivirus, downloads payloads, sets persistence, and self-deletes. I received this email from a friend to make an analysis. First, let me express my thanks to Jan\u00f4 Falkowski Burkard for this amazing contribution. A little context, He received an email that was really strange and [&#8230;]",
+      "url": "https://securityaffairs.com/190358/hacking/image-or-malware-read-until-the-end-and-answer-in-comments.html",
+      "date": "Sun, 05 Apr 2026 08:35:40",
+      "severity": "HIGH",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "SecurityAffairs",
+      "category": "global_news",
+      "type": "news",
+      "title": "Security Affairs newsletter Round 571 by Pierluigi Paganini \u2013 INTERNATIONAL EDITION",
+      "summary": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including the international press. Qilin ransomware group claims the hack of German political party Die Linke U.S. CISA adds a [&#8230;]",
+      "url": "https://securityaffairs.com/190368/breaking-news/security-affairs-newsletter-round-571-by-pierluigi-paganini-international-edition.html",
+      "date": "Sun, 05 Apr 2026 08:29:28",
+      "severity": "CRITICAL",
+      "mitre": [
+        [
+          "T1486",
+          "Ransomware"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5531 [CVSS 5.3] \u2014 A vulnerability has been found in SourceCodester Student Result Management Syste",
+      "summary": "A vulnerability has been found in SourceCodester Student Result Management System 1.0. Impacted is an unknown function of the file /login_credentials.txt of the component HTTP GET Request Handler. The manipulation leads to cleartext storage in a file or on disk. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "severity": "MEDIUM",
+      "cvss_score": 5.3,
+      "cve": "CVE-2026-5531",
+      "date": "2026-04-05",
+      "url": "https://drive.google.com/file/d/1moQEev6skJoIe7UlL6YyR2xGgX5smeXb/view?usp=sharing",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ],
+        [
+          "T1078",
+          "Valid Accounts"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5532 [CVSS 6.3] \u2014 A vulnerability was found in ScrapeGraphAI scrapegraph-ai up to 1.74.0. The affe",
+      "summary": "A vulnerability was found in ScrapeGraphAI scrapegraph-ai up to 1.74.0. The affected element is the function create_sandbox_and_execute of the file scrapegraphai/nodes/generate_code_node.py of the component GenerateCodeNode Component. The manipulation results in os command injection. The attack may be launched remotely. The exploit has been made public and could be used. The vendor was contacted e",
+      "severity": "MEDIUM",
+      "cvss_score": 6.3,
+      "cve": "CVE-2026-5532",
+      "date": "2026-04-05",
+      "url": "https://github.com/August829/CVEP/issues/19",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5533 [CVSS 4.3] \u2014 A vulnerability was determined in badlogic pi-mono 0.58.4. The impacted element ",
+      "summary": "A vulnerability was determined in badlogic pi-mono 0.58.4. The impacted element is an unknown function of the file packages/web-ui/src/tools/artifacts/SvgArtifact.ts of the component SVG Artifact Handler. This manipulation causes cross site scripting. Remote exploitation of the attack is possible. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about thi",
+      "severity": "MEDIUM",
+      "cvss_score": 4.3,
+      "cve": "CVE-2026-5533",
+      "date": "2026-04-05",
+      "url": "https://github.com/August829/CVEP/issues/20",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5534 [CVSS 7.3] \u2014 A vulnerability was identified in itsourcecode Online Enrollment System 1.0. Thi",
+      "summary": "A vulnerability was identified in itsourcecode Online Enrollment System 1.0. This affects an unknown function of the file /sms/user/index.php?view=edit&id=10 of the component Parameter Handler. Such manipulation of the argument USERID leads to sql injection. The attack can be executed remotely. The exploit is publicly available and might be used.",
+      "severity": "HIGH",
+      "cvss_score": 7.3,
+      "cve": "CVE-2026-5534",
+      "date": "2026-04-05",
+      "url": "https://github.com/ldan42008-ux/cve/issues/2",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ],
+        [
+          "T1505",
+          "Web Shell"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5535 [CVSS 4.3] \u2014 A security flaw has been discovered in FedML-AI FedML up to 0.8.9. This impacts ",
+      "summary": "A security flaw has been discovered in FedML-AI FedML up to 0.8.9. This impacts an unknown function of the file FileUtils.java of the component MQTT Message Handler. Performing a manipulation of the argument dataSet results in path traversal. The attack is possible to be carried out remotely. The exploit has been released to the public and may be used for attacks. The vendor was contacted early ab",
+      "severity": "MEDIUM",
+      "cvss_score": 4.3,
+      "cve": "CVE-2026-5535",
+      "date": "2026-04-05",
+      "url": "https://github.com/AnalogyC0de/public_exp/issues/25",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5536 [CVSS 7.3] \u2014 A weakness has been identified in FedML-AI FedML up to 0.8.9. Affected is the fu",
+      "summary": "A weakness has been identified in FedML-AI FedML up to 0.8.9. Affected is the function sendMessage of the file grpc_server.py of the component gRPC server. Executing a manipulation can lead to deserialization. The attack may be performed from remote. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "HIGH",
+      "cvss_score": 7.3,
+      "cve": "CVE-2026-5536",
+      "date": "2026-04-05",
+      "url": "https://github.com/AnalogyC0de/public_exp/issues/26",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5537 [CVSS 6.3] \u2014 A security vulnerability has been detected in halex CourseSEL up to 1.1.0. Affec",
+      "summary": "A security vulnerability has been detected in halex CourseSEL up to 1.1.0. Affected by this vulnerability is the function check_sel of the file Apps/Index/Controller/IndexController.class.php of the component HTTP GET Parameter Handler. The manipulation of the argument seid leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed publicly and may be us",
+      "severity": "MEDIUM",
+      "cvss_score": 6.3,
+      "cve": "CVE-2026-5537",
+      "date": "2026-04-05",
+      "url": "https://github.com/zy606/Vulnerability-Report/tree/main/CourseSEL-SQLi",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ],
+        [
+          "T1505",
+          "Web Shell"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5538 [CVSS 6.3] \u2014 A vulnerability was detected in QingdaoU OnlineJudge up to 1.6.1. Affected by th",
+      "summary": "A vulnerability was detected in QingdaoU OnlineJudge up to 1.6.1. Affected by this issue is the function service_url of the file JudgeServer.service_url of the component judge_server_heartbeat Endpoint. The manipulation results in server-side request forgery. It is possible to launch the attack remotely. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "MEDIUM",
+      "cvss_score": 6.3,
+      "cve": "CVE-2026-5538",
+      "date": "2026-04-05",
+      "url": "https://github.com/AnalogyC0de/public_exp/issues/27",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5539 [CVSS 4.3] \u2014 A flaw has been found in code-projects Simple Laundry System 1.0. This affects a",
+      "summary": "A flaw has been found in code-projects Simple Laundry System 1.0. This affects an unknown part of the file /modifymember.php of the component Parameter Handler. This manipulation of the argument firstName causes cross site scripting. The attack can be initiated remotely. The exploit has been published and may be used.",
+      "severity": "MEDIUM",
+      "cvss_score": 4.3,
+      "cve": "CVE-2026-5539",
+      "date": "2026-04-05",
+      "url": "https://code-projects.org/",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5590 [CVSS 6.4] \u2014 A race condition during TCP connection teardown can cause tcp_recv() to operate ",
+      "summary": "A race condition during TCP connection teardown can cause tcp_recv() to operate on a connection that has already been released. If tcp_conn_search() returns NULL while processing a SYN packet, a NULL pointer derived from stale context data is passed to tcp_backlog_is_full() and dereferenced without validation, leading to a crash.",
+      "severity": "MEDIUM",
+      "cvss_score": 6.4,
+      "cve": "CVE-2026-5590",
+      "date": "2026-04-05",
+      "url": "https://github.com/zephyrproject-rtos/zephyr/security/advisories/GHSA-4vqm-pw24-g9jp",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5540 [CVSS 7.3] \u2014 A vulnerability has been found in code-projects Simple Laundry System 1.0. This ",
+      "summary": "A vulnerability has been found in code-projects Simple Laundry System 1.0. This vulnerability affects unknown code of the file /modifymember.php of the component Parameter Handler. Such manipulation of the argument firstName leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "severity": "HIGH",
+      "cvss_score": 7.3,
+      "cve": "CVE-2026-5540",
+      "date": "2026-04-05",
+      "url": "https://code-projects.org/",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ],
+        [
+          "T1505",
+          "Web Shell"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5541 [CVSS 4.3] \u2014 A vulnerability was found in code-projects Simple Laundry System 1.0. This issue",
+      "summary": "A vulnerability was found in code-projects Simple Laundry System 1.0. This issue affects some unknown processing of the file /modmemberinfo.php of the component Parameter Handler. Performing a manipulation of the argument userid results in cross site scripting. The attack may be initiated remotely. The exploit has been made public and could be used.",
+      "severity": "MEDIUM",
+      "cvss_score": 4.3,
+      "cve": "CVE-2026-5541",
+      "date": "2026-04-05",
+      "url": "https://code-projects.org/",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5542 [CVSS 4.3] \u2014 A vulnerability was determined in code-projects Simple Laundry System 1.0. Impac",
+      "summary": "A vulnerability was determined in code-projects Simple Laundry System 1.0. Impacted is an unknown function of the file /modstaffinfo.php of the component Parameter Handler. Executing a manipulation of the argument userid can lead to cross site scripting. The attack may be launched remotely. The exploit has been publicly disclosed and may be utilized.",
+      "severity": "MEDIUM",
+      "cvss_score": 4.3,
+      "cve": "CVE-2026-5542",
+      "date": "2026-04-05",
+      "url": "https://code-projects.org/",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5543 [CVSS 6.3] \u2014 A vulnerability was identified in PHPGurukul User Registration & Login and User ",
+      "summary": "A vulnerability was identified in PHPGurukul User Registration & Login and User Management System 3.3. The affected element is an unknown function of the file /admin/yesterday-reg-users.php. The manipulation of the argument ID leads to sql injection. Remote exploitation of the attack is possible. The exploit is publicly available and might be used.",
+      "severity": "MEDIUM",
+      "cvss_score": 6.3,
+      "cve": "CVE-2026-5543",
+      "date": "2026-04-05",
+      "url": "https://github.com/f1rstb100d/CVE/issues/4",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ],
+        [
+          "T1505",
+          "Web Shell"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5544 [CVSS 8.8] \u2014 A security flaw has been discovered in UTT HiPER 1250GW up to 3.2.7-210907-18053",
+      "summary": "A security flaw has been discovered in UTT HiPER 1250GW up to 3.2.7-210907-180535. The impacted element is an unknown function of the file /goform/formRemoteControl. The manipulation of the argument Profile results in stack-based buffer overflow. The attack can be executed remotely. The exploit has been released to the public and may be used for attacks.",
+      "severity": "HIGH",
+      "cvss_score": 8.8,
+      "cve": "CVE-2026-5544",
+      "date": "2026-04-05",
+      "url": "https://github.com/jinxjinxboom/cve/issues/1",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5546 [CVSS 6.3] \u2014 A flaw has been found in Campcodes Complete Online Learning Management System 1.",
+      "summary": "A flaw has been found in Campcodes Complete Online Learning Management System 1.0. This impacts the function add_lesson of the file /application/models/Crud_model.php. This manipulation causes unrestricted upload. It is possible to initiate the attack remotely. The exploit has been published and may be used.",
+      "severity": "MEDIUM",
+      "cvss_score": 6.3,
+      "cve": "CVE-2026-5546",
+      "date": "2026-04-05",
+      "url": "https://github.com/whatyourname12345/CVE/tree/main/OLMS",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5547 [CVSS 6.3] \u2014 A vulnerability has been found in Tenda AC10 16.03.10.10_multi_TDE01. Affected i",
+      "summary": "A vulnerability has been found in Tenda AC10 16.03.10.10_multi_TDE01. Affected is the function formAddMacfilterRule of the file /bin/httpd. Such manipulation leads to os command injection. It is possible to launch the attack remotely. Multiple endpoints might be affected.",
+      "severity": "MEDIUM",
+      "cvss_score": 6.3,
+      "cve": "CVE-2026-5547",
+      "date": "2026-04-05",
+      "url": "https://github.com/somanyerrors/tenda-ac10v4-vulnerabilities/blob/main/findings/CRITICAL-03-command-injection-formaddmacfilterrule.md",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5548 [CVSS 8.8] \u2014 A vulnerability was found in Tenda AC10 16.03.10.10_multi_TDE01. Affected by thi",
+      "summary": "A vulnerability was found in Tenda AC10 16.03.10.10_multi_TDE01. Affected by this vulnerability is the function fromSysToolChangePwd of the file /bin/httpd. Performing a manipulation of the argument sys.userpass results in stack-based buffer overflow. The attack can be initiated remotely.",
+      "severity": "HIGH",
+      "cvss_score": 8.8,
+      "cve": "CVE-2026-5548",
+      "date": "2026-04-05",
+      "url": "https://github.com/somanyerrors/tenda-ac10v4-vulnerabilities/blob/main/findings/CRITICAL-04-stackoverflow-fromsystoolchangepwd.md",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5549 [CVSS 5.3] \u2014 A vulnerability was determined in Tenda AC10 16.03.10.10_multi_TDE01. Affected b",
+      "summary": "A vulnerability was determined in Tenda AC10 16.03.10.10_multi_TDE01. Affected by this issue is some unknown functionality of the file /webroot_ro/pem/privkeySrv.pem of the component RSA 2048-bit Private Key Handler. Executing a manipulation can lead to use of hard-coded cryptographic key\r . The attack can be launched remotely. The exploit has been publicly disclosed and may be utilized.",
+      "severity": "MEDIUM",
+      "cvss_score": 5.3,
+      "cve": "CVE-2026-5549",
+      "date": "2026-04-05",
+      "url": "https://github.com/somanyerrors/tenda-ac10v4-vulnerabilities/blob/main/findings/CRITICAL-05-exposed-rsa-private-key.md",
+      "mitre": [
+        [
+          "T1190",
+          "Exploit Public App"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "NVD",
+      "category": "cve",
+      "type": "cve",
+      "title": "CVE-2026-5550 [CVSS 8.8] \u2014 A vulnerability was identified in Tenda AC10 16.03.10.10_multi_TDE01. This affec",
+      "summary": "A vulnerability was identified in Tenda AC10 16.03.10.10_multi_TDE01. This affects the function fromSysToolChangePwd of the file /bin/httpd. The manipulation leads to stack-based buffer overflow. The attack may be initiated remotely. Multiple endpoints might be affected.",
+      "severity": "HIGH",
+      "cvss_score": 8.8,
+      "cve": "CVE-2026-5550",
+      "date": "2026-04-05",
+      "url": "https://github.com/somanyerrors/tenda-ac10v4-vulnerabilities/blob/main/findings/HIGH-01-getvalue-229-callers.md",
+      "mitre": [],
+      "today": true
+    },
+    {
+      "source": "Shodan",
+      "category": "internet_exposure",
+      "type": "exposure",
+      "title": "0 hosts: Vulnerable Indian hosts (2024 CVEs)",
+      "summary": "Query: vuln:CVE-2024 country:IN",
+      "severity": "MEDIUM",
+      "date": "2026-04-06",
+      "count": 0,
+      "url": "https://www.shodan.io/search?query=vuln%3ACVE-2024%20country%3AIN",
+      "mitre": [
+        [
+          "T1046",
+          "Network Service Scanning"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Shodan",
+      "category": "internet_exposure",
+      "type": "exposure",
+      "title": "38,622 hosts: RDP exposed India",
+      "summary": "Query: port:3389 country:IN",
+      "severity": "MEDIUM",
+      "date": "2026-04-06",
+      "count": 38622,
+      "url": "https://www.shodan.io/search?query=port%3A3389%20country%3AIN",
+      "mitre": [
+        [
+          "T1046",
+          "Network Service Scanning"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Shodan",
+      "category": "internet_exposure",
+      "type": "exposure",
+      "title": "885,044 hosts: All vulnerable hosts India",
+      "summary": "Query: has_vuln:true country:IN",
+      "severity": "HIGH",
+      "date": "2026-04-06",
+      "count": 885044,
+      "url": "https://www.shodan.io/search?query=has_vuln%3Atrue%20country%3AIN",
+      "mitre": [
+        [
+          "T1046",
+          "Network Service Scanning"
+        ]
+      ],
+      "today": true
+    },
+    {
+      "source": "Shodan",
+      "category": "internet_exposure",
+      "type": "exposure",
+      "title": "2,487,954 hosts: RDP exposed globally",
+      "summary": "Query: port:3389",
+      "severity": "HIGH",
+      "date": "2026-04-06",
+      "count": 2487954,
+      "url": "https://www.shodan.io/search?query=port%3A3389",
+      "mitre": [
+        [
+          "T1046",
+          "Network Service Scanning"
+        ]
+      ],
+      "today": true
+    }
+  ],
+  "hours_window": 36,
+  "today_only": true,
+  "blog_id": "20260406_184532",
+  "generated_at": "2026-04-06T13:17:45.344203+00:00",
+  "from_cache": false,
+  "cache_age_min": 0,
+  "json_path": "/home/j/voraguard/blogs/blog_20260406_184532_en.json"
+}

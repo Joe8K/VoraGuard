@@ -1,0 +1,2108 @@
+{
+  "domain": "scanme.nmap.org",
+  "scan_id": "20260309_013456",
+  "started_at": "2026-03-09T01:34:56.962930",
+  "completed_at": "2026-03-09T01:36:44.277879",
+  "duration_seconds": 107.314949,
+  "nmap": {
+    "success": true,
+    "target": "scanme.nmap.org",
+    "open_ports": [
+      {
+        "port": 22,
+        "protocol": "tcp",
+        "state": "open",
+        "service": "ssh",
+        "version": "OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)"
+      },
+      {
+        "port": 80,
+        "protocol": "tcp",
+        "state": "open",
+        "service": "http",
+        "version": "Apache httpd 2.4.7 ((Ubuntu))"
+      },
+      {
+        "port": 9929,
+        "protocol": "tcp",
+        "state": "open",
+        "service": "nping-echo",
+        "version": "Nping echo"
+      },
+      {
+        "port": 31337,
+        "protocol": "tcp",
+        "state": "open",
+        "service": "tcpwrapped",
+        "version": "Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel"
+      }
+    ],
+    "error": ""
+  },
+  "dnstwist": {
+    "success": true,
+    "target": "scanme.nmap.org",
+    "total_found": 21,
+    "registered_count": 21,
+    "typosquats": [
+      {
+        "fuzzer": "addition",
+        "domain": "scanme.nmapu.org",
+        "dns_a": "103.224.212.101",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "scanme.nmaps.org",
+        "dns_a": "104.247.81.99",
+        "registered": true
+      },
+      {
+        "fuzzer": "addition",
+        "domain": "scanme.nmapd.org",
+        "dns_a": "15.197.204.56",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "scanme.nmax.org",
+        "dns_a": "!ServFail",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "scanme.niap.org",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "scanme.nlap.org",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "scanme.nmcp.org",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "scanme.nmip.org",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "scanme.noap.org",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "bitsquatting",
+        "domain": "scanme.lmap.org",
+        "dns_a": "62.210.16.62",
+        "registered": true
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "scanme.mnap.org",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "scanme.nrap.org",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "scanme.rnap.org",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "scanme.rrap.org",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "homoglyph",
+        "domain": "scanme.nnap.org",
+        "dns_a": "50.116.1.225",
+        "registered": true
+      },
+      {
+        "fuzzer": "hyphenation",
+        "domain": "scanme.n-map.org",
+        "dns_a": "50.116.1.225",
+        "registered": true
+      },
+      {
+        "fuzzer": "replacement",
+        "domain": "scanme.nmao.org",
+        "dns_a": "104.21.1.50",
+        "registered": true
+      },
+      {
+        "fuzzer": "replacement",
+        "domain": "scanme.njap.org",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "replacement",
+        "domain": "scanme.nmsp.org",
+        "dns_a": "13.248.169.48",
+        "registered": true
+      },
+      {
+        "fuzzer": "replacement",
+        "domain": "scanme.nmam.org",
+        "dns_a": "206.188.193.167",
+        "registered": true
+      },
+      {
+        "fuzzer": "transposition",
+        "domain": "scanme.nmpa.org",
+        "dns_a": "141.193.213.10",
+        "registered": true
+      }
+    ],
+    "error": ""
+  },
+  "harvester": {
+    "success": true,
+    "target": "scanme.nmap.org",
+    "emails": [
+      "cmartorella@edge-security.com"
+    ],
+    "hosts": [],
+    "ips": [],
+    "email_count": 1,
+    "host_count": 0,
+    "error": ""
+  },
+  "vt_domain": {
+    "available": true,
+    "domain": "scanme.nmap.org",
+    "malicious": 0,
+    "suspicious": 0,
+    "harmless": 60,
+    "total_engines": 94,
+    "reputation_score": 1,
+    "categories": [],
+    "risk_level": "clean",
+    "last_analysis_date": 1772831198
+  },
+  "dns_health": {
+    "domain": "scanme.nmap.org",
+    "resolves": true,
+    "ip_addresses": [
+      "45.33.32.156",
+      "2600:3c01::f03c:91ff:fe18:bb2f"
+    ],
+    "spf": {
+      "present": false,
+      "record": ""
+    },
+    "dmarc": {
+      "present": false,
+      "record": ""
+    },
+    "mx_records": [],
+    "issues": [
+      "No SPF record found \u2014 email spoofing risk",
+      "No DMARC record found \u2014 phishing risk"
+    ]
+  },
+  "ssl_info": {
+    "domain": "scanme.nmap.org",
+    "port": 443,
+    "has_ssl": false,
+    "valid": false,
+    "expires_in_days": null,
+    "issuer": "",
+    "subject": "",
+    "protocol": "",
+    "issues": [
+      "SSL check error: [Errno 101] Network is unreachable"
+    ]
+  },
+  "risk": {
+    "score": 54,
+    "risk_level": "HIGH",
+    "risk_color": "#ef4444",
+    "breakdown": {
+      "port_exposure": {
+        "deduction": 5,
+        "max": 25
+      },
+      "vt_reputation": {
+        "deduction": 0,
+        "max": 30
+      },
+      "typosquatting": {
+        "deduction": 15,
+        "max": 15
+      },
+      "dns_health": {
+        "deduction": 16,
+        "max": 20
+      },
+      "ssl_tls": {
+        "deduction": 10,
+        "max": 10
+      }
+    },
+    "key_findings": [
+      "High-risk port exposed: 22/ssh",
+      "Severe typosquatting: 21 registered lookalike domains",
+      "No HTTPS/SSL detected"
+    ]
+  },
+  "vuln_analysis": {
+    "total_findings": 4,
+    "critical": 0,
+    "high": 1,
+    "medium": 1,
+    "low": 2,
+    "findings": [
+      {
+        "port": 22,
+        "service": "ssh",
+        "version": "OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)",
+        "severity": "HIGH",
+        "cves": [
+          {
+            "cve": "CVE-2023-38408",
+            "cvss": 9.8,
+            "desc": "OpenSSH ssh-agent remote code execution via forwarded agent socket"
+          },
+          {
+            "cve": "CVE-2023-51385",
+            "cvss": 6.5,
+            "desc": "OpenSSH OS command injection via invalid hostname with shell metacharacters"
+          },
+          {
+            "cve": "CVE-2021-41617",
+            "cvss": 7.0,
+            "desc": "OpenSSH privilege escalation via improper AuthorizedKeysCommand handling"
+          }
+        ],
+        "exploit_available": true,
+        "remediation": "Restrict SSH to VPN/specific IPs only. Disable password auth, use SSH keys. Enable fail2ban.",
+        "attack_vector": "Brute force, credential stuffing, SSH key theft, CVE exploitation"
+      },
+      {
+        "port": 80,
+        "service": "http",
+        "version": "Apache httpd 2.4.7 ((Ubuntu))",
+        "severity": "MEDIUM",
+        "cves": [
+          {
+            "cve": "CVE-2021-41773",
+            "cvss": 9.8,
+            "desc": "Apache HTTP Server 2.4.49 path traversal and RCE (mod_cgi)"
+          },
+          {
+            "cve": "CVE-2021-42013",
+            "cvss": 9.8,
+            "desc": "Apache HTTP Server 2.4.49/2.4.50 path traversal bypass"
+          },
+          {
+            "cve": "CVE-2022-31813",
+            "cvss": 9.8,
+            "desc": "Apache mod_proxy X-Forwarded-For header forwarding flaw"
+          },
+          {
+            "cve": "CVE-2022-0778",
+            "cvss": 7.5,
+            "desc": "OpenSSL infinite loop in BN_mod_sqrt() causes DoS via crafted certificate"
+          },
+          {
+            "cve": "CVE-2021-3449",
+            "cvss": 5.9,
+            "desc": "OpenSSL NULL pointer deref in TLSv1.2 renegotiation \u2192 DoS"
+          }
+        ],
+        "exploit_available": true,
+        "remediation": "Redirect all HTTP to HTTPS. Implement HSTS. Disable if not needed.",
+        "attack_vector": "Web app attacks, HTTP request smuggling, directory traversal"
+      },
+      {
+        "port": 9929,
+        "service": "nping-echo",
+        "version": "Nping echo",
+        "severity": "LOW",
+        "cves": [],
+        "exploit_available": false,
+        "remediation": "Assess necessity of port 9929. Apply vendor security patches. Restrict access via firewall.",
+        "attack_vector": "Network-level exploitation, banner grabbing, version-specific exploits"
+      },
+      {
+        "port": 31337,
+        "service": "tcpwrapped",
+        "version": "Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel",
+        "severity": "LOW",
+        "cves": [],
+        "exploit_available": false,
+        "remediation": "Assess necessity of port 31337. Apply vendor security patches. Restrict access via firewall.",
+        "attack_vector": "Network-level exploitation, banner grabbing, version-specific exploits"
+      }
+    ],
+    "overall_risk": "HIGH"
+  },
+  "owasp": {
+    "triggered_count": 4,
+    "total_categories": 10,
+    "findings": [
+      {
+        "id": "A01:2021",
+        "name": "Broken Access Control",
+        "evidence": [
+          "Port 22 (ssh) is open and internet-accessible",
+          "Service 'ssh' detected on target"
+        ],
+        "description": "Exposed remote access services allow attackers to attempt access control bypass via brute force, stolen credentials, or unpatched auth vulnerabilities.",
+        "remediation": "Restrict SSH/RDP/VNC to VPN-only access. Enforce MFA. Implement fail2ban or equivalent lockout.",
+        "severity": "HIGH"
+      },
+      {
+        "id": "A02:2021",
+        "name": "Cryptographic Failures",
+        "evidence": [
+          "Port 80 (http) is open and internet-accessible",
+          "Service 'http' detected on target",
+          "HTTPS/TLS not present on port 443",
+          "HTTP Strict Transport Security not enforced"
+        ],
+        "description": "Plaintext protocols in use (HTTP, FTP, Telnet, SMTP without TLS). Credentials and data transmitted unencrypted.",
+        "remediation": "Enforce HTTPS with HSTS. Disable FTP/Telnet. Require STARTTLS/TLS for SMTP. Redirect all HTTP to HTTPS.",
+        "severity": "HIGH"
+      },
+      {
+        "id": "A07:2021",
+        "name": "Identification & Authentication Failures",
+        "evidence": [
+          "Port 22 (ssh) is open and internet-accessible",
+          "Service 'ssh' detected on target"
+        ],
+        "description": "Authentication services exposed to internet are susceptible to brute force, credential stuffing, and password spraying attacks.",
+        "remediation": "Implement MFA everywhere. Rate-limit login attempts. Use certificate-based auth for SSH. Monitor for credential stuffing patterns.",
+        "severity": "HIGH"
+      },
+      {
+        "id": "A09:2021",
+        "name": "Security Logging & Monitoring Failures",
+        "evidence": [
+          "No logging/monitoring endpoints observable from external scan"
+        ],
+        "description": "Lack of observable security monitoring increases attacker dwell time.",
+        "remediation": "Implement SIEM. Alert on auth failures, port scans, anomalous traffic.",
+        "severity": "MEDIUM"
+      }
+    ]
+  },
+  "grc_report": {
+    "domain": "scanme.nmap.org",
+    "generated_at": "2026-03-08T20:06:29.005096+00:00",
+    "overall_score": 54,
+    "risk_level": "HIGH",
+    "appetite_status": "Threshold Breached",
+    "appetite_color": "orange",
+    "executive_summary": "scanme.nmap.org presents a HIGH risk profile with an overall score of 54/100. The external attack surface includes 4 open port(s), 0 critical and 1 high-severity service vulnerabilities, and 21 registered typosquatting domains increasing brand/phishing risk. Targeted remediation of high-priority findings is recommended within the next sprint cycle.",
+    "key_risk_indicators": [
+      {
+        "indicator": "HTTPS not enforced",
+        "status": "BREACHED",
+        "value": "No TLS"
+      },
+      {
+        "indicator": "Typosquatting exposure",
+        "status": "ELEVATED",
+        "value": "21 domains"
+      },
+      {
+        "indicator": "SPF record missing",
+        "status": "BREACHED",
+        "value": "Email spoofing risk"
+      },
+      {
+        "indicator": "DMARC record missing",
+        "status": "ELEVATED",
+        "value": "Phishing domain risk"
+      }
+    ],
+    "compliance_posture": {
+      "NIST_CSF": {
+        "Identify": "Partial",
+        "Protect": "Not Met",
+        "Detect": "Not Met",
+        "Respond": "Unknown",
+        "Recover": "Unknown"
+      },
+      "ISO_27001": {
+        "A.8.8 Vulnerability Mgmt": "Partial",
+        "A.8.20 Network Security": "Partial",
+        "A.8.24 Cryptography": "Not Met"
+      },
+      "SOC2": {
+        "CC6.1 Access Controls": "Not Met",
+        "CC6.6 External Threats": "Partial",
+        "CC7.1 Monitoring": "Not Met"
+      }
+    },
+    "priority_actions": [
+      {
+        "priority": "P1",
+        "action": "Implement HTTPS/TLS immediately \u2014 plaintext traffic is unacceptable",
+        "owner": "DevOps"
+      },
+      {
+        "priority": "P2",
+        "action": "Monitor/take down 21 typosquatting domains \u2014 phishing risk",
+        "owner": "Legal/Security"
+      },
+      {
+        "priority": "P2",
+        "action": "Configure SPF DNS record to prevent email spoofing",
+        "owner": "IT Admin"
+      },
+      {
+        "priority": "P2",
+        "action": "Configure DMARC policy (p=quarantine minimum) to prevent phishing",
+        "owner": "IT Admin"
+      },
+      {
+        "priority": "P3",
+        "action": "Conduct full web application security assessment \u2014 4 OWASP categories triggered",
+        "owner": "AppSec Team"
+      }
+    ],
+    "owasp_coverage": 4,
+    "total_vulnerabilities": 4,
+    "critical_vulns": 0
+  },
+  "attack_surface_change": {
+    "domain": "scanme.nmap.org",
+    "scanned_at": "2026-03-08T20:06:29.005436+00:00",
+    "current_open_ports": [
+      "80/tcp",
+      "22/tcp",
+      "9929/tcp",
+      "31337/tcp"
+    ],
+    "total_open": 4,
+    "is_first_scan": false,
+    "new_ports": [
+      "80/tcp",
+      "22/tcp",
+      "9929/tcp",
+      "31337/tcp"
+    ],
+    "closed_ports": [],
+    "unchanged_ports": [],
+    "delta_risk": "CRITICAL",
+    "baseline_file": "scans/scanme.nmap.org_baseline.json",
+    "baseline_timestamp": "2026-03-08T09:49:02.930471+00:00",
+    "message": "4 new port(s) opened since 2026-03-08. INVESTIGATE IMMEDIATELY."
+  },
+  "business_impact": {
+    "domain": "scanme.nmap.org",
+    "overall_confidentiality": "HIGH",
+    "overall_integrity": "HIGH",
+    "overall_availability": "MEDIUM",
+    "financial_risk_estimate": {
+      "minimum": "$100,000",
+      "maximum": "$600,000",
+      "basis": "IBM Cost of a Data Breach Report 2024 \u2014 average breach cost $4.88M globally",
+      "factors": [
+        "Regulatory fines",
+        "Incident response costs",
+        "Reputational damage",
+        "Legal liability"
+      ]
+    },
+    "impact_findings": [
+      {
+        "port": 22,
+        "service": "ssh",
+        "asset": "SSH Server",
+        "confidentiality": "HIGH",
+        "integrity": "HIGH",
+        "availability": "MEDIUM",
+        "breach_scenario": "Brute force or key theft \u2192 shell access \u2192 pivot to internal network"
+      },
+      {
+        "port": 80,
+        "service": "http",
+        "asset": "Web Server (HTTP)",
+        "confidentiality": "MEDIUM",
+        "integrity": "MEDIUM",
+        "availability": "MEDIUM",
+        "breach_scenario": "Web app attacks, data interception, SEO poisoning"
+      }
+    ],
+    "exposed_asset_count": 2
+  },
+  "regulatory_breach": {
+    "domain": "scanme.nmap.org",
+    "frameworks_at_risk": 4,
+    "findings": [
+      {
+        "framework": "GDPR (EU General Data Protection Regulation)",
+        "article": "Article 32 \u2014 Security of Processing",
+        "violation_description": "Failure to implement appropriate technical security measures for personal data processing.",
+        "potential_fine": "Up to \u20ac20M or 4% of global annual turnover",
+        "triggered_by": [
+          "no_https",
+          "open_db_ports",
+          "no_spf",
+          "no_dmarc"
+        ],
+        "risk": "HIGH"
+      },
+      {
+        "framework": "HIPAA Security Rule",
+        "article": "45 CFR \u00a7164.312 \u2014 Technical Safeguards",
+        "violation_description": "Electronic Protected Health Information (ePHI) must be encrypted in transit and at rest.",
+        "potential_fine": "$100\u2013$50,000 per violation, up to $1.9M/year per category",
+        "triggered_by": [
+          "no_https",
+          "open_db_ports",
+          "no_ssl"
+        ],
+        "risk": "HIGH"
+      },
+      {
+        "framework": "ISO/IEC 27001:2022",
+        "article": "A.8.8 \u2014 Management of Technical Vulnerabilities",
+        "violation_description": "Known vulnerabilities in internet-facing services violate technical vulnerability management controls.",
+        "potential_fine": "Certification revocation, regulatory consequences vary",
+        "triggered_by": [
+          "unpatched_services",
+          "open_ports"
+        ],
+        "risk": "HIGH"
+      },
+      {
+        "framework": "India IT Act 2000 / DPDP Act 2023",
+        "article": "Section 43A \u2014 Reasonable Security Practices",
+        "violation_description": "Reasonable security practices not implemented \u2014 exposed services and missing email security records.",
+        "potential_fine": "\u20b9250 crore per data breach incident",
+        "triggered_by": [
+          "no_ssl",
+          "open_ports",
+          "no_dmarc"
+        ],
+        "risk": "HIGH"
+      }
+    ],
+    "overall_regulatory_risk": "CRITICAL"
+  },
+  "supply_chain": {
+    "domain": "scanme.nmap.org",
+    "components_detected": 3,
+    "critical_components": 0,
+    "components": [
+      {
+        "technology": "nginx",
+        "risk": "MEDIUM",
+        "note": "nginx web server \u2014 check version for CVEs",
+        "evidence": [
+          "Port 80 open"
+        ]
+      },
+      {
+        "technology": "Apache",
+        "risk": "MEDIUM",
+        "note": "Apache httpd \u2014 verify version is patched",
+        "evidence": [
+          "Port 80 open",
+          "Service fingerprint: apache",
+          "Service fingerprint: http"
+        ]
+      },
+      {
+        "technology": "WordPress",
+        "risk": "MEDIUM",
+        "note": "WordPress detected \u2014 check for plugin/theme CVEs, xmlrpc.php exposure",
+        "evidence": [
+          "Port 80 open"
+        ]
+      }
+    ],
+    "supply_chain_risk": "MEDIUM"
+  },
+  "honey_trap": {
+    "domain": "scanme.nmap.org",
+    "verdict": "UNLIKELY HONEYPOT",
+    "confidence_pct": 5,
+    "honeypot_score": 0,
+    "indicators": [
+      "No honeypot indicators detected \u2014 appears to be a real target"
+    ],
+    "recommendation": "No significant honeypot indicators. Proceed with authorized testing."
+  },
+  "attacker_roi": {
+    "domain": "scanme.nmap.org",
+    "total_roi_score": 35,
+    "max_score": 100,
+    "roi_label": "MEDIUM \u2014 Opportunistic attackers may attempt exploitation",
+    "ease_score": 10,
+    "value_score": 15,
+    "stealth_score": 10,
+    "ease_factors": [
+      "+10 High-severity vulnerabilities (1)"
+    ],
+    "value_factors": [
+      "+10 All internet-facing targets have baseline value",
+      "+5 21 typosquats \u2014 brand/phishing infrastructure value"
+    ],
+    "stealth_factors": [
+      "+5 No observable WAF/firewall detected",
+      "+5 Plaintext protocols \u2014 easier credential capture"
+    ],
+    "attacker_type": "Opportunistic attackers, automated scanners, initial access brokers"
+  },
+  "threat_actors": {
+    "domain": "scanme.nmap.org",
+    "matched_actor_count": 4,
+    "actors": [
+      {
+        "group": "APT28 (Fancy Bear)",
+        "nation_state": "Russia",
+        "motivation": "Espionage, credential theft",
+        "correlation_score": 70,
+        "matched_ttps": [
+          "T1078 Valid Accounts",
+          "T1190 Exploit Public-Facing App",
+          "T1133 External Remote Services"
+        ],
+        "evidence": [
+          "Port 22 open \u2014 used by APT28 (Fancy Bear) for Espionage, credential theft",
+          "Port 80 open \u2014 used by APT28 (Fancy Bear) for Espionage, credential theft",
+          "Service 'ssh' is a known TTP vector for this group",
+          "Service 'http' is a known TTP vector for this group"
+        ],
+        "mitre_url": "https://attack.mitre.org/groups/G0007/",
+        "risk": "HIGH"
+      },
+      {
+        "group": "Scattered Spider",
+        "nation_state": "English-speaking (cybercriminal)",
+        "motivation": "Financial, ransomware (ALPHV/BlackCat affiliate)",
+        "correlation_score": 70,
+        "matched_ttps": [
+          "T1566 Phishing",
+          "T1621 MFA Fatigue",
+          "T1078 Valid Accounts"
+        ],
+        "evidence": [
+          "Port 80 open \u2014 used by Scattered Spider for Financial, ransomware (ALPHV/BlackCat affiliate)",
+          "Port 22 open \u2014 used by Scattered Spider for Financial, ransomware (ALPHV/BlackCat affiliate)",
+          "Service 'http' is a known TTP vector for this group",
+          "Service 'ssh' is a known TTP vector for this group"
+        ],
+        "mitre_url": "https://attack.mitre.org/groups/G1015/",
+        "risk": "HIGH"
+      },
+      {
+        "group": "Lazarus Group",
+        "nation_state": "North Korea",
+        "motivation": "Financial theft, ransomware, espionage",
+        "correlation_score": 35,
+        "matched_ttps": [
+          "T1486 Data Encrypted for Impact",
+          "T1055 Process Injection",
+          "T1021.001 RDP"
+        ],
+        "evidence": [
+          "Port 22 open \u2014 used by Lazarus Group for Financial theft, ransomware, espionage",
+          "Service 'ssh' is a known TTP vector for this group"
+        ],
+        "mitre_url": "https://attack.mitre.org/groups/G0032/",
+        "risk": "MEDIUM"
+      },
+      {
+        "group": "Sandworm",
+        "nation_state": "Russia (GRU)",
+        "motivation": "Disruption, sabotage, critical infrastructure",
+        "correlation_score": 35,
+        "matched_ttps": [
+          "T1486 Destructive malware",
+          "T1195 Supply Chain Compromise",
+          "T1498 Network DoS"
+        ],
+        "evidence": [
+          "Port 80 open \u2014 used by Sandworm for Disruption, sabotage, critical infrastructure",
+          "Service 'http' is a known TTP vector for this group"
+        ],
+        "mitre_url": "https://attack.mitre.org/groups/G0034/",
+        "risk": "MEDIUM"
+      }
+    ],
+    "note": "Correlation based on exposed attack surface overlap with publicly documented TTPs (MITRE ATT&CK). Does not imply active targeting.",
+    "overall_threat": "HIGH"
+  },
+  "darkweb": {
+    "domain": "scanme.nmap.org",
+    "overall_risk": "LOW",
+    "summary_findings": [],
+    "total_sources_checked": 6,
+    "total_findings": 0,
+    "sources_status": [
+      {
+        "name": "AlienVault OTX",
+        "status": "\u2713 Checked",
+        "key_required": true,
+        "findings": 0
+      },
+      {
+        "name": "HaveIBeenPwned",
+        "status": "\u2713 Checked",
+        "key_required": false,
+        "findings": 0
+      },
+      {
+        "name": "URLhaus / Abuse.ch",
+        "status": "\u2713 Checked",
+        "key_required": false,
+        "findings": 0
+      },
+      {
+        "name": "DeHashed",
+        "status": "\u26a0 DEHASHED_EMAIL and DEHASHED_API_KEY not set. Account required at https://dehashed.com (API from $5.99/mo)",
+        "key_required": true,
+        "findings": 0
+      },
+      {
+        "name": "LeakIX",
+        "status": "\u2713 Checked",
+        "key_required": true,
+        "findings": 0
+      },
+      {
+        "name": "AbuseIPDB",
+        "status": "\u26a0 No IPs to check",
+        "key_required": false,
+        "findings": 0
+      }
+    ],
+    "otx": {
+      "source": "AlienVault OTX",
+      "available": true,
+      "pulse_count": 0,
+      "malware_families": [
+        1600403668
+      ],
+      "malicious_urls": [],
+      "passive_dns": [
+        {
+          "hostname": "scanme.nmap.org",
+          "address": "2600:3c01::f03c:91ff:fe18:bb2f",
+          "record_type": "AAAA",
+          "first": "2015-06-16",
+          "last": "2026-03-03"
+        },
+        {
+          "hostname": "scanme.nmap.org",
+          "address": "45.33.32.156",
+          "record_type": "A",
+          "first": "2015-06-16",
+          "last": "2026-03-03"
+        }
+      ],
+      "threat_actors": [],
+      "related_cves": [],
+      "domain_findings": [
+        {
+          "pulse_name": "Blacklist: majestic",
+          "author": "majestic",
+          "created": "",
+          "tlp": "red",
+          "tags": [],
+          "threat_type": "Whitelisted domain",
+          "description": "Domain listed on majestic as Whitelisted domain"
+        },
+        {
+          "pulse_name": "Blacklist: whitelist",
+          "author": "whitelist",
+          "created": "",
+          "tlp": "red",
+          "tags": [],
+          "threat_type": "Whitelisted domain",
+          "description": "Domain listed on whitelist as Whitelisted domain"
+        }
+      ],
+      "ip_findings": [],
+      "total_hits": 0,
+      "highest_severity": "HIGH",
+      "error": null
+    },
+    "hibp": {
+      "source": "HaveIBeenPwned",
+      "available": true,
+      "domain_breaches": [],
+      "email_results": [],
+      "paste_results": [],
+      "total_pwned_accounts": 0,
+      "most_recent_breach": null,
+      "data_classes_exposed": [],
+      "error": null
+    },
+    "urlhaus": {
+      "source": "URLhaus / Abuse.ch",
+      "available": true,
+      "domain_status": "not_listed",
+      "malicious_urls": [],
+      "active_urls": 0,
+      "malware_families": [],
+      "blacklists": {},
+      "ip_findings": [],
+      "overall_risk": "CLEAN",
+      "error": null
+    },
+    "dehashed": {
+      "source": "DeHashed",
+      "available": false,
+      "domain_breach_count": 0,
+      "email_breaches": [],
+      "credential_exposure": [],
+      "databases_found": [],
+      "total_records": 0,
+      "error": "DEHASHED_EMAIL and DEHASHED_API_KEY not set. Account required at https://dehashed.com (API from $5.99/mo)"
+    },
+    "leakix": {
+      "source": "LeakIX",
+      "available": true,
+      "leak_events": [],
+      "service_events": [],
+      "total_leaks": 0,
+      "total_services": 0,
+      "critical_leaks": 0,
+      "data_exposed_bytes": 0,
+      "error": null
+    },
+    "abuseipdb": {
+      "source": "AbuseIPDB",
+      "available": false,
+      "ip_verdicts": [],
+      "malicious_ips": 0,
+      "suspicious_ips": 0,
+      "clean_ips": 0,
+      "tor_exits": 0,
+      "total_reports": 0,
+      "top_categories": [],
+      "highest_confidence": 0,
+      "overall_threat": "LOW",
+      "error": "No IPs to check"
+    },
+    "all_breached_emails": [],
+    "credential_exposure_count": 0,
+    "malware_families": [
+      1600403668
+    ],
+    "threat_actors": [],
+    "related_cves": [],
+    "disclaimer": "Dark web monitoring covers: AlienVault OTX (threat pulses, malware families, threat actors), HaveIBeenPwned (breach database), URLhaus (malicious URL feeds), DeHashed (credential dumps), LeakIX (live data leaks), AbuseIPDB (IP reputation). Full Tor hidden service crawling requires commercial feeds (Recorded Future, DarkOwl, Flashpoint)."
+  },
+  "threat_sim": {
+    "domain": "scanme.nmap.org",
+    "attack_chains": [
+      {
+        "chain_id": "AC-002",
+        "name": "SSH Brute Force \u2192 Lateral Movement",
+        "likelihood": "HIGH",
+        "entry_point": "Port 22 (SSH) \u2014 internet accessible",
+        "steps": [
+          {
+            "phase": "Reconnaissance",
+            "tactic": "T1595.002 Vulnerability Scanning",
+            "desc": "SSH version fingerprinted \u2014 check for CVE-2023-38408, CVE-2023-51385"
+          },
+          {
+            "phase": "Initial Access",
+            "tactic": "T1110 Brute Force",
+            "desc": "Hydra/Medusa credential spray using HaveIBeenPwned leaked credentials"
+          },
+          {
+            "phase": "Persistence",
+            "tactic": "T1098.004 SSH Authorized Keys",
+            "desc": "Attacker adds SSH key to ~/.ssh/authorized_keys for persistent access"
+          },
+          {
+            "phase": "Lateral Movement",
+            "tactic": "T1021.004 SSH Lateral Movement",
+            "desc": "Pivot to internal network using compromised host as jump server"
+          },
+          {
+            "phase": "Impact",
+            "tactic": "T1486 Data Encrypted for Impact",
+            "desc": "Ransomware deployment across reachable network segments"
+          }
+        ],
+        "estimated_time_to_exploit": "1\u201324 hours (depending on password strength)",
+        "skill_required": "LOW to MEDIUM",
+        "blast_radius": "SERVER COMPROMISE \u2192 NETWORK PIVOT"
+      },
+      {
+        "chain_id": "AC-004",
+        "name": "Web Application Attack \u2192 Server Compromise",
+        "likelihood": "MEDIUM",
+        "entry_point": "Port 80/443 \u2014 web application",
+        "steps": [
+          {
+            "phase": "Reconnaissance",
+            "tactic": "T1595.003 Wordlist Scanning",
+            "desc": "Directory bruteforce (gobuster/ffuf) \u2014 discover admin panels, API endpoints, backup files"
+          },
+          {
+            "phase": "Initial Access",
+            "tactic": "T1190 Web App Exploit",
+            "desc": "SQL injection, file upload bypass, or CVE in web framework version"
+          },
+          {
+            "phase": "Execution",
+            "tactic": "T1059.004 Unix Shell",
+            "desc": "Web shell upload \u2192 OS command execution as www-data"
+          },
+          {
+            "phase": "Privilege Escalation",
+            "tactic": "T1068 Exploitation for Privilege",
+            "desc": "Local privilege escalation \u2192 root/SYSTEM"
+          },
+          {
+            "phase": "Impact",
+            "tactic": "T1565 Data Manipulation",
+            "desc": "Website defacement, malware injection into served pages, data theft"
+          }
+        ],
+        "estimated_time_to_exploit": "Hours to days depending on app complexity",
+        "skill_required": "MEDIUM",
+        "blast_radius": "WEB SERVER COMPROMISE"
+      },
+      {
+        "chain_id": "AC-005",
+        "name": "Phishing / BEC via Domain Spoofing",
+        "likelihood": "HIGH",
+        "entry_point": "Missing SPF/DMARC records + typosquatting domains",
+        "steps": [
+          {
+            "phase": "Reconnaissance",
+            "tactic": "T1589 Gather Victim Identity Info",
+            "desc": "Email addresses harvested via theHarvester/OSINT"
+          },
+          {
+            "phase": "Resource Development",
+            "tactic": "T1583.001 Acquire Infrastructure",
+            "desc": "Typosquat domain registered \u2014 spoofed email sent from lookalike domain"
+          },
+          {
+            "phase": "Initial Access",
+            "tactic": "T1566.002 Spearphishing Link",
+            "desc": "Targeted phishing email to harvested addresses \u2014 credential harvesting page"
+          },
+          {
+            "phase": "Impact",
+            "tactic": "T1657 Financial Theft",
+            "desc": "BEC fraud \u2014 redirect payments, access SaaS accounts, credential resale"
+          }
+        ],
+        "estimated_time_to_exploit": "Minutes to set up, hours to execute",
+        "skill_required": "LOW",
+        "blast_radius": "CREDENTIAL THEFT, FINANCIAL FRAUD"
+      }
+    ],
+    "total_chains": 3,
+    "highest_likelihood": "HIGH",
+    "summary": "3 realistic attack chains modeled. 2 are HIGH or CRITICAL likelihood.",
+    "disclaimer": "This simulation is for authorized security assessment only. Models are based on MITRE ATT&CK framework and publicly documented techniques."
+  },
+  "closed_loop_response": {
+    "domain": "scanme.nmap.org",
+    "generated_at": "2026-03-08T20:06:38.488350+00:00",
+    "total_actions": 4,
+    "p1_actions": 1,
+    "p2_actions": 3,
+    "p3_actions": 0,
+    "auto_executable_count": 1,
+    "total_commands": 4,
+    "actions": [
+      {
+        "action_id": "ACT-TLS01",
+        "type": "tls_hardening",
+        "port": 443,
+        "service": "HTTPS/TLS",
+        "priority": "P1",
+        "sla_hours": 4,
+        "description": "Obtain TLS certificate and force HTTPS redirect",
+        "commands": [
+          "sudo certbot --nginx -d scanme.nmap.org --non-interactive --agree-tos -m admin@scanme.nmap.org",
+          "# OR: sudo certbot --apache -d scanme.nmap.org"
+        ],
+        "validation_command": "curl -sI https://scanme.nmap.org | head -5",
+        "rollback_command": "# Revert nginx/apache config",
+        "auto_executable": false,
+        "status": "PENDING"
+      },
+      {
+        "action_id": "ACT-00022",
+        "type": "port_remediation",
+        "port": 22,
+        "service": "SSH",
+        "priority": "P2",
+        "sla_hours": 24,
+        "description": "Restrict SSH to VPN/bastion only via iptables; disable password auth",
+        "commands": [
+          "sudo iptables -A INPUT -p tcp --dport 22 -s 10.0.0.0/8 -j ACCEPT",
+          "sudo iptables -A INPUT -p tcp --dport 22 -j DROP",
+          "sudo sed -i 's/#PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config",
+          "sudo systemctl restart sshd"
+        ],
+        "validation_command": "nmap -p 22 --script ssh-auth-methods scanme.nmap.org",
+        "rollback_command": "sudo iptables -D INPUT -p tcp --dport 22 -j DROP",
+        "auto_executable": true,
+        "status": "PENDING"
+      },
+      {
+        "action_id": "ACT-DNS01",
+        "type": "dns_hardening",
+        "port": null,
+        "service": "DNS/Email",
+        "priority": "P2",
+        "sla_hours": 24,
+        "description": "Add SPF TXT record to DNS",
+        "commands": [
+          "# Add to your DNS zone:",
+          "TXT @ \"v=spf1 mx ip4:<your-mail-server-ip> ~all\""
+        ],
+        "validation_command": "dig TXT scanme.nmap.org | grep spf1",
+        "rollback_command": "# Remove the TXT record from DNS zone",
+        "auto_executable": false,
+        "status": "PENDING"
+      },
+      {
+        "action_id": "ACT-DNS02",
+        "type": "dns_hardening",
+        "port": null,
+        "service": "DNS/Email",
+        "priority": "P2",
+        "sla_hours": 24,
+        "description": "Add DMARC TXT record to DNS",
+        "commands": [
+          "# Add to your DNS zone:",
+          "TXT _dmarc \"v=DMARC1; p=quarantine; rua=mailto:dmarc@scanme.nmap.org\""
+        ],
+        "validation_command": "dig TXT _dmarc.scanme.nmap.org | grep DMARC1",
+        "rollback_command": "# Remove _dmarc TXT record from DNS zone",
+        "auto_executable": false,
+        "status": "PENDING"
+      }
+    ],
+    "ir_phases": [
+      {
+        "phase": "CONTAIN",
+        "timeline": "0\u20131 hours",
+        "steps": [
+          "Block all P1 ports at perimeter firewall immediately",
+          "Isolate affected hosts from network if active compromise suspected",
+          "Preserve logs: /var/log/auth.log, /var/log/syslog, firewall logs",
+          "Take memory dump if live compromise suspected (avml/lime)"
+        ]
+      },
+      {
+        "phase": "ERADICATE",
+        "timeline": "1\u201324 hours",
+        "steps": [
+          "Execute all P1 remediation commands in this runbook",
+          "Rotate all credentials exposed via open services",
+          "Search for persistence: crontabs, authorized_keys, /etc/passwd new users",
+          "Scan for webshells: find /var/www -name '*.php' | xargs grep -l 'eval('"
+        ]
+      },
+      {
+        "phase": "RECOVER",
+        "timeline": "24\u201372 hours",
+        "steps": [
+          "Execute P2 and P3 actions",
+          "Re-run VoraGuard scan to verify all remediations effective",
+          "Restore services from clean backup if compromise confirmed",
+          "Enable centralized logging (ELK/Splunk/Wazuh)"
+        ]
+      },
+      {
+        "phase": "POST-INCIDENT",
+        "timeline": "72+ hours",
+        "steps": [
+          "Root cause analysis: how was the service left exposed?",
+          "Update asset inventory and patch management policy",
+          "Schedule VoraGuard weekly scans for continuous monitoring",
+          "File regulatory notification if PII breach confirmed (GDPR 72hr deadline)"
+        ]
+      }
+    ],
+    "runbook_summary": "4 remediation actions generated. 1 can be executed automatically. 1 P1 actions must be completed within SLA.",
+    "estimated_remediation_time_hours": 24
+  },
+  "financial_quantification": {
+    "domain": "scanme.nmap.org",
+    "business_sector": "General/Unknown",
+    "methodology": "FAIR (Factor Analysis of Information Risk)",
+    "fair_components": {
+      "threat_event_frequency_per_year": 5.1,
+      "vulnerability_factor_pct": 31.9,
+      "loss_event_frequency_per_year": 1.63,
+      "single_loss_magnitude_usd": 2928000,
+      "secondary_loss_usd": 1317600,
+      "total_loss_magnitude_usd": 4245600
+    },
+    "tef_breakdown": [
+      {
+        "port": 22,
+        "service": "ssh",
+        "annual_threat_events": 5.1,
+        "description": "SSH \u2014 constant brute force, credential stuffing"
+      }
+    ],
+    "annual_loss_expectancy": {
+      "minimum_usd": 713728,
+      "expected_usd": 6899372,
+      "maximum_usd": 24980484,
+      "label": "$0.7M \u2014 $6.9M \u2014 $25.0M"
+    },
+    "breach_probability_12_months_pct": 80.3,
+    "board_metrics": {
+      "risk_reduction_value_usd": 5519497,
+      "risk_reduction_value_5yr_usd": 27597487,
+      "recommended_security_budget_usd": "$0.69M \u2014 $1.03M",
+      "cost_per_record_breach_usd": 156,
+      "industry_avg_breach_cost_usd": 4880000,
+      "your_estimated_breach_cost_usd": 4245600,
+      "vs_industry_avg": "BELOW AVERAGE"
+    },
+    "peer_benchmark": {
+      "industry_sector": "General/Unknown",
+      "your_risk_score": 54,
+      "industry_avg_score": 62,
+      "status": "WORSE than industry average",
+      "percentile": 54
+    },
+    "insurance_guidance": {
+      "recommended_coverage_usd": 19984387,
+      "deductible_suggestion_usd": 344969,
+      "note": "Cyber insurance carrier will likely require remediation of P1 findings before binding coverage"
+    }
+  },
+  "ot_ics": {
+    "domain": "scanme.nmap.org",
+    "ot_exposure_level": "NONE",
+    "verdict": "No OT/ICS protocols detected on internet-facing ports",
+    "ot_findings_count": 0,
+    "ot_findings": [],
+    "detected_protocols": [],
+    "sector_exposure": [],
+    "attack_scenarios": [],
+    "ot_threat_actors": [],
+    "purdue_model_note": "No Purdue Model violations detected on scanned ports.",
+    "immediate_actions": []
+  },
+  "nhi_shadow_ai": {
+    "domain": "scanme.nmap.org",
+    "overall_nhi_risk": "NONE",
+    "total_findings": 0,
+    "shadow_ai_count": 0,
+    "nhi_exposure_count": 0,
+    "exposed_secrets_count": 0,
+    "shadow_ai_findings": [],
+    "nhi_findings": [],
+    "exposed_secrets": [],
+    "ai_related_subdomains": [],
+    "governance_gaps": [],
+    "categories_detected": [],
+    "nhi_summary": "No NHI or Shadow AI exposures detected on scanned ports.",
+    "compliance_note": "Shadow AI deployments may violate EU AI Act (2024) Article 9 risk management requirements and GDPR Article 22 automated decision-making provisions if models process personal data."
+  },
+  "unified_fabric": {
+    "domain": "scanme.nmap.org",
+    "composite_threat_score": 41,
+    "composite_severity": "MEDIUM",
+    "domain_scores": {
+      "network": {
+        "score": 30,
+        "severity": "LOW",
+        "weight_pct": 20,
+        "top_findings": [
+          "Port 22/ssh internet-exposed"
+        ]
+      },
+      "application": {
+        "score": 100,
+        "severity": "CRITICAL",
+        "weight_pct": 18,
+        "top_findings": [
+          "Broken Access Control",
+          "Cryptographic Failures",
+          "Identification & Authentication Failures"
+        ]
+      },
+      "identity": {
+        "score": 75,
+        "severity": "HIGH",
+        "weight_pct": 17,
+        "top_findings": [
+          "No SPF record \u2014 email spoofing possible",
+          "No DMARC \u2014 phishing via domain impersonation",
+          "1 email addresses exposed via OSINT"
+        ]
+      },
+      "data": {
+        "score": 0,
+        "severity": "NONE",
+        "weight_pct": 16,
+        "top_findings": []
+      },
+      "cloud_api": {
+        "score": 0,
+        "severity": "NONE",
+        "weight_pct": 12,
+        "top_findings": []
+      },
+      "supply_chain": {
+        "score": 40,
+        "severity": "MEDIUM",
+        "weight_pct": 10,
+        "top_findings": [
+          "nginx: MEDIUM",
+          "Apache: MEDIUM",
+          "WordPress: MEDIUM"
+        ]
+      },
+      "ot_ics": {
+        "score": 0,
+        "severity": "NONE",
+        "weight_pct": 7,
+        "top_findings": []
+      }
+    },
+    "top_exposed_domains": [
+      {
+        "domain": "application",
+        "score": 100,
+        "severity": "CRITICAL"
+      },
+      {
+        "domain": "identity",
+        "score": 75,
+        "severity": "HIGH"
+      },
+      {
+        "domain": "supply_chain",
+        "score": 40,
+        "severity": "MEDIUM"
+      }
+    ],
+    "cross_domain_attack_paths": [
+      {
+        "path_id": "CDP-002",
+        "name": "Identity Spoofing \u2192 Application Attack",
+        "severity": "HIGH",
+        "domains": [
+          "identity",
+          "application"
+        ],
+        "narrative": "No SPF/DMARC allows attacker to send phishing from your domain. User clicks \u2192 credential harvest \u2192 attacker logs into web app with valid credentials. No brute-force needed.",
+        "kill_chain_coverage": [
+          "Delivery",
+          "Exploitation",
+          "Actions on Objectives"
+        ]
+      }
+    ],
+    "total_cross_domain_paths": 1,
+    "kill_chain_coverage": [
+      "Delivery",
+      "Exploitation",
+      "Actions on Objectives"
+    ],
+    "threat_actors_active": 4,
+    "fabric_summary": "Unified threat fabric score: 41/100 across 7 domains. 1 cross-domain attack paths identified. Top exposed domains: application, identity, supply_chain."
+  },
+  "threat_prediction": {
+    "domain": "scanme.nmap.org",
+    "model": "Bayesian inference + FAIR + CISA KEV + DBIR 2024 historical data",
+    "generated_at": "2026-03-08T20:06:38.492038+00:00",
+    "combined_attack_probability_30_days_pct": 63.2,
+    "combined_attack_probability_60_days_pct": 88.5,
+    "combined_attack_probability_90_days_pct": 99.0,
+    "overall_probability_label": "VERY HIGH",
+    "port_threat_predictions": [
+      {
+        "port": 22,
+        "service": "ssh",
+        "attack_type": "Credential Brute Force / Cryptomining",
+        "known_campaigns": [
+          "TeamTNT",
+          "8220 Gang",
+          "Rocke Group"
+        ],
+        "last_major_campaign": "2024-Q3 8220 Gang SSH cryptominer campaign",
+        "probability_30_days": 0.407,
+        "probability_60_days": 0.648,
+        "probability_90_days": 0.791,
+        "probability_label": "HIGH (30\u201350%)",
+        "trend": "STABLE",
+        "cisa_kev": false,
+        "estimated_days_to_exploit": 7,
+        "sector_bias": [
+          "technology",
+          "cloud"
+        ]
+      },
+      {
+        "port": 80,
+        "service": "http",
+        "attack_type": "Web Application Attacks (SQLi, XSS, RCE)",
+        "known_campaigns": [
+          "MOVEit Transfer (Cl0p)",
+          "Log4Shell follow-on",
+          "ProxyLogon"
+        ],
+        "last_major_campaign": "2024 Apache RCE CVE-2021-41773 still exploited in wild",
+        "probability_30_days": 0.377,
+        "probability_60_days": 0.612,
+        "probability_90_days": 0.758,
+        "probability_label": "HIGH (30\u201350%)",
+        "trend": "INCREASING",
+        "cisa_kev": true,
+        "estimated_days_to_exploit": 8,
+        "sector_bias": [
+          "all"
+        ]
+      }
+    ],
+    "total_ports_at_risk": 2,
+    "predicted_attack_types": [
+      {
+        "attack_type": "Phishing/BEC",
+        "probability_30d_pct": 85.0
+      },
+      {
+        "attack_type": "Credential Brute Force",
+        "probability_30d_pct": 40.7
+      },
+      {
+        "attack_type": "Web Application Attacks (SQLi, XSS, RCE)",
+        "probability_30d_pct": 37.7
+      }
+    ],
+    "weekly_risk_forecast": [
+      {
+        "week": 1,
+        "cumulative_probability": 0.09,
+        "label": "Week 1 (7 days)"
+      },
+      {
+        "week": 2,
+        "cumulative_probability": 0.172,
+        "label": "Week 2 (14 days)"
+      },
+      {
+        "week": 3,
+        "cumulative_probability": 0.247,
+        "label": "Week 3 (21 days)"
+      },
+      {
+        "week": 4,
+        "cumulative_probability": 0.315,
+        "label": "Week 4 (28 days)"
+      },
+      {
+        "week": 5,
+        "cumulative_probability": 0.377,
+        "label": "Week 5 (35 days)"
+      },
+      {
+        "week": 6,
+        "cumulative_probability": 0.433,
+        "label": "Week 6 (42 days)"
+      },
+      {
+        "week": 7,
+        "cumulative_probability": 0.484,
+        "label": "Week 7 (49 days)"
+      },
+      {
+        "week": 8,
+        "cumulative_probability": 0.531,
+        "label": "Week 8 (56 days)"
+      },
+      {
+        "week": 9,
+        "cumulative_probability": 0.573,
+        "label": "Week 9 (63 days)"
+      },
+      {
+        "week": 10,
+        "cumulative_probability": 0.612,
+        "label": "Week 10 (70 days)"
+      },
+      {
+        "week": 11,
+        "cumulative_probability": 0.647,
+        "label": "Week 11 (77 days)"
+      },
+      {
+        "week": 12,
+        "cumulative_probability": 0.679,
+        "label": "Week 12 (84 days)"
+      }
+    ],
+    "global_threat_trends": [
+      {
+        "trend": "Ransomware-as-a-Service targeting SMB",
+        "probability_uplift": 0.08,
+        "active": true
+      },
+      {
+        "trend": "AI-assisted phishing campaigns surge",
+        "probability_uplift": 0.06,
+        "active": true
+      },
+      {
+        "trend": "Supply chain attacks increasing (3CX, XZ)",
+        "probability_uplift": 0.05,
+        "active": true
+      },
+      {
+        "trend": "Initial access broker market growth",
+        "probability_uplift": 0.07,
+        "active": true
+      },
+      {
+        "trend": "State-sponsored OT/ICS targeting",
+        "probability_uplift": 0.04,
+        "active": true
+      },
+      {
+        "trend": "Cloud credential theft via SSRF",
+        "probability_uplift": 0.05,
+        "active": true
+      },
+      {
+        "trend": "Zero-day exploit broker market active",
+        "probability_uplift": 0.03,
+        "active": true
+      }
+    ],
+    "global_trend_uplift_pct": 38.0,
+    "historical_trend": {
+      "available": false
+    },
+    "top_predicted_threats": [
+      {
+        "rank": 1,
+        "port": 22,
+        "service": "ssh",
+        "attack_type": "Credential Brute Force / Cryptomining",
+        "probability_30d_pct": 40.7,
+        "probability_90d_pct": 79.1,
+        "days_to_likely_exploit": 7,
+        "known_campaigns": [
+          "TeamTNT",
+          "8220 Gang",
+          "Rocke Group"
+        ]
+      },
+      {
+        "rank": 2,
+        "port": 80,
+        "service": "http",
+        "attack_type": "Web Application Attacks (SQLi, XSS, RCE)",
+        "probability_30d_pct": 37.7,
+        "probability_90d_pct": 75.8,
+        "days_to_likely_exploit": 8,
+        "known_campaigns": [
+          "MOVEit Transfer (Cl0p)",
+          "Log4Shell follow-on",
+          "ProxyLogon"
+        ]
+      }
+    ],
+    "prediction_disclaimer": "Probabilities are statistical estimates based on historical attack data from CISA KEV, Verizon DBIR 2024, and observed campaign frequency. Not a guarantee of attack occurrence. Remediate identified vulnerabilities to significantly reduce these probabilities."
+  },
+  "ip_scan": {
+    "target": "scanme.nmap.org",
+    "is_direct_ip": false,
+    "resolved_ips": [
+      "45.33.32.156"
+    ],
+    "scan_duration": 5.784936,
+    "scanned_at": "2026-03-09T01:36:44",
+    "success": true,
+    "overall_score": 61,
+    "overall_threat": "CRITICAL",
+    "total_cves": 15,
+    "total_reports": 3,
+    "key_findings": [
+      "Shodan/CriminalIP: 23 CVEs found \u2014 highest CVSS 9.8 (CVE-2017-7679)",
+      "IPQualityScore: Fraud score 78% \u2014 SUSPICIOUS",
+      "VPN/anonymizer service detected",
+      "Open proxy detected"
+    ],
+    "ip_results": [
+      {
+        "ip": "45.33.32.156",
+        "unified_score": 61,
+        "threat_level": "CRITICAL",
+        "source_scores": {
+          "abuseipdb": 0,
+          "shodan": 100,
+          "ipqualityscore": 78,
+          "criminalip": 5
+        },
+        "country": "United States",
+        "city": "Fremont",
+        "org": "Linode",
+        "isp": "Akamai Connected Cloud",
+        "is_tor": false,
+        "is_vpn": true,
+        "is_proxy": true,
+        "is_bot": false,
+        "is_scanner": false,
+        "open_ports": [
+          {
+            "port": 22,
+            "protocol": "tcp",
+            "service": "OpenSSH",
+            "version": "6.6.1p1 Ubuntu 2ubuntu2.13",
+            "source": "Shodan"
+          },
+          {
+            "port": 80,
+            "protocol": "tcp",
+            "service": "Apache httpd",
+            "version": "2.4.7",
+            "source": "Shodan"
+          },
+          {
+            "port": 123,
+            "protocol": "udp",
+            "service": "ntpd",
+            "version": "3",
+            "source": "Shodan"
+          },
+          {
+            "port": 9929,
+            "protocol": "tcp",
+            "service": "",
+            "version": "",
+            "source": "Shodan"
+          },
+          {
+            "port": 31337,
+            "protocol": "tcp",
+            "service": "",
+            "version": "",
+            "source": "Shodan"
+          }
+        ],
+        "cves": [
+          {
+            "cve": "CVE-2017-7679",
+            "cvss": 9.8,
+            "summary": "In Apache httpd 2.2.x before 2.2.33 and 2.4.x before 2.4.26, mod_mime can read one byte past the end"
+          },
+          {
+            "cve": "CVE-2024-38476",
+            "cvss": 9.8,
+            "summary": "Vulnerability in core of Apache HTTP Server 2.4.59 and earlier are vulnerably to information disclos"
+          },
+          {
+            "cve": "CVE-2024-38474",
+            "cvss": 9.8,
+            "summary": "Substitution encoding issue in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows attacker "
+          },
+          {
+            "cve": "CVE-2022-31813",
+            "cvss": 9.8,
+            "summary": "Apache HTTP Server 2.4.53 and earlier may not send the X-Forwarded-* headers to the origin server ba"
+          },
+          {
+            "cve": "CVE-2017-3167",
+            "cvss": 9.8,
+            "summary": "In Apache httpd 2.2.x before 2.2.33 and 2.4.x before 2.4.26, use of the ap_get_basic_auth_pw() by th"
+          },
+          {
+            "cve": "CVE-2021-44790",
+            "cvss": 9.8,
+            "summary": "A carefully crafted request body can cause a buffer overflow in the mod_lua multipart parser (r:pars"
+          },
+          {
+            "cve": "CVE-2021-26691",
+            "cvss": 9.8,
+            "summary": "In Apache HTTP Server versions 2.4.0 to 2.4.46 a specially crafted SessionHeader sent by an origin s"
+          },
+          {
+            "cve": "CVE-2021-39275",
+            "cvss": 9.8,
+            "summary": "ap_escape_quotes() may write beyond the end of a buffer when given malicious input. No included modu"
+          },
+          {
+            "cve": "CVE-2018-1312",
+            "cvss": 9.8,
+            "summary": "In Apache httpd 2.2.0 to 2.4.29, when generating an HTTP Digest authentication challenge, the nonce "
+          },
+          {
+            "cve": "CVE-2022-22720",
+            "cvss": 9.8,
+            "summary": "Apache HTTP Server 2.4.52 and earlier fails to close inbound connection when errors are encountered "
+          },
+          {
+            "cve": "CVE-2022-23943",
+            "cvss": 9.8,
+            "summary": "Out-of-bounds Write vulnerability in mod_sed of Apache HTTP Server allows an attacker to overwrite h"
+          },
+          {
+            "cve": "CVE-2023-25690",
+            "cvss": 9.8,
+            "summary": "Some mod_proxy configurations on Apache HTTP Server versions 2.4.0 through 2.4.55 allow a HTTP Reque"
+          },
+          {
+            "cve": "CVE-2024-38475",
+            "cvss": 9.1,
+            "summary": "Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attack"
+          },
+          {
+            "cve": "CVE-2022-22721",
+            "cvss": 9.1,
+            "summary": "If LimitXMLRequestBody is set to allow request bodies larger than 350MB (defaults to 1M) on 32 bit s"
+          },
+          {
+            "cve": "CVE-2017-9788",
+            "cvss": 9.1,
+            "summary": "In Apache httpd before 2.2.34 and 2.4.x before 2.4.27, the value placeholder in [Proxy-]Authorizatio"
+          }
+        ],
+        "key_findings": [
+          "Shodan/CriminalIP: 23 CVEs found \u2014 highest CVSS 9.8 (CVE-2017-7679)",
+          "IPQualityScore: Fraud score 78% \u2014 SUSPICIOUS",
+          "VPN/anonymizer service detected",
+          "Open proxy detected"
+        ],
+        "abuseipdb": {
+          "source": "AbuseIPDB",
+          "available": true,
+          "ip": "45.33.32.156",
+          "confidence_score": 0,
+          "confidence_label": "CLEAN",
+          "total_reports": 3,
+          "last_reported": "2026-01-09",
+          "country": "US",
+          "isp": "Linode",
+          "usage_type": "Data Center/Web Hosting/Transit",
+          "is_tor": false,
+          "is_public": true,
+          "attack_categories": [
+            "Brute Force",
+            "Web App Attack",
+            "Hacking"
+          ],
+          "recent_reports": [
+            {
+              "date": "2025-12-29",
+              "comment": "Honeypot: credentials-backup - honeypot_access",
+              "categories": [
+                "Hacking",
+                "Brute Force",
+                "Web App Attack"
+              ]
+            },
+            {
+              "date": "2025-12-19",
+              "comment": "Honeypot trap on ktjkrug.com - bot_detected - Page: /wp-admin.bak",
+              "categories": [
+                "Hacking",
+                "Brute Force",
+                "Web App Attack"
+              ]
+            },
+            {
+              "date": "2025-12-11",
+              "comment": "Blocked on admin.grossautomation.com. Confidence: 92%. Patterns: [\"env_probing\", \"php_scanning\", \"ad",
+              "categories": [
+                "Hacking",
+                "Brute Force",
+                "Web App Attack"
+              ]
+            }
+          ],
+          "threat_level": "CRITICAL",
+          "link": "https://www.abuseipdb.com/check/45.33.32.156",
+          "error": null
+        },
+        "shodan": {
+          "source": "Shodan",
+          "available": true,
+          "ip": "45.33.32.156",
+          "open_ports": [
+            80,
+            9929,
+            123,
+            22,
+            31337
+          ],
+          "services": [
+            {
+              "port": 22,
+              "protocol": "tcp",
+              "product": "OpenSSH",
+              "version": "6.6.1p1 Ubuntu 2ubuntu2.13",
+              "banner": "SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13 Key type: ssh-rsa Key: AAAAB3NzaC1yc2EAAAADAQABAAABAQC6afooTZ9mVUGFNEhkMoRR1B",
+              "cpe": [
+                "cpe:/a:openbsd:openssh:6.6.1p1",
+                "cpe:/o:canonical:ubuntu_linux"
+              ],
+              "vulns": []
+            },
+            {
+              "port": 80,
+              "protocol": "tcp",
+              "product": "Apache httpd",
+              "version": "2.4.7",
+              "banner": "HTTP/1.1 200 OK\r Date: Sat, 07 Mar 2026 18:11:11 GMT\r Server: Apache/2.4.7 (Ubuntu)\r Accept-Ranges: bytes\r Vary: Accept-",
+              "cpe": [
+                "cpe:/a:apache:http_server:2.4.7",
+                "cpe:/o:canonical:ubuntu_linux"
+              ],
+              "vulns": [
+                "CVE-2014-0117",
+                "CVE-2017-7679",
+                "CVE-2017-9798",
+                "CVE-2015-3185",
+                "CVE-2025-58098"
+              ]
+            },
+            {
+              "port": 123,
+              "protocol": "udp",
+              "product": "ntpd",
+              "version": "3",
+              "banner": "NTP protocolversion: 3 stratum: 3 leap: 0 precision: -23 rootdelay: 0.13557434082 rootdisp: 0.0894470214844 refid: 12832",
+              "cpe": [
+                "cpe:/a:ntp:ntp:3"
+              ],
+              "vulns": []
+            },
+            {
+              "port": 9929,
+              "protocol": "tcp",
+              "product": "",
+              "version": "",
+              "banner": "\\x01\\x01\\x00\\x18\\x83\\x9d.Ki\\xa9\"\\xd1\\x00\\x00\\x00\\x00\\xa5\\x15\\xb6h\\x9f\\x1c\\x0eo\\x95\\xcc\\xf3\\x17pzsQ\\xbd\\xb9\\x8c\\x8e\\x0e\\x",
+              "cpe": [],
+              "vulns": []
+            },
+            {
+              "port": 31337,
+              "protocol": "tcp",
+              "product": "",
+              "version": "",
+              "banner": "",
+              "cpe": [],
+              "vulns": []
+            }
+          ],
+          "cves": [
+            {
+              "cve": "CVE-2017-7679",
+              "cvss": 9.8,
+              "summary": "In Apache httpd 2.2.x before 2.2.33 and 2.4.x before 2.4.26, mod_mime can read one byte past the end"
+            },
+            {
+              "cve": "CVE-2024-38476",
+              "cvss": 9.8,
+              "summary": "Vulnerability in core of Apache HTTP Server 2.4.59 and earlier are vulnerably to information disclos"
+            },
+            {
+              "cve": "CVE-2024-38474",
+              "cvss": 9.8,
+              "summary": "Substitution encoding issue in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows attacker "
+            },
+            {
+              "cve": "CVE-2022-31813",
+              "cvss": 9.8,
+              "summary": "Apache HTTP Server 2.4.53 and earlier may not send the X-Forwarded-* headers to the origin server ba"
+            },
+            {
+              "cve": "CVE-2017-3167",
+              "cvss": 9.8,
+              "summary": "In Apache httpd 2.2.x before 2.2.33 and 2.4.x before 2.4.26, use of the ap_get_basic_auth_pw() by th"
+            },
+            {
+              "cve": "CVE-2021-44790",
+              "cvss": 9.8,
+              "summary": "A carefully crafted request body can cause a buffer overflow in the mod_lua multipart parser (r:pars"
+            },
+            {
+              "cve": "CVE-2021-26691",
+              "cvss": 9.8,
+              "summary": "In Apache HTTP Server versions 2.4.0 to 2.4.46 a specially crafted SessionHeader sent by an origin s"
+            },
+            {
+              "cve": "CVE-2021-39275",
+              "cvss": 9.8,
+              "summary": "ap_escape_quotes() may write beyond the end of a buffer when given malicious input. No included modu"
+            },
+            {
+              "cve": "CVE-2018-1312",
+              "cvss": 9.8,
+              "summary": "In Apache httpd 2.2.0 to 2.4.29, when generating an HTTP Digest authentication challenge, the nonce "
+            },
+            {
+              "cve": "CVE-2022-22720",
+              "cvss": 9.8,
+              "summary": "Apache HTTP Server 2.4.52 and earlier fails to close inbound connection when errors are encountered "
+            },
+            {
+              "cve": "CVE-2022-23943",
+              "cvss": 9.8,
+              "summary": "Out-of-bounds Write vulnerability in mod_sed of Apache HTTP Server allows an attacker to overwrite h"
+            },
+            {
+              "cve": "CVE-2023-25690",
+              "cvss": 9.8,
+              "summary": "Some mod_proxy configurations on Apache HTTP Server versions 2.4.0 through 2.4.55 allow a HTTP Reque"
+            },
+            {
+              "cve": "CVE-2024-38475",
+              "cvss": 9.1,
+              "summary": "Improper escaping of output in mod_rewrite in Apache HTTP Server 2.4.59 and earlier allows an attack"
+            },
+            {
+              "cve": "CVE-2022-22721",
+              "cvss": 9.1,
+              "summary": "If LimitXMLRequestBody is set to allow request bodies larger than 350MB (defaults to 1M) on 32 bit s"
+            },
+            {
+              "cve": "CVE-2017-9788",
+              "cvss": 9.1,
+              "summary": "In Apache httpd before 2.2.34 and 2.4.x before 2.4.27, the value placeholder in [Proxy-]Authorizatio"
+            }
+          ],
+          "os": "",
+          "country": "United States",
+          "city": "Fremont",
+          "org": "Linode",
+          "isp": "Akamai Connected Cloud",
+          "hostnames": [
+            "scanme.nmap.org"
+          ],
+          "domains": [
+            "nmap.org"
+          ],
+          "tags": [
+            "cloud"
+          ],
+          "last_update": "2026-03-08",
+          "vulns": [
+            "CVE-2017-7679",
+            "CVE-2024-38476",
+            "CVE-2024-38474",
+            "CVE-2022-31813",
+            "CVE-2017-3167",
+            "CVE-2021-44790",
+            "CVE-2021-26691",
+            "CVE-2021-39275",
+            "CVE-2018-1312",
+            "CVE-2022-22720"
+          ],
+          "threat_level": "CRITICAL",
+          "link": "https://www.shodan.io/host/45.33.32.156",
+          "error": null
+        },
+        "ipqualityscore": {
+          "source": "IPQualityScore",
+          "available": true,
+          "ip": "45.33.32.156",
+          "fraud_score": 78,
+          "fraud_label": "SUSPICIOUS",
+          "is_proxy": true,
+          "is_vpn": true,
+          "is_tor": false,
+          "is_bot": false,
+          "is_crawler": false,
+          "recent_abuse": false,
+          "abuse_velocity": "Premium required.",
+          "country": "US",
+          "city": "Fremont",
+          "region": "California",
+          "isp": "Akamai Technologies",
+          "org": "Akamai Technologies",
+          "timezone": "America/Los_Angeles",
+          "mobile": false,
+          "connection_type": "Premium required.",
+          "threat_level": "HIGH",
+          "link": "https://www.ipqualityscore.com/free-ip-lookup-proxy-vpn-test/lookup/45.33.32.156",
+          "error": null
+        },
+        "criminalip": {
+          "source": "CriminalIP",
+          "available": true,
+          "ip": "45.33.32.156",
+          "attack_score": 5,
+          "score_label": "LOW",
+          "inbound_score": 5,
+          "outbound_score": 3,
+          "is_scanner": false,
+          "is_vpn": false,
+          "is_tor": false,
+          "is_cloud": false,
+          "is_datacenter": false,
+          "country": "",
+          "city": "",
+          "org": "",
+          "isp": "",
+          "open_ports": [],
+          "cves": [
+            {
+              "cve": "CVE-2025-66200",
+              "cvss": 0,
+              "summary": "mod_userdir+suexec bypass via AllowOverride FileInfo vulnerability in Apache HTTP Server. Users with",
+              "port": [
+                {
+                  "port": 80,
+                  "socket": "tcp"
+                }
+              ]
+            },
+            {
+              "cve": "CVE-2024-40898",
+              "cvss": 0,
+              "summary": "SSRF in Apache HTTP Server on Windows with mod_rewrite in server/vhost context, allows to potentiall",
+              "port": [
+                {
+                  "port": 80,
+                  "socket": "tcp"
+                }
+              ]
+            },
+            {
+              "cve": "CVE-2023-45802",
+              "cvss": 0,
+              "summary": "When a HTTP/2 stream was reset (RST frame) by a client, there was a time window were the request's m",
+              "port": [
+                {
+                  "port": 80,
+                  "socket": "tcp"
+                }
+              ]
+            },
+            {
+              "cve": "CVE-2023-31122",
+              "cvss": 0,
+              "summary": "Out-of-bounds Read vulnerability in mod_macro of Apache HTTP Server.This issue affects Apache HTTP S",
+              "port": [
+                {
+                  "port": 80,
+                  "socket": "tcp"
+                }
+              ]
+            },
+            {
+              "cve": "CVE-2023-28625",
+              "cvss": 0,
+              "summary": "mod_auth_openidc is an authentication and authorization module for the Apache 2.x HTTP server that i",
+              "port": [
+                {
+                  "port": 80,
+                  "socket": "tcp"
+                }
+              ]
+            },
+            {
+              "cve": "CVE-2023-25690",
+              "cvss": 0,
+              "summary": "Some mod_proxy configurations on Apache HTTP Server versions 2.4.0 through 2.4.55 allow a HTTP Reque",
+              "port": [
+                {
+                  "port": 80,
+                  "socket": "tcp"
+                }
+              ]
+            },
+            {
+              "cve": "CVE-2022-37436",
+              "cvss": 0,
+              "summary": "Prior to Apache HTTP Server 2.4.55, a malicious backend can cause the response headers to be truncat",
+              "port": [
+                {
+                  "port": 80,
+                  "socket": "tcp"
+                }
+              ]
+            },
+            {
+              "cve": "CVE-2022-36760",
+              "cvss": 0,
+              "summary": "Inconsistent Interpretation of HTTP Requests ('HTTP Request Smuggling') vulnerability in mod_proxy_a",
+              "port": [
+                {
+                  "port": 80,
+                  "socket": "tcp"
+                }
+              ]
+            },
+            {
+              "cve": "CVE-2022-31813",
+              "cvss": 0,
+              "summary": "Apache HTTP Server 2.4.53 and earlier may not send the X-Forwarded-* headers to the origin server ba",
+              "port": [
+                {
+                  "port": 80,
+                  "socket": "tcp"
+                }
+              ]
+            },
+            {
+              "cve": "CVE-2022-30556",
+              "cvss": 0,
+              "summary": "Apache HTTP Server 2.4.53 and earlier may return lengths to applications calling r:wsread() that poi",
+              "port": [
+                {
+                  "port": 80,
+                  "socket": "tcp"
+                }
+              ]
+            }
+          ],
+          "tags": [],
+          "current_opened_count": 0,
+          "threat_level": "CRITICAL",
+          "link": "https://www.criminalip.io/ip/45.33.32.156",
+          "error": null
+        }
+      }
+    ],
+    "sources_used": [
+      "AbuseIPDB",
+      "Shodan",
+      "IPQualityScore",
+      "CriminalIP"
+    ],
+    "sources_active": [
+      "AbuseIPDB",
+      "Shodan",
+      "IPQualityScore",
+      "CriminalIP"
+    ]
+  },
+  "scan_mode": "domain",
+  "output_dir": "scans/scanme.nmap.org_20260309_013456",
+  "success": true,
+  "error": ""
+}

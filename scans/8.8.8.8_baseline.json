@@ -1,0 +1,16 @@
+{
+  "domain": "8.8.8.8",
+  "timestamp": "2026-03-08T20:16:05.123050+00:00",
+  "open_ports": [
+    "443/tcp"
+  ],
+  "port_details": [
+    {
+      "port": 443,
+      "protocol": "tcp",
+      "state": "open",
+      "service": "tcpwrapped",
+      "version": "| ssl-cert: Subject: commonName=dns.google"
+    }
+  ]
+}

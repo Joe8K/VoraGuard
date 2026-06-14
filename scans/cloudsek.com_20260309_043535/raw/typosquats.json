@@ -1,0 +1,287 @@
+[
+    {
+        "dns_a": [
+            "104.26.14.226"
+        ],
+        "dns_aaaa": [
+            "2606:4700:20::681a:ee2"
+        ],
+        "dns_mx": [
+            "alt1.aspmx.l.google.com"
+        ],
+        "dns_ns": [
+            "nina.ns.cloudflare.com"
+        ],
+        "domain": "cloudsek.com",
+        "fuzzer": "*original"
+    },
+    {
+        "dns_a": [
+            "183.90.228.8"
+        ],
+        "dns_mx": [
+            "cloudseki.com"
+        ],
+        "dns_ns": [
+            "ns1.xserver.jp"
+        ],
+        "domain": "cloudseki.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "103.186.30.46"
+        ],
+        "dns_ns": [
+            "kareem.ns.cloudflare.com"
+        ],
+        "domain": "cloudcek.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "13.248.243.5"
+        ],
+        "dns_mx": [
+            "mail.protonmail.ch"
+        ],
+        "dns_ns": [
+            "ns61.domaincontrol.com"
+        ],
+        "domain": "cloudsdk.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "13.248.243.5"
+        ],
+        "dns_ns": [
+            "ns29.domaincontrol.com"
+        ],
+        "domain": "cloudsei.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "167.99.8.17"
+        ],
+        "dns_mx": [
+            "cloudrek-com.mail.protection.outlook.com"
+        ],
+        "dns_ns": [
+            "ns1.digitalocean.com"
+        ],
+        "domain": "cloudrek.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "18.161.246.118"
+        ],
+        "dns_mx": [
+            "inbound-smtp.us-west-2.amazonaws.com"
+        ],
+        "dns_ns": [
+            "ns-1373.awsdns-43.org"
+        ],
+        "domain": "cloudsec.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "3.131.150.69"
+        ],
+        "dns_mx": [
+            "cloudsuk-com.mail.eo.outlook.com"
+        ],
+        "dns_ns": [
+            "chance.ns.cloudflare.com"
+        ],
+        "domain": "cloudsuk.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "46.149.194.24"
+        ],
+        "dns_ns": [
+            "ns1.julydns.com"
+        ],
+        "domain": "cloudsgk.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_mx": [
+            "alt1.aspmx.l.google.com"
+        ],
+        "dns_ns": [
+            "brad.ns.cloudflare.com"
+        ],
+        "domain": "cloudseo.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "15.197.148.33"
+        ],
+        "dns_mx": [
+            "mailstore1.secureserver.net"
+        ],
+        "dns_ns": [
+            "ns31.domaincontrol.com"
+        ],
+        "domain": "xn--cloudse-bhb.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "67.205.29.135"
+        ],
+        "dns_ns": [
+            "ns1.dreamhost.com"
+        ],
+        "domain": "cloudseek.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "nsg1.namebrightdns.com"
+        ],
+        "domain": "cloudsk.com",
+        "fuzzer": "omission"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.afternic.com"
+        ],
+        "domain": "cloudse.com",
+        "fuzzer": "omission"
+    },
+    {
+        "dns_a": [
+            "44.232.173.249"
+        ],
+        "dns_ns": [
+            "launch1.spaceship.net"
+        ],
+        "domain": "cloudek.com",
+        "fuzzer": "omission"
+    },
+    {
+        "dns_a": [
+            "104.21.62.220"
+        ],
+        "dns_aaaa": [
+            "2606:4700:3031::6815:3edc"
+        ],
+        "dns_mx": [
+            "route1.mx.cloudflare.net"
+        ],
+        "dns_ns": [
+            "osmar.ns.cloudflare.com"
+        ],
+        "domain": "cloudeek.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.afternic.com"
+        ],
+        "domain": "cloudsem.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "44.230.85.241"
+        ],
+        "dns_mx": [
+            "cloudsel-com.mail.protection.outlook.com"
+        ],
+        "dns_ns": [
+            "curitiba.ns.porkbun.com"
+        ],
+        "domain": "cloudsel.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "51.79.81.171"
+        ],
+        "dns_mx": [
+            "mail.cloudssk.com"
+        ],
+        "dns_ns": [
+            "cora.ns.cloudflare.com"
+        ],
+        "domain": "cloudssk.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "205.178.189.129"
+        ],
+        "domain": "clouds.ek.com",
+        "fuzzer": "subdomain"
+    },
+    {
+        "dns_a": [
+            "69.63.131.164"
+        ],
+        "domain": "cloud.sek.com",
+        "fuzzer": "subdomain"
+    },
+    {
+        "dns_a": [
+            "124.156.194.17"
+        ],
+        "dns_ns": [
+            "ns1.julydns.com"
+        ],
+        "domain": "cloudske.com",
+        "fuzzer": "transposition"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns3.afternic.com"
+        ],
+        "domain": "cloudesk.com",
+        "fuzzer": "transposition"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "nsg1.namebrightdns.com"
+        ],
+        "domain": "cloudsok.com",
+        "fuzzer": "vowel-swap"
+    }
+]

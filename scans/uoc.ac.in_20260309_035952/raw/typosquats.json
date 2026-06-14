@@ -1,0 +1,136 @@
+[
+    {
+        "dns_a": [
+            "61.1.183.126"
+        ],
+        "dns_mx": [
+            "ALT1.ASPMX.L.GOOGLE.COM"
+        ],
+        "dns_ns": [
+            "ns1.asianetindia.com"
+        ],
+        "domain": "uoc.ac.in",
+        "fuzzer": "*original"
+    },
+    {
+        "dns_a": [
+            "103.209.147.53"
+        ],
+        "dns_mx": [
+            "alt1.aspmx.l.google.com"
+        ],
+        "dns_ns": [
+            "elsa.ns.cloudflare.com"
+        ],
+        "domain": "uos.ac.in",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "104.21.83.128"
+        ],
+        "dns_aaaa": [
+            "2606:4700:3033::ac43:afde"
+        ],
+        "dns_mx": [
+            "aspmx.l.google.com"
+        ],
+        "dns_ns": [
+            "sean.ns.cloudflare.com"
+        ],
+        "domain": "uok.ac.in",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "20.204.40.7"
+        ],
+        "dns_ns": [
+            "ns1.inflibnet.ac.in"
+        ],
+        "domain": "ugc.ac.in",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "34.14.210.108"
+        ],
+        "dns_ns": [
+            "ns-cloud-b1.googledomains.com"
+        ],
+        "domain": "uod.ac.in",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "43.205.77.33"
+        ],
+        "dns_ns": [
+            "pns41.cloudns.net"
+        ],
+        "domain": "upc.ac.in",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "89.117.157.74"
+        ],
+        "dns_mx": [
+            "smtp.google.com"
+        ],
+        "dns_ns": [
+            "abby.ns.cloudflare.com"
+        ],
+        "domain": "ulc.ac.in",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "198.185.159.144"
+        ],
+        "dns_mx": [
+            "smtp.google.com"
+        ],
+        "dns_ns": [
+            "ns-cloud-c1.googledomains.com"
+        ],
+        "domain": "uocac.in",
+        "fuzzer": "various"
+    },
+    {
+        "dns_a": [
+            "54.195.35.206"
+        ],
+        "dns_ns": [
+            "ns1.daaz.org"
+        ],
+        "domain": "uoc.in",
+        "fuzzer": "various"
+    },
+    {
+        "dns_a": [
+            "117.252.29.18"
+        ],
+        "dns_ns": [
+            "dns3.ernet.in"
+        ],
+        "domain": "uuc.ac.in",
+        "fuzzer": "vowel-swap"
+    },
+    {
+        "dns_a": [
+            "46.17.172.234"
+        ],
+        "dns_aaaa": [
+            "2a02:4780:3:1337:0:247a:b611:2"
+        ],
+        "dns_mx": [
+            "alt1.aspmx.l.google.com"
+        ],
+        "dns_ns": [
+            "ns1.dns-parking.com"
+        ],
+        "domain": "uec.ac.in",
+        "fuzzer": "vowel-swap"
+    }
+]

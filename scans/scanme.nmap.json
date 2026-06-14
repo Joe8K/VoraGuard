@@ -1,0 +1,1 @@
+{"cmd":"-d scanme.nmap.org -b crtsh,dnsdumpster,hackertarget,otx -l 200 -f \/home\/j\/voraguard\/scans\/scanme.nmap.org_20260309_030605\/raw\/harvester","hosts":[],"shodan":[]}

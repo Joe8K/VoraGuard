@@ -1,0 +1,1615 @@
+{
+  "date": "2026-03-09",
+  "language": "English",
+  "language_iso": "en",
+  "total_items": 89,
+  "total_critical": 29,
+  "total_high": 44,
+  "executive_summary": "Today's cyber threat landscape (2026-03-09) shows 89 active intelligence items across 8 categories. 29 CRITICAL and 44 HIGH severity threats detected. Key threats: Amaranth-Dragon: Weaponizing CVE-2025-8088 for Targeted Espionage in Southeast Asia; New year, new sector: Targeting India's startup ecosystem; Compromised Routers, DNS, and a TDS Hidden in Aeza Networks. Security teams should prioritise patching actively exploited vulnerabilities and reviewing CISA KEV list for immediate action items.",
+  "executive_summary_en": "Today's cyber threat landscape (2026-03-09) shows 89 active intelligence items across 8 categories. 29 CRITICAL and 44 HIGH severity threats detected. Key threats: Amaranth-Dragon: Weaponizing CVE-2025-8088 for Targeted Espionage in Southeast Asia; New year, new sector: Targeting India's startup ecosystem; Compromised Routers, DNS, and a TDS Hidden in Aeza Networks. Security teams should prioritise patching actively exploited vulnerabilities and reviewing CISA KEV list for immediate action items.",
+  "sections": [
+    {
+      "title": "\ud83d\udea8 CRITICAL: Actively Exploited Vulnerabilities",
+      "text": "\u2022 CVE-2026-25108 \u2014 Soliton Systems K.K FileZen OS Command Injection Vulnerability\n  Soliton Systems K.K FileZen contains an OS command injection vulnerability when an user logs-in to the affected product and sends a specially crafted HTTP request.\n  \ud83d\udd17 https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n  CVE: CVE-2026-25108\n  \u26a1 Action: Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.\n\n\u2022 CVE-2022-20775 \u2014 Cisco SD-WAN Path Traversal Vulnerability\n  Cisco SD-WAN CLI contains a path traversal vulnerability that could allow an authenticated local attacker to gain elevated privileges via improper access controls on commands within the application CL\n  \ud83d\udd17 https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n  CVE: CVE-2022-20775\n  \u26a1 Action: Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlines in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s \u201cHunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.\n\n\u2022 CVE-2026-20127 \u2014 Cisco Catalyst SD-WAN Controller and Manager Authentication Bypass Vulnerability\n  Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, and Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, contain an authentication bypass vulnerability could allow an unauthenticated, rem\n  \ud83d\udd17 https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n  CVE: CVE-2026-20127\n  \u26a1 Action: Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlines in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s \u201cHunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.\n\n\u2022 CVE-2026-22719 \u2014 Broadcom VMware Aria Operations Command Injection Vulnerability\n  Broadcom VMware Aria Operations formerly known as vRealize Operations (vROps) contains a command injection vulnerability that allows an unauthenticated attacker to execute arbitrary commands, potentia\n  \ud83d\udd17 https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n  CVE: CVE-2026-22719\n  \u26a1 Action: Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.\n\n\u2022 CVE-2026-21385 \u2014 Qualcomm Multiple Chipsets Memory Corruption Vulnerability\n  Multiple Qualcomm chipsets contain a memory corruption vulnerability while using alignments for memory allocation. \n  \ud83d\udd17 https://www.cisa.gov/known-exploited-vulnerabilities-catalog\n  CVE: CVE-2026-21385\n  \u26a1 Action: Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "items": [
+        {
+          "source": "CISA KEV",
+          "type": "exploited_vulnerability",
+          "title": "CVE-2026-25108 \u2014 Soliton Systems K.K FileZen OS Command Injection Vulnerability",
+          "summary": "Soliton Systems K.K FileZen contains an OS command injection vulnerability when an user logs-in to the affected product and sends a specially crafted HTTP request.",
+          "detail": "Vendor: Soliton Systems K.K | Product: FileZen | Action required by: 2026-03-17",
+          "severity": "CRITICAL",
+          "date": "2026-02-24",
+          "cve": "CVE-2026-25108",
+          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "source": "CISA KEV",
+          "type": "exploited_vulnerability",
+          "title": "CVE-2022-20775 \u2014 Cisco SD-WAN Path Traversal Vulnerability",
+          "summary": "Cisco SD-WAN CLI contains a path traversal vulnerability that could allow an authenticated local attacker to gain elevated privileges via improper access controls on commands within the application CLI. A successful exploit could allow the attacker to execute arbitrary commands as the root user.",
+          "detail": "Vendor: Cisco | Product: SD-WAN | Action required by: 2026-02-27",
+          "severity": "CRITICAL",
+          "date": "2026-02-25",
+          "cve": "CVE-2022-20775",
+          "action": "Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlines in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s \u201cHunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "source": "CISA KEV",
+          "type": "exploited_vulnerability",
+          "title": "CVE-2026-20127 \u2014 Cisco Catalyst SD-WAN Controller and Manager Authentication Bypass Vulnerability",
+          "summary": "Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, and Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, contain an authentication bypass vulnerability could allow an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system. This vulnerability exists because the peering authentication mechanism in an affected system is not working properly. An attacker could exploit this vulnerability by sending crafted requests to an affected system. A successful exploit could allow the attacker to log in to an affected Cisco Catalyst SD-WAN Controller as an internal, high-privileged, non-root user account. Using this account, the attacker could access NETCONF, which would then allow the attacker to manipulate network configuration for the SD-WAN fabric.",
+          "detail": "Vendor: Cisco | Product: Catalyst SD-WAN Controller and Manager | Action required by: 2026-02-27",
+          "severity": "CRITICAL",
+          "date": "2026-02-25",
+          "cve": "CVE-2026-20127",
+          "action": "Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlines in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s \u201cHunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "source": "CISA KEV",
+          "type": "exploited_vulnerability",
+          "title": "CVE-2026-22719 \u2014 Broadcom VMware Aria Operations Command Injection Vulnerability",
+          "summary": "Broadcom VMware Aria Operations formerly known as vRealize Operations (vROps) contains a command injection vulnerability that allows an unauthenticated attacker to execute arbitrary commands, potentially leading to remote code execution during support\u2011assisted product migration.",
+          "detail": "Vendor: Broadcom | Product: VMware Aria Operations | Action required by: 2026-03-24",
+          "severity": "CRITICAL",
+          "date": "2026-03-03",
+          "cve": "CVE-2026-22719",
+          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "source": "CISA KEV",
+          "type": "exploited_vulnerability",
+          "title": "CVE-2026-21385 \u2014 Qualcomm Multiple Chipsets Memory Corruption Vulnerability",
+          "summary": "Multiple Qualcomm chipsets contain a memory corruption vulnerability while using alignments for memory allocation. ",
+          "detail": "Vendor: Qualcomm | Product: Multiple Chipsets | Action required by: 2026-03-24",
+          "severity": "CRITICAL",
+          "date": "2026-03-03",
+          "cve": "CVE-2026-21385",
+          "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        }
+      ],
+      "title_en": "\ud83d\udea8 CRITICAL: Actively Exploited Vulnerabilities"
+    },
+    {
+      "title": "\ud83e\udda0 Ransomware & APT Campaigns",
+      "text": "\u2022 Amaranth-Dragon: Weaponizing CVE-2025-8088 for Targeted Espionage in Southeast Asia\n  A Chinese threat actor, Amaranth-Dragon, has been conducting highly targeted cyber-espionage campaigns against government and law enforcement agencies in Southeast Asia throughout 2025. The group swif\n  \ud83d\udd17 https://otx.alienvault.com/pulse/69836c632ca6c16f064a97d5\n\n\u2022 Compromised Routers, DNS, and a TDS Hidden in Aeza Networks\n  A shadow DNS network and HTTP-based traffic distribution system (TDS) hosted in Aeza International, a sanctioned bulletproof hosting company, has been discovered. The system compromises routers, alter\n  \ud83d\udd17 https://otx.alienvault.com/pulse/69836533452882efd5edaa55\n\n\u2022 Knife Cutting the Edge: Disclosing a China-nexus gateway-monitoring AitM framework\n  Cisco Talos uncovered 'DKnife', a sophisticated gateway-monitoring and adversary-in-the-middle (AitM) framework comprising seven Linux-based implants. Used since 2019, DKnife performs deep-packet insp\n  \ud83d\udd17 https://otx.alienvault.com/pulse/6984fa9b481e11f8426b9eb0\n\n\u2022 The Shadow Campaigns: Uncovering Global Espionage\n  This investigation reveals a new cyberespionage group tracked as TGR-STA-1030, believed to be a state-aligned actor operating from Asia. Over the past year, the group has compromised government and cr\n  \ud83d\udd17 https://otx.alienvault.com/pulse/6984fb96aab9cc504d06ea4e\n\n\u2022 New Clickfix variant 'CrashFix' deploying Python Remote Access Trojan\n  A new evolution in the ClickFix campaign, dubbed CrashFix, has been identified. This variant deliberately crashes victims' browsers and uses social engineering to lure users into executing malicious c\n  \ud83d\udd17 https://otx.alienvault.com/pulse/6984f6ff578072f56d9160d2",
+      "items": [
+        {
+          "source": "AlienVault OTX",
+          "type": "threat_pulse",
+          "title": "Amaranth-Dragon: Weaponizing CVE-2025-8088 for Targeted Espionage in Southeast Asia",
+          "summary": "A Chinese threat actor, Amaranth-Dragon, has been conducting highly targeted cyber-espionage campaigns against government and law enforcement agencies in Southeast Asia throughout 2025. The group swiftly exploited the CVE-2025-8088 vulnerability in WinRAR to deliver malicious payloads, including a custom loader and the Havoc C2 Framework. Their operations demonstrate sophisticated tactics, includi",
+          "severity": "CRITICAL",
+          "date": "2026-02-04",
+          "tags": [
+            "winrar",
+            "amaranth loader",
+            "espionage",
+            "apt-41",
+            "telegram rat"
+          ],
+          "malware": [
+            "Amaranth Loader",
+            "Havoc C2 Framework",
+            "TGAmaranth RAT"
+          ],
+          "countries": [
+            "Cambodia",
+            "Indonesia",
+            "Philippines",
+            "Singapore",
+            "Thailand"
+          ],
+          "ioc_count": 145,
+          "tlp": "white",
+          "url": "https://otx.alienvault.com/pulse/69836c632ca6c16f064a97d5"
+        },
+        {
+          "source": "AlienVault OTX",
+          "type": "threat_pulse",
+          "title": "Compromised Routers, DNS, and a TDS Hidden in Aeza Networks",
+          "summary": "A shadow DNS network and HTTP-based traffic distribution system (TDS) hosted in Aeza International, a sanctioned bulletproof hosting company, has been discovered. The system compromises routers, altering their DNS settings to use shadow resolvers. These resolvers selectively modify responses, directing users to malicious content. The TDS incorporates a clever DNS trick to evade detection by securi",
+          "severity": "CRITICAL",
+          "date": "2026-02-04",
+          "tags": [
+            "aeza networks",
+            "compromised routers",
+            "dnschanger",
+            "adtech",
+            "traffic distribution system"
+          ],
+          "malware": [
+            "DNSChanger"
+          ],
+          "countries": [],
+          "ioc_count": 6,
+          "tlp": "white",
+          "url": "https://otx.alienvault.com/pulse/69836533452882efd5edaa55"
+        },
+        {
+          "source": "AlienVault OTX",
+          "type": "threat_pulse",
+          "title": "Knife Cutting the Edge: Disclosing a China-nexus gateway-monitoring AitM framework",
+          "summary": "Cisco Talos uncovered 'DKnife', a sophisticated gateway-monitoring and adversary-in-the-middle (AitM) framework comprising seven Linux-based implants. Used since 2019, DKnife performs deep-packet inspection, traffic manipulation, and malware delivery via routers and edge devices. It targets various devices, including PCs, mobile devices, and IoT, delivering ShadowPad and DarkNimbus backdoors. The ",
+          "severity": "CRITICAL",
+          "date": "2026-02-05",
+          "tags": [
+            "china-nexus",
+            "traffic manipulation",
+            "shadowpad",
+            "gateway-monitoring",
+            "darknimbus"
+          ],
+          "malware": [
+            "ShadowPad - S0596",
+            "POISONPLUG.SHADOW",
+            "DarkNimbus"
+          ],
+          "countries": [
+            "China"
+          ],
+          "ioc_count": 84,
+          "tlp": "white",
+          "url": "https://otx.alienvault.com/pulse/6984fa9b481e11f8426b9eb0"
+        },
+        {
+          "source": "AlienVault OTX",
+          "type": "threat_pulse",
+          "title": "The Shadow Campaigns: Uncovering Global Espionage",
+          "summary": "This investigation reveals a new cyberespionage group tracked as TGR-STA-1030, believed to be a state-aligned actor operating from Asia. Over the past year, the group has compromised government and critical infrastructure organizations in 37 countries, targeting ministries, law enforcement agencies, and departments related to economic, trade, and diplomatic functions. The group employs sophisticat",
+          "severity": "CRITICAL",
+          "date": "2026-02-05",
+          "tags": [
+            "infrastructure",
+            "cyberespionage",
+            "global",
+            "phishing",
+            "cobalt strike"
+          ],
+          "malware": [
+            "Diaoyu Loader",
+            "Cobalt Strike - S0154",
+            "VShell"
+          ],
+          "countries": [
+            "United States of America",
+            "United Kingdom of Great Britain and Northern Ireland",
+            "Singapore",
+            "Bolivia, Plurinational State of",
+            "Brazil"
+          ],
+          "ioc_count": 29,
+          "tlp": "white",
+          "url": "https://otx.alienvault.com/pulse/6984fb96aab9cc504d06ea4e"
+        },
+        {
+          "source": "AlienVault OTX",
+          "type": "threat_pulse",
+          "title": "New Clickfix variant 'CrashFix' deploying Python Remote Access Trojan",
+          "summary": "A new evolution in the ClickFix campaign, dubbed CrashFix, has been identified. This variant deliberately crashes victims' browsers and uses social engineering to lure users into executing malicious commands. The attack begins with a malicious ad redirecting users to install a harmful browser extension impersonating a legitimate ad blocker. The payload causes delayed browser issues and presents a ",
+          "severity": "CRITICAL",
+          "date": "2026-02-05",
+          "tags": [
+            "obfuscation",
+            "python rat",
+            "social engineering",
+            "crashfix",
+            "persistence"
+          ],
+          "malware": [
+            "CrashFix",
+            "ModeloRAT"
+          ],
+          "countries": [],
+          "ioc_count": 10,
+          "tlp": "white",
+          "url": "https://otx.alienvault.com/pulse/6984f6ff578072f56d9160d2"
+        }
+      ],
+      "title_en": "\ud83e\udda0 Ransomware & APT Campaigns"
+    },
+    {
+      "title": "\ud83c\uddee\ud83c\uddf3 India Cyber Threat Landscape",
+      "text": "\u2022 New year, new sector: Targeting India's startup ecosystem\n  Transparent Tribe, also known as APT36, has expanded its targeting to include India's startup ecosystem, particularly those in the cybersecurity domain. The group is using startup-oriented themed lure\n  \ud83d\udd17 https://otx.alienvault.com/pulse/69836c616757ccfa9dcad92c",
+      "items": [
+        {
+          "source": "AlienVault OTX",
+          "type": "threat_pulse",
+          "title": "New year, new sector: Targeting India's startup ecosystem",
+          "summary": "Transparent Tribe, also known as APT36, has expanded its targeting to include India's startup ecosystem, particularly those in the cybersecurity domain. The group is using startup-oriented themed lure material delivered via ISO container-based files to deploy Crimson RAT. This campaign deviates from their typical government and defense targets, suggesting a shift in strategy towards companies prov",
+          "severity": "CRITICAL",
+          "date": "2026-02-04",
+          "tags": [
+            "apt36",
+            "cybersecurity",
+            "india",
+            "startup",
+            "spear-phishing"
+          ],
+          "malware": [
+            "Crimson RAT"
+          ],
+          "countries": [
+            "British Indian Ocean Territory",
+            "India"
+          ],
+          "ioc_count": 8,
+          "tlp": "white",
+          "url": "https://otx.alienvault.com/pulse/69836c616757ccfa9dcad92c"
+        }
+      ],
+      "title_en": "\ud83c\uddee\ud83c\uddf3 India Cyber Threat Landscape"
+    },
+    {
+      "title": "\ud83d\udd13 New CVEs \u2014 Patch Immediately",
+      "text": "\u2022 CVE-1999-0084 (CVSS 8.4) \u2014 Certain NFS servers allow users to use mknod to gain privileges by creating a wr\n  Certain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device and setting the UID to 0.\n  \ud83d\udd17 https://exchange.xforce.ibmcloud.com/vulnerabilities/78\n  CVE: CVE-1999-0084\n\n\u2022 CVE-1999-0095 (CVSS 10.0) \u2014 The debug command in Sendmail is enabled, allowing attackers to execute commands\n  The debug command in Sendmail is enabled, allowing attackers to execute commands as root.\n  \ud83d\udd17 http://seclists.org/fulldisclosure/2019/Jun/16\n  CVE: CVE-1999-0095\n\n\u2022 CVE-1999-0082 (CVSS 10.0) \u2014 CWD ~root command in ftpd allows root access.\n  CWD ~root command in ftpd allows root access.\n  \ud83d\udd17 http://www.alw.nih.gov/Security/Docs/admin-guide-to-cracking.101.html\n  CVE: CVE-1999-0082\n\n\u2022 CVE-1999-1471 (CVSS 7.2) \u2014 Buffer overflow in passwd in BSD based operating systems 4.3 and earlier allows \n  Buffer overflow in passwd in BSD based operating systems 4.3 and earlier allows local users to gain root privileges by specifying a long shell or GECOS field.\n  \ud83d\udd17 http://www.cert.org/advisories/CA-1989-01.html\n  CVE: CVE-1999-1471\n\n\u2022 CVE-1999-1122 (CVSS 4.6) \u2014 Vulnerability in restore in SunOS 4.0.3 and earlier allows local users to gain p\n  Vulnerability in restore in SunOS 4.0.3 and earlier allows local users to gain privileges.\n  \ud83d\udd17 http://www.cert.org/advisories/CA-1989-02.html\n  CVE: CVE-1999-1122\n\n\u2022 CVE-1999-1467 (CVSS 10.0) \u2014 Vulnerability in rcp on SunOS 4.0.x allows remote attackers from trusted hosts t\n  Vulnerability in rcp on SunOS 4.0.x allows remote attackers from trusted hosts to execute arbitrary commands as root, possibly related to the configuration of the nobody user.\n  \ud83d\udd17 http://www.cert.org/advisories/CA-1989-07.html\n  CVE: CVE-1999-1467",
+      "items": [
+        {
+          "source": "NVD CVE",
+          "type": "cve",
+          "title": "CVE-1999-0084 (CVSS 8.4) \u2014 Certain NFS servers allow users to use mknod to gain privileges by creating a wr",
+          "summary": "Certain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device and setting the UID to 0.",
+          "severity": "HIGH",
+          "cvss_score": 8.4,
+          "cve": "CVE-1999-0084",
+          "date": "1990-05-01",
+          "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/78"
+        },
+        {
+          "source": "NVD CVE",
+          "type": "cve",
+          "title": "CVE-1999-0095 (CVSS 10.0) \u2014 The debug command in Sendmail is enabled, allowing attackers to execute commands",
+          "summary": "The debug command in Sendmail is enabled, allowing attackers to execute commands as root.",
+          "severity": "MEDIUM",
+          "cvss_score": 10.0,
+          "cve": "CVE-1999-0095",
+          "date": "1988-10-01",
+          "url": "http://seclists.org/fulldisclosure/2019/Jun/16"
+        },
+        {
+          "source": "NVD CVE",
+          "type": "cve",
+          "title": "CVE-1999-0082 (CVSS 10.0) \u2014 CWD ~root command in ftpd allows root access.",
+          "summary": "CWD ~root command in ftpd allows root access.",
+          "severity": "MEDIUM",
+          "cvss_score": 10.0,
+          "cve": "CVE-1999-0082",
+          "date": "1988-11-11",
+          "url": "http://www.alw.nih.gov/Security/Docs/admin-guide-to-cracking.101.html"
+        },
+        {
+          "source": "NVD CVE",
+          "type": "cve",
+          "title": "CVE-1999-1471 (CVSS 7.2) \u2014 Buffer overflow in passwd in BSD based operating systems 4.3 and earlier allows ",
+          "summary": "Buffer overflow in passwd in BSD based operating systems 4.3 and earlier allows local users to gain root privileges by specifying a long shell or GECOS field.",
+          "severity": "MEDIUM",
+          "cvss_score": 7.2,
+          "cve": "CVE-1999-1471",
+          "date": "1989-01-01",
+          "url": "http://www.cert.org/advisories/CA-1989-01.html"
+        },
+        {
+          "source": "NVD CVE",
+          "type": "cve",
+          "title": "CVE-1999-1122 (CVSS 4.6) \u2014 Vulnerability in restore in SunOS 4.0.3 and earlier allows local users to gain p",
+          "summary": "Vulnerability in restore in SunOS 4.0.3 and earlier allows local users to gain privileges.",
+          "severity": "MEDIUM",
+          "cvss_score": 4.6,
+          "cve": "CVE-1999-1122",
+          "date": "1989-07-26",
+          "url": "http://www.cert.org/advisories/CA-1989-02.html"
+        },
+        {
+          "source": "NVD CVE",
+          "type": "cve",
+          "title": "CVE-1999-1467 (CVSS 10.0) \u2014 Vulnerability in rcp on SunOS 4.0.x allows remote attackers from trusted hosts t",
+          "summary": "Vulnerability in rcp on SunOS 4.0.x allows remote attackers from trusted hosts to execute arbitrary commands as root, possibly related to the configuration of the nobody user.",
+          "severity": "MEDIUM",
+          "cvss_score": 10.0,
+          "cve": "CVE-1999-1467",
+          "date": "1989-10-26",
+          "url": "http://www.cert.org/advisories/CA-1989-07.html"
+        }
+      ],
+      "title_en": "\ud83d\udd13 New CVEs \u2014 Patch Immediately"
+    },
+    {
+      "title": "\ud83c\udfdb\ufe0f  Government Advisories (CISA/US-CERT)",
+      "text": "\u2022 Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global Critical Infrastructure\n  <h2><strong>Summary</strong></h2>\n<p><strong>Note:</strong> This joint Cybersecurity Advisory is being published as an addition to the Cybersecurity and Infrastructure Security Agency (CISA) May 6, 20\n  \ud83d\udd17 https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-343a\n\n\u2022 Russian GRU Targeting Western Logistics Entities and Technology Companies\n  <h2><strong>Executive Summary</strong></h2>\n<p>This joint cybersecurity advisory (CSA) highlights a Russian state-sponsored cyber campaign targeting Western logistics entities and technology companies\n  \ud83d\udd17 https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-141a\n\n\u2022 #StopRansomware: Interlock\n  <h2><strong>Summary</strong></h2>\n<p><em><strong>Note</strong>: This joint Cybersecurity Advisory is part of an ongoing #StopRansomware effort to publish advisories for network defenders that detail v\n  \ud83d\udd17 https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a\n\n\u2022 CISA Shares Lessons Learned from an Incident Response Engagement\n  <h2><strong>Advisory at a Glance</strong></h2>\n<table>\n<tbody>\n<tr>\n<td>Executive Summary</td>\n<td>CISA began incident response efforts at a U.S. federal civilian executive branch (FCEB) agency follow\n  \ud83d\udd17 https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-266a",
+      "items": [
+        {
+          "source": "US-CERT Alert",
+          "type": "government_advisory",
+          "title": "Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global Critical Infrastructure",
+          "summary": "<h2><strong>Summary</strong></h2>\n<p><strong>Note:</strong> This joint Cybersecurity Advisory is being published as an addition to the Cybersecurity and Infrastructure Security Agency (CISA) May 6, 2025, joint fact sheet <a href=\"https://www.cisa.gov/resources-tools/resources/primary-mitigations-red",
+          "severity": "HIGH",
+          "date": "Fri, 05 De",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-343a"
+        },
+        {
+          "source": "US-CERT Alert",
+          "type": "government_advisory",
+          "title": "Russian GRU Targeting Western Logistics Entities and Technology Companies",
+          "summary": "<h2><strong>Executive Summary</strong></h2>\n<p>This joint cybersecurity advisory (CSA) highlights a Russian state-sponsored cyber campaign targeting Western logistics entities and technology companies. This includes those involved in the coordination, transport, and delivery of foreign assistance to",
+          "severity": "HIGH",
+          "date": "Mon, 12 Ma",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-141a"
+        },
+        {
+          "source": "US-CERT Alert",
+          "type": "government_advisory",
+          "title": "#StopRansomware: Interlock",
+          "summary": "<h2><strong>Summary</strong></h2>\n<p><em><strong>Note</strong>: This joint Cybersecurity Advisory is part of an ongoing #StopRansomware effort to publish advisories for network defenders that detail various ransomware variants and ransomware threat actors. These #StopRansomware advisories include re",
+          "severity": "HIGH",
+          "date": "Mon, 21 Ju",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a"
+        },
+        {
+          "source": "US-CERT Alert",
+          "type": "government_advisory",
+          "title": "CISA Shares Lessons Learned from an Incident Response Engagement",
+          "summary": "<h2><strong>Advisory at a Glance</strong></h2>\n<table>\n<tbody>\n<tr>\n<td>Executive Summary</td>\n<td>CISA began incident response efforts at a U.S. federal civilian executive branch (FCEB) agency following the detection of potential malicious activity identified through security alerts generated by th",
+          "severity": "HIGH",
+          "date": "Mon, 22 Se",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-266a"
+        }
+      ],
+      "title_en": "\ud83c\udfdb\ufe0f  Government Advisories (CISA/US-CERT)"
+    },
+    {
+      "title": "\ud83c\udf10 Internet Exposure Trends (Shodan)",
+      "text": "\u2022 Shodan: 332,996 hosts \u2014 SSH Exposure India\n  Internet-wide scan shows 332,996 hosts matching: port:22 country:IN\n  \ud83d\udd17 https://www.shodan.io/search?query=port%3A22%20country%3AIN\n\n\u2022 Shodan: 2,410,044 hosts \u2014 RDP Internet Exposure\n  Internet-wide scan shows 2,410,044 hosts matching: port:3389\n  \ud83d\udd17 https://www.shodan.io/search?query=port%3A3389\n\n\u2022 Shodan: 8,513 hosts \u2014 Unsecured Redis\n  Internet-wide scan shows 8,513 hosts matching: port:6379 protected-mode no\n  \ud83d\udd17 https://www.shodan.io/search?query=port%3A6379%20protected-mode%20no",
+      "items": [
+        {
+          "source": "Shodan",
+          "type": "internet_exposure",
+          "title": "Shodan: 332,996 hosts \u2014 SSH Exposure India",
+          "summary": "Internet-wide scan shows 332,996 hosts matching: port:22 country:IN",
+          "severity": "HIGH",
+          "date": "2026-03-09",
+          "count": 332996,
+          "query": "port:22 country:IN",
+          "url": "https://www.shodan.io/search?query=port%3A22%20country%3AIN"
+        },
+        {
+          "source": "Shodan",
+          "type": "internet_exposure",
+          "title": "Shodan: 2,410,044 hosts \u2014 RDP Internet Exposure",
+          "summary": "Internet-wide scan shows 2,410,044 hosts matching: port:3389",
+          "severity": "HIGH",
+          "date": "2026-03-09",
+          "count": 2410044,
+          "query": "port:3389",
+          "url": "https://www.shodan.io/search?query=port%3A3389"
+        },
+        {
+          "source": "Shodan",
+          "type": "internet_exposure",
+          "title": "Shodan: 8,513 hosts \u2014 Unsecured Redis",
+          "summary": "Internet-wide scan shows 8,513 hosts matching: port:6379 protected-mode no",
+          "severity": "MEDIUM",
+          "date": "2026-03-09",
+          "count": 8513,
+          "query": "port:6379 protected-mode no",
+          "url": "https://www.shodan.io/search?query=port%3A6379%20protected-mode%20no"
+        }
+      ],
+      "title_en": "\ud83c\udf10 Internet Exposure Trends (Shodan)"
+    },
+    {
+      "title": "\ud83d\udc41\ufe0f  Threat Intelligence Pulses (OTX)",
+      "text": "\u2022 AI-assisted cloud intrusion achieves admin access in 8 minutes\n  An AWS environment was targeted in a sophisticated attack, with the threat actor gaining administrative privileges in under 10 minutes. The operation showed signs of leveraging large language models f\n  \ud83d\udd17 https://otx.alienvault.com/pulse/69836c62efca44252227678d",
+      "items": [
+        {
+          "source": "AlienVault OTX",
+          "type": "threat_pulse",
+          "title": "AI-assisted cloud intrusion achieves admin access in 8 minutes",
+          "summary": "An AWS environment was targeted in a sophisticated attack, with the threat actor gaining administrative privileges in under 10 minutes. The operation showed signs of leveraging large language models for automation and decision-making. Initial access was obtained through credentials found in public S3 buckets, followed by rapid privilege escalation via Lambda function code injection. The attacker m",
+          "severity": "HIGH",
+          "date": "2026-02-04",
+          "tags": [
+            "gpu abuse",
+            "privilege escalation",
+            "llmjacking",
+            "cloud security",
+            "aws"
+          ],
+          "malware": [],
+          "countries": [],
+          "ioc_count": 0,
+          "tlp": "white",
+          "url": "https://otx.alienvault.com/pulse/69836c62efca44252227678d"
+        }
+      ],
+      "title_en": "\ud83d\udc41\ufe0f  Threat Intelligence Pulses (OTX)"
+    },
+    {
+      "title": "\ud83d\udcf0 Cyber Security Headlines",
+      "text": "\u2022 \u26a1 Weekly Recap: Qualcomm 0-Day, iOS Exploit Chains, AirSnitch Attack & Vibe-Coded Malware\n  Another week in cybersecurity. Another week of \"you've got to be kidding me.\"\nAttackers were busy. Defenders were busy. And somewhere in the middle, a whole lot of people had a very bad Monday morning\n  \ud83d\udd17 https://thehackernews.com/2026/03/weekly-recap-qualcomm-0-day-ios-exploit.html\n\n\u2022 Web Server Exploits and Mimikatz Used in Attacks Targeting Asian Critical Infrastructure\n  High-value organizations located in South, Southeast, and East Asia have been targeted by a Chinese threat actor as part of a years-long campaign.\nThe activity, which has targeted aviation, energy, go\n  \ud83d\udd17 https://thehackernews.com/2026/03/web-server-exploits-and-mimikatz-used.html\n\n\u2022 Chinese Cyber Threat Lurks In Critical Asian Sectors for Years\n  An undefined Chinese-speaking actor wields a combo of custom malware, open source tools, and LOTL binaries against Windows and Linux, likely for spying.\n  \ud83d\udd17 https://www.darkreading.com/threat-intelligence/chinese-cyber-threat-critical-asian-sectors\n\n\u2022 What cybersecurity actually does for your business\n  The ability to continue operating safely in an unsafe environment where competitors cannot is a competitive advantage that is rarely measured or discussed\n  \ud83d\udd17 https://www.welivesecurity.com/en/business-security/what-cybersecurity-actually-does-for-your-business/\n\n\u2022 Cylake Offers AI-Native Security Without Relying on Cloud Services\n  Cylake's platform will analyze security data locally and identify potential attacks for organizations concerned about data sovereignty.\n  \ud83d\udd17 https://www.darkreading.com/endpoint-security/cylake-offers-ai-native-security-without-relying-on-cloud-services\n\n\u2022 EU Auto Rules Shift Gears on Cybersecurity Standards\n  The European Union is taking new precautions as climate change and cybersecurity threats rise across the automotive industry.\n  \ud83d\udd17 https://www.darkreading.com/cyber-risk/eu-auto-rules-shift-gears-on-cybersecurity-standards",
+      "items": [
+        {
+          "source": "The Hacker News",
+          "type": "news",
+          "title": "\u26a1 Weekly Recap: Qualcomm 0-Day, iOS Exploit Chains, AirSnitch Attack & Vibe-Coded Malware",
+          "summary": "Another week in cybersecurity. Another week of \"you've got to be kidding me.\"\nAttackers were busy. Defenders were busy. And somewhere in the middle, a whole lot of people had a very bad Monday morning. That's kind of just how it goes now.\nThe good news? There were some actual wins this week. Real ones. The kind where the good guys showed up, did the work, and made a dent. It doesn't always",
+          "severity": "CRITICAL",
+          "date": "Mon, 09 Mar 2026",
+          "url": "https://thehackernews.com/2026/03/weekly-recap-qualcomm-0-day-ios-exploit.html"
+        },
+        {
+          "source": "The Hacker News",
+          "type": "news",
+          "title": "Web Server Exploits and Mimikatz Used in Attacks Targeting Asian Critical Infrastructure",
+          "summary": "High-value organizations located in South, Southeast, and East Asia have been targeted by a Chinese threat actor as part of a years-long campaign.\nThe activity, which has targeted aviation, energy, government, law enforcement, pharmaceutical, technology, and telecommunications sectors, has been attributed by Palo Alto Networks Unit 42 to a previously undocumented threat activity group dubbed",
+          "severity": "CRITICAL",
+          "date": "Mon, 09 Mar 2026",
+          "url": "https://thehackernews.com/2026/03/web-server-exploits-and-mimikatz-used.html"
+        },
+        {
+          "source": "Dark Reading",
+          "type": "news",
+          "title": "Chinese Cyber Threat Lurks In Critical Asian Sectors for Years",
+          "summary": "An undefined Chinese-speaking actor wields a combo of custom malware, open source tools, and LOTL binaries against Windows and Linux, likely for spying.",
+          "severity": "CRITICAL",
+          "date": "Mon, 09 Mar 2026",
+          "url": "https://www.darkreading.com/threat-intelligence/chinese-cyber-threat-critical-asian-sectors"
+        },
+        {
+          "source": "ESET Blog",
+          "type": "news",
+          "title": "What cybersecurity actually does for your business",
+          "summary": "The ability to continue operating safely in an unsafe environment where competitors cannot is a competitive advantage that is rarely measured or discussed",
+          "severity": "HIGH",
+          "date": "Fri, 06 Mar 2026",
+          "url": "https://www.welivesecurity.com/en/business-security/what-cybersecurity-actually-does-for-your-business/"
+        },
+        {
+          "source": "Dark Reading",
+          "type": "news",
+          "title": "Cylake Offers AI-Native Security Without Relying on Cloud Services",
+          "summary": "Cylake's platform will analyze security data locally and identify potential attacks for organizations concerned about data sovereignty.",
+          "severity": "HIGH",
+          "date": "Fri, 06 Mar 2026",
+          "url": "https://www.darkreading.com/endpoint-security/cylake-offers-ai-native-security-without-relying-on-cloud-services"
+        },
+        {
+          "source": "Dark Reading",
+          "type": "news",
+          "title": "EU Auto Rules Shift Gears on Cybersecurity Standards",
+          "summary": "The European Union is taking new precautions as climate change and cybersecurity threats rise across the automotive industry.",
+          "severity": "HIGH",
+          "date": "Fri, 06 Mar 2026",
+          "url": "https://www.darkreading.com/cyber-risk/eu-auto-rules-shift-gears-on-cybersecurity-standards"
+        }
+      ],
+      "title_en": "\ud83d\udcf0 Cyber Security Headlines"
+    }
+  ],
+  "sources_used": [
+    "The Hacker News",
+    "Dark Reading",
+    "US-CERT Alert",
+    "CISA Advisory",
+    "ESET Blog",
+    "Shodan",
+    "AlienVault OTX",
+    "Krebs on Security",
+    "Threatpost",
+    "CISA KEV",
+    "NVD CVE"
+  ],
+  "raw_items": [
+    {
+      "source": "AlienVault OTX",
+      "type": "threat_pulse",
+      "title": "Amaranth-Dragon: Weaponizing CVE-2025-8088 for Targeted Espionage in Southeast Asia",
+      "summary": "A Chinese threat actor, Amaranth-Dragon, has been conducting highly targeted cyber-espionage campaigns against government and law enforcement agencies in Southeast Asia throughout 2025. The group swiftly exploited the CVE-2025-8088 vulnerability in WinRAR to deliver malicious payloads, including a custom loader and the Havoc C2 Framework. Their operations demonstrate sophisticated tactics, includi",
+      "severity": "CRITICAL",
+      "date": "2026-02-04",
+      "tags": [
+        "winrar",
+        "amaranth loader",
+        "espionage",
+        "apt-41",
+        "telegram rat"
+      ],
+      "malware": [
+        "Amaranth Loader",
+        "Havoc C2 Framework",
+        "TGAmaranth RAT"
+      ],
+      "countries": [
+        "Cambodia",
+        "Indonesia",
+        "Philippines",
+        "Singapore",
+        "Thailand"
+      ],
+      "ioc_count": 145,
+      "tlp": "white",
+      "url": "https://otx.alienvault.com/pulse/69836c632ca6c16f064a97d5"
+    },
+    {
+      "source": "AlienVault OTX",
+      "type": "threat_pulse",
+      "title": "New year, new sector: Targeting India's startup ecosystem",
+      "summary": "Transparent Tribe, also known as APT36, has expanded its targeting to include India's startup ecosystem, particularly those in the cybersecurity domain. The group is using startup-oriented themed lure material delivered via ISO container-based files to deploy Crimson RAT. This campaign deviates from their typical government and defense targets, suggesting a shift in strategy towards companies prov",
+      "severity": "CRITICAL",
+      "date": "2026-02-04",
+      "tags": [
+        "apt36",
+        "cybersecurity",
+        "india",
+        "startup",
+        "spear-phishing"
+      ],
+      "malware": [
+        "Crimson RAT"
+      ],
+      "countries": [
+        "British Indian Ocean Territory",
+        "India"
+      ],
+      "ioc_count": 8,
+      "tlp": "white",
+      "url": "https://otx.alienvault.com/pulse/69836c616757ccfa9dcad92c"
+    },
+    {
+      "source": "AlienVault OTX",
+      "type": "threat_pulse",
+      "title": "Compromised Routers, DNS, and a TDS Hidden in Aeza Networks",
+      "summary": "A shadow DNS network and HTTP-based traffic distribution system (TDS) hosted in Aeza International, a sanctioned bulletproof hosting company, has been discovered. The system compromises routers, altering their DNS settings to use shadow resolvers. These resolvers selectively modify responses, directing users to malicious content. The TDS incorporates a clever DNS trick to evade detection by securi",
+      "severity": "CRITICAL",
+      "date": "2026-02-04",
+      "tags": [
+        "aeza networks",
+        "compromised routers",
+        "dnschanger",
+        "adtech",
+        "traffic distribution system"
+      ],
+      "malware": [
+        "DNSChanger"
+      ],
+      "countries": [],
+      "ioc_count": 6,
+      "tlp": "white",
+      "url": "https://otx.alienvault.com/pulse/69836533452882efd5edaa55"
+    },
+    {
+      "source": "AlienVault OTX",
+      "type": "threat_pulse",
+      "title": "Knife Cutting the Edge: Disclosing a China-nexus gateway-monitoring AitM framework",
+      "summary": "Cisco Talos uncovered 'DKnife', a sophisticated gateway-monitoring and adversary-in-the-middle (AitM) framework comprising seven Linux-based implants. Used since 2019, DKnife performs deep-packet inspection, traffic manipulation, and malware delivery via routers and edge devices. It targets various devices, including PCs, mobile devices, and IoT, delivering ShadowPad and DarkNimbus backdoors. The ",
+      "severity": "CRITICAL",
+      "date": "2026-02-05",
+      "tags": [
+        "china-nexus",
+        "traffic manipulation",
+        "shadowpad",
+        "gateway-monitoring",
+        "darknimbus"
+      ],
+      "malware": [
+        "ShadowPad - S0596",
+        "POISONPLUG.SHADOW",
+        "DarkNimbus"
+      ],
+      "countries": [
+        "China"
+      ],
+      "ioc_count": 84,
+      "tlp": "white",
+      "url": "https://otx.alienvault.com/pulse/6984fa9b481e11f8426b9eb0"
+    },
+    {
+      "source": "AlienVault OTX",
+      "type": "threat_pulse",
+      "title": "The Shadow Campaigns: Uncovering Global Espionage",
+      "summary": "This investigation reveals a new cyberespionage group tracked as TGR-STA-1030, believed to be a state-aligned actor operating from Asia. Over the past year, the group has compromised government and critical infrastructure organizations in 37 countries, targeting ministries, law enforcement agencies, and departments related to economic, trade, and diplomatic functions. The group employs sophisticat",
+      "severity": "CRITICAL",
+      "date": "2026-02-05",
+      "tags": [
+        "infrastructure",
+        "cyberespionage",
+        "global",
+        "phishing",
+        "cobalt strike"
+      ],
+      "malware": [
+        "Diaoyu Loader",
+        "Cobalt Strike - S0154",
+        "VShell"
+      ],
+      "countries": [
+        "United States of America",
+        "United Kingdom of Great Britain and Northern Ireland",
+        "Singapore",
+        "Bolivia, Plurinational State of",
+        "Brazil"
+      ],
+      "ioc_count": 29,
+      "tlp": "white",
+      "url": "https://otx.alienvault.com/pulse/6984fb96aab9cc504d06ea4e"
+    },
+    {
+      "source": "AlienVault OTX",
+      "type": "threat_pulse",
+      "title": "New Clickfix variant 'CrashFix' deploying Python Remote Access Trojan",
+      "summary": "A new evolution in the ClickFix campaign, dubbed CrashFix, has been identified. This variant deliberately crashes victims' browsers and uses social engineering to lure users into executing malicious commands. The attack begins with a malicious ad redirecting users to install a harmful browser extension impersonating a legitimate ad blocker. The payload causes delayed browser issues and presents a ",
+      "severity": "CRITICAL",
+      "date": "2026-02-05",
+      "tags": [
+        "obfuscation",
+        "python rat",
+        "social engineering",
+        "crashfix",
+        "persistence"
+      ],
+      "malware": [
+        "CrashFix",
+        "ModeloRAT"
+      ],
+      "countries": [],
+      "ioc_count": 10,
+      "tlp": "white",
+      "url": "https://otx.alienvault.com/pulse/6984f6ff578072f56d9160d2"
+    },
+    {
+      "source": "CISA KEV",
+      "type": "exploited_vulnerability",
+      "title": "CVE-2026-25108 \u2014 Soliton Systems K.K FileZen OS Command Injection Vulnerability",
+      "summary": "Soliton Systems K.K FileZen contains an OS command injection vulnerability when an user logs-in to the affected product and sends a specially crafted HTTP request.",
+      "detail": "Vendor: Soliton Systems K.K | Product: FileZen | Action required by: 2026-03-17",
+      "severity": "CRITICAL",
+      "date": "2026-02-24",
+      "cve": "CVE-2026-25108",
+      "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "source": "CISA KEV",
+      "type": "exploited_vulnerability",
+      "title": "CVE-2022-20775 \u2014 Cisco SD-WAN Path Traversal Vulnerability",
+      "summary": "Cisco SD-WAN CLI contains a path traversal vulnerability that could allow an authenticated local attacker to gain elevated privileges via improper access controls on commands within the application CLI. A successful exploit could allow the attacker to execute arbitrary commands as the root user.",
+      "detail": "Vendor: Cisco | Product: SD-WAN | Action required by: 2026-02-27",
+      "severity": "CRITICAL",
+      "date": "2026-02-25",
+      "cve": "CVE-2022-20775",
+      "action": "Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlines in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s \u201cHunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "source": "CISA KEV",
+      "type": "exploited_vulnerability",
+      "title": "CVE-2026-20127 \u2014 Cisco Catalyst SD-WAN Controller and Manager Authentication Bypass Vulnerability",
+      "summary": "Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, and Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, contain an authentication bypass vulnerability could allow an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system. This vulnerability exists because the peering authentication mechanism in an affected system is not working properly. An attacker could exploit this vulnerability by sending crafted requests to an affected system. A successful exploit could allow the attacker to log in to an affected Cisco Catalyst SD-WAN Controller as an internal, high-privileged, non-root user account. Using this account, the attacker could access NETCONF, which would then allow the attacker to manipulate network configuration for the SD-WAN fabric.",
+      "detail": "Vendor: Cisco | Product: Catalyst SD-WAN Controller and Manager | Action required by: 2026-02-27",
+      "severity": "CRITICAL",
+      "date": "2026-02-25",
+      "cve": "CVE-2026-20127",
+      "action": "Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlines in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s \u201cHunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "source": "CISA KEV",
+      "type": "exploited_vulnerability",
+      "title": "CVE-2026-22719 \u2014 Broadcom VMware Aria Operations Command Injection Vulnerability",
+      "summary": "Broadcom VMware Aria Operations formerly known as vRealize Operations (vROps) contains a command injection vulnerability that allows an unauthenticated attacker to execute arbitrary commands, potentially leading to remote code execution during support\u2011assisted product migration.",
+      "detail": "Vendor: Broadcom | Product: VMware Aria Operations | Action required by: 2026-03-24",
+      "severity": "CRITICAL",
+      "date": "2026-03-03",
+      "cve": "CVE-2026-22719",
+      "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "source": "CISA KEV",
+      "type": "exploited_vulnerability",
+      "title": "CVE-2026-21385 \u2014 Qualcomm Multiple Chipsets Memory Corruption Vulnerability",
+      "summary": "Multiple Qualcomm chipsets contain a memory corruption vulnerability while using alignments for memory allocation. ",
+      "detail": "Vendor: Qualcomm | Product: Multiple Chipsets | Action required by: 2026-03-24",
+      "severity": "CRITICAL",
+      "date": "2026-03-03",
+      "cve": "CVE-2026-21385",
+      "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "source": "CISA KEV",
+      "type": "exploited_vulnerability",
+      "title": "CVE-2017-7921 \u2014 Hikvision Multiple Products Improper Authentication Vulnerability",
+      "summary": "Multiple Hikvision products contain an improper authentication vulnerability that could allow a malicious user to escalate privileges on the system and gain access to sensitive information.",
+      "detail": "Vendor: Hikvision | Product: Multiple Products | Action required by: 2026-03-26",
+      "severity": "CRITICAL",
+      "date": "2026-03-05",
+      "cve": "CVE-2017-7921",
+      "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "source": "CISA KEV",
+      "type": "exploited_vulnerability",
+      "title": "CVE-2021-22681 \u2014 Rockwell Multiple Products Insufficient Protected Credentials Vulnerability",
+      "summary": "Multiple Rockwell products contain an insufficient protected credentials vulnerability. Studio 5000 Logix Designer software may allow a key to be discovered. This key is used to verify Logix controllers are communicating with Rockwell Automation design software. If successfully exploited, this vulnerability could allow an unauthorized application to connect with Logix controllers. To leverage this vulnerability, an unauthorized user would require network access to the controller.",
+      "detail": "Vendor: Rockwell | Product: Multiple Products | Action required by: 2026-03-26",
+      "severity": "CRITICAL",
+      "date": "2026-03-05",
+      "cve": "CVE-2021-22681",
+      "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "source": "CISA KEV",
+      "type": "exploited_vulnerability",
+      "title": "CVE-2023-43000 \u2014 Apple Multiple products Use-After-Free Vulnerability",
+      "summary": "Apple macOS, iOS, iPadOS, and Safari 16.6 contain a use-after-free vulnerability due to the processing of maliciously crafted web content that may lead to memory corruption.",
+      "detail": "Vendor: Apple | Product: Multiple Products | Action required by: 2026-03-26",
+      "severity": "CRITICAL",
+      "date": "2026-03-05",
+      "cve": "CVE-2023-43000",
+      "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "source": "CISA KEV",
+      "type": "exploited_vulnerability",
+      "title": "CVE-2021-30952 \u2014 Apple Multiple Products Integer Overflow or Wraparound Vulnerability",
+      "summary": "Apple tvOS, macOS, Safari, iPadOS and watchOS contain an integer overflow or wraparound vulnerability due to the processing of maliciously crafted web content that may lead to arbitrary code execution.",
+      "detail": "Vendor: Apple | Product: Multiple Products | Action required by: 2026-03-26",
+      "severity": "CRITICAL",
+      "date": "2026-03-05",
+      "cve": "CVE-2021-30952",
+      "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "source": "CISA KEV",
+      "type": "exploited_vulnerability",
+      "title": "CVE-2023-41974 \u2014 Apple iOS and iPadOS Use-After-Free Vulnerability",
+      "summary": "Apple iOS and iPadOS contain a use-after-free vulnerability. An app may be able to execute arbitrary code with kernel privileges.",
+      "detail": "Vendor: Apple | Product: iOS and iPadOS | Action required by: 2026-03-26",
+      "severity": "CRITICAL",
+      "date": "2026-03-05",
+      "cve": "CVE-2023-41974",
+      "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "source": "AlienVault OTX",
+      "type": "threat_pulse",
+      "title": "Middle East Conflict Fuels Opportunistic Cyber Attacks",
+      "summary": "The ongoing conflict in the Middle East has triggered a surge in cybercriminal activity. Over 8,000 newly registered domains with conflict-related keywords have been identified, many of which may be weaponized in future campaigns. Multiple cases of malicious activity have been observed, including targeted attacks using conflict-themed lures, deployment of the LOTUSLITE backdoor, fake news blogs le",
+      "severity": "CRITICAL",
+      "date": "2026-03-06",
+      "tags": [
+        "stealc",
+        "shellcode",
+        "lotuslite",
+        "middle east",
+        "meme-coin"
+      ],
+      "malware": [
+        "LOTUSLITE",
+        "StealC"
+      ],
+      "countries": [
+        "Bahrain",
+        "Iran, Islamic Republic of",
+        "Iraq",
+        "Israel"
+      ],
+      "ioc_count": 36,
+      "tlp": "white",
+      "url": "https://otx.alienvault.com/pulse/69ab2d63ef698ae16cec5ef2"
+    },
+    {
+      "source": "AlienVault OTX",
+      "type": "threat_pulse",
+      "title": "Mobile spyware campaign impersonates Israel's Red Alert rocket warning system",
+      "summary": "A targeted campaign has been identified distributing a trojanized version of the Red Alert rocket warning Android app to Israeli users via SMS messages impersonating official Home Front Command communications. The malicious app retains full rocket alert functionality while running malicious code in the background. It bypasses Android security checks through certificate spoofing and runtime manipul",
+      "severity": "CRITICAL",
+      "date": "2026-03-06",
+      "tags": [
+        "certificate spoofing",
+        "android",
+        "spyware",
+        "red alert",
+        "sms"
+      ],
+      "malware": [
+        "RedAlert.apk"
+      ],
+      "countries": [
+        "Israel"
+      ],
+      "ioc_count": 7,
+      "tlp": "white",
+      "url": "https://otx.alienvault.com/pulse/69aaf10c4b4f536d9d767c85"
+    },
+    {
+      "source": "AlienVault OTX",
+      "type": "threat_pulse",
+      "title": "Remote Access Delivered Through Fake Zoom and Google Meet Calls",
+      "summary": "A campaign using fake Zoom and Google Meet pages to lure victims into fraudulent video calls has been identified. The attackers use these pages to deliver remote-access software. Multiple domains hosting identical fake meeting pages were discovered, with one domain previously linked to a ClickFix campaign. The fake interfaces show an active meeting with expected participants. When victims join, th",
+      "severity": "CRITICAL",
+      "date": "2026-03-06",
+      "tags": [
+        "zoom",
+        "phishing",
+        "connectwise control",
+        "google meet",
+        "clickfix"
+      ],
+      "malware": [
+        "Teramind",
+        "ConnectWise Control"
+      ],
+      "countries": [],
+      "ioc_count": 29,
+      "tlp": "white",
+      "url": "https://otx.alienvault.com/pulse/69aaf10e623ea5265ee07c81"
+    },
+    {
+      "source": "AlienVault OTX",
+      "type": "threat_pulse",
+      "title": "An Investigation Into Years of Undetected Operations Targeting High-Value Sectors",
+      "summary": "Since 2020, a Chinese threat actor dubbed CL-UNK-1068 has been targeting high-value organizations across South, Southeast and East Asia, focusing on critical sectors like aviation, energy, government, and telecommunications. The group employs a diverse toolkit including custom malware, modified open-source utilities, and living-off-the-land binaries to maintain stealthy persistence. Their techniqu",
+      "severity": "CRITICAL",
+      "date": "2026-03-06",
+      "tags": [
+        "superdump",
+        "xnote",
+        "antsword",
+        "scanportplus",
+        "godzilla"
+      ],
+      "malware": [
+        "GodZilla",
+        "AntSword",
+        "Xnote"
+      ],
+      "countries": [],
+      "ioc_count": 49,
+      "tlp": "white",
+      "url": "https://otx.alienvault.com/pulse/69aaed7070e810571c939251"
+    },
+    {
+      "source": "AlienVault OTX",
+      "type": "threat_pulse",
+      "title": "New A0Backdoor Linked to Teams Impersonation and Quick Assist Social Engineering",
+      "summary": "A new backdoor, dubbed A0Backdoor, has been discovered in connection with a campaign using email bombing and IT-support impersonation over Microsoft Teams to gain Quick Assist access. The malware's loader exhibits anti-sandbox evasion techniques, and the campaign's command-and-control has shifted to a covert DNS mail exchange-based channel. This activity is attributed to the threat group Blitz Bri",
+      "severity": "CRITICAL",
+      "date": "2026-03-07",
+      "tags": [
+        "social engineering",
+        "a0backdoor",
+        "teams impersonation",
+        "dns tunneling",
+        "sideloading"
+      ],
+      "malware": [
+        "A0Backdoor"
+      ],
+      "countries": [
+        "Canada"
+      ],
+      "ioc_count": 3,
+      "tlp": "white",
+      "url": "https://otx.alienvault.com/pulse/69abf37e75ba997149f9e95c"
+    },
+    {
+      "source": "AlienVault OTX",
+      "type": "threat_pulse",
+      "title": "Unmasking an Attack Chain of MuddyWater",
+      "summary": "An intrusion attributed to MuddyWater, an Iranian-linked APT, was identified in a customer environment. The attack involved initial access through RDP, establishing an SSH tunnel, and deploying malware via DLL side-loading. The threat actor used FMAPP.exe, a legitimate Fortemedia Inc. application, to load a malicious FMAPP.dll for C2 communications. The timeline of activities revealed typos in com",
+      "severity": "CRITICAL",
+      "date": "2026-03-07",
+      "tags": [
+        "dll side-loading",
+        "iranian",
+        "rdp",
+        "fmapp.dll",
+        "apt"
+      ],
+      "malware": [
+        "FMAPP.dll"
+      ],
+      "countries": [
+        "Israel"
+      ],
+      "ioc_count": 7,
+      "tlp": "white",
+      "url": "https://otx.alienvault.com/pulse/69abf37dfd9bfab829c9913e"
+    },
+    {
+      "source": "AlienVault OTX",
+      "type": "threat_pulse",
+      "title": "Fake CleanMyMac site installs SHub Stealer and backdoors crypto wallets",
+      "summary": "A deceptive website impersonating CleanMyMac tricks users into installing SHub Stealer, a sophisticated macOS malware. The malware steals sensitive data, including passwords, browser data, cryptocurrency wallets, and Telegram sessions. It can also modify wallet apps to steal recovery phrases. The attack begins with users pasting a command into Terminal, which downloads and executes a malicious scr",
+      "severity": "CRITICAL",
+      "date": "2026-03-09",
+      "tags": [
+        "browser data theft",
+        "clickfix",
+        "applescript",
+        "atomic stealer",
+        "macos"
+      ],
+      "malware": [
+        "SHub Stealer",
+        "MacSync Stealer",
+        "Odyssey Stealer"
+      ],
+      "countries": [],
+      "ioc_count": 6,
+      "tlp": "white",
+      "url": "https://otx.alienvault.com/pulse/69ae9dcd62b1927161472bf9"
+    },
+    {
+      "source": "AlienVault OTX",
+      "type": "threat_pulse",
+      "title": "InstallFix: How attackers are weaponizing malvertized install guides",
+      "summary": "A new attack technique called InstallFix targets users by cloning popular developer tool installation pages and presenting malicious install commands. Attackers distribute these fake pages through Google Ads, exploiting users' trust in familiar 'curl to bash' installation methods. The campaign specifically targets Claude Code users, delivering the Amatera Stealer malware. This technique bypasses e",
+      "severity": "CRITICAL",
+      "date": "2026-03-09",
+      "tags": [
+        "social engineering",
+        "google ads",
+        "claude code",
+        "installfix",
+        "malvertising"
+      ],
+      "malware": [
+        "Amatera Stealer"
+      ],
+      "countries": [],
+      "ioc_count": 26,
+      "tlp": "white",
+      "url": "https://otx.alienvault.com/pulse/69ae96195fe742dacdb87f53"
+    },
+    {
+      "source": "Dark Reading",
+      "type": "news",
+      "title": "North Korean APTs Use AI to Enhance IT Worker Scams",
+      "summary": "DPRK worker scams are old hat, but they're still working, thanks to AI tools that help with everything from face swapping to daily emails.",
+      "severity": "CRITICAL",
+      "date": "Fri, 06 Mar 2026",
+      "url": "https://www.darkreading.com/threat-intelligence/north-korean-apts-ai-it-worker-scams"
+    },
+    {
+      "source": "Threatpost",
+      "type": "news",
+      "title": "Ransomware Attacks are on the Rise",
+      "summary": "Lockbit is by far this summer\u2019s most prolific ransomware group, trailed by two offshoots of the Conti group.",
+      "severity": "CRITICAL",
+      "date": "Fri, 26 Aug 2022",
+      "url": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/"
+    },
+    {
+      "source": "The Hacker News",
+      "type": "news",
+      "title": "\u26a1 Weekly Recap: Qualcomm 0-Day, iOS Exploit Chains, AirSnitch Attack & Vibe-Coded Malware",
+      "summary": "Another week in cybersecurity. Another week of \"you've got to be kidding me.\"\nAttackers were busy. Defenders were busy. And somewhere in the middle, a whole lot of people had a very bad Monday morning. That's kind of just how it goes now.\nThe good news? There were some actual wins this week. Real ones. The kind where the good guys showed up, did the work, and made a dent. It doesn't always",
+      "severity": "CRITICAL",
+      "date": "Mon, 09 Mar 2026",
+      "url": "https://thehackernews.com/2026/03/weekly-recap-qualcomm-0-day-ios-exploit.html"
+    },
+    {
+      "source": "The Hacker News",
+      "type": "news",
+      "title": "Web Server Exploits and Mimikatz Used in Attacks Targeting Asian Critical Infrastructure",
+      "summary": "High-value organizations located in South, Southeast, and East Asia have been targeted by a Chinese threat actor as part of a years-long campaign.\nThe activity, which has targeted aviation, energy, government, law enforcement, pharmaceutical, technology, and telecommunications sectors, has been attributed by Palo Alto Networks Unit 42 to a previously undocumented threat activity group dubbed",
+      "severity": "CRITICAL",
+      "date": "Mon, 09 Mar 2026",
+      "url": "https://thehackernews.com/2026/03/web-server-exploits-and-mimikatz-used.html"
+    },
+    {
+      "source": "Dark Reading",
+      "type": "news",
+      "title": "Chinese Cyber Threat Lurks In Critical Asian Sectors for Years",
+      "summary": "An undefined Chinese-speaking actor wields a combo of custom malware, open source tools, and LOTL binaries against Windows and Linux, likely for spying.",
+      "severity": "CRITICAL",
+      "date": "Mon, 09 Mar 2026",
+      "url": "https://www.darkreading.com/threat-intelligence/chinese-cyber-threat-critical-asian-sectors"
+    },
+    {
+      "source": "NVD CVE",
+      "type": "cve",
+      "title": "CVE-1999-0084 (CVSS 8.4) \u2014 Certain NFS servers allow users to use mknod to gain privileges by creating a wr",
+      "summary": "Certain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device and setting the UID to 0.",
+      "severity": "HIGH",
+      "cvss_score": 8.4,
+      "cve": "CVE-1999-0084",
+      "date": "1990-05-01",
+      "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/78"
+    },
+    {
+      "source": "AlienVault OTX",
+      "type": "threat_pulse",
+      "title": "AI-assisted cloud intrusion achieves admin access in 8 minutes",
+      "summary": "An AWS environment was targeted in a sophisticated attack, with the threat actor gaining administrative privileges in under 10 minutes. The operation showed signs of leveraging large language models for automation and decision-making. Initial access was obtained through credentials found in public S3 buckets, followed by rapid privilege escalation via Lambda function code injection. The attacker m",
+      "severity": "HIGH",
+      "date": "2026-02-04",
+      "tags": [
+        "gpu abuse",
+        "privilege escalation",
+        "llmjacking",
+        "cloud security",
+        "aws"
+      ],
+      "malware": [],
+      "countries": [],
+      "ioc_count": 0,
+      "tlp": "white",
+      "url": "https://otx.alienvault.com/pulse/69836c62efca44252227678d"
+    },
+    {
+      "source": "Shodan",
+      "type": "internet_exposure",
+      "title": "Shodan: 332,996 hosts \u2014 SSH Exposure India",
+      "summary": "Internet-wide scan shows 332,996 hosts matching: port:22 country:IN",
+      "severity": "HIGH",
+      "date": "2026-03-09",
+      "count": 332996,
+      "query": "port:22 country:IN",
+      "url": "https://www.shodan.io/search?query=port%3A22%20country%3AIN"
+    },
+    {
+      "source": "Shodan",
+      "type": "internet_exposure",
+      "title": "Shodan: 2,410,044 hosts \u2014 RDP Internet Exposure",
+      "summary": "Internet-wide scan shows 2,410,044 hosts matching: port:3389",
+      "severity": "HIGH",
+      "date": "2026-03-09",
+      "count": 2410044,
+      "query": "port:3389",
+      "url": "https://www.shodan.io/search?query=port%3A3389"
+    },
+    {
+      "source": "US-CERT Alert",
+      "type": "government_advisory",
+      "title": "Pro-Russia Hacktivists Conduct Opportunistic Attacks Against US and Global Critical Infrastructure",
+      "summary": "<h2><strong>Summary</strong></h2>\n<p><strong>Note:</strong> This joint Cybersecurity Advisory is being published as an addition to the Cybersecurity and Infrastructure Security Agency (CISA) May 6, 2025, joint fact sheet <a href=\"https://www.cisa.gov/resources-tools/resources/primary-mitigations-red",
+      "severity": "HIGH",
+      "date": "Fri, 05 De",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-343a"
+    },
+    {
+      "source": "ESET Blog",
+      "type": "news",
+      "title": "What cybersecurity actually does for your business",
+      "summary": "The ability to continue operating safely in an unsafe environment where competitors cannot is a competitive advantage that is rarely measured or discussed",
+      "severity": "HIGH",
+      "date": "Fri, 06 Mar 2026",
+      "url": "https://www.welivesecurity.com/en/business-security/what-cybersecurity-actually-does-for-your-business/"
+    },
+    {
+      "source": "Dark Reading",
+      "type": "news",
+      "title": "Cylake Offers AI-Native Security Without Relying on Cloud Services",
+      "summary": "Cylake's platform will analyze security data locally and identify potential attacks for organizations concerned about data sovereignty.",
+      "severity": "HIGH",
+      "date": "Fri, 06 Mar 2026",
+      "url": "https://www.darkreading.com/endpoint-security/cylake-offers-ai-native-security-without-relying-on-cloud-services"
+    },
+    {
+      "source": "Dark Reading",
+      "type": "news",
+      "title": "EU Auto Rules Shift Gears on Cybersecurity Standards",
+      "summary": "The European Union is taking new precautions as climate change and cybersecurity threats rise across the automotive industry.",
+      "severity": "HIGH",
+      "date": "Fri, 06 Mar 2026",
+      "url": "https://www.darkreading.com/cyber-risk/eu-auto-rules-shift-gears-on-cybersecurity-standards"
+    },
+    {
+      "source": "Dark Reading",
+      "type": "news",
+      "title": "Iran's Cyber-Kinetic War Doctrine Takes Shape",
+      "summary": "Iran has been hacking IP cameras to plan missile strikes against its enemies, and mounting other attacks on physical assets, showing how cyber and kinetic warfare are fast becoming one and the same.",
+      "severity": "HIGH",
+      "date": "Fri, 06 Mar 2026",
+      "url": "https://www.darkreading.com/threat-intelligence/iran-cyber-kinetic-war-doctrine"
+    },
+    {
+      "source": "Dark Reading",
+      "type": "news",
+      "title": "Cyberattack on Mexico's Gov't Agencies Highlight AI Threat",
+      "summary": "Using Anthropic's Claude, OpenAI's ChatGPT, and a detailed playbook prompt, a handful of cyberattackers reportedly gained access to government agencies and its citizens' data.",
+      "severity": "HIGH",
+      "date": "Fri, 06 Mar 2026",
+      "url": "https://www.darkreading.com/application-security/cyberattack-mexico-government-ai-threat"
+    },
+    {
+      "source": "ESET Blog",
+      "type": "news",
+      "title": "Mobile app permissions (still) matter more than you may think",
+      "summary": "Start using a new app and you\u2019ll often be asked to grant it permissions. But blindly accepting them could expose you to serious privacy and security risks.",
+      "severity": "HIGH",
+      "date": "Fri, 27 Feb 2026",
+      "url": "https://www.welivesecurity.com/en/mobile-security/mobile-app-permissions-still-matter-more-think/"
+    },
+    {
+      "source": "Krebs on Security",
+      "type": "news",
+      "title": "Please Don\u2019t Feed the Scattered Lapsus ShinyHunters",
+      "summary": "A prolific data ransom gang that calls itself Scattered Lapsus ShinyHunters (SLSH) has a distinctive playbook when it seeks to extort payment from victim firms: Harassing, threatening and even swatting executives and their families, all while notifying journalists and regulators\u2026 Read More &#187;",
+      "severity": "HIGH",
+      "date": "Mon, 02 Feb 2026",
+      "url": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/"
+    },
+    {
+      "source": "The Hacker News",
+      "type": "news",
+      "title": "Can the Security Platform Finally Deliver for the Mid-Market?",
+      "summary": "Mid-market organizations are constantly striving to achieve security levels on a par with their enterprise peers. With heightened awareness of supply chain attacks, your customers and business partners are defining the security level you must meet.\nWhat if you could be the enabler for your organization to remain competitive \u2014 and help win business \u2014 by easily demonstrating that you meet these",
+      "severity": "HIGH",
+      "date": "Mon, 09 Mar 2026",
+      "url": "https://thehackernews.com/2026/03/can-security-platform-finally-deliver.html"
+    },
+    {
+      "source": "The Hacker News",
+      "type": "news",
+      "title": "Chrome Extension Turns Malicious After Ownership Transfer, Enabling Code Injection and Data Theft",
+      "summary": "Two Google Chrome extensions have turned malicious after what appears to be a case of ownership transfer, offering attackers a way to push malware to downstream customers, inject arbitrary code, and harvest sensitive data.\nThe extensions in question, both originally associated with a developer named \"akshayanuonline@gmail.com\" (BuildMelon), are listed below -\n\nQuickLens - Search Screen with",
+      "severity": "HIGH",
+      "date": "Mon, 09 Mar 2026",
+      "url": "https://thehackernews.com/2026/03/chrome-extension-turns-malicious-after.html"
+    },
+    {
+      "source": "US-CERT Alert",
+      "type": "government_advisory",
+      "title": "Russian GRU Targeting Western Logistics Entities and Technology Companies",
+      "summary": "<h2><strong>Executive Summary</strong></h2>\n<p>This joint cybersecurity advisory (CSA) highlights a Russian state-sponsored cyber campaign targeting Western logistics entities and technology companies. This includes those involved in the coordination, transport, and delivery of foreign assistance to",
+      "severity": "HIGH",
+      "date": "Mon, 12 Ma",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-141a"
+    },
+    {
+      "source": "US-CERT Alert",
+      "type": "government_advisory",
+      "title": "#StopRansomware: Interlock",
+      "summary": "<h2><strong>Summary</strong></h2>\n<p><em><strong>Note</strong>: This joint Cybersecurity Advisory is part of an ongoing #StopRansomware effort to publish advisories for network defenders that detail various ransomware variants and ransomware threat actors. These #StopRansomware advisories include re",
+      "severity": "HIGH",
+      "date": "Mon, 21 Ju",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a"
+    },
+    {
+      "source": "US-CERT Alert",
+      "type": "government_advisory",
+      "title": "CISA Shares Lessons Learned from an Incident Response Engagement",
+      "summary": "<h2><strong>Advisory at a Glance</strong></h2>\n<table>\n<tbody>\n<tr>\n<td>Executive Summary</td>\n<td>CISA began incident response efforts at a U.S. federal civilian executive branch (FCEB) agency following the detection of potential malicious activity identified through security alerts generated by th",
+      "severity": "HIGH",
+      "date": "Mon, 22 Se",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-266a"
+    },
+    {
+      "source": "ESET Blog",
+      "type": "news",
+      "title": "Faking it on the phone: How to tell if a voice call is AI or not",
+      "summary": "Can you believe your ears? Increasingly, the answer is no. Here\u2019s what\u2019s at stake for your business, and how to beat the deepfakers.",
+      "severity": "HIGH",
+      "date": "Mon, 23 Feb 2026",
+      "url": "https://www.welivesecurity.com/en/business-security/faking-it-phone-how-tell-voice-call-ai/"
+    },
+    {
+      "source": "US-CERT Alert",
+      "type": "government_advisory",
+      "title": "Countering Chinese State-Sponsored Actors Compromise of Networks Worldwide to Feed Global Espionage System",
+      "summary": "<h2><strong>Executive summary</strong></h2>\n<p>People\u2019s Republic of China (PRC) state-sponsored cyber threat actors are targeting networks globally, including, but not limited to, telecommunications, government, transportation, lodging, and military infrastructure networks. While these actors focus ",
+      "severity": "HIGH",
+      "date": "Mon, 25 Au",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+    },
+    {
+      "source": "Threatpost",
+      "type": "news",
+      "title": "Tentacles of \u20180ktapus\u2019 Threat Group Victimize 130 Firms",
+      "summary": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
+      "severity": "HIGH",
+      "date": "Mon, 29 Aug 2022",
+      "url": "https://threatpost.com/0ktapus-victimize-130-firms/180487/"
+    },
+    {
+      "source": "The Hacker News",
+      "type": "news",
+      "title": "OpenAI Codex Security Scanned 1.2 Million Commits and Found 10,561 High-Severity Issues",
+      "summary": "OpenAI on Friday began rolling out Codex Security, an artificial intelligence (AI)-powered security agent that's designed to find, validate, and propose fixes for vulnerabilities.\nThe feature is available in a research preview to ChatGPT Pro, Enterprise, Business, and Edu customers via the Codex web with free usage for the next month.\n\"It builds deep context about your project to identify",
+      "severity": "HIGH",
+      "date": "Sat, 07 Mar 2026",
+      "url": "https://thehackernews.com/2026/03/openai-codex-security-scanned-12.html"
+    },
+    {
+      "source": "The Hacker News",
+      "type": "news",
+      "title": "Anthropic Finds 22 Firefox Vulnerabilities Using Claude Opus 4.6 AI Model",
+      "summary": "Anthropic on Friday said it discovered 22 new security vulnerabilities in the Firefox web browser as part of a security partnership with Mozilla.\nOf these, 14 have been classified as high, seven have been classified as moderate, and one has been rated low in severity. The issues were addressed in Firefox 148, released late last month. The vulnerabilities were identified over a two-week period in",
+      "severity": "HIGH",
+      "date": "Sat, 07 Mar 2026",
+      "url": "https://thehackernews.com/2026/03/anthropic-finds-22-firefox.html"
+    },
+    {
+      "source": "Krebs on Security",
+      "type": "news",
+      "title": "Who is the Kimwolf Botmaster \u201cDort\u201d?",
+      "summary": "In early January 2026, KrebsOnSecurity revealed how a security researcher disclosed a vulnerability that was used to assemble Kimwolf, the world's largest and most disruptive botnet. Since then, the person in control of Kimwolf -- who goes by the handle \"Dort\" -- has coordinated a barrage of distributed denial-of-service (DDoS), doxing and email flooding attacks against the researcher and this aut",
+      "severity": "HIGH",
+      "date": "Sat, 28 Feb 2026",
+      "url": "https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/"
+    },
+    {
+      "source": "ESET Blog",
+      "type": "news",
+      "title": "This month in security with Tony Anscombe \u2013 February 2026 edition",
+      "summary": "In this roundup, Tony looks at how opportunistic threat actors are taking advantage of weak authentication, unmanaged exposure, and popular AI tools",
+      "severity": "HIGH",
+      "date": "Sat, 28 Feb 2026",
+      "url": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-february-2026/"
+    },
+    {
+      "source": "Krebs on Security",
+      "type": "news",
+      "title": "How AI Assistants are Moving the Security Goalposts",
+      "summary": "AI-based assistants or \"agents\" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers and IT workers. But as so many eyebrow-raising headlines over the past few weeks have shown, these powerful and assertive new tools are rapidly shifting the security priorities for organizations, whil",
+      "severity": "HIGH",
+      "date": "Sun, 08 Mar 2026",
+      "url": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/"
+    },
+    {
+      "source": "CISA Advisory",
+      "type": "government_advisory",
+      "title": "Delta Electronics CNCSoft-G2",
+      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-064-01.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could result in an attacker achieving remote code execution on the device.</strong></p>\n",
+      "severity": "HIGH",
+      "date": "Thu, 05 Ma",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-064-01"
+    },
+    {
+      "source": "CISA Advisory",
+      "type": "government_advisory",
+      "title": "CISA Adds Five Known Exploited Vulnerabilities to Catalog",
+      "summary": "<p>CISA has added five new vulnerabilities to its <a href=\"/known-exploited-vulnerabilities-catalog\" data-entity-type=\"node\" data-entity-uuid=\"79453b83-86b9-4e2f-b1ec-abf73c6eb291\" data-entity-substitution=\"canonical\" title=\"Known Exploited Vulnerabilities Catalog\">Known Exploited Vulnerabilities (K",
+      "severity": "HIGH",
+      "date": "Thu, 05 Ma",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/03/05/cisa-adds-five-known-exploited-vulnerabilities-catalog"
+    },
+    {
+      "source": "ESET Blog",
+      "type": "news",
+      "title": "How SMBs use threat research and MDR to build a defensive edge",
+      "summary": "We speak to Director of ESET Threat Research Jean-Ian Boutin about where solutions that blend advanced technology with human expertise provide the most practical value for businesses",
+      "severity": "HIGH",
+      "date": "Thu, 05 Mar 2026",
+      "url": "https://www.welivesecurity.com/en/business-security/how-smbs-use-threat-research-mdr-build-defensive-edge/"
+    },
+    {
+      "source": "US-CERT Alert",
+      "type": "government_advisory",
+      "title": "Ransomware Actors Exploit Unpatched SimpleHelp Remote Monitoring and Management to Compromise Utility Billing Software Provider",
+      "summary": "<h2><strong>Summary</strong></h2>\n<p>The Cybersecurity and Infrastructure Security Agency (CISA) is releasing this advisory in response to ransomware actors leveraging unpatched instances of a vulnerability in SimpleHelp Remote Monitoring and Management (RMM) to compromise customers of a utility bil",
+      "severity": "HIGH",
+      "date": "Thu, 12 Ju",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-163a"
+    },
+    {
+      "source": "Threatpost",
+      "type": "news",
+      "title": "Cybercriminals Are Selling Access to Chinese Surveillance Cameras",
+      "summary": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
+      "severity": "HIGH",
+      "date": "Thu, 25 Aug 2022",
+      "url": "https://threatpost.com/cybercriminals-are-selling-access-to-chinese-surveillance-cameras/180478/"
+    },
+    {
+      "source": "CISA Advisory",
+      "type": "government_advisory",
+      "title": "ePower epower.ie",
+      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-062-07.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable ch",
+      "severity": "HIGH",
+      "date": "Tue, 03 Ma",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-07"
+    },
+    {
+      "source": "CISA Advisory",
+      "type": "government_advisory",
+      "title": "Mobiliti e-mobi.hu",
+      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-062-06.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable ch",
+      "severity": "HIGH",
+      "date": "Tue, 03 Ma",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-06"
+    },
+    {
+      "source": "CISA Advisory",
+      "type": "government_advisory",
+      "title": "Portwell Engineering Toolkits",
+      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-062-04.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could allow a local attacker to escalate privileges or cause a denial-of-service conditi",
+      "severity": "HIGH",
+      "date": "Tue, 03 Ma",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-04"
+    },
+    {
+      "source": "CISA Advisory",
+      "type": "government_advisory",
+      "title": "Mitsubishi Electric MELSEC iQ-F Series EtherNet/IP module and Ethernet module",
+      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-062-01.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of these vulnerabilities could allow a remote attacker to cause a denial-of-service condition by continuously ",
+      "severity": "HIGH",
+      "date": "Tue, 03 Ma",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-62-01"
+    },
+    {
+      "source": "CISA Advisory",
+      "type": "government_advisory",
+      "title": "Hitachi Energy Relion REB500 Product",
+      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-062-02.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Hitachi Energy is aware of vulnerabilities that affect the Relion REB500 product versions listed in this document. Authenticated users",
+      "severity": "HIGH",
+      "date": "Tue, 03 Ma",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-02"
+    },
+    {
+      "source": "CISA Advisory",
+      "type": "government_advisory",
+      "title": "Labkotec LID-3300IP",
+      "summary": "<p><a href=\"https://github.com/cisagov/CSAF/blob/develop/csaf_files/OT/white/2026/icsa-26-062-05.json\"><strong>View CSAF</strong></a></p>\n<h2>Summary</h2>\n<p><strong>Successful exploitation of this vulnerability could allow attackers to gain unauthorized control over system operations, leading to di",
+      "severity": "HIGH",
+      "date": "Tue, 03 Ma",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-062-05"
+    },
+    {
+      "source": "Krebs on Security",
+      "type": "news",
+      "title": "Patch Tuesday, February 2026 Edition",
+      "summary": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
+      "severity": "HIGH",
+      "date": "Tue, 10 Feb 2026",
+      "url": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/"
+    },
+    {
+      "source": "US-CERT Alert",
+      "type": "government_advisory",
+      "title": "Threat Actors Deploy LummaC2 Malware to Exfiltrate Sensitive Data from Organizations",
+      "summary": "<h2><strong>Summary</strong></h2>\n<p>The Federal Bureau of Investigation (FBI) and the Cybersecurity and Infrastructure Security Agency (CISA) are releasing this joint advisory to disseminate known tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) associated with threat ",
+      "severity": "HIGH",
+      "date": "Tue, 20 Ma",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-141b"
+    },
+    {
+      "source": "US-CERT Alert",
+      "type": "government_advisory",
+      "title": "CISA and USCG Identify Areas for Cyber Hygiene Improvement After Conducting Proactive Threat Hunt at US Critical Infrastructure Organization",
+      "summary": "<div class=\"WordSection1\">\n<h2><strong>Summary</strong></h2>\n<p><em>The Cybersecurity and Infrastructure Security Agency (CISA) and U.S. Coast Guard (USCG) are issuing this Cybersecurity Advisory to present findings from a recent CISA and USCG hunt engagement. The purpose of this advisory is to high",
+      "severity": "HIGH",
+      "date": "Tue, 29 Ju",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-212a"
+    },
+    {
+      "source": "Threatpost",
+      "type": "news",
+      "title": "Watering Hole Attacks Push ScanBox Keylogger",
+      "summary": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
+      "severity": "HIGH",
+      "date": "Tue, 30 Aug 2022",
+      "url": "https://threatpost.com/watering-hole-attacks-push-scanbox-keylogger/180490/"
+    },
+    {
+      "source": "ESET Blog",
+      "type": "news",
+      "title": "Protecting education: How MDR can tip the balance in favor of schools",
+      "summary": "The education sector is notoriously short on cash, but rich in assets for threat actors to target. How can managed detection and response (MDR) help learning institutions regain the initiative?",
+      "severity": "HIGH",
+      "date": "Wed, 04 Mar 2026",
+      "url": "https://www.welivesecurity.com/en/business-security/protecting-education-how-mdr-can-tip-balance-favor-schools/"
+    },
+    {
+      "source": "Krebs on Security",
+      "type": "news",
+      "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
+      "summary": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts agai",
+      "severity": "HIGH",
+      "date": "Wed, 11 Feb 2026",
+      "url": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/"
+    },
+    {
+      "source": "Threatpost",
+      "type": "news",
+      "title": "Twitter Whistleblower Complaint: The TL;DR Version",
+      "summary": "Twitter is blasted for security and privacy lapses by the company\u2019s former head of security who alleges the social media giant\u2019s actions amount to a national security risk.",
+      "severity": "HIGH",
+      "date": "Wed, 24 Aug 2022",
+      "url": "https://threatpost.com/twitter-whistleblower-tldr-version/180472/"
+    },
+    {
+      "source": "Threatpost",
+      "type": "news",
+      "title": "Student Loan Breach Exposes 2.5M Records",
+      "summary": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
+      "severity": "HIGH",
+      "date": "Wed, 31 Aug 2022",
+      "url": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/"
+    },
+    {
+      "source": "NVD CVE",
+      "type": "cve",
+      "title": "CVE-1999-0095 (CVSS 10.0) \u2014 The debug command in Sendmail is enabled, allowing attackers to execute commands",
+      "summary": "The debug command in Sendmail is enabled, allowing attackers to execute commands as root.",
+      "severity": "MEDIUM",
+      "cvss_score": 10.0,
+      "cve": "CVE-1999-0095",
+      "date": "1988-10-01",
+      "url": "http://seclists.org/fulldisclosure/2019/Jun/16"
+    },
+    {
+      "source": "NVD CVE",
+      "type": "cve",
+      "title": "CVE-1999-0082 (CVSS 10.0) \u2014 CWD ~root command in ftpd allows root access.",
+      "summary": "CWD ~root command in ftpd allows root access.",
+      "severity": "MEDIUM",
+      "cvss_score": 10.0,
+      "cve": "CVE-1999-0082",
+      "date": "1988-11-11",
+      "url": "http://www.alw.nih.gov/Security/Docs/admin-guide-to-cracking.101.html"
+    },
+    {
+      "source": "NVD CVE",
+      "type": "cve",
+      "title": "CVE-1999-1471 (CVSS 7.2) \u2014 Buffer overflow in passwd in BSD based operating systems 4.3 and earlier allows ",
+      "summary": "Buffer overflow in passwd in BSD based operating systems 4.3 and earlier allows local users to gain root privileges by specifying a long shell or GECOS field.",
+      "severity": "MEDIUM",
+      "cvss_score": 7.2,
+      "cve": "CVE-1999-1471",
+      "date": "1989-01-01",
+      "url": "http://www.cert.org/advisories/CA-1989-01.html"
+    },
+    {
+      "source": "NVD CVE",
+      "type": "cve",
+      "title": "CVE-1999-1122 (CVSS 4.6) \u2014 Vulnerability in restore in SunOS 4.0.3 and earlier allows local users to gain p",
+      "summary": "Vulnerability in restore in SunOS 4.0.3 and earlier allows local users to gain privileges.",
+      "severity": "MEDIUM",
+      "cvss_score": 4.6,
+      "cve": "CVE-1999-1122",
+      "date": "1989-07-26",
+      "url": "http://www.cert.org/advisories/CA-1989-02.html"
+    },
+    {
+      "source": "NVD CVE",
+      "type": "cve",
+      "title": "CVE-1999-1467 (CVSS 10.0) \u2014 Vulnerability in rcp on SunOS 4.0.x allows remote attackers from trusted hosts t",
+      "summary": "Vulnerability in rcp on SunOS 4.0.x allows remote attackers from trusted hosts to execute arbitrary commands as root, possibly related to the configuration of the nobody user.",
+      "severity": "MEDIUM",
+      "cvss_score": 10.0,
+      "cve": "CVE-1999-1467",
+      "date": "1989-10-26",
+      "url": "http://www.cert.org/advisories/CA-1989-07.html"
+    },
+    {
+      "source": "NVD CVE",
+      "type": "cve",
+      "title": "CVE-1999-1506 (CVSS 7.5) \u2014 Vulnerability in SMI Sendmail 4.0 and earlier, on SunOS up to 4.0.3, allows remo",
+      "summary": "Vulnerability in SMI Sendmail 4.0 and earlier, on SunOS up to 4.0.3, allows remote attackers to access user bin.",
+      "severity": "MEDIUM",
+      "cvss_score": 7.5,
+      "cve": "CVE-1999-1506",
+      "date": "1990-01-29",
+      "url": "http://www.cert.org/advisories/CA-90.01.sun.sendmail.vulnerability"
+    },
+    {
+      "source": "NVD CVE",
+      "type": "cve",
+      "title": "CVE-2000-0388 (CVSS 7.5) \u2014 Buffer overflow in FreeBSD libmytinfo library allows local users to execute comm",
+      "summary": "Buffer overflow in FreeBSD libmytinfo library allows local users to execute commands via a long TERMCAP environmental variable.",
+      "severity": "MEDIUM",
+      "cvss_score": 7.5,
+      "cve": "CVE-2000-0388",
+      "date": "1990-05-09",
+      "url": "ftp://ftp.freebsd.org/pub/FreeBSD/CERT/advisories/FreeBSD-SA-00%3A17.libmytinfo.asc"
+    },
+    {
+      "source": "NVD CVE",
+      "type": "cve",
+      "title": "CVE-1999-0209 (CVSS 5.0) \u2014 The SunView (SunTools) selection_svc facility allows remote users to read files.",
+      "summary": "The SunView (SunTools) selection_svc facility allows remote users to read files.",
+      "severity": "MEDIUM",
+      "cvss_score": 5.0,
+      "cve": "CVE-1999-0209",
+      "date": "1990-08-14",
+      "url": "http://www.securityfocus.com/bid/8"
+    },
+    {
+      "source": "NVD CVE",
+      "type": "cve",
+      "title": "CVE-1999-1198 (CVSS 7.2) \u2014 BuildDisk program on NeXT systems before 2.0 does not prompt users for the root ",
+      "summary": "BuildDisk program on NeXT systems before 2.0 does not prompt users for the root password, which allows local users to gain root privileges.",
+      "severity": "MEDIUM",
+      "cvss_score": 7.2,
+      "cve": "CVE-1999-1198",
+      "date": "1990-10-03",
+      "url": "http://ciac.llnl.gov/ciac/bulletins/b-01.shtml"
+    },
+    {
+      "source": "NVD CVE",
+      "type": "cve",
+      "title": "CVE-1999-1391 (CVSS 7.2) \u2014 Vulnerability in NeXT 1.0a and 1.0 with publicly accessible printers allows loca",
+      "summary": "Vulnerability in NeXT 1.0a and 1.0 with publicly accessible printers allows local users to gain privileges via a combination of the npd program and weak directory permissions.",
+      "severity": "MEDIUM",
+      "cvss_score": 7.2,
+      "cve": "CVE-1999-1391",
+      "date": "1990-10-03",
+      "url": "http://ciac.llnl.gov/ciac/bulletins/b-01.shtml"
+    },
+    {
+      "source": "NVD CVE",
+      "type": "cve",
+      "title": "CVE-1999-1392 (CVSS 7.2) \u2014 Vulnerability in restore0.9 installation script in NeXT 1.0a and 1.0 allows loca",
+      "summary": "Vulnerability in restore0.9 installation script in NeXT 1.0a and 1.0 allows local users to gain root privileges.",
+      "severity": "MEDIUM",
+      "cvss_score": 7.2,
+      "cve": "CVE-1999-1392",
+      "date": "1990-10-03",
+      "url": "http://ciac.llnl.gov/ciac/bulletins/b-01.shtml"
+    },
+    {
+      "source": "NVD CVE",
+      "type": "cve",
+      "title": "CVE-1999-1057 (CVSS 4.6) \u2014 VMS 4.0 through 5.3 allows local users to gain privileges via the ANALYZE/PROCES",
+      "summary": "VMS 4.0 through 5.3 allows local users to gain privileges via the ANALYZE/PROCESS_DUMP dcl command.",
+      "severity": "MEDIUM",
+      "cvss_score": 4.6,
+      "cve": "CVE-1999-1057",
+      "date": "1990-10-25",
+      "url": "http://ciac.llnl.gov/ciac/bulletins/b-04.shtml"
+    },
+    {
+      "source": "NVD CVE",
+      "type": "cve",
+      "title": "CVE-1999-1554 (CVSS 2.1) \u2014 /usr/sbin/Mail on SGI IRIX 3.3 and 3.3.1 does not properly set the group ID to t",
+      "summary": "/usr/sbin/Mail on SGI IRIX 3.3 and 3.3.1 does not properly set the group ID to the group ID of the user who started Mail, which allows local users to read the mail of other users.",
+      "severity": "MEDIUM",
+      "cvss_score": 2.1,
+      "cve": "CVE-1999-1554",
+      "date": "1990-10-31",
+      "url": "http://www.cert.org/advisories/CA-1990-08.html"
+    },
+    {
+      "source": "NVD CVE",
+      "type": "cve",
+      "title": "CVE-1999-1197 (CVSS 7.2) \u2014 TIOCCONS in SunOS 4.1.1 does not properly check the permissions of a user who tr",
+      "summary": "TIOCCONS in SunOS 4.1.1 does not properly check the permissions of a user who tries to redirect console output and input, which could allow a local user to gain privileges.",
+      "severity": "MEDIUM",
+      "cvss_score": 7.2,
+      "cve": "CVE-1999-1197",
+      "date": "1990-12-20",
+      "url": "http://www.cert.org/advisories/CA-1990-12.html"
+    },
+    {
+      "source": "Shodan",
+      "type": "internet_exposure",
+      "title": "Shodan: 8,513 hosts \u2014 Unsecured Redis",
+      "summary": "Internet-wide scan shows 8,513 hosts matching: port:6379 protected-mode no",
+      "severity": "MEDIUM",
+      "date": "2026-03-09",
+      "count": 8513,
+      "query": "port:6379 protected-mode no",
+      "url": "https://www.shodan.io/search?query=port%3A6379%20protected-mode%20no"
+    },
+    {
+      "source": "Krebs on Security",
+      "type": "news",
+      "title": "\u2018Starkiller\u2019 Phishing Service Proxies Real Login Pages, MFA",
+      "summary": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the tar",
+      "severity": "MEDIUM",
+      "date": "Fri, 20 Feb 2026",
+      "url": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/"
+    }
+  ],
+  "blog_id": "20260309_201956",
+  "generated_at": "2026-03-09T14:50:15.677109+00:00",
+  "from_cache": true,
+  "json_path": "/home/j/voraguard/blogs/blog_20260309_201956_en.json",
+  "cache_age_min": 42,
+  "html_path": "/home/j/voraguard/blogs/blog_20260309_201956_en.html"
+}

@@ -1,0 +1,24 @@
+{
+  "domain": "yahoo.com",
+  "timestamp": "2026-04-16T06:43:52.275898+00:00",
+  "open_ports": [
+    "80/tcp",
+    "443/tcp"
+  ],
+  "port_details": [
+    {
+      "port": 80,
+      "protocol": "tcp",
+      "state": "open",
+      "service": "tcpwrapped",
+      "version": "|_http-server-header: ATS"
+    },
+    {
+      "port": 443,
+      "protocol": "tcp",
+      "state": "open",
+      "service": "tcpwrapped",
+      "version": "| ssl-cert: Subject: commonName=yahoo.com/organizationName=Yahoo Holdings Inc./stateOrProvinceName=New York/countryName=US"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><theHarvester><cmd>-d ndtv.com -b crtsh,dnsdumpster,hackertarget,otx -l 200 -f /home/j/voraguard/scans/ndtv.com_20260309_230951/raw/harvester</cmd></theHarvester>

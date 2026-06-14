@@ -1,0 +1,1204 @@
+{
+  "domain": "thekamababa.com",
+  "scan_id": "20260308_155520",
+  "started_at": "2026-03-08T15:55:20.534875",
+  "completed_at": "2026-03-08T15:58:18.296973",
+  "duration_seconds": 177.762098,
+  "nmap": {
+    "success": true,
+    "target": "thekamababa.com",
+    "open_ports": [
+      {
+        "port": 80,
+        "protocol": "tcp",
+        "state": "open",
+        "service": "tcpwrapped",
+        "version": "|_http-title: Did not follow redirect to https://thekamababa.com/"
+      },
+      {
+        "port": 443,
+        "protocol": "tcp",
+        "state": "open",
+        "service": "ssl/tcpwrapped",
+        "version": "| ssl-cert: Subject: commonName=thekamababa.com"
+      },
+      {
+        "port": 8080,
+        "protocol": "tcp",
+        "state": "open",
+        "service": "tcpwrapped",
+        "version": "|_http-title: Did not follow redirect to https://thekamababa.com/"
+      }
+    ],
+    "error": ""
+  },
+  "dnstwist": {
+    "success": true,
+    "target": "thekamababa.com",
+    "total_found": 1,
+    "registered_count": 1,
+    "typosquats": [
+      {
+        "fuzzer": "subdomain",
+        "domain": "thekam.ababa.com",
+        "dns_a": "72.167.242.33",
+        "registered": true
+      }
+    ],
+    "error": ""
+  },
+  "harvester": {
+    "success": true,
+    "target": "thekamababa.com",
+    "emails": [
+      "cmartorella@edge-security.com"
+    ],
+    "hosts": [
+      "cdn.thekamababa.com"
+    ],
+    "ips": [
+      "104.26.4.36"
+    ],
+    "email_count": 1,
+    "host_count": 1,
+    "error": ""
+  },
+  "vt_domain": {
+    "available": true,
+    "domain": "thekamababa.com",
+    "malicious": 0,
+    "suspicious": 0,
+    "harmless": 59,
+    "total_engines": 94,
+    "reputation_score": 0,
+    "categories": [
+      "newly registered websites",
+      "Pornography, Newly Registered (alphaMountain.ai)",
+      "sexually explicit"
+    ],
+    "risk_level": "clean",
+    "last_analysis_date": 1772653603
+  },
+  "dns_health": {
+    "domain": "thekamababa.com",
+    "resolves": true,
+    "ip_addresses": [
+      "104.26.5.36",
+      "172.67.74.115",
+      "2606:4700:20::681a:424",
+      "104.26.4.36",
+      "2606:4700:20::681a:524",
+      "2606:4700:20::ac43:4a73"
+    ],
+    "spf": {
+      "present": true,
+      "record": "v=spf1 include:_spf.mx.cloudflare.net ~all"
+    },
+    "dmarc": {
+      "present": false,
+      "record": ""
+    },
+    "mx_records": [
+      "45 route1.mx.cloudflare.net.",
+      "97 route2.mx.cloudflare.net.",
+      "86 route3.mx.cloudflare.net."
+    ],
+    "issues": [
+      "No DMARC record found \u2014 phishing risk"
+    ]
+  },
+  "ssl_info": {
+    "domain": "thekamababa.com",
+    "port": 443,
+    "has_ssl": true,
+    "valid": true,
+    "expires_in_days": 50,
+    "issuer": "Google Trust Services",
+    "subject": "thekamababa.com",
+    "protocol": null,
+    "issues": []
+  },
+  "risk": {
+    "score": 92,
+    "risk_level": "LOW",
+    "risk_color": "#22c55e",
+    "breakdown": {
+      "port_exposure": {
+        "deduction": 0,
+        "max": 25
+      },
+      "vt_reputation": {
+        "deduction": 0,
+        "max": 30
+      },
+      "typosquatting": {
+        "deduction": 0,
+        "max": 15
+      },
+      "dns_health": {
+        "deduction": 8,
+        "max": 20
+      },
+      "ssl_tls": {
+        "deduction": 0,
+        "max": 10
+      }
+    },
+    "key_findings": []
+  },
+  "vuln_analysis": {
+    "total_findings": 3,
+    "critical": 0,
+    "high": 1,
+    "medium": 1,
+    "low": 1,
+    "findings": [
+      {
+        "port": 80,
+        "service": "tcpwrapped",
+        "version": "|_http-title: Did not follow redirect to https://thekamababa.com/",
+        "severity": "MEDIUM",
+        "cves": [],
+        "exploit_available": false,
+        "remediation": "Redirect all HTTP to HTTPS. Implement HSTS. Disable if not needed.",
+        "attack_vector": "Web app attacks, HTTP request smuggling, directory traversal"
+      },
+      {
+        "port": 443,
+        "service": "ssl/tcpwrapped",
+        "version": "| ssl-cert: Subject: commonName=thekamababa.com",
+        "severity": "LOW",
+        "cves": [],
+        "exploit_available": false,
+        "remediation": "Ensure TLS 1.2+ only. Disable SSLv3/TLS 1.0/1.1. Implement HSTS preloading.",
+        "attack_vector": "TLS downgrade, web app attacks, certificate spoofing"
+      },
+      {
+        "port": 8080,
+        "service": "tcpwrapped",
+        "version": "|_http-title: Did not follow redirect to https://thekamababa.com/",
+        "severity": "HIGH",
+        "cves": [],
+        "exploit_available": false,
+        "remediation": "Assess necessity of port 8080. Apply vendor security patches. Restrict access via firewall.",
+        "attack_vector": "Network-level exploitation, banner grabbing, version-specific exploits"
+      }
+    ],
+    "overall_risk": "HIGH"
+  },
+  "owasp": {
+    "triggered_count": 3,
+    "total_categories": 10,
+    "findings": [
+      {
+        "id": "A02:2021",
+        "name": "Cryptographic Failures",
+        "evidence": [
+          "Port 80 (tcpwrapped) is open and internet-accessible"
+        ],
+        "description": "Plaintext protocols in use (HTTP, FTP, Telnet, SMTP without TLS). Credentials and data transmitted unencrypted.",
+        "remediation": "Enforce HTTPS with HSTS. Disable FTP/Telnet. Require STARTTLS/TLS for SMTP. Redirect all HTTP to HTTPS.",
+        "severity": "MEDIUM"
+      },
+      {
+        "id": "A05:2021",
+        "name": "Security Misconfiguration",
+        "evidence": [
+          "Port 8080 (tcpwrapped) is open and internet-accessible"
+        ],
+        "description": "Development/admin ports exposed, Elasticsearch or Docker APIs accessible without authentication.",
+        "remediation": "Audit all exposed ports. Disable default credentials. Enable authentication on all admin interfaces.",
+        "severity": "MEDIUM"
+      },
+      {
+        "id": "A09:2021",
+        "name": "Security Logging & Monitoring Failures",
+        "evidence": [
+          "No logging/monitoring endpoints observable from external scan"
+        ],
+        "description": "Lack of observable security monitoring increases attacker dwell time.",
+        "remediation": "Implement SIEM. Alert on auth failures, port scans, anomalous traffic.",
+        "severity": "MEDIUM"
+      }
+    ]
+  },
+  "grc_report": {
+    "domain": "thekamababa.com",
+    "generated_at": "2026-03-08T10:27:57.122136+00:00",
+    "overall_score": 92,
+    "risk_level": "LOW",
+    "appetite_status": "Within Tolerance",
+    "appetite_color": "green",
+    "executive_summary": "thekamababa.com presents a LOW risk profile with an overall score of 92/100. The external attack surface includes 3 open port(s), 0 critical and 1 high-severity service vulnerabilities, and 1 registered typosquatting domains increasing brand/phishing risk. Targeted remediation of high-priority findings is recommended within the next sprint cycle.",
+    "key_risk_indicators": [
+      {
+        "indicator": "DMARC record missing",
+        "status": "ELEVATED",
+        "value": "Phishing domain risk"
+      }
+    ],
+    "compliance_posture": {
+      "NIST_CSF": {
+        "Identify": "Partial",
+        "Protect": "Partial",
+        "Detect": "Not Met",
+        "Respond": "Unknown",
+        "Recover": "Unknown"
+      },
+      "ISO_27001": {
+        "A.8.8 Vulnerability Mgmt": "Partial",
+        "A.8.20 Network Security": "Partial",
+        "A.8.24 Cryptography": "Met"
+      },
+      "SOC2": {
+        "CC6.1 Access Controls": "Met",
+        "CC6.6 External Threats": "Partial",
+        "CC7.1 Monitoring": "Not Met"
+      }
+    },
+    "priority_actions": [
+      {
+        "priority": "P2",
+        "action": "Configure DMARC policy (p=quarantine minimum) to prevent phishing",
+        "owner": "IT Admin"
+      }
+    ],
+    "owasp_coverage": 3,
+    "total_vulnerabilities": 3,
+    "critical_vulns": 0
+  },
+  "attack_surface_change": {
+    "domain": "thekamababa.com",
+    "scanned_at": "2026-03-08T10:27:57.122586+00:00",
+    "current_open_ports": [
+      "8080/tcp",
+      "80/tcp",
+      "443/tcp"
+    ],
+    "total_open": 3,
+    "is_first_scan": false,
+    "new_ports": [
+      "8080/tcp",
+      "80/tcp",
+      "443/tcp"
+    ],
+    "closed_ports": [],
+    "unchanged_ports": [],
+    "delta_risk": "MEDIUM",
+    "baseline_file": "scans/thekamababa.com_baseline.json",
+    "baseline_timestamp": "2026-03-08T10:24:04.129464+00:00",
+    "message": "3 new port(s) opened since 2026-03-08. INVESTIGATE IMMEDIATELY."
+  },
+  "business_impact": {
+    "domain": "thekamababa.com",
+    "overall_confidentiality": "MEDIUM",
+    "overall_integrity": "MEDIUM",
+    "overall_availability": "MEDIUM",
+    "financial_risk_estimate": {
+      "minimum": "$25,000",
+      "maximum": "$150,000",
+      "basis": "IBM Cost of a Data Breach Report 2024 \u2014 average breach cost $4.88M globally",
+      "factors": [
+        "Regulatory fines",
+        "Incident response costs",
+        "Reputational damage",
+        "Legal liability"
+      ]
+    },
+    "impact_findings": [
+      {
+        "port": 80,
+        "service": "tcpwrapped",
+        "asset": "Web Server (HTTP)",
+        "confidentiality": "MEDIUM",
+        "integrity": "MEDIUM",
+        "availability": "MEDIUM",
+        "breach_scenario": "Web app attacks, data interception, SEO poisoning"
+      },
+      {
+        "port": 443,
+        "service": "ssl/tcpwrapped",
+        "asset": "Web Server (HTTPS)",
+        "confidentiality": "LOW",
+        "integrity": "MEDIUM",
+        "availability": "MEDIUM",
+        "breach_scenario": "Web app vulnerabilities \u2014 depends on application security"
+      }
+    ],
+    "exposed_asset_count": 2
+  },
+  "regulatory_breach": {
+    "domain": "thekamababa.com",
+    "frameworks_at_risk": 1,
+    "findings": [
+      {
+        "framework": "India IT Act 2000 / DPDP Act 2023",
+        "article": "Section 43A \u2014 Reasonable Security Practices",
+        "violation_description": "Reasonable security practices not implemented \u2014 exposed services and missing email security records.",
+        "potential_fine": "\u20b9250 crore per data breach incident",
+        "triggered_by": [
+          "no_ssl",
+          "open_ports",
+          "no_dmarc"
+        ],
+        "risk": "MEDIUM"
+      }
+    ],
+    "overall_regulatory_risk": "MEDIUM"
+  },
+  "supply_chain": {
+    "domain": "thekamababa.com",
+    "components_detected": 4,
+    "critical_components": 0,
+    "components": [
+      {
+        "technology": "nginx",
+        "risk": "MEDIUM",
+        "note": "nginx web server \u2014 check version for CVEs",
+        "evidence": [
+          "Port 80 open",
+          "Port 443 open"
+        ]
+      },
+      {
+        "technology": "Apache",
+        "risk": "MEDIUM",
+        "note": "Apache httpd \u2014 verify version is patched",
+        "evidence": [
+          "Port 80 open",
+          "Port 443 open",
+          "Service fingerprint: http"
+        ]
+      },
+      {
+        "technology": "WordPress",
+        "risk": "MEDIUM",
+        "note": "WordPress detected \u2014 check for plugin/theme CVEs, xmlrpc.php exposure",
+        "evidence": [
+          "Port 80 open",
+          "Port 443 open"
+        ]
+      },
+      {
+        "technology": "Cloudflare CDN",
+        "risk": "LOW",
+        "note": "Traffic proxied through Cloudflare \u2014 DDoS protection active",
+        "evidence": [
+          "HTTP header: cf-ray",
+          "HTTP header: cf-cache-status"
+        ]
+      }
+    ],
+    "supply_chain_risk": "MEDIUM"
+  },
+  "honey_trap": {
+    "domain": "thekamababa.com",
+    "verdict": "UNLIKELY HONEYPOT",
+    "confidence_pct": 5,
+    "honeypot_score": 0,
+    "indicators": [
+      "No honeypot indicators detected \u2014 appears to be a real target"
+    ],
+    "recommendation": "No significant honeypot indicators. Proceed with authorized testing."
+  },
+  "attacker_roi": {
+    "domain": "thekamababa.com",
+    "total_roi_score": 30,
+    "max_score": 100,
+    "roi_label": "LOW \u2014 Limited attacker motivation, hardened target",
+    "ease_score": 10,
+    "value_score": 10,
+    "stealth_score": 10,
+    "ease_factors": [
+      "+10 High-severity vulnerabilities (1)"
+    ],
+    "value_factors": [
+      "+10 All internet-facing targets have baseline value"
+    ],
+    "stealth_factors": [
+      "+5 No observable WAF/firewall detected",
+      "+5 Plaintext protocols \u2014 easier credential capture"
+    ],
+    "attacker_type": "Only highly motivated, targeted APT actors"
+  },
+  "threat_actors": {
+    "domain": "thekamababa.com",
+    "matched_actor_count": 4,
+    "actors": [
+      {
+        "group": "APT28 (Fancy Bear)",
+        "nation_state": "Russia",
+        "motivation": "Espionage, credential theft",
+        "correlation_score": 40,
+        "matched_ttps": [
+          "T1078 Valid Accounts",
+          "T1190 Exploit Public-Facing App",
+          "T1133 External Remote Services"
+        ],
+        "evidence": [
+          "Port 443 open \u2014 used by APT28 (Fancy Bear) for Espionage, credential theft",
+          "Port 80 open \u2014 used by APT28 (Fancy Bear) for Espionage, credential theft"
+        ],
+        "mitre_url": "https://attack.mitre.org/groups/G0007/",
+        "risk": "HIGH"
+      },
+      {
+        "group": "Scattered Spider",
+        "nation_state": "English-speaking (cybercriminal)",
+        "motivation": "Financial, ransomware (ALPHV/BlackCat affiliate)",
+        "correlation_score": 40,
+        "matched_ttps": [
+          "T1566 Phishing",
+          "T1621 MFA Fatigue",
+          "T1078 Valid Accounts"
+        ],
+        "evidence": [
+          "Port 443 open \u2014 used by Scattered Spider for Financial, ransomware (ALPHV/BlackCat affiliate)",
+          "Port 80 open \u2014 used by Scattered Spider for Financial, ransomware (ALPHV/BlackCat affiliate)"
+        ],
+        "mitre_url": "https://attack.mitre.org/groups/G1015/",
+        "risk": "HIGH"
+      },
+      {
+        "group": "Sandworm",
+        "nation_state": "Russia (GRU)",
+        "motivation": "Disruption, sabotage, critical infrastructure",
+        "correlation_score": 40,
+        "matched_ttps": [
+          "T1486 Destructive malware",
+          "T1195 Supply Chain Compromise",
+          "T1498 Network DoS"
+        ],
+        "evidence": [
+          "Port 80 open \u2014 used by Sandworm for Disruption, sabotage, critical infrastructure",
+          "Port 443 open \u2014 used by Sandworm for Disruption, sabotage, critical infrastructure"
+        ],
+        "mitre_url": "https://attack.mitre.org/groups/G0034/",
+        "risk": "HIGH"
+      },
+      {
+        "group": "Lazarus Group",
+        "nation_state": "North Korea",
+        "motivation": "Financial theft, ransomware, espionage",
+        "correlation_score": 20,
+        "matched_ttps": [
+          "T1486 Data Encrypted for Impact",
+          "T1055 Process Injection",
+          "T1021.001 RDP"
+        ],
+        "evidence": [
+          "Port 443 open \u2014 used by Lazarus Group for Financial theft, ransomware, espionage"
+        ],
+        "mitre_url": "https://attack.mitre.org/groups/G0032/",
+        "risk": "MEDIUM"
+      }
+    ],
+    "note": "Correlation based on exposed attack surface overlap with publicly documented TTPs (MITRE ATT&CK). Does not imply active targeting.",
+    "overall_threat": "HIGH"
+  },
+  "darkweb": {
+    "domain": "thekamababa.com",
+    "overall_risk": "LOW",
+    "summary_findings": [],
+    "total_sources_checked": 6,
+    "total_findings": 0,
+    "sources_status": [
+      {
+        "name": "HaveIBeenPwned",
+        "status": "\u2713 Checked",
+        "key_required": false,
+        "findings": 0
+      },
+      {
+        "name": "URLhaus / Abuse.ch",
+        "status": "\u2713 Checked",
+        "key_required": false,
+        "findings": 0
+      },
+      {
+        "name": "Intelligence X",
+        "status": "\u26a0 None",
+        "key_required": true,
+        "findings": 0
+      },
+      {
+        "name": "DeHashed",
+        "status": "\u26a0 None",
+        "key_required": true,
+        "findings": 0
+      },
+      {
+        "name": "LeakIX",
+        "status": "\u2713 Checked",
+        "key_required": true,
+        "findings": 0
+      },
+      {
+        "name": "GreyNoise",
+        "status": "\u2713 Checked",
+        "key_required": false,
+        "findings": 0
+      }
+    ],
+    "hibp": {
+      "source": "HaveIBeenPwned",
+      "available": true,
+      "domain_breaches": [],
+      "email_results": [],
+      "paste_results": [],
+      "total_pwned_accounts": 0,
+      "most_recent_breach": null,
+      "data_classes_exposed": [],
+      "error": null
+    },
+    "urlhaus": {
+      "source": "URLhaus / Abuse.ch",
+      "available": true,
+      "domain_status": "not_listed",
+      "malicious_urls": [],
+      "active_urls": 0,
+      "malware_families": [],
+      "blacklists": {},
+      "ip_findings": [],
+      "overall_risk": "CLEAN",
+      "error": null
+    },
+    "intelx": {
+      "source": "Intelligence X",
+      "available": false,
+      "domain_results": [],
+      "email_results": [],
+      "total_hits": 0,
+      "paste_hits": 0,
+      "darkweb_hits": 0,
+      "error": null
+    },
+    "dehashed": {
+      "source": "DeHashed",
+      "available": false,
+      "domain_breach_count": 0,
+      "email_breaches": [],
+      "credential_exposure": [],
+      "databases_found": [],
+      "total_records": 0,
+      "error": null
+    },
+    "leakix": {
+      "source": "LeakIX",
+      "available": true,
+      "leak_events": [
+        {
+          "plugin": "Unknown",
+          "event_type": "unknown",
+          "ip": "104.26.4.36",
+          "host": "",
+          "port": "",
+          "summary": "",
+          "severity": "info",
+          "leak_type": "",
+          "leak_stage": "",
+          "size_bytes": 0,
+          "size_human": "unknown",
+          "rows": 0,
+          "collections": 0,
+          "is_infected": false,
+          "ransom_notes": [],
+          "date": "",
+          "country": "",
+          "tags": []
+        },
+        {
+          "plugin": "Unknown",
+          "event_type": "unknown",
+          "ip": "104.26.4.36",
+          "host": "",
+          "port": "",
+          "summary": "",
+          "severity": "info",
+          "leak_type": "",
+          "leak_stage": "",
+          "size_bytes": 0,
+          "size_human": "unknown",
+          "rows": 0,
+          "collections": 0,
+          "is_infected": false,
+          "ransom_notes": [],
+          "date": "",
+          "country": "",
+          "tags": []
+        },
+        {
+          "plugin": "Unknown",
+          "event_type": "unknown",
+          "ip": "104.26.4.36",
+          "host": "",
+          "port": "",
+          "summary": "",
+          "severity": "info",
+          "leak_type": "",
+          "leak_stage": "",
+          "size_bytes": 0,
+          "size_human": "unknown",
+          "rows": 0,
+          "collections": 0,
+          "is_infected": false,
+          "ransom_notes": [],
+          "date": "",
+          "country": "",
+          "tags": []
+        }
+      ],
+      "service_events": [
+        {
+          "ip": "104.26.4.36",
+          "port": "443",
+          "plugin": "HttpPlugin",
+          "summary": "HTTP/1.1 200 OK\nDate: Mon, 26 Jan 2026 14:14:38 GMT\r\nContent-Type: text/html; charset=utf-8\r\nTransfer-Encoding: chunked\r\nConnection: close\r\nServer-Timing: cfCacheStatus;desc=\"DYNAMIC\"\r\nServer-Timing: cfEdge;dur=6,cfOrigin;dur=80\r\nReport-To: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=OquMAKLXNDmqQUkPOUJhh503mXkoGpfJjxqWxyhF0Vma8VQYnvo%2BBA2dv9cwi%2FL4Va%2FGReBHNB%2Bp9zTrJk6BdB8wdD2HCNF6uqwNLFkjlX9bFGJsfSK7w35sXtI%2BfDk%3D\"}]}\r\nServer: cloudflare\r\nset-cookie: ubvs=347e625e-c591-49e5-b061-168b3dd27e19; Max-Age=15552000; Path=/; SameSite=Lax\r\nSet-Cookie: ubvt=v2%7C347e625e-c591-49e5-b061-168b3dd27e19%7C5eea9758-cacb-4f9b-b047-25f3b92505db%3Ah%3Aweighted%3Aweighted; Max-Age=259200; Domain=searchenginepeople.com; Path=/; SameSite=Lax\r\nSet-Cookie: ubpv=h%2C5eea9758-cacb-4f9b-b047-25f3b92505db; Max-Age=15897600; Path=/; SameSite=Lax\r\nSet-Cookie: __cf_bm=H9qpowGk_5MIUZ5KtVejCXbJ18uG71YtzDfsSwarZ0A-1769436878-1.0.1.1-CyNJoHbSyiLgSDTlFvb_7ZVL0Zw.uIpJhOcA8vDTUtjiK.SW1Bc0rbPLoTNV2cQ95G_BWoRK8cLnkBkbKonda5csMuX3w_ofdCKX__MDvxA; path=/; expires=Mon, 26-Jan-26 14:44:38 GMT; domain=.searchenginepeople.com; HttpOnly; Secure; SameSite=None\r\ncontent-location: https://solutions.searchenginepeople.com/\r\nReferrer-Policy: strict-origin-when-cross-origin\r\nlink: <https://solutions.searchenginepeople.com/>; rel=\"canonical\"\r\nx-unbounce-pageid: 5eea9758-cacb-4f9b-b047-25f3b92505db\r\nx-unbounce-variant: h\r\nx-unbounce-visitorid: 347e625e-c591-49e5-b061-168b3dd27e19\r\nContent-Security-Policy: default-src * data: blob: 'unsafe-inline' 'unsafe-eval'\r\nvary: accept-encoding\r\ncf-cache-status: DYNAMIC\r\nNel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\r\nX-Content-Type-Options: nosniff\r\nCF-RAY: 9c409e2cccf92ffb-BLR\r\n",
+          "severity": "info",
+          "type": "service",
+          "date": "2026-01-26"
+        },
+        {
+          "ip": "104.26.4.36",
+          "port": "8443",
+          "plugin": "HttpPlugin",
+          "summary": "",
+          "severity": "info",
+          "type": "service",
+          "date": "2026-01-26"
+        },
+        {
+          "ip": "104.26.4.36",
+          "port": "80",
+          "plugin": "HttpPlugin",
+          "summary": "HTTP/1.1 301 Moved Permanently\nDate: Mon, 26 Jan 2026 14:14:38 GMT\r\nContent-Length: 0\r\nConnection: close\r\nReport-To: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=hOF8r%2BsA0CobAvqKYXXiG264qCNa6v%2BXYLK8h4Fhn7kZmMnDTwvnN8hz8YXGuLmYdJiy06Id8yk2XGJakUB927B4G49DZPlMEUmJqNQSYxgqjnxK%2F6TFzvWesjsO\"}]}\r\nServer-Timing: cfCacheStatus;desc=\"DYNAMIC\"\r\nServer-Timing: cfEdge;dur=30,cfOrigin;dur=66\r\nlocation: https://solutions.searchenginepeople.com/\r\ncf-cache-status: DYNAMIC\r\nSet-Cookie: __cf_bm=rIBoViaW0DlzclfWm7YrCSaIunPuJz93erXLmXUo0wU-1769436878-1.0.1.1-HHAoDk5otN637C6Jnh914igebbVQt0cBemfziyCbYNWqSQewrAuhLCRmJaAMNqqzm6F5UKW7AGQeZ2REMKj.hIA.lnD3yCrVDCQulksGRt4; path=/; expires=Mon, 26-Jan-26 14:44:38 GMT; domain=.searchenginepeople.com; HttpOnly\r\nNel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\r\nServer: cloudflare\r\nCF-RAY: 9c409e2bef04698b-FRA\r\n",
+          "severity": "info",
+          "type": "service",
+          "date": "2026-01-26"
+        }
+      ],
+      "total_leaks": 0,
+      "total_services": 0,
+      "critical_leaks": 0,
+      "data_exposed_bytes": 0,
+      "error": null
+    },
+    "greynoise": {
+      "source": "GreyNoise",
+      "available": true,
+      "ip_verdicts": [
+        {
+          "ip": "104.26.4.36",
+          "noise": false,
+          "riot": true,
+          "classification": "benign",
+          "name": "Cloudflare CDN",
+          "last_seen": "2026-03-08",
+          "tags": [],
+          "cves": [],
+          "tor": false,
+          "vpn": false,
+          "bot": false,
+          "link": "https://viz.greynoise.io/ip/104.26.4.36",
+          "message": "Success"
+        }
+      ],
+      "malicious_ips": 0,
+      "scanning_ips": 0,
+      "botnet_tags": [],
+      "cves_exploited": [],
+      "tor_exits": 0,
+      "vpn_endpoints": 0,
+      "overall_threat": "LOW",
+      "error": null
+    },
+    "all_breached_emails": [],
+    "credential_exposure_count": 0,
+    "malware_families": [],
+    "exploited_cves": [],
+    "disclaimer": "Dark web monitoring covers: public breach databases (HIBP), malicious URL feeds (URLhaus), paste/dark web indexes (IntelX), credential dumps (DeHashed), live data leaks (LeakIX), and botnet/scanning intelligence (GreyNoise). Full Tor hidden service crawling requires commercial feeds (Recorded Future, DarkOwl, Flashpoint)."
+  },
+  "threat_sim": {
+    "domain": "thekamababa.com",
+    "attack_chains": [
+      {
+        "chain_id": "AC-004",
+        "name": "Web Application Attack \u2192 Server Compromise",
+        "likelihood": "MEDIUM",
+        "entry_point": "Port 80/443 \u2014 web application",
+        "steps": [
+          {
+            "phase": "Reconnaissance",
+            "tactic": "T1595.003 Wordlist Scanning",
+            "desc": "Directory bruteforce (gobuster/ffuf) \u2014 discover admin panels, API endpoints, backup files"
+          },
+          {
+            "phase": "Initial Access",
+            "tactic": "T1190 Web App Exploit",
+            "desc": "SQL injection, file upload bypass, or CVE in web framework version"
+          },
+          {
+            "phase": "Execution",
+            "tactic": "T1059.004 Unix Shell",
+            "desc": "Web shell upload \u2192 OS command execution as www-data"
+          },
+          {
+            "phase": "Privilege Escalation",
+            "tactic": "T1068 Exploitation for Privilege",
+            "desc": "Local privilege escalation \u2192 root/SYSTEM"
+          },
+          {
+            "phase": "Impact",
+            "tactic": "T1565 Data Manipulation",
+            "desc": "Website defacement, malware injection into served pages, data theft"
+          }
+        ],
+        "estimated_time_to_exploit": "Hours to days depending on app complexity",
+        "skill_required": "MEDIUM",
+        "blast_radius": "WEB SERVER COMPROMISE"
+      },
+      {
+        "chain_id": "AC-005",
+        "name": "Phishing / BEC via Domain Spoofing",
+        "likelihood": "HIGH",
+        "entry_point": "Missing SPF/DMARC records + typosquatting domains",
+        "steps": [
+          {
+            "phase": "Reconnaissance",
+            "tactic": "T1589 Gather Victim Identity Info",
+            "desc": "Email addresses harvested via theHarvester/OSINT"
+          },
+          {
+            "phase": "Resource Development",
+            "tactic": "T1583.001 Acquire Infrastructure",
+            "desc": "Typosquat domain registered \u2014 spoofed email sent from lookalike domain"
+          },
+          {
+            "phase": "Initial Access",
+            "tactic": "T1566.002 Spearphishing Link",
+            "desc": "Targeted phishing email to harvested addresses \u2014 credential harvesting page"
+          },
+          {
+            "phase": "Impact",
+            "tactic": "T1657 Financial Theft",
+            "desc": "BEC fraud \u2014 redirect payments, access SaaS accounts, credential resale"
+          }
+        ],
+        "estimated_time_to_exploit": "Minutes to set up, hours to execute",
+        "skill_required": "LOW",
+        "blast_radius": "CREDENTIAL THEFT, FINANCIAL FRAUD"
+      }
+    ],
+    "total_chains": 2,
+    "highest_likelihood": "HIGH",
+    "summary": "2 realistic attack chains modeled. 1 are HIGH or CRITICAL likelihood.",
+    "disclaimer": "This simulation is for authorized security assessment only. Models are based on MITRE ATT&CK framework and publicly documented techniques."
+  },
+  "closed_loop_response": {
+    "domain": "thekamababa.com",
+    "generated_at": "2026-03-08T10:28:18.293594+00:00",
+    "total_actions": 1,
+    "p1_actions": 0,
+    "p2_actions": 1,
+    "p3_actions": 0,
+    "auto_executable_count": 0,
+    "total_commands": 0,
+    "actions": [
+      {
+        "action_id": "ACT-DNS02",
+        "type": "dns_hardening",
+        "port": null,
+        "service": "DNS/Email",
+        "priority": "P2",
+        "sla_hours": 24,
+        "description": "Add DMARC TXT record to DNS",
+        "commands": [
+          "# Add to your DNS zone:",
+          "TXT _dmarc \"v=DMARC1; p=quarantine; rua=mailto:dmarc@thekamababa.com\""
+        ],
+        "validation_command": "dig TXT _dmarc.thekamababa.com | grep DMARC1",
+        "rollback_command": "# Remove _dmarc TXT record from DNS zone",
+        "auto_executable": false,
+        "status": "PENDING"
+      }
+    ],
+    "ir_phases": [
+      {
+        "phase": "CONTAIN",
+        "timeline": "0\u20131 hours",
+        "steps": [
+          "Block all P1 ports at perimeter firewall immediately",
+          "Isolate affected hosts from network if active compromise suspected",
+          "Preserve logs: /var/log/auth.log, /var/log/syslog, firewall logs",
+          "Take memory dump if live compromise suspected (avml/lime)"
+        ]
+      },
+      {
+        "phase": "ERADICATE",
+        "timeline": "1\u201324 hours",
+        "steps": [
+          "Execute all P1 remediation commands in this runbook",
+          "Rotate all credentials exposed via open services",
+          "Search for persistence: crontabs, authorized_keys, /etc/passwd new users",
+          "Scan for webshells: find /var/www -name '*.php' | xargs grep -l 'eval('"
+        ]
+      },
+      {
+        "phase": "RECOVER",
+        "timeline": "24\u201372 hours",
+        "steps": [
+          "Execute P2 and P3 actions",
+          "Re-run VoraGuard scan to verify all remediations effective",
+          "Restore services from clean backup if compromise confirmed",
+          "Enable centralized logging (ELK/Splunk/Wazuh)"
+        ]
+      },
+      {
+        "phase": "POST-INCIDENT",
+        "timeline": "72+ hours",
+        "steps": [
+          "Root cause analysis: how was the service left exposed?",
+          "Update asset inventory and patch management policy",
+          "Schedule VoraGuard weekly scans for continuous monitoring",
+          "File regulatory notification if PII breach confirmed (GDPR 72hr deadline)"
+        ]
+      }
+    ],
+    "runbook_summary": "1 remediation actions generated. 0 can be executed automatically. 0 P1 actions must be completed within SLA.",
+    "estimated_remediation_time_hours": 24
+  },
+  "financial_quantification": {
+    "domain": "thekamababa.com",
+    "business_sector": "General/Unknown",
+    "methodology": "FAIR (Factor Analysis of Information Risk)",
+    "fair_components": {
+      "threat_event_frequency_per_year": 1.2,
+      "vulnerability_factor_pct": 28.7,
+      "loss_event_frequency_per_year": 0.34,
+      "single_loss_magnitude_usd": 2928000,
+      "secondary_loss_usd": 1317600,
+      "total_loss_magnitude_usd": 4245600
+    },
+    "tef_breakdown": [],
+    "annual_loss_expectancy": {
+      "minimum_usd": 151113,
+      "expected_usd": 1460758,
+      "maximum_usd": 5288952,
+      "label": "$0.2M \u2014 $1.5M \u2014 $5.3M"
+    },
+    "breach_probability_12_months_pct": 29.1,
+    "board_metrics": {
+      "risk_reduction_value_usd": 1168606,
+      "risk_reduction_value_5yr_usd": 5843032,
+      "recommended_security_budget_usd": "$0.15M \u2014 $0.22M",
+      "cost_per_record_breach_usd": 156,
+      "industry_avg_breach_cost_usd": 4880000,
+      "your_estimated_breach_cost_usd": 4245600,
+      "vs_industry_avg": "BELOW AVERAGE"
+    },
+    "peer_benchmark": {
+      "industry_sector": "General/Unknown",
+      "your_risk_score": 92,
+      "industry_avg_score": 62,
+      "status": "BETTER than industry average",
+      "percentile": 92
+    },
+    "insurance_guidance": {
+      "recommended_coverage_usd": 4231161,
+      "deductible_suggestion_usd": 73038,
+      "note": "Cyber insurance carrier will likely require remediation of P1 findings before binding coverage"
+    }
+  },
+  "ot_ics": {
+    "domain": "thekamababa.com",
+    "ot_exposure_level": "NONE",
+    "verdict": "No OT/ICS protocols detected on internet-facing ports",
+    "ot_findings_count": 0,
+    "ot_findings": [],
+    "detected_protocols": [],
+    "sector_exposure": [],
+    "attack_scenarios": [],
+    "ot_threat_actors": [],
+    "purdue_model_note": "No Purdue Model violations detected on scanned ports.",
+    "immediate_actions": []
+  },
+  "nhi_shadow_ai": {
+    "domain": "thekamababa.com",
+    "overall_nhi_risk": "MEDIUM",
+    "total_findings": 1,
+    "shadow_ai_count": 0,
+    "nhi_exposure_count": 1,
+    "exposed_secrets_count": 0,
+    "shadow_ai_findings": [],
+    "nhi_findings": [
+      {
+        "port": 8080,
+        "name": "Internal API Gateway",
+        "category": "NHI/API",
+        "risk": "MEDIUM",
+        "description": "HTTP API on alt port \u2014 potentially unauthenticated internal microservice",
+        "service_banner": "tcpwrapped |_http-title: did not follow redirect to https://thekamababa.com/",
+        "exposure_type": "direct_internet_exposure"
+      }
+    ],
+    "exposed_secrets": [],
+    "ai_related_subdomains": [],
+    "governance_gaps": [],
+    "categories_detected": [
+      "NHI/API"
+    ],
+    "nhi_summary": "1 NHI/Shadow AI exposures detected. 0 unmanaged AI services. 0 potential credentials in banners.",
+    "compliance_note": "Shadow AI deployments may violate EU AI Act (2024) Article 9 risk management requirements and GDPR Article 22 automated decision-making provisions if models process personal data."
+  },
+  "unified_fabric": {
+    "domain": "thekamababa.com",
+    "composite_threat_score": 29,
+    "composite_severity": "LOW",
+    "domain_scores": {
+      "network": {
+        "score": 9,
+        "severity": "LOW",
+        "weight_pct": 20,
+        "top_findings": []
+      },
+      "application": {
+        "score": 60,
+        "severity": "HIGH",
+        "weight_pct": 18,
+        "top_findings": [
+          "Cryptographic Failures",
+          "Security Misconfiguration",
+          "Security Logging & Monitoring Failures"
+        ]
+      },
+      "identity": {
+        "score": 55,
+        "severity": "MEDIUM",
+        "weight_pct": 17,
+        "top_findings": [
+          "No DMARC \u2014 phishing via domain impersonation",
+          "1 email addresses exposed via OSINT",
+          "1 NHI/API exposures detected"
+        ]
+      },
+      "data": {
+        "score": 0,
+        "severity": "NONE",
+        "weight_pct": 16,
+        "top_findings": []
+      },
+      "cloud_api": {
+        "score": 25,
+        "severity": "LOW",
+        "weight_pct": 12,
+        "top_findings": [
+          "API/service exposed: 8080/tcpwrapped"
+        ]
+      },
+      "supply_chain": {
+        "score": 40,
+        "severity": "MEDIUM",
+        "weight_pct": 10,
+        "top_findings": [
+          "nginx: MEDIUM",
+          "Apache: MEDIUM",
+          "WordPress: MEDIUM"
+        ]
+      },
+      "ot_ics": {
+        "score": 0,
+        "severity": "NONE",
+        "weight_pct": 7,
+        "top_findings": []
+      }
+    },
+    "top_exposed_domains": [
+      {
+        "domain": "application",
+        "score": 60,
+        "severity": "HIGH"
+      },
+      {
+        "domain": "identity",
+        "score": 55,
+        "severity": "MEDIUM"
+      },
+      {
+        "domain": "supply_chain",
+        "score": 40,
+        "severity": "MEDIUM"
+      }
+    ],
+    "cross_domain_attack_paths": [],
+    "total_cross_domain_paths": 0,
+    "kill_chain_coverage": [],
+    "threat_actors_active": 4,
+    "fabric_summary": "Unified threat fabric score: 29/100 across 7 domains. 0 cross-domain attack paths identified. Top exposed domains: application, identity, supply_chain."
+  },
+  "threat_prediction": {
+    "domain": "thekamababa.com",
+    "model": "Bayesian inference + FAIR + CISA KEV + DBIR 2024 historical data",
+    "generated_at": "2026-03-08T10:28:18.296936+00:00",
+    "combined_attack_probability_30_days_pct": 59.0,
+    "combined_attack_probability_60_days_pct": 82.6,
+    "combined_attack_probability_90_days_pct": 99.0,
+    "overall_probability_label": "VERY HIGH",
+    "port_threat_predictions": [
+      {
+        "port": 80,
+        "service": "tcpwrapped",
+        "attack_type": "Web Application Attacks (SQLi, XSS, RCE)",
+        "known_campaigns": [
+          "MOVEit Transfer (Cl0p)",
+          "Log4Shell follow-on",
+          "ProxyLogon"
+        ],
+        "last_major_campaign": "2024 Apache RCE CVE-2021-41773 still exploited in wild",
+        "probability_30_days": 0.338,
+        "probability_60_days": 0.562,
+        "probability_90_days": 0.71,
+        "probability_label": "HIGH (30\u201350%)",
+        "trend": "INCREASING",
+        "cisa_kev": true,
+        "estimated_days_to_exploit": 10,
+        "sector_bias": [
+          "all"
+        ]
+      }
+    ],
+    "total_ports_at_risk": 1,
+    "predicted_attack_types": [
+      {
+        "attack_type": "Phishing/BEC",
+        "probability_30d_pct": 85.0
+      },
+      {
+        "attack_type": "Web Application Attacks (SQLi, XSS, RCE)",
+        "probability_30d_pct": 33.8
+      }
+    ],
+    "weekly_risk_forecast": [
+      {
+        "week": 1,
+        "cumulative_probability": 0.076,
+        "label": "Week 1 (7 days)"
+      },
+      {
+        "week": 2,
+        "cumulative_probability": 0.145,
+        "label": "Week 2 (14 days)"
+      },
+      {
+        "week": 3,
+        "cumulative_probability": 0.21,
+        "label": "Week 3 (21 days)"
+      },
+      {
+        "week": 4,
+        "cumulative_probability": 0.27,
+        "label": "Week 4 (28 days)"
+      },
+      {
+        "week": 5,
+        "cumulative_probability": 0.325,
+        "label": "Week 5 (35 days)"
+      },
+      {
+        "week": 6,
+        "cumulative_probability": 0.376,
+        "label": "Week 6 (42 days)"
+      },
+      {
+        "week": 7,
+        "cumulative_probability": 0.423,
+        "label": "Week 7 (49 days)"
+      },
+      {
+        "week": 8,
+        "cumulative_probability": 0.467,
+        "label": "Week 8 (56 days)"
+      },
+      {
+        "week": 9,
+        "cumulative_probability": 0.507,
+        "label": "Week 9 (63 days)"
+      },
+      {
+        "week": 10,
+        "cumulative_probability": 0.544,
+        "label": "Week 10 (70 days)"
+      },
+      {
+        "week": 11,
+        "cumulative_probability": 0.579,
+        "label": "Week 11 (77 days)"
+      },
+      {
+        "week": 12,
+        "cumulative_probability": 0.611,
+        "label": "Week 12 (84 days)"
+      }
+    ],
+    "global_threat_trends": [
+      {
+        "trend": "Ransomware-as-a-Service targeting SMB",
+        "probability_uplift": 0.08,
+        "active": true
+      },
+      {
+        "trend": "AI-assisted phishing campaigns surge",
+        "probability_uplift": 0.06,
+        "active": true
+      },
+      {
+        "trend": "Supply chain attacks increasing (3CX, XZ)",
+        "probability_uplift": 0.05,
+        "active": true
+      },
+      {
+        "trend": "Initial access broker market growth",
+        "probability_uplift": 0.07,
+        "active": true
+      },
+      {
+        "trend": "State-sponsored OT/ICS targeting",
+        "probability_uplift": 0.04,
+        "active": true
+      },
+      {
+        "trend": "Cloud credential theft via SSRF",
+        "probability_uplift": 0.05,
+        "active": true
+      },
+      {
+        "trend": "Zero-day exploit broker market active",
+        "probability_uplift": 0.03,
+        "active": true
+      }
+    ],
+    "global_trend_uplift_pct": 38.0,
+    "historical_trend": {
+      "available": false
+    },
+    "top_predicted_threats": [
+      {
+        "rank": 1,
+        "port": 80,
+        "service": "tcpwrapped",
+        "attack_type": "Web Application Attacks (SQLi, XSS, RCE)",
+        "probability_30d_pct": 33.8,
+        "probability_90d_pct": 71.0,
+        "days_to_likely_exploit": 10,
+        "known_campaigns": [
+          "MOVEit Transfer (Cl0p)",
+          "Log4Shell follow-on",
+          "ProxyLogon"
+        ]
+      }
+    ],
+    "prediction_disclaimer": "Probabilities are statistical estimates based on historical attack data from CISA KEV, Verizon DBIR 2024, and observed campaign frequency. Not a guarantee of attack occurrence. Remediate identified vulnerabilities to significantly reduce these probabilities."
+  },
+  "output_dir": "scans/thekamababa.com_20260308_155520",
+  "success": true,
+  "error": ""
+}

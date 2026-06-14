@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VoraGuard Brand Monitor — GOOGLE — 20260416_114907</title>
+<style>
+  :root {
+    --bg: #0a0f1e; --bg2: #0f172a; --bg3: #1e293b;
+    --border: #1e293b; --text: #e2e8f0; --muted: #64748b;
+    --cyan: #22d3ee; --blue: #3b82f6;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI',system-ui,sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+  a { color: var(--cyan); }
+
+  /* ── Header ── */
+  .header { background: linear-gradient(135deg,#0f172a 0%,#1a1040 100%); padding: 32px 48px; border-bottom: 1px solid var(--border); }
+  .header-top { display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:16px; }
+  .brand-title { font-size: 28px; font-weight: 800; letter-spacing: -0.5px; }
+  .brand-title span { color: var(--cyan); }
+  .scan-meta { color: var(--muted); font-size: 13px; margin-top: 6px; }
+  .scan-meta b { color: var(--text); }
+  .severity-pill {
+    padding: 8px 24px; border-radius: 999px; font-weight: 800;
+    font-size: 16px; letter-spacing: 1px; border: 2px solid #ef4444;
+    color: #ef4444; background: rgba(239,68,68,0.12);
+  }
+
+  /* ── Score ring ── */
+  .score-section { display:flex; align-items:center; gap:32px; margin-top: 24px; flex-wrap:wrap; }
+  .score-ring { position:relative; width:140px; height:140px; flex-shrink:0; }
+  .score-ring svg { transform:rotate(-90deg); }
+  .score-ring .score-label {
+    position:absolute; inset:0; display:flex; flex-direction:column;
+    align-items:center; justify-content:center;
+  }
+  .score-num { font-size:36px; font-weight:800; color:#ef4444; }
+  .score-sub { font-size:11px; color:var(--muted); margin-top:2px; }
+  .score-stats { display:flex; gap:24px; flex-wrap:wrap; }
+  .stat-box { background:var(--bg3); border-radius:12px; padding:16px 24px; min-width:100px; }
+  .stat-num { font-size:32px; font-weight:800; }
+  .stat-label { font-size:12px; color:var(--muted); margin-top:4px; }
+  .stat-crit { color:#ef4444; }
+  .stat-high { color:#f97316; }
+  .stat-med  { color:#f59e0b; }
+  .stat-clean{ color:#22c55e; }
+
+  /* ── Summary ── */
+  .summary-box {
+    background: var(--bg2); border: 1px solid var(--border);
+    border-radius: 12px; padding: 20px 24px; margin: 24px 48px;
+    font-size: 15px; line-height: 1.7; color: #94a3b8;
+  }
+  .summary-box b { color: var(--text); }
+
+  /* ── Section ── */
+  .section { margin: 0 48px 32px; }
+  .section-title {
+    font-size: 18px; font-weight: 700; color: var(--cyan);
+    border-bottom: 1px solid var(--border); padding-bottom: 10px; margin-bottom: 16px;
+    display: flex; align-items:center; gap: 8px;
+  }
+
+  /* ── Sources grid ── */
+  .sources-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(180px,1fr)); gap:12px; }
+  .source-card {
+    background: var(--bg2); border: 1px solid var(--border); border-radius: 10px;
+    padding: 14px; text-align:center;
+  }
+  .source-icon { font-size:24px; margin-bottom:6px; }
+  .source-name { font-size:12px; font-weight:600; color:var(--text); margin-bottom:4px; }
+  .source-status { font-size:11px; margin-bottom:4px; }
+  .source-sev { font-size:12px; font-weight:700; margin-bottom:4px; }
+  .source-count { font-size:11px; color:var(--muted); }
+  .source-err { font-size:10px; color:#ef4444; margin-top:4px; }
+
+  /* ── Findings ── */
+  .finding-card {
+    border-radius: 10px; padding: 16px 20px; margin-bottom: 12px;
+  }
+  .finding-header { display:flex; align-items:center; gap:10px; margin-bottom:8px; }
+  .sev-badge {
+    font-size:11px; font-weight:700; padding:3px 10px; border-radius:999px;
+    color:#fff; letter-spacing:0.5px;
+  }
+  .finding-src { font-size:12px; color:var(--muted); }
+  .finding-num { margin-left:auto; font-size:11px; color:var(--muted); }
+  .finding-title { font-size:15px; font-weight:600; color:var(--text); margin-bottom:6px; }
+  .finding-detail { font-size:13px; color:#94a3b8; margin-bottom:6px; line-height:1.5; }
+  .finding-indicator { font-size:12px; color:var(--muted); margin-bottom:4px; }
+  .finding-indicator code { background:var(--bg3); padding:2px 6px; border-radius:4px; color:var(--cyan); }
+  .finding-action {
+    font-size:13px; color:#fbbf24; background:rgba(251,191,36,0.08);
+    border-radius:6px; padding:6px 10px; margin-top:6px;
+  }
+  .no-findings {
+    background:rgba(34,197,94,0.1); border:1px solid rgba(34,197,94,0.3);
+    border-radius:10px; padding:24px; text-align:center;
+    color:#22c55e; font-size:16px; font-weight:600;
+  }
+
+  /* ── Detail sections ── */
+  .detail-section {
+    background: var(--bg2); border: 1px solid var(--border);
+    border-radius: 12px; padding: 20px 24px; margin-bottom: 16px;
+  }
+  .detail-section h3 { font-size:15px; font-weight:700; margin-bottom:14px; color:var(--cyan); }
+  .data-table { width:100%; border-collapse:collapse; font-size:13px; }
+  .data-table th { text-align:left; color:var(--muted); font-weight:600; padding:8px 12px; border-bottom:1px solid var(--border); font-size:12px; }
+  .data-table td { padding:8px 12px; border-bottom:1px solid rgba(30,41,59,0.5); color:var(--text); }
+  .data-table tr:hover td { background:rgba(255,255,255,0.02); }
+  .data-table code { font-size:12px; color:var(--cyan); }
+
+  .infra-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(180px,1fr)); gap:10px; margin-bottom:12px; }
+  .infra-item { background:var(--bg3); border-radius:8px; padding:10px 14px; }
+  .infra-item span { display:block; font-size:11px; color:var(--muted); margin-bottom:4px; }
+  .infra-item b { font-size:14px; }
+  .cve-list { margin-top:10px; }
+  .cve-tag { background:rgba(239,68,68,0.15); color:#ef4444; padding:2px 8px; border-radius:4px; font-size:12px; margin:2px; display:inline-block; }
+
+  /* ── Footer ── */
+  .footer {
+    text-align:center; padding:24px; color:var(--muted);
+    font-size:12px; border-top:1px solid var(--border); margin-top:48px;
+  }
+
+  /* ── Filter buttons ── */
+  .filter-bar { display:flex; gap:8px; margin-bottom:16px; flex-wrap:wrap; }
+  .filter-btn {
+    padding:6px 14px; border-radius:999px; border:1px solid var(--border);
+    background:var(--bg2); color:var(--muted); cursor:pointer; font-size:13px;
+    transition:all 0.2s;
+  }
+  .filter-btn:hover,.filter-btn.active { border-color:var(--cyan); color:var(--cyan); background:rgba(34,211,238,0.08); }
+</style>
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<div class="header">
+  <div class="header-top">
+    <div>
+      <div class="brand-title">VoraGuard <span>Brand Monitor</span></div>
+      <div class="scan-meta">
+        Brand: <b>GOOGLE</b> &nbsp;|&nbsp;
+        Domain: <b>google.com</b> &nbsp;|&nbsp;
+        Scan ID: <b>20260416_114907</b> &nbsp;|&nbsp;
+        2026-04-16 06:19:07 UTC &nbsp;|&nbsp;
+        88.2s &nbsp;|&nbsp;
+        6/9 sources active
+      </div>
+    </div>
+    <div class="severity-pill">CRITICAL</div>
+  </div>
+
+  <div class="score-section">
+    <div class="score-ring">
+      <svg width="140" height="140" viewBox="0 0 140 140">
+        <circle cx="70" cy="70" r="54" fill="none" stroke="#1e293b" stroke-width="12"/>
+        <circle cx="70" cy="70" r="54" fill="none" stroke="#ef4444" stroke-width="12"
+          stroke-dasharray="0.0 339.3" stroke-linecap="round"/>
+      </svg>
+      <div class="score-label">
+        <div class="score-num">0</div>
+        <div class="score-sub">/ 100</div>
+      </div>
+    </div>
+    <div class="score-stats">
+      <div class="stat-box">
+        <div class="stat-num stat-crit">5</div>
+        <div class="stat-label">CRITICAL</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num stat-high">3</div>
+        <div class="stat-label">HIGH</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num stat-med">0</div>
+        <div class="stat-label">MEDIUM</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">8</div>
+        <div class="stat-label">TOTAL FINDINGS</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── EXECUTIVE SUMMARY ── -->
+<div class="summary-box">
+  <b>Executive Summary:</b> Brand monitoring for 'google' (google.com) detected 8 threat indicator(s) across 6 intelligence sources. CRITICAL: 5 issue(s) require immediate action. 3 HIGH severity finding(s) need urgent attention. Key threats: Phishing domain confirmed: google-login.com; Phishing domain confirmed: secure-google.com; Phishing domain confirmed: google-verify.com. Overall brand risk score: 0/100 [CRITICAL].
+</div>
+
+<!-- ── INTELLIGENCE SOURCES ── -->
+<div class="section">
+  <div class="section-title">📡 Intelligence Sources</div>
+  <div class="sources-grid">
+        <div class="source-card">
+          <div class="source-icon">🔏</div>
+          <div class="source-name">Certificate Transparency</div>
+          <div class="source-status" style="color:#ef4444">✗ Error</div>
+          <div class="source-sev" style="color:#22c55e">CLEAN</div>
+          <div class="source-count">0 findings</div>
+          <div class="source-err">crt.sh unreachable</div>
+        </div>
+        <div class="source-card">
+          <div class="source-icon">🦠</div>
+          <div class="source-name">VirusTotal</div>
+          <div class="source-status" style="color:#22c55e">✓ Active</div>
+          <div class="source-sev" style="color:#f59e0b">MEDIUM</div>
+          <div class="source-count">4 findings</div>
+          
+        </div>
+        <div class="source-card">
+          <div class="source-icon">👁</div>
+          <div class="source-name">AlienVault OTX</div>
+          <div class="source-status" style="color:#22c55e">✓ Active</div>
+          <div class="source-sev" style="color:#f97316">HIGH</div>
+          <div class="source-count">1 finding</div>
+          
+        </div>
+        <div class="source-card">
+          <div class="source-icon">🪝</div>
+          <div class="source-name">URLhaus + PhishTank</div>
+          <div class="source-status" style="color:#f59e0b">⚠ Partial</div>
+          <div class="source-sev" style="color:#22c55e">CLEAN</div>
+          <div class="source-count">0 findings</div>
+          
+        </div>
+        <div class="source-card">
+          <div class="source-icon">💧</div>
+          <div class="source-name">Breach Intelligence</div>
+          <div class="source-status" style="color:#f59e0b">⚠ Partial</div>
+          <div class="source-sev" style="color:#22c55e">CLEAN</div>
+          <div class="source-count">0 findings</div>
+          
+        </div>
+        <div class="source-card">
+          <div class="source-icon">🐙</div>
+          <div class="source-name">GitHub Leak Detection</div>
+          <div class="source-status" style="color:#22c55e">✓ Active</div>
+          <div class="source-sev" style="color:#ef4444">CRITICAL</div>
+          <div class="source-count">2 findings</div>
+          
+        </div>
+        <div class="source-card">
+          <div class="source-icon">🖥</div>
+          <div class="source-name">Infrastructure Intel</div>
+          <div class="source-status" style="color:#ef4444">✗ Error</div>
+          <div class="source-sev" style="color:#22c55e">CLEAN</div>
+          <div class="source-count">0 findings</div>
+          <div class="source-err">'>' not supported between instances of 'str' and 'int'</div>
+        </div>
+        <div class="source-card">
+          <div class="source-icon">🔒</div>
+          <div class="source-name">DNS + SSL Health</div>
+          <div class="source-status" style="color:#22c55e">✓ Active</div>
+          <div class="source-sev" style="color:#22c55e">CLEAN</div>
+          <div class="source-count">0 findings</div>
+          
+        </div>
+        <div class="source-card">
+          <div class="source-icon">📱</div>
+          <div class="source-name">Fake Apps & Impersonation</div>
+          <div class="source-status" style="color:#22c55e">✓ Active</div>
+          <div class="source-sev" style="color:#f97316">HIGH</div>
+          <div class="source-count">1 finding</div>
+          
+        </div>
+        <div class="source-card">
+          <div class="source-icon">🛡</div>
+          <div class="source-name">Google Safe Browsing</div>
+          <div class="source-status" style="color:#22c55e">✓ Active</div>
+          <div class="source-sev" style="color:#22c55e">CLEAN</div>
+          <div class="source-count">0 findings</div>
+          
+        </div></div>
+</div>
+
+<!-- ── ALL FINDINGS ── -->
+<div class="section">
+  <div class="section-title">🎯 Threat Findings (8)</div>
+  <div class="filter-bar">
+    <button class="filter-btn active" onclick="filterFindings('ALL')">All (8)</button>
+    <button class="filter-btn" onclick="filterFindings('CRITICAL')" style="border-color:#ef4444;color:#ef4444">Critical (5)</button>
+    <button class="filter-btn" onclick="filterFindings('HIGH')" style="border-color:#f97316;color:#f97316">High (3)</button>
+    <button class="filter-btn" onclick="filterFindings('MEDIUM')" style="border-color:#f59e0b;color:#f59e0b">Medium (0)</button>
+  </div>
+  <div id="findings-container">
+    
+        <div class="finding-card" style="border-left:4px solid #ef4444;background:rgba(239,68,68,0.12)">
+          <div class="finding-header">
+            <span class="sev-badge" style="background:#ef4444">CRITICAL</span>
+            <span class="finding-src">VirusTotal</span>
+            <span class="finding-num">#1</span>
+          </div>
+          <div class="finding-title">Phishing domain confirmed: google-login.com</div>
+          <div class="finding-detail">10 AV engines confirm this is a phishing domain impersonating google</div>
+          <div class="finding-indicator">🎯 Indicator: <code>google-login.com</code></div>
+          <div class="finding-action">⚡ Action: File DMCA/abuse report. Request takedown via registrar and hosting provider.</div>
+        </div>
+        <div class="finding-card" style="border-left:4px solid #ef4444;background:rgba(239,68,68,0.12)">
+          <div class="finding-header">
+            <span class="sev-badge" style="background:#ef4444">CRITICAL</span>
+            <span class="finding-src">VirusTotal</span>
+            <span class="finding-num">#2</span>
+          </div>
+          <div class="finding-title">Phishing domain confirmed: secure-google.com</div>
+          <div class="finding-detail">4 AV engines confirm this is a phishing domain impersonating google</div>
+          <div class="finding-indicator">🎯 Indicator: <code>secure-google.com</code></div>
+          <div class="finding-action">⚡ Action: File DMCA/abuse report. Request takedown via registrar and hosting provider.</div>
+        </div>
+        <div class="finding-card" style="border-left:4px solid #ef4444;background:rgba(239,68,68,0.12)">
+          <div class="finding-header">
+            <span class="sev-badge" style="background:#ef4444">CRITICAL</span>
+            <span class="finding-src">VirusTotal</span>
+            <span class="finding-num">#3</span>
+          </div>
+          <div class="finding-title">Phishing domain confirmed: google-verify.com</div>
+          <div class="finding-detail">12 AV engines confirm this is a phishing domain impersonating google</div>
+          <div class="finding-indicator">🎯 Indicator: <code>google-verify.com</code></div>
+          <div class="finding-action">⚡ Action: File DMCA/abuse report. Request takedown via registrar and hosting provider.</div>
+        </div>
+        <div class="finding-card" style="border-left:4px solid #ef4444;background:rgba(239,68,68,0.12)">
+          <div class="finding-header">
+            <span class="sev-badge" style="background:#ef4444">CRITICAL</span>
+            <span class="finding-src">VirusTotal</span>
+            <span class="finding-num">#4</span>
+          </div>
+          <div class="finding-title">Phishing domain confirmed: googleaccount.com</div>
+          <div class="finding-detail">6 AV engines confirm this is a phishing domain impersonating google</div>
+          <div class="finding-indicator">🎯 Indicator: <code>googleaccount.com</code></div>
+          <div class="finding-action">⚡ Action: File DMCA/abuse report. Request takedown via registrar and hosting provider.</div>
+        </div>
+        <div class="finding-card" style="border-left:4px solid #ef4444;background:rgba(239,68,68,0.12)">
+          <div class="finding-header">
+            <span class="sev-badge" style="background:#ef4444">CRITICAL</span>
+            <span class="finding-src">GitHub</span>
+            <span class="finding-num">#5</span>
+          </div>
+          <div class="finding-title">GitHub: Possible API key/secret leaks in 5 public repo(s)</div>
+          <div class="finding-detail">Code containing 'google' + credential keywords found publicly</div>
+          <div class="finding-indicator">🎯 Indicator: <code>google</code></div>
+          <div class="finding-action">⚡ Action: IMMEDIATE: Rotate all exposed API keys. Request GitHub content removal.</div>
+        </div>
+        <div class="finding-card" style="border-left:4px solid #f97316;background:rgba(249,115,22,0.12)">
+          <div class="finding-header">
+            <span class="sev-badge" style="background:#f97316">HIGH</span>
+            <span class="finding-src">AlienVault OTX</span>
+            <span class="finding-num">#6</span>
+          </div>
+          <div class="finding-title">OTX: 8323 threat pulse(s) mentioning 'google'</div>
+          <div class="finding-detail">Latest: 'Google Chrome update Spam drops CTB Locker' by AlienVault on 2015-02-08</div>
+          <div class="finding-indicator">🎯 Indicator: <code>google</code></div>
+          <div class="finding-action">⚡ Action: Review OTX pulses for IOCs — block flagged IPs/domains at perimeter</div>
+        </div>
+        <div class="finding-card" style="border-left:4px solid #f97316;background:rgba(249,115,22,0.12)">
+          <div class="finding-header">
+            <span class="sev-badge" style="background:#f97316">HIGH</span>
+            <span class="finding-src">GitHub</span>
+            <span class="finding-num">#7</span>
+          </div>
+          <div class="finding-title">GitHub: 14 public repo(s) contain references to 'google'/'google.com'</div>
+          <div class="finding-detail">Repos: GoogleCloudPlatform/java-docs-samples, altair-graphql/altair, getmail6/getmail6</div>
+          <div class="finding-indicator">🎯 Indicator: <code>google</code></div>
+          <div class="finding-action">⚡ Action: Review each repo for leaked API keys, passwords, internal endpoints. Request removal via GitHub DMCA.</div>
+        </div>
+        <div class="finding-card" style="border-left:4px solid #f97316;background:rgba(249,115,22,0.12)">
+          <div class="finding-header">
+            <span class="sev-badge" style="background:#f97316">HIGH</span>
+            <span class="finding-src">Fake App Detection</span>
+            <span class="finding-num">#8</span>
+          </div>
+          <div class="finding-title">Fake app distribution domains found: 6 domain(s) impersonating 'google'</div>
+          <div class="finding-detail">Domains: google-app.com, googleapp.com, google-apk.com, download-google.com, google-download.com</div>
+          <div class="finding-indicator">🎯 Indicator: <code>google</code></div>
+          <div class="finding-action">⚡ Action: File abuse reports with registrars. Alert users via official channels. Submit to Google Safe Browsing.</div>
+        </div>
+  </div>
+</div>
+
+<!-- ── DETAIL SECTIONS ── -->
+<div class="section">
+  <div class="section-title">🔍 Detailed Intelligence</div>
+  
+  
+  
+        <div class="detail-section">
+          <h3>🐙 GitHub Public Leak Hits (10 shown)</h3>
+          <table class="data-table"><thead><tr>
+            <th>Repository</th><th>File</th><th>Last Push</th><th>Query Matched</th>
+          </tr></thead><tbody><tr>
+          <td><a href="https://github.com/GoogleCloudPlatform/java-docs-samples" target="_blank"><code>GoogleCloudPlatform/java-docs-samples</code></a></td>
+          <td><code>README.md</code></td>
+          <td></td>
+          <td>"google.com" password</td>
+        </tr><tr>
+          <td><a href="https://github.com/altair-graphql/altair" target="_blank"><code>altair-graphql/altair</code></a></td>
+          <td><code>DEV.md</code></td>
+          <td></td>
+          <td>"google.com" password</td>
+        </tr><tr>
+          <td><a href="https://github.com/getmail6/getmail6" target="_blank"><code>getmail6/getmail6</code></a></td>
+          <td><code>README</code></td>
+          <td></td>
+          <td>"google.com" password</td>
+        </tr><tr>
+          <td><a href="https://github.com/murat-dogan/node-datachannel" target="_blank"><code>murat-dogan/node-datachannel</code></a></td>
+          <td><code>API.md</code></td>
+          <td></td>
+          <td>"google.com" password</td>
+        </tr><tr>
+          <td><a href="https://github.com/AChep/AcDisplay" target="_blank"><code>AChep/AcDisplay</code></a></td>
+          <td><code>FAQ.md</code></td>
+          <td></td>
+          <td>"google.com" password</td>
+        </tr><tr>
+          <td><a href="https://github.com/google-map-react/google-map-react" target="_blank"><code>google-map-react/google-map-react</code></a></td>
+          <td><code>API.md</code></td>
+          <td></td>
+          <td>"google.com" api_key</td>
+        </tr><tr>
+          <td><a href="https://github.com/huggingface/blog" target="_blank"><code>huggingface/blog</code></a></td>
+          <td><code>hugs.md</code></td>
+          <td></td>
+          <td>"google.com" api_key</td>
+        </tr><tr>
+          <td><a href="https://github.com/ipa-lab/hackingBuddyGPT" target="_blank"><code>ipa-lab/hackingBuddyGPT</code></a></td>
+          <td><code>MAC.md</code></td>
+          <td></td>
+          <td>"google.com" api_key</td>
+        </tr><tr>
+          <td><a href="https://github.com/sendgrid/sendgrid-go" target="_blank"><code>sendgrid/sendgrid-go</code></a></td>
+          <td><code>USAGE.md</code></td>
+          <td></td>
+          <td>"google.com" api_key</td>
+        </tr><tr>
+          <td><a href="https://github.com/nytimes/drone-gae" target="_blank"><code>nytimes/drone-gae</code></a></td>
+          <td><code>DOCS.md</code></td>
+          <td></td>
+          <td>"google.com" secret</td>
+        </tr></tbody></table>
+        </div>
+  
+    <div class="detail-section">
+      <h3>🖥 Infrastructure Intelligence</h3>
+      <div class="infra-grid">
+        <div class="infra-item"><span>Resolved IP</span><b>—</b></div>
+        <div class="infra-item"><span>Org (Shodan)</span><b>—</b></div>
+        <div class="infra-item"><span>Open Ports</span><b>—</b></div>
+        <div class="infra-item"><span>CVEs Found</span><b style="color:#22c55e">0</b></div>
+        <div class="infra-item"><span>Abuse Confidence</span><b style="color:#22c55e">0%</b></div>
+        <div class="infra-item"><span>Abuse Reports</span><b>0</b></div>
+      </div>
+      
+    </div>
+  
+    <div class="detail-section">
+      <h3>🔒 DNS + SSL Health</h3>
+      <div class="infra-grid">
+        <div class="infra-item"><span>SPF Record</span><b style="color:#22c55e">✓ Present</b></div>
+        <div class="infra-item"><span>DMARC Record</span><b style="color:#22c55e">✓ Present</b></div>
+        <div class="infra-item"><span>SSL Valid</span><b style="color:#22c55e">✓ Valid</b></div>
+        <div class="infra-item"><span>SSL Expires</span><b style="color:#22c55e">67 days</b></div>
+        <div class="infra-item"><span>SSL Issuer</span><b>Google Trust Services</b></div>
+        <div class="infra-item"><span>MX Records</span><b>0</b></div>
+      </div>
+    </div>
+  <div class="detail-section"><h3>Google Safe Browsing - 21 URLs Checked</h3><div style="color:#22c55e;font-size:14px">All 21 URLs are CLEAN in Google Safe Browsing</div></div>
+</div>
+
+<!-- ── FOOTER ── -->
+<div class="footer">
+  VoraGuard v3.0 Brand Monitoring Report &nbsp;|&nbsp;
+  Generated 2026-04-16 06:19:07 UTC &nbsp;|&nbsp;
+  For authorized security use only &nbsp;|&nbsp;
+  Scan ID: 20260416_114907
+</div>
+
+<script>
+function filterFindings(level) {
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  document.querySelectorAll('.finding-card').forEach(card => {
+    const badge = card.querySelector('.sev-badge');
+    if (!badge) return;
+    card.style.display = (level === 'ALL' || badge.textContent === level) ? '' : 'none';
+  });
+}
+</script>
+</body>
+</html>

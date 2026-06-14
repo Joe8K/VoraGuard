@@ -1,0 +1,1307 @@
+[
+    {
+        "dns_a": [
+            "104.20.23.154"
+        ],
+        "dns_aaaa": [
+            "2606:4700:10::6814:179a"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "elliott.ns.cloudflare.com"
+        ],
+        "domain": "example.com",
+        "fuzzer": "*original"
+    },
+    {
+        "dns_a": [
+            "103.168.172.37"
+        ],
+        "dns_mx": [
+            "in1-smtp.messagingengine.com"
+        ],
+        "dns_ns": [
+            "ns1.messagingengine.com"
+        ],
+        "domain": "exampler.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "104.21.23.31"
+        ],
+        "dns_aaaa": [
+            "2606:4700:3030::ac43:d078"
+        ],
+        "dns_ns": [
+            "irena.ns.cloudflare.com"
+        ],
+        "domain": "example8.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "104.21.44.49"
+        ],
+        "dns_aaaa": [
+            "2606:4700:3037::6815:2c31"
+        ],
+        "dns_mx": [
+            "mx1-hosting.jellyfish.systems"
+        ],
+        "dns_ns": [
+            "dimitris.ns.cloudflare.com"
+        ],
+        "domain": "example2.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "104.21.59.130"
+        ],
+        "dns_aaaa": [
+            "2606:4700:3030::ac43:b185"
+        ],
+        "dns_ns": [
+            "keira.ns.cloudflare.com"
+        ],
+        "domain": "example6.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "104.21.85.141"
+        ],
+        "dns_aaaa": [
+            "2606:4700:3035::6815:558d"
+        ],
+        "dns_mx": [
+            "route1.mx.cloudflare.net"
+        ],
+        "dns_ns": [
+            "brady.ns.cloudflare.com"
+        ],
+        "domain": "examplex.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "104.26.14.194"
+        ],
+        "dns_aaaa": [
+            "2606:4700:20::681a:ec2"
+        ],
+        "dns_ns": [
+            "dan.ns.cloudflare.com"
+        ],
+        "domain": "example3.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "nsg1.namebrightdns.com"
+        ],
+        "domain": "example5.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "nsg1.namebrightdns.com"
+        ],
+        "domain": "example9.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "domain-for-sale.hugedomainsdns.com"
+        ],
+        "domain": "examplea.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "ns1.namebrightdns.com"
+        ],
+        "domain": "exampleb.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "domain-for-sale.hugedomainsdns.com"
+        ],
+        "domain": "examplec.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.afternic.com"
+        ],
+        "domain": "exampley.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_ns": [
+            "ns1.namefind.com"
+        ],
+        "domain": "examplez.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "15.197.148.33"
+        ],
+        "dns_mx": [
+            "mailstore1.secureserver.net"
+        ],
+        "dns_ns": [
+            "ns23.domaincontrol.com"
+        ],
+        "domain": "examplet.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "162.159.130.6"
+        ],
+        "dns_ns": [
+            "ns1.worldnic.com"
+        ],
+        "domain": "examplek.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "162.248.211.18"
+        ],
+        "dns_ns": [
+            "a.share-dns.com"
+        ],
+        "domain": "examplee.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "188.40.59.208"
+        ],
+        "dns_aaaa": [
+            "2a01:4f8:172:35ec::2"
+        ],
+        "dns_mx": [
+            "mail.examplel.com"
+        ],
+        "dns_ns": [
+            "b.ns14.net"
+        ],
+        "domain": "examplel.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "192.185.44.208"
+        ],
+        "dns_mx": [
+            "mail.example1.com"
+        ],
+        "dns_ns": [
+            "ns8159.hostgator.com"
+        ],
+        "domain": "example1.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "192.241.217.167"
+        ],
+        "dns_ns": [
+            "ns1.slicehost.net"
+        ],
+        "domain": "exampleq.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "34.54.3.56"
+        ],
+        "dns_mx": [
+            "alt1.aspmx.l.google.com"
+        ],
+        "dns_ns": [
+            "ns-cloud-b1.googledomains.com"
+        ],
+        "domain": "examples.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "35.212.120.76"
+        ],
+        "dns_mx": [
+            "mx10.antispam.mailspamprotection.com"
+        ],
+        "dns_ns": [
+            "ns1.siteground.net"
+        ],
+        "domain": "example7.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "43.252.42.21"
+        ],
+        "dns_mx": [
+            "mx.zoho.com"
+        ],
+        "dns_ns": [
+            "ns6.timway.com"
+        ],
+        "domain": "exampleg.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "64.190.63.222"
+        ],
+        "dns_mx": [
+            "localhost"
+        ],
+        "dns_ns": [
+            "ns1.sedoparking.com"
+        ],
+        "domain": "exampled.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "91.98.25.171"
+        ],
+        "dns_ns": [
+            "keira.ns.cloudflare.com"
+        ],
+        "domain": "example4.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_ns": [
+            "simon.ns.cloudflare.com"
+        ],
+        "domain": "example0.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_ns": [
+            "kia.ns.cloudflare.com"
+        ],
+        "domain": "examplef.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_ns": [
+            "kia.ns.cloudflare.com"
+        ],
+        "domain": "exampleh.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_ns": [
+            "kia.ns.cloudflare.com"
+        ],
+        "domain": "examplen.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_ns": [
+            "kia.ns.cloudflare.com"
+        ],
+        "domain": "exampleu.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_ns": [
+            "kia.ns.cloudflare.com"
+        ],
+        "domain": "examplev.com",
+        "fuzzer": "addition"
+    },
+    {
+        "dns_a": [
+            "!ServFail"
+        ],
+        "dns_aaaa": [
+            "!ServFail"
+        ],
+        "dns_ns": [
+            "!ServFail"
+        ],
+        "domain": "dxample.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "!ServFail"
+        ],
+        "dns_aaaa": [
+            "!ServFail"
+        ],
+        "dns_ns": [
+            "!ServFail"
+        ],
+        "domain": "exa-ple.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "!ServFail"
+        ],
+        "dns_aaaa": [
+            "!ServFail"
+        ],
+        "dns_ns": [
+            "!ServFail"
+        ],
+        "domain": "exqmple.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "103.224.182.245"
+        ],
+        "dns_mx": [
+            "park-mx.above.com"
+        ],
+        "dns_ns": [
+            "ns1.abovedomains.com"
+        ],
+        "domain": "exemple.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "nsg1.namebrightdns.com"
+        ],
+        "domain": "ezample.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_ns": [
+            "ns1.namefind.com"
+        ],
+        "domain": "exampla.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.afternic.com"
+        ],
+        "domain": "eximple.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "157.90.33.73"
+        ],
+        "dns_ns": [
+            "ns1.park-my-domain.net"
+        ],
+        "domain": "axample.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "172.65.211.209"
+        ],
+        "dns_ns": [
+            "expire1.gname-dns.com"
+        ],
+        "domain": "uxample.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "78.31.70.110"
+        ],
+        "dns_ns": [
+            "ns01.bruechner.net"
+        ],
+        "domain": "mxample.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_ns": [
+            "grace.dnspod.net"
+        ],
+        "domain": "excmple.com",
+        "fuzzer": "bitsquatting"
+    },
+    {
+        "dns_a": [
+            "!ServFail"
+        ],
+        "dns_aaaa": [
+            "!ServFail"
+        ],
+        "dns_ns": [
+            "!ServFail"
+        ],
+        "domain": "exarnp1e.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "104.21.75.90"
+        ],
+        "dns_aaaa": [
+            "2606:4700:3034::6815:4b5a"
+        ],
+        "dns_ns": [
+            "gwen.ns.cloudflare.com"
+        ],
+        "domain": "exanp1e.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "nsg1.namebrightdns.com"
+        ],
+        "domain": "exammple.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.afternic.com"
+        ],
+        "domain": "exampic.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.afternic.com"
+        ],
+        "domain": "exampie.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.afternic.com"
+        ],
+        "domain": "exanple.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "144.126.215.83"
+        ],
+        "dns_ns": [
+            "a.secondary2.com"
+        ],
+        "domain": "xn--xample-9ua.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "216.198.79.65"
+        ],
+        "dns_mx": [
+            "mail.protonmail.ch"
+        ],
+        "dns_ns": [
+            "ns1.vercel-dns.com"
+        ],
+        "domain": "xn--exampl-gva.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "38.38.218.4"
+        ],
+        "dns_ns": [
+            "a.share-dns.com"
+        ],
+        "domain": "exarnple.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "85.13.149.201"
+        ],
+        "dns_mx": [
+            "w010823c.kasserver.com"
+        ],
+        "dns_ns": [
+            "ns5.kasserver.com"
+        ],
+        "domain": "xn--exmple-cua.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_mx": [
+            "mxa.examp1e.com"
+        ],
+        "dns_ns": [
+            "osdn.services.net"
+        ],
+        "domain": "examp1e.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_ns": [
+            "ns-1030.awsdns-00.org"
+        ],
+        "domain": "exannple.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_mx": [
+            "route1.mx.cloudflare.net"
+        ],
+        "dns_ns": [
+            "andy.ns.cloudflare.com"
+        ],
+        "domain": "xn--xample-h4a.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_ns": [
+            "andy.ns.cloudflare.com"
+        ],
+        "domain": "xn--xample-o3a.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_ns": [
+            "andy.ns.cloudflare.com"
+        ],
+        "domain": "xn--xample-ova.com",
+        "fuzzer": "homoglyph"
+    },
+    {
+        "dns_a": [
+            "104.21.32.188"
+        ],
+        "dns_aaaa": [
+            "2606:4700:3033::6815:20bc"
+        ],
+        "dns_mx": [
+            "route1.mx.cloudflare.net"
+        ],
+        "dns_ns": [
+            "apollo.ns.cloudflare.com"
+        ],
+        "domain": "ex-ample.com",
+        "fuzzer": "hyphenation"
+    },
+    {
+        "dns_a": [
+            "104.21.9.2"
+        ],
+        "dns_aaaa": [
+            "2606:4700:3030::6815:902"
+        ],
+        "dns_ns": [
+            "dawn.ns.cloudflare.com"
+        ],
+        "domain": "e-xample.com",
+        "fuzzer": "hyphenation"
+    },
+    {
+        "dns_a": [
+            "172.233.219.123"
+        ],
+        "dns_mx": [
+            "mx156.hostedmxserver.com"
+        ],
+        "dns_ns": [
+            "ns4.dnsauthority.com"
+        ],
+        "domain": "examp-le.com",
+        "fuzzer": "hyphenation"
+    },
+    {
+        "dns_a": [
+            "103.224.182.241"
+        ],
+        "dns_mx": [
+            "park-mx.above.com"
+        ],
+        "dns_ns": [
+            "ns3.abovedomains.com"
+        ],
+        "domain": "excample.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_a": [
+            "103.51.63.150"
+        ],
+        "dns_ns": [
+            "ara.ns.cloudflare.com"
+        ],
+        "domain": "exapmple.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_a": [
+            "104.21.25.153"
+        ],
+        "dns_aaaa": [
+            "2606:4700:3035::ac43:8657"
+        ],
+        "dns_ns": [
+            "eric.ns.cloudflare.com"
+        ],
+        "domain": "examplle.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_a": [
+            "104.26.4.80"
+        ],
+        "dns_aaaa": [
+            "2606:4700:20::681a:450"
+        ],
+        "dns_ns": [
+            "armfazh.ns.cloudflare.com"
+        ],
+        "domain": "exyample.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "nsg1.namebrightdns.com"
+        ],
+        "domain": "rexample.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.afternic.com"
+        ],
+        "domain": "4example.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_ns": [
+            "ns1.namefind.com"
+        ],
+        "domain": "exsample.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.afternic.com"
+        ],
+        "domain": "sexample.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_a": [
+            "15.197.148.33"
+        ],
+        "dns_ns": [
+            "ns03.domaincontrol.com"
+        ],
+        "domain": "exampole.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_a": [
+            "15.197.148.33"
+        ],
+        "dns_ns": [
+            "ns19.domaincontrol.com"
+        ],
+        "domain": "exampple.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_a": [
+            "151.80.23.108"
+        ],
+        "dns_mx": [
+            "mx1.mail.ovh.net"
+        ],
+        "dns_ns": [
+            "dns19.ovh.net"
+        ],
+        "domain": "wexample.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_a": [
+            "185.143.233.235"
+        ],
+        "dns_ns": [
+            "i.ns.globalcdntech.com"
+        ],
+        "domain": "dexample.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_mx": [
+            "kr1-aspmx1.worksmobile.com"
+        ],
+        "dns_ns": [
+            "ns.gabia.co.kr"
+        ],
+        "domain": "examlple.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_ns": [
+            "ns-1418.awsdns-49.org"
+        ],
+        "domain": "zexample.com",
+        "fuzzer": "insertion"
+    },
+    {
+        "dns_a": [
+            "104.247.81.99"
+        ],
+        "dns_ns": [
+            "ns1.parkingcrew.net"
+        ],
+        "domain": "exaple.com",
+        "fuzzer": "omission"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_ns": [
+            "ns1.namefind.com"
+        ],
+        "domain": "eample.com",
+        "fuzzer": "omission"
+    },
+    {
+        "dns_a": [
+            "172.233.219.123"
+        ],
+        "dns_mx": [
+            "mx156.hostedmxserver.com"
+        ],
+        "dns_ns": [
+            "ns1.parklogic.com"
+        ],
+        "domain": "exampe.com",
+        "fuzzer": "omission"
+    },
+    {
+        "dns_a": [
+            "199.191.50.184"
+        ],
+        "dns_mx": [
+            "~"
+        ],
+        "dns_ns": [
+            "ns111484.ztomy.com"
+        ],
+        "domain": "exampl.com",
+        "fuzzer": "omission"
+    },
+    {
+        "dns_a": [
+            "23.227.38.65"
+        ],
+        "dns_mx": [
+            "alt1.aspmx.l.google.com"
+        ],
+        "dns_ns": [
+            "ns13.domaincontrol.com"
+        ],
+        "domain": "xample.com",
+        "fuzzer": "omission"
+    },
+    {
+        "dns_a": [
+            "37.48.77.79"
+        ],
+        "dns_ns": [
+            "ns1.koaladns.com"
+        ],
+        "domain": "examle.com",
+        "fuzzer": "omission"
+    },
+    {
+        "dns_a": [
+            "67.210.233.131"
+        ],
+        "dns_mx": [
+            "localhost.exmple.com"
+        ],
+        "dns_ns": [
+            "ns19.globalcon.net"
+        ],
+        "domain": "exmple.com",
+        "fuzzer": "omission"
+    },
+    {
+        "dns_a": [
+            "104.21.10.82"
+        ],
+        "dns_aaaa": [
+            "2606:4700:3036::6815:a52"
+        ],
+        "dns_mx": [
+            "_dc-mx.302032b7a870.exxample.com"
+        ],
+        "dns_ns": [
+            "cesar.ns.cloudflare.com"
+        ],
+        "domain": "exxample.com",
+        "fuzzer": "repetition"
+    },
+    {
+        "dns_a": [
+            "96.38.240.54"
+        ],
+        "dns_mx": [
+            "mail.onlineearth.com"
+        ],
+        "dns_ns": [
+            "ns1.onlineearth.com"
+        ],
+        "domain": "eexample.com",
+        "fuzzer": "repetition"
+    },
+    {
+        "dns_mx": [
+            "mx01.spamx.net"
+        ],
+        "dns_ns": [
+            "ns1.dyna-ns.net"
+        ],
+        "domain": "exaample.com",
+        "fuzzer": "repetition"
+    },
+    {
+        "dns_a": [
+            "!ServFail"
+        ],
+        "dns_aaaa": [
+            "!ServFail"
+        ],
+        "dns_ns": [
+            "!ServFail"
+        ],
+        "domain": "3xample.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "!ServFail"
+        ],
+        "domain": "exampke.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "103.224.212.200"
+        ],
+        "dns_mx": [
+            "park-mx.above.com"
+        ],
+        "dns_ns": [
+            "ns1.abovedomains.com"
+        ],
+        "domain": "examplw.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "103.224.212.203"
+        ],
+        "dns_mx": [
+            "park-mx.above.com"
+        ],
+        "dns_ns": [
+            "ns1.abovedomains.com"
+        ],
+        "domain": "examplr.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "103.224.212.217"
+        ],
+        "dns_mx": [
+            "park-mx.above.com"
+        ],
+        "dns_ns": [
+            "ns15.abovedomains.com"
+        ],
+        "domain": "ecample.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "104.21.96.96"
+        ],
+        "dns_aaaa": [
+            "2606:4700:3033::6815:6060"
+        ],
+        "dns_ns": [
+            "selah.ns.cloudflare.com"
+        ],
+        "domain": "edample.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "nsg1.namebrightdns.com"
+        ],
+        "domain": "4xample.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "nsg1.namebrightdns.com"
+        ],
+        "domain": "exsmple.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "nsg1.namebrightdns.com"
+        ],
+        "domain": "rxample.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "172.233.219.123"
+        ],
+        "dns_mx": [
+            "mx156.hostedmxserver.com"
+        ],
+        "dns_ns": [
+            "ns1.parklogic.com"
+        ],
+        "domain": "examole.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "172.233.219.123"
+        ],
+        "dns_mx": [
+            "mx156.hostedmxserver.com"
+        ],
+        "dns_ns": [
+            "ns1.parklogic.com"
+        ],
+        "domain": "wxample.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "200.69.18.139"
+        ],
+        "dns_mx": [
+            "mail.exampl3.com"
+        ],
+        "dns_ns": [
+            "ns-cloud-a1.googledomains.com"
+        ],
+        "domain": "exampl3.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "208.91.197.27"
+        ],
+        "dns_ns": [
+            "ns95.worldnic.com"
+        ],
+        "domain": "exapple.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "45.130.41.12"
+        ],
+        "dns_mx": [
+            "esample.com"
+        ],
+        "dns_ns": [
+            "ns1.inmotionhosting.com"
+        ],
+        "domain": "esample.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_ns": [
+            "etta.ns.cloudflare.com"
+        ],
+        "domain": "exampls.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_ns": [
+            "ns-cloud-d1.googledomains.com"
+        ],
+        "domain": "examplz.com",
+        "fuzzer": "replacement"
+    },
+    {
+        "dns_a": [
+            "!ServFail"
+        ],
+        "dns_aaaa": [
+            "!ServFail"
+        ],
+        "dns_ns": [
+            "!ServFail"
+        ],
+        "domain": "exa.mple.com",
+        "fuzzer": "subdomain"
+    },
+    {
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "mmrzss.ns3.nameshift.com"
+        ],
+        "domain": "exam.ple.com",
+        "fuzzer": "subdomain"
+    },
+    {
+        "dns_a": [
+            "103.224.182.243"
+        ],
+        "dns_mx": [
+            "park-mx.above.com"
+        ],
+        "dns_ns": [
+            "ns1.abovedomains.com"
+        ],
+        "domain": "exapmle.com",
+        "fuzzer": "transposition"
+    },
+    {
+        "dns_a": [
+            "104.18.74.230"
+        ],
+        "dns_aaaa": [
+            "2606:4700::6812:4ae6"
+        ],
+        "dns_mx": [
+            "amir.mx.cloudflare.net"
+        ],
+        "dns_ns": [
+            "ara.ns.cloudflare.com"
+        ],
+        "domain": "exmaple.com",
+        "fuzzer": "transposition"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "nsg1.namebrightdns.com"
+        ],
+        "domain": "examlpe.com",
+        "fuzzer": "transposition"
+    },
+    {
+        "dns_a": [
+            "157.7.236.66"
+        ],
+        "dns_aaaa": [
+            "2001:e42:102:1101:202:181:103:212"
+        ],
+        "dns_mx": [
+            "mail1.eaxmple.com"
+        ],
+        "dns_ns": [
+            "dns1.eaxmple.com"
+        ],
+        "domain": "eaxmple.com",
+        "fuzzer": "transposition"
+    },
+    {
+        "dns_a": [
+            "192.64.151.235"
+        ],
+        "dns_mx": [
+            "mail.computer.com"
+        ],
+        "dns_ns": [
+            "ns1.anydns.com"
+        ],
+        "domain": "exampel.com",
+        "fuzzer": "transposition"
+    },
+    {
+        "dns_mx": [
+            "mx.xeample.com"
+        ],
+        "dns_ns": [
+            "delta.netnautics.net"
+        ],
+        "domain": "xeample.com",
+        "fuzzer": "transposition"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "nsg1.namebrightdns.com"
+        ],
+        "domain": "examplecom.com",
+        "fuzzer": "various"
+    },
+    {
+        "dns_a": [
+            "13.223.25.84"
+        ],
+        "dns_aaaa": [
+            "2600:1f18:4ae:c605:dd5d:b838:5816:d7fb"
+        ],
+        "dns_ns": [
+            "nsg1.namebrightdns.com"
+        ],
+        "domain": "examplo.com",
+        "fuzzer": "vowel-swap"
+    },
+    {
+        "dns_a": [
+            "13.248.169.48"
+        ],
+        "dns_mx": [
+            ""
+        ],
+        "dns_ns": [
+            "ns1.afternic.com"
+        ],
+        "domain": "ixample.com",
+        "fuzzer": "vowel-swap"
+    }
+]
