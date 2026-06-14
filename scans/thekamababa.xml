@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><theHarvester><cmd>-d thekamababa.com -b crtsh,dnsdumpster,hackertarget,otx -l 200 -f /home/j/voraguard/scans/thekamababa.com_20260416_130122/raw/harvester</cmd><host><ip>104.26.4.36</ip><hostname>cdn.thekamababa.com</hostname></host></theHarvester>
