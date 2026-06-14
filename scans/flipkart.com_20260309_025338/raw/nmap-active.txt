@@ -1,4 +1,0 @@
-# Nmap 7.98 scan initiated Mon Mar  9 02:53:38 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC --open -T4 --max-retries 2 -oN /home/j/voraguard/scans/flipkart.com_20260309_025338/raw/nmap-active.txt flipkart.com
-Failed to resolve "flipkart.com".
-WARNING: No targets were specified, so 0 hosts scanned.
-# Nmap done at Mon Mar  9 02:53:44 2026 -- 0 IP addresses (0 hosts up) scanned in 5.70 seconds

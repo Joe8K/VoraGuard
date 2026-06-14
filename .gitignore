@@ -1,5 +1,6 @@
 .env
 *.env
+~/.aegis_secrets.env
 secrets/
 *.db
 *.sqlite
@@ -16,6 +17,8 @@ env/
 *.log
 logs/
 *.pdf
+*.bak
+*.bak*
 reports/output/
 .vscode/
 .idea/
@@ -23,4 +26,19 @@ reports/output/
 *.swo
 .DS_Store
 Thumbs.db
-fix_*.py
+scans/
+blogs/
+data/va_scans/
+alerts/
+darkweb/findings.json
+ids/alerts.json
+ids/alerts_export.csv
+soar/tickets/
+soar/incidents.json
+takedowns/
+network/pcaps/
+network/alerts.json
+actors/actor_db.json
+intel/kev_cache.json
+harvester.json
+harvester.xml

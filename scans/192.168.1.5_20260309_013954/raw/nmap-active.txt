@@ -1,1 +1,0 @@
-# Nmap 7.98 scan initiated Mon Mar  9 01:39:54 2026 as: /usr/lib/nmap/nmap --privileged -sV -sC --open -T4 --max-retries 2 -oN scans/192.168.1.5_20260309_013954/raw/nmap-active.txt 192.168.1.5
